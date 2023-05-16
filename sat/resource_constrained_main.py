@@ -5,11 +5,12 @@ from pysat import formula
 from pysat.pb import PBEnc
 from optimizer import linear_search
 import function_constructors
-
+from constraints import ConstraintBuilder
+from typing import List, Union
 import sys
 
 
-def run(constraints: formula.CNF, solver=Lingeling) -> list[int] | None:
+def run(constraints: formula.CNF, solver=Lingeling) -> Union[List[int],None]:
     print(constraints.clauses)
     with solver(constraints) as solver:
         # print(solver.solve())
@@ -48,7 +49,7 @@ def print_clauses(formula: formula.CNF, id_pool):
     for clause in formula.clauses:
         print(f"  {[sign(var)+ str(id_pool.obj(abs(var))) for var in clause]}")
 
-def print_res(model: list[int] | None, id_pool: formula.IDPool):
+def print_res(model: Union[List[int], None], id_pool: formula.IDPool):
     if model == None:
         print("problem is infeasible")
         return

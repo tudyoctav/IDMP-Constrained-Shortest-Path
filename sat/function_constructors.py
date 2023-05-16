@@ -1,8 +1,9 @@
 import heapq
 from pysat.pb import PBEnc
 from pysat.formula import IDPool
+from typing import List
 
-def sum(literals: list[int], id_pool: IDPool) -> int:
+def sum(literals: List[int], id_pool: IDPool) -> int:
     literals = set(literals.copy())
     def res(model: list[int]):
         total = 0
@@ -16,7 +17,7 @@ def sum(literals: list[int], id_pool: IDPool) -> int:
     return res
 
 
-def linear(literals: list[int], weights: list[int], id_pool: IDPool):
+def linear(literals: List[int], weights: List[int], id_pool: IDPool):
     lit_weights_dict = dict()
     for lit, weight in zip(literals, weights):
         lit_weights_dict[lit] = weight

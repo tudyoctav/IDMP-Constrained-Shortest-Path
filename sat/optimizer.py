@@ -1,9 +1,9 @@
 from pysat.solvers import Solver, Lingeling, Minisat22
 from pysat.pb import PBEnc
 from pysat import formula
+from typing import List, Tuple
 
-
-def linear_search(constraints: formula.CNF, optim_func, solver: Solver=Minisat22) -> tuple[list[int], int]:
+def linear_search(constraints: formula.CNF, optim_func, solver: Solver=Minisat22) -> Tuple[List[int], int]:
     model = None
     optim_val = -1
     with solver(constraints) as solver:

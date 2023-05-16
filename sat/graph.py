@@ -1,3 +1,4 @@
+from typing import List
 import re
 
 empty_regex=re.compile(r'\s+')
@@ -29,7 +30,7 @@ class Edge(object):
 
 
 class Graph(object):
-    def __init__(self, n_nodes: int, edges: list[Edge]) -> None:
+    def __init__(self, n_nodes: int, edges: List[Edge]) -> None:
         self.n_nodes = n_nodes
         self.edges = edges
     
@@ -41,7 +42,7 @@ class Graph(object):
             res += f"\n    {edge_str}"
         return res
 
-    def edges_of(self, id: Node) -> list[Edge]:
+    def edges_of(self, id: Node) -> List[Edge]:
         assert id.val >= 0 and id.val < self.n_nodes, f"The id '{id}' is not valid for the interval [{0},{self.n_nodes})"
         res = []
         for edge in self.edges:
@@ -53,7 +54,7 @@ class Graph(object):
 
             
 
-    def neighs_of(self, id: Node) -> list[Node]:
+    def neighs_of(self, id: Node) -> List[Node]:
         res = []
         for edge in self.edges_of(id):
             if edge.orig == id:
@@ -63,7 +64,7 @@ class Graph(object):
                 res.append(edge.orig)
         return res
 
-    def get_nodes(self) -> list[Node]:
+    def get_nodes(self) -> List[Node]:
         return [Node(i) for i in range(self.n_nodes)]
 
 
