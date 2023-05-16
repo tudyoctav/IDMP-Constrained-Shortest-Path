@@ -21,47 +21,16 @@ def main(file_name):
     with open(file_name, 'r') as graph_file:
         graph = parse_graph(graph_file.read())
     id_pool = formula.IDPool()
-    node_vars = [node for node in graph.get_nodes()]
-    edge_vars = [edge for edge in graph.edges]
-    start_node = node_vars[0]
-    end_node = node_vars[-1]
-    # print(graph)
-
-    constraint_list = [
-        # add constraint for start node
-        *PBEnc.equals([id_pool.id(edge) for edge in graph.edges_of(start_node)], vpool=id_pool).clauses,
-        # add constraint for end node
-        *PBEnc.equals([id_pool.id(edge) for edge in graph.edges_of(end_node)], vpool=id_pool).clauses,
-    ]
-
     
+    constraint_builder = ConstraintBuilder(graph, id_pool, start=0, end=-1)
+    constraint_builder.start_and_end_constraint()
+    constraint_builder.path_constraint()
+    constraint_builder.max_weight(1, 9)
 
-    for node in graph.get_nodes():
-        if node == start_node or node == end_node:
-            continue
-        literals = [-id_pool.id(node), *[id_pool.id(edge) for edge in graph.edges_of(node)]]
-        weights = [1] * len(literals)
-        weights[0] = 2
-        constraint_list.extend(
-            PBEnc.equals(literals, weights, 2, vpool=id_pool).clauses
-        )
-
-    max_weight = 9
-    literals = list(map(id_pool.id, graph.edges))
-    weights = list(map(lambda e: e.weights[1], graph.edges))
-    constraint_list.extend(
-        PBEnc.atmost(literals, weights, max_weight, vpool=id_pool).clauses
-    )
-
-    # res = run(formula.CNF(from_clauses=constraint_list))
-    # res, val =  linear_search(
-    #     formula.CNF(from_clauses=constraint_list), 
-    #     function_constructors.sum([id_pool.id(n) for n in graph.edges])
-    # )
     literals = list(map(id_pool.id, graph.edges))
     weights = list(map(lambda e: e.weights[0], graph.edges))
     res, val =  linear_search(
-        formula.CNF(from_clauses=constraint_list), 
+        formula.CNF(from_clauses=constraint_builder.get_all_clauses()), 
         function_constructors.linear(literals, weights, id_pool)
     )
 
