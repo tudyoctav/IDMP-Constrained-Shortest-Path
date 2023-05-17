@@ -1,0 +1,21 @@
+% [0,5]3[3,8]
+%   1-----2
+%   |  0  |  
+%  2|10  2|2 (edge values are above/bellow or left/right - 2 per edges)
+%   |  4  |
+%   4-----3
+%[8,9]3[5,10] (the numbers in the corners represents the vertex values - 1 per vertex)
+
+% shortest possible path is 1-2-3-4 length 8
+% (2-5 is not possible due to the time constraints)
+N = 4;
+M = 4;
+Edge_Start = [1,2,3,1];
+Edge_End = [2,3,4,4];
+L = [3,2,3,2];
+T = [0,2,4,10];
+Lower_Bound = [0,3,5,8];
+Upper_Bound = [5,8,5,9];
+Start = 1;
+End = 4;
+Time = 9;
