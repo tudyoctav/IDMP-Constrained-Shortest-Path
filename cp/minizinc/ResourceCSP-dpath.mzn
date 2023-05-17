@@ -2,10 +2,10 @@
 % Resource Constrained Shortest Path
 % - find the shortest path between the Start node and the End node
 % - such that the total travel time is smaller or equal than Time
-% - this model does not use global constraints
+% - this model used the dpath global constraint
 % model adapted from Jakob Puchinger <jakobp@cs.mu.oz.au> Shortest Path Problem.
 %------------------------------------------------------------------------------%
-
+include "globals.mzn";
 % Number of nodes
 int: N;
 % Start node
@@ -30,27 +30,11 @@ array[1..M] of 1..N: Edge_Start;
 array[1..M] of 1..N: Edge_End;
 
 % Variable indicating if edge is used
-array[1..M] of var 0..1: x;
+array[1..M] of var bool: x;
+% Variable indicating if vertex u is used (need it for dpath)
+array[1..N] of var bool: y;
 
-constraint
-    forall( i in 1..N ) (
-        if i = Start then
-                % outgoing flow
-            sum(e in 1..M where Edge_Start[e] = i)(x[e]) - 
-                % incoming flow
-            sum(e in 1..M where Edge_End[e] = i)(x[e])
-            = 1
-        elseif i = End then
-            sum(e in 1..M where Edge_Start[e] = i)(x[e]) - 
-            sum(e in 1..M where Edge_End[e] = i)(x[e])
-            = -1
-        else
-            sum(e in 1..M where Edge_Start[e] = i)(x[e]) - 
-            sum(e in 1..M where Edge_End[e] = i)(x[e])
-            = 0
-        endif
-    );
-   
+constraint dpath(Edge_Start, Edge_End, Start, End, y, x);
 constraint(
     sum(e in 1..M)(T[e] * x[e]) <= Time
 );
@@ -64,7 +48,11 @@ output ["Length: ", show(sum(e in 1..M)(L[e] * x[e])), "\n"] ++
          then show(Edge_Start[e]) ++ " -> " ++ show(Edge_End[e]) ++ "\n" 
          else "" 
          endif | e in 1..M
-       ];
-
+       ]
+%        ++
+%        [ 
+%          show(y[i]) | i in 1..N
+%        ]
+       ;
 %------------------------------------------------------------------------------%
 %------------------------------------------------------------------------------%
