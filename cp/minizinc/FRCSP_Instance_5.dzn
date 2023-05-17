@@ -1,7 +1,7 @@
 % [0,5] 3 [3,8] 4 [7,10] 
 %   1-------2-------3
 %       3   |   3   |
-%         10|10    5|3  (edge values outside are travel time, and values inside are distance)
+%         10|10    5|3  (values outside edges represent the travel time, and values inside are distance)
 %       3   |   3   |
 %   6-------5-------4
 %[14,20]3[11,12]1[10,11](the numbers in the corners represents the upper and lower bounds for each node [lb,ub])

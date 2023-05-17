@@ -1,10 +1,10 @@
 % [0,5]3[3,8]
 %   1-----2
 %   |  0  |  
-%  2|10  2|2 (edge values are above/bellow or left/right - 2 per edges)
+%  2|10  2|2  (values outside edges represent the travel time, and values inside are distance)
 %   |  4  |
 %   4-----3
-%[8,10]3[5,10] (the numbers in the corners represents the vertex values - 1 per vertex)
+%[8,10]3[5,10](the numbers in the corners represents the upper and lower bounds for each node [lb,ub])
 
 % shortest possible path is 1-4 length 2
 % (all paths are possible)
