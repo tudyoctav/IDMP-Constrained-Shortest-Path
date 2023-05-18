@@ -1,0 +1,29 @@
+Length: 549
+Start : 2
+End   : 255
+
+1..M in shortest path:
+170 -> 4
+4 -> 83
+83 -> 194
+194 -> 255
+2 -> 123
+217 -> 170
+123 -> 217
+% time elapsed: 60.38 s
+----------
+Length: 549
+Start : 2
+End   : 255
+
+1..M in shortest path:
+170 -> 4
+4 -> 83
+83 -> 194
+194 -> 255
+2 -> 123
+217 -> 170
+123 -> 217
+% time elapsed: 60.40 s
+----------
+Average time: 60.39

@@ -1,0 +1,31 @@
+Length: 57
+Start : 2
+End   : 63
+
+1..M in shortest path:
+Edge 32 : 18 -> 11
+Edge 74 : 2 -> 33
+Edge 121 : 33 -> 8
+Edge 144 : 20 -> 63
+Edge 147 : 8 -> 18
+Edge 157 : 11 -> 20
+% time elapsed: 0.94 s
+----------
+==========
+% time elapsed: 0.94 s
+Length: 57
+Start : 2
+End   : 63
+
+1..M in shortest path:
+Edge 32 : 18 -> 11
+Edge 74 : 2 -> 33
+Edge 121 : 33 -> 8
+Edge 144 : 20 -> 63
+Edge 147 : 8 -> 18
+Edge 157 : 11 -> 20
+% time elapsed: 0.91 s
+----------
+==========
+% time elapsed: 0.91 s
+Average time: 0.925
