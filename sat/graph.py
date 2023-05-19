@@ -32,7 +32,9 @@ class Edge(object):
 class Graph(object):
     def __init__(self, n_nodes: int, edges: List[Edge]) -> None:
         self.n_nodes = n_nodes
+        self.n_edges = len(edges)
         self.edges = edges
+        
     
     def __str__(self) -> str:
         res = "graph object\n"
@@ -71,12 +73,13 @@ class Graph(object):
 def parse_graph(inp: str):
     split = inp.splitlines()
     split_it = iter(split)
-    n_nodes = int(next(split_it))
+    n_nodes, n_edges = map(int, digit_regex.findall(next(split_it)))
     edges = []
-    for line in split_it:
+    for line,_ in zip(split_it, range(n_edges)):
         if empty_regex.match(line):
             continue
         edges.append(parse_edge(line))
+    assert len(edges) == n_edges
     return Graph(n_nodes, edges)
 
 def parse_edge(line: str) -> Edge:
