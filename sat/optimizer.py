@@ -25,7 +25,7 @@ def max_sat(constraints: formula.CNF, optim_literals: List[int], weights: List[i
         wcnf.append(clause)
     # Add soft clauses for optimization func
     for lit, weight in zip(optim_literals, weights):
-        wcnf.append([lit], weight)
+        wcnf.append([-lit], weight)
 
     solv = FM(wcnf, solver=solver)
     if solv.compute():
