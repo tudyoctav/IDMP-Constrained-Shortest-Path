@@ -12,13 +12,12 @@ neighbours = []
 task_sets = []
 wcnf = WCNFPlus()
 
-
 def read_problem(type) -> (int, int, int):
     if (type != 'node') & (type != 'task'):
         print("The following program tackles only node CSP and task CSP!")
         return
 
-    with open('test.txt', 'r') as file:
+    with open('simple_test_task.txt', 'r') as file:
         line = file.readline()
 
         # first line num of vertices and edges and ...
@@ -30,6 +29,7 @@ def read_problem(type) -> (int, int, int):
 
         # if the problem is task CSP
         if type == 'task':
+            counter_task_sets = 0
             try:
                 num_task_sets = int(first_line[4]) # check that there is an element
             except Exception as err:
@@ -42,9 +42,9 @@ def read_problem(type) -> (int, int, int):
             neighbours.append([]) # I think this is needed only if the problem is task CSP
 
         # empty lists for the task sets if the problem is TCSP
-        if type == 'task':
-            for i in range(0, int(num_task_sets)):
-                task_sets.append([])
+        # if type == 'task':
+        #     for i in range(0, int(num_task_sets)):
+        #         task_sets.append([])
 
         line = file.readline()
         counter_edges = 1
@@ -85,8 +85,11 @@ def read_problem(type) -> (int, int, int):
                     wcnf.extend(PBEnc.equals(lits=int_elements, bound=len(int_elements)))
                     break
                 else:
-                    # it is a task constraint
-                    wcnf.append(int_elements) # pass through at least one of those nodes
+                    if counter_task_sets < num_task_sets:
+                        # it is a task constraint
+                        wcnf.append(int_elements) # pass through at least one of those nodes
+                        task_sets.append(int_elements)
+                        counter_task_sets += 1
 
             line = file.readline()
         # print("Hard constraints are " + str(wcnf.hard))
@@ -107,7 +110,6 @@ def add_other_path_constraint(num_vertices, source, destination):
 
     wcnf.extend(PBEnc.equals(lits=outgoing_edges[source], bound=1))
     if incoming_edges[source]:
-        print("test1")
         wcnf.extend(PBEnc.equals(lits=incoming_edges[source], bound=0))
 
     if not incoming_edges[destination]: # add a constraint only if list of neighbours are non-empty
@@ -115,7 +117,6 @@ def add_other_path_constraint(num_vertices, source, destination):
 
     wcnf.extend(PBEnc.equals(lits=incoming_edges[destination], bound=1))
     if outgoing_edges[destination]:
-        print("test2")
         wcnf.extend(PBEnc.equals(lits=outgoing_edges[destination], bound=0))
 
     # print("After adding source and destination constraints, hard constraints are " + str(wcnf.hard))
@@ -141,6 +142,7 @@ def add_other_path_constraint(num_vertices, source, destination):
     # Additional specific constraints
     # Task path constraints
     if type == 'task':
+        print(task_sets)
         forbid_incorrect_task_paths(task_sets, source)
 
 
@@ -154,9 +156,10 @@ def forbid_incorrect_task_paths(task_sets, source):
     forbid_path_per_node(forbidden_path, 1,  nieghbours_per_vertex, task_sets, source) # any connection to node from different set
     # then the 0th one should be forbidden
     set_num = 0
+    print(task_sets[set_num])
     for vertex in task_sets[set_num]:
         if set_num + 2 < len(task_sets):
-            nieghbours_per_vertex = neighbours[source]
+            nieghbours_per_vertex = neighbours[vertex]
             forbidden_path = []
             forbid_path_per_node(forbidden_path, set_num + 2, nieghbours_per_vertex, task_sets, vertex)
         else:
@@ -168,12 +171,16 @@ def forbid_path_per_node(forbidden_path, check_sets_from, nieghbours_per_vertex,
     for neighbour in nieghbours_per_vertex:
         task_sets_counter = check_sets_from
         part_of_set = False
+
+        if neighbour in task_sets[task_sets_counter - 1]:
+            continue
+
         while task_sets_counter < len(task_sets): # num_task_sets
             # check whether the neighbour is contained in any of the task sets
             if neighbour in task_sets[task_sets_counter]:
                 part_of_set = True
                 # forbid this directed edge (path)
-                forbidden_path.append(int(str(start_node) + str(neighbour)))
+                forbidden_path.append(int(str(start_node) + str(neighbour)) * (-1))
                 wcnf.append(forbidden_path)
                 forbidden_path.pop()
                 # break the while loop (assumption if the node is in one of the sets then it won't be in the others)
@@ -226,6 +233,7 @@ if __name__ == '__main__':
     else:
         type = str(args[1])
         num_vertices, source, destination = read_problem(type)
+        print(task_sets)
         add_other_path_constraint(num_vertices, source, destination)
 
         # solve the model
