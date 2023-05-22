@@ -13,7 +13,7 @@ class Node(object):
         return f"node_{self.val}"
     
     def __eq__(self, __value: object) -> bool:
-        return isinstance(__value, self.__class__) and self.val == __value.val
+        return isinstance(__value, Node) and self.val == __value.val
     
     def __hash__(self):
         return hash(self.val)

@@ -31,4 +31,4 @@ def max_sat(constraints: formula.CNF, optim_literals: List[int], weights: List[i
     if solv.compute():
         return solv.model, solv.cost
     else:
-        return False
+        return None, None
