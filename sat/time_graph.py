@@ -42,10 +42,10 @@ def time_graph_from_graph(graph: Graph, windows: List[Tuple[int, int]]):
 def parse_graph_with_time(inp: str):
     graph = parse_graph(inp)
     start_index = graph.n_edges + 1
-    end_index = start_index + graph.n_edges
+    end_index = start_index + graph.n_nodes
     windows = []
     for line in inp.splitlines()[start_index: end_index]:
         assert time_window_regex.fullmatch(line), f"expected a time window but found: '{line}'"
-        windows.append(digit_regex.findall(line))
+        windows.append(map(int, digit_regex.findall(line)))
     return time_graph_from_graph(graph, windows)
     

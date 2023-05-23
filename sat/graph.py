@@ -28,6 +28,15 @@ class Edge(object):
     def __str__(self) -> str:
         return f"edge: {self.orig} {self.dest} {self.weights}"
 
+    def get_other(self, node: Node):
+        """Retrieves the other end node of the edge of the supplied node
+        The node should be the node at one of the ends of the edge.
+        """
+        assert node == self.orig or node == self.dest
+        if node == self.orig:
+            return self.dest
+        else:
+            return self.orig
 
 class Graph(object):
     def __init__(self, n_nodes: int, edges: List[Edge]) -> None:

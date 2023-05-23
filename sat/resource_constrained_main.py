@@ -56,7 +56,7 @@ def print_res(model: Union[List[int], None], id_pool: formula.IDPool):
         print("problem is infeasible")
         return
     # print(model)
-    for v in model:
+    for v in sorted(model):
         if v > 0 and id_pool.obj(abs(v)) != None:
             print(sign(v) + str(id_pool.obj(abs(v))))
 
