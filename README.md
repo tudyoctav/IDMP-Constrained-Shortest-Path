@@ -6,7 +6,7 @@ First, put the .dzn files that you want to convert in a cp_instances folder.
 Next create an empty sat folder and run the following command:
 
 ```bash
-python convert.py cp_instances/FRCSP_Instance_1.dzn
+python convert.py data/FRCSP_Instance_1.dzn
 ```
 
 
