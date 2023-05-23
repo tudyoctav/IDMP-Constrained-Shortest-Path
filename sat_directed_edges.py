@@ -1,6 +1,5 @@
 import sys
 from pysat.solvers import Glucose3, Solver
-from pysat.formula import CNFPlus, WCNFPlus
 from pysat.pb import *
 from pysat.formula import WCNFPlus
 from pysat.examples.fm import FM
@@ -41,11 +40,6 @@ def read_problem(type) -> (int, int, int):
             outgoing_edges.append([])
             neighbours.append([]) # I think this is needed only if the problem is task CSP
 
-        # empty lists for the task sets if the problem is TCSP
-        # if type == 'task':
-        #     for i in range(0, int(num_task_sets)):
-        #         task_sets.append([])
-
         line = file.readline()
         counter_edges = 1
         while line:
@@ -80,7 +74,6 @@ def read_problem(type) -> (int, int, int):
                 # we have read all edges
                 # if it is node constraint
                 if type == 'node':
-                    # print("test")
                     # Add the mandatory nodes
                     wcnf.extend(PBEnc.equals(lits=int_elements, bound=len(int_elements)))
                     break
@@ -193,33 +186,7 @@ def forbid_path_per_node(forbidden_path, check_sets_from, nieghbours_per_vertex,
             forbidden_path.pop()
 
 
-def proba():
-    cnf1 = PBEnc.equals(lits=[1, 2, 3], bound=len([1, 2, 3]))
-    cnf2 = PBEnc.atmost(lits=[1, 2, 3], weights=[1, 2, 3], bound=3)
-    print(cnf1.clauses)
-    print(cnf2.clauses)
-    cnf2.extend(cnf1.clauses)
-    print(cnf2.clauses)
-    # [[4], [-1, -5], [-2, -5], [5, -3, -6], [6]]
-    wcnf = WCNFPlus()
-    # wcnf.hard = cnf2.clauses
-    print(wcnf.hard)
-    print(wcnf.soft)
-    wcnf.extend(PBEnc.equals(lits=[1, 2, 3], weights=[1, 2, 3], bound=3))
-    print(wcnf.hard)
-    print(wcnf.soft)
-    # source = 0
-    # wcnf.append([-source, -2])
-    # wcnf.append([1], weight=1)
-    # wcnf.append([2], weight=3)
-    fm = FM(wcnf, verbose=0)
-    fm.compute()  # set of hard clauses should be satisfiable
-    print(fm.model)
-    print(fm.cost)  # cost of MaxSAT solution should be 2
-
-
 if __name__ == '__main__':
-    # proba()
     args = sys.argv
 
     # Check the number of arguments provided
@@ -233,13 +200,18 @@ if __name__ == '__main__':
     else:
         type = str(args[1])
         num_vertices, source, destination = read_problem(type)
-        print(task_sets)
+        print("Task sets are " + str(task_sets))
         add_other_path_constraint(num_vertices, source, destination)
 
         # solve the model
         fm = FM(wcnf, verbose=0)
-        print(fm.compute())  # set of hard clauses should be satisfiable
+
         print("Hard constraints are " + str(wcnf.hard))
         print("Soft constraints are " + str(wcnf.soft))
-        print("The variables are assigned the following values " + str(fm.model))
-        print("The length of the CSP is " + str(fm.cost))
+        if fm.compute():  # set of hard clauses should be satisfiable
+            print("The instance is satisfiable")
+            print("The variables are assigned the following values " + str(fm.model))
+            print("The length of the CSP is " + str(fm.cost))
+        else:
+            print("The instance is unsatisfiable")
+
