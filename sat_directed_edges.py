@@ -16,7 +16,7 @@ def read_problem(type) -> (int, int, int):
         print("The following program tackles only node CSP and task CSP!")
         return
 
-    with open('simple_test_task.txt', 'r') as file:
+    with open('simple_tests/simple_test_task.txt', 'r') as file:
         line = file.readline()
 
         # first line num of vertices and edges and ...

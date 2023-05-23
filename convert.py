@@ -6,16 +6,17 @@ ending_points_for_edges = []
 weights = []
 
 
-def extract_values(line):
+def extract_values(line, largeFile):
     index_open_brac = line.index("[")
     index_close_brac = line.index("]")
     line = line[index_open_brac + 1:index_close_brac]
-    line = line.split(",")
-    # int_line = [int(element) for element in line]
-    return line
+    if largeFile:
+        return line.split(", ")
+    else:
+        return line.split(",")
 
 
-def parse_file(instance):
+def parse_file(instance, large_file):
     with open(instance, 'r') as file:
         line = file.readline()
 
@@ -29,19 +30,19 @@ def parse_file(instance):
                 index_equal = line.index("=")
                 index_dot_comma = line.index(";")
                 first_line.append(line[index_equal + 2:index_dot_comma])
-                # print(first_line)
+                print(first_line)
 
-            if line.__contains__("Edge_Start = "):
-                starting_points_for_edges = extract_values(line)
-                # print(starting_points_for_edges)
+            if line.__contains__("Edge_Start "):
+                starting_points_for_edges = extract_values(line, large_file)
+                print(starting_points_for_edges)
 
-            if line.__contains__("Edge_End = "):
-                ending_points_for_edges = extract_values(line)
-                # print(ending_points_for_edges)
+            if line.__contains__("Edge_End "):
+                ending_points_for_edges = extract_values(line, large_file)
+                print(ending_points_for_edges)
 
             if line.__contains__("L = "):
-                weights = extract_values(line)
-                # print(weights)
+                weights = extract_values(line, large_file)
+                print(weights)
 
             line = file.readline()
         return starting_points_for_edges, ending_points_for_edges, weights
@@ -75,9 +76,16 @@ if __name__ == '__main__':
         print("Provide the type of problem that you run. This could be 'node' or 'type' CSP.")
     else:
         file_to_be_translated = str(args[1])
-        starting_points_for_edges, ending_points_for_edges, weights = parse_file(file_to_be_translated)
+
+        # Files with larger numbers have spaces between the values in the lists
+        if int(file_to_be_translated[len("data/FRCSP_instance_"): len(file_to_be_translated) - 4]) > 7:
+            large_file = True
+        else:
+            large_file = False
+
+        starting_points_for_edges, ending_points_for_edges, weights = parse_file(file_to_be_translated, large_file)
 
         # Specify the path and name of the new file
-        new_file = file_to_be_translated[len("cp_instances/FRC"): len(file_to_be_translated) - 4] + "-sat.txt"
+        new_file = file_to_be_translated[len("data/FRC"): len(file_to_be_translated) - 4] + "-sat.txt"
         new_file = "sat/" + new_file
         compose_new_file(new_file)
