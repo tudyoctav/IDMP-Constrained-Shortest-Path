@@ -10,3 +10,13 @@ python convert.py data/FRCSP_Instance_1.dzn
 ```
 
 
+### For running NCSP:
+
+```bash
+python sat_directed_edges.py .sat/SP_Instance_1-sat.txt node
+```
+
+### For running TCSP: (You need to add the number of task sets at the end of first line ...)
+```bash
+python sat_directed_edges.py .sat/SP_Instance_1-sat.txt task
+```
