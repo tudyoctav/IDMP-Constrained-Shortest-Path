@@ -1,0 +1,23 @@
+Length: 144
+Start : 2
+End   : 127
+
+1..M in shortest path:
+Edge 443 : 2 -> 66
+Edge 457 : 66 -> 127
+% time elapsed: 1.83 s
+----------
+==========
+% time elapsed: 1.83 s
+Length: 144
+Start : 2
+End   : 127
+
+1..M in shortest path:
+Edge 443 : 2 -> 66
+Edge 457 : 66 -> 127
+% time elapsed: 1.72 s
+----------
+==========
+% time elapsed: 1.72 s
+Average time: 1.775

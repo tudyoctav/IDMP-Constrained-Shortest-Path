@@ -1,0 +1,33 @@
+Length: 549
+Start : 2
+End   : 255
+
+1..M in shortest path:
+Edge 75 : 170 -> 4
+Edge 76 : 4 -> 83
+Edge 77 : 83 -> 194
+Edge 78 : 194 -> 255
+Edge 138 : 2 -> 123
+Edge 403 : 217 -> 170
+Edge 739 : 123 -> 217
+% time elapsed: 59.27 s
+----------
+==========
+% time elapsed: 59.27 s
+Length: 549
+Start : 2
+End   : 255
+
+1..M in shortest path:
+Edge 75 : 170 -> 4
+Edge 76 : 4 -> 83
+Edge 77 : 83 -> 194
+Edge 78 : 194 -> 255
+Edge 138 : 2 -> 123
+Edge 403 : 217 -> 170
+Edge 739 : 123 -> 217
+% time elapsed: 58.38 s
+----------
+==========
+% time elapsed: 58.38 s
+Average time: 58.825

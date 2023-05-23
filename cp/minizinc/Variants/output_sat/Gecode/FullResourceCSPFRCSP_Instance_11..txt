@@ -1,0 +1,29 @@
+Length: 226
+Start : 1
+End   : 128
+
+1..M in shortest path:
+103 -> 128
+17 -> 10
+10 -> 103
+1 -> 64
+64 -> 17
+% time elapsed: 5.61 s
+----------
+==========
+% time elapsed: 5.61 s
+Length: 226
+Start : 1
+End   : 128
+
+1..M in shortest path:
+103 -> 128
+17 -> 10
+10 -> 103
+1 -> 64
+64 -> 17
+% time elapsed: 5.51 s
+----------
+==========
+% time elapsed: 5.51 s
+Average time: 5.5600000000000005

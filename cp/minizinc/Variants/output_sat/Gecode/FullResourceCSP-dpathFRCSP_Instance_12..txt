@@ -1,0 +1,37 @@
+Length: 224
+Start : 2
+End   : 63
+
+1..M in shortest path:
+Edge 22 : 56 -> 22
+Edge 25 : 22 -> 26
+Edge 28 : 26 -> 63
+Edge 67 : 58 -> 35
+Edge 71 : 35 -> 29
+Edge 76 : 29 -> 56
+Edge 130 : 27 -> 58
+Edge 183 : 2 -> 31
+Edge 187 : 31 -> 27
+% time elapsed: 21.39 s
+----------
+==========
+% time elapsed: 21.39 s
+Length: 224
+Start : 2
+End   : 63
+
+1..M in shortest path:
+Edge 22 : 56 -> 22
+Edge 25 : 22 -> 26
+Edge 28 : 26 -> 63
+Edge 67 : 58 -> 35
+Edge 71 : 35 -> 29
+Edge 76 : 29 -> 56
+Edge 130 : 27 -> 58
+Edge 183 : 2 -> 31
+Edge 187 : 31 -> 27
+% time elapsed: 21.63 s
+----------
+==========
+% time elapsed: 21.63 s
+Average time: 21.509999999999998

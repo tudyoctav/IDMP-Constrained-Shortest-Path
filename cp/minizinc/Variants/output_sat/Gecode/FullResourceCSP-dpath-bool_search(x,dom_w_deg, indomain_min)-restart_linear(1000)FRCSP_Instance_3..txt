@@ -1,0 +1,21 @@
+Length: 2
+Start : 1
+End   : 6
+
+1..M in shortest path:
+Edge 6 : 1 -> 6
+% time elapsed: 0.56 s
+----------
+==========
+% time elapsed: 0.56 s
+Length: 2
+Start : 1
+End   : 6
+
+1..M in shortest path:
+Edge 6 : 1 -> 6
+% time elapsed: 0.67 s
+----------
+==========
+% time elapsed: 0.67 s
+Average time: 0.615
