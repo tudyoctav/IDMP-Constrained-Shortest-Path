@@ -48,4 +48,3 @@ def parse_graph_with_time(inp: str):
         assert time_window_regex.fullmatch(line), f"expected a time window but found: '{line}'"
         windows.append(map(int, digit_regex.findall(line)))
     return time_graph_from_graph(graph, windows)
-    

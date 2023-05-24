@@ -173,10 +173,14 @@ class TimeConstraintBuilder(ConstraintBuilder):
                 node = var[1]
                 var = id_pool.id(var)
                 # lower_bound_clauses = [[-var, *clause] for clause in PBEnc.leq(current_variables, bound=node.lower_bound, vpool=id_pool)]
-                lower_bound_clauses = [[-var, *clause] for clause in PBEnc.geq(current_variables, bound=node.lower_bound, vpool=id_pool)]
+                lower_bound_clauses = []
+                for index, unary_literal in enumerate(current_variables):
+                    if index >= node.lower_bound:
+                        break
+                    lower_bound_clauses.append([-var, unary_literal])
                 cur_clauses.extend(lower_bound_clauses)
-                upper_bound_clauses = PBEnc.leq(current_variables, bound=node.upper_bound - 1, vpool=id_pool)
-                cur_clauses.extend(upper_bound_clauses)
+                upper_bound_clauses = [[-var, *clause] for clause in PBEnc.leq(current_variables, bound=node.upper_bound - 1, vpool=id_pool)]
+                # cur_clauses.extend(upper_bound_clauses)
             vars.extend(prev_variables)
             weights.extend([1 for _ in prev_variables])
             assert len(vars) == len(weights)
