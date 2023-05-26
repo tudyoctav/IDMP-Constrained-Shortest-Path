@@ -162,3 +162,4 @@ cython_debug/
 # Visual studio
 .vs/
 Debug/
+x64/

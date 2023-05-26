@@ -17,7 +17,7 @@
 /*************************************************************************************************/
 /* SP ********************************************************************************************/
 /*************************************************************************************************/
-Instance<SP>::Instance(const std::string& input_file) : filename(input_file)
+Instance<NCSP>::Instance(const std::string& input_file) : filename(input_file)
 {
 	std::ifstream file(input_file);
 	if (!file.is_open())
@@ -35,19 +35,22 @@ Instance<SP>::Instance(const std::string& input_file) : filename(input_file)
 	}
 
 	V.reserve(n);
-	for (int i = 0; i < n; i++)
+	p.assign(n, 0);
+	for (int i = 0; i < n; i++) {
 		V.push_back(i);
+		file >> p[i];
+	}
 }
 
-int Instance<SP>::objective(const Solution<SP>& sol) const
+int Instance<NCSP>::objective(const Solution<NCSP>& sol) const
 {
 	return sol.total_cost;
 }
 
 
-std::ostream& operator<<(std::ostream& os, const Instance<SP>& inst)
+std::ostream& operator<<(std::ostream& os, const Instance<NCSP>& inst)
 {
-	os << "m=" << inst.A.size() << "n=" << inst.n << ", s=" << inst.s << ", t=" << inst.t;
+	os << "m=" << inst.A.size() << ", n=" << inst.n << ", s=" << inst.s << ", t=" << inst.t;
 	return os;
 }
 
@@ -92,7 +95,7 @@ int Instance<RCSP>::objective(const Solution<RCSP>&sol) const
 
 std::ostream& operator<<(std::ostream & os, const Instance<RCSP>&inst)
 {
-	os << "m=" << inst.A.size() << "n=" << inst.n << ", s=" << inst.s << ", t=" << inst.t;
+	os << "m=" << inst.A.size() << ", n=" << inst.n << ", s=" << inst.s << ", t=" << inst.t;
 	return os;
 }
 

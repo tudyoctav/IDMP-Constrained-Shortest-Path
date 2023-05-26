@@ -9,11 +9,13 @@ template<typename> struct Solution;
 
 /**
  * MIP Formulation for the Resource Constrained Shortest Path.
- * Uses two kinds of binary decision variables:
+ * Uses two kinds of decision variables:
  *
  *  *) x_{ij} -> arc (i, j) is active
- *  *) y_j    -> node j is active
- *
+ *  *) y_j    -> arrival time at node j
+ * 
+ * The arrival time of any node is upperbounded by
+ * the maximum arrival time of the target node.
  */
 class RCSPFormulation : public MIPFormulation<RCSP>
 {
@@ -34,7 +36,7 @@ private:
 	// binary decision variables x_{ij}: the arc from i to j is active (=1) or not (=0)
 	IloArray<IloNumVarArray> x;
 
-	// binary decision variables y_j: node j is used (=1) or not (=0)
+	// integer decision variables y_j: node j is reached at time y_j
 	IloNumVarArray y;
 };
 

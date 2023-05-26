@@ -10,15 +10,15 @@
 
 
 /*****************************************************************************************/
-/** Shortest Path Problem ****************************************************************/
+/** Node Constrained Shortest Path *******************************************************/
 /*****************************************************************************************/
-Solution<SP>::Solution(const Instance<SP>& inst) : shortest_path(inst.n)
+Solution<NCSP>::Solution(const Instance<NCSP>& inst) : shortest_path(inst.n)
 {
   std::iota(shortest_path.begin(), shortest_path.end(), 0);
   total_cost = (int)inst.c.size();
 }
 
-std::ostream& operator<<(std::ostream& os, const Solution<SP>& sol)
+std::ostream& operator<<(std::ostream& os, const Solution<NCSP>& sol)
 {
   os << sol.shortest_path;
   return os;

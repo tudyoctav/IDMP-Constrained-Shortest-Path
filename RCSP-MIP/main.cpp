@@ -15,7 +15,7 @@
 
 // MIP stuff
 #include "mipsolver.h"          // generic mip solver, uses CPLEX to solve mips
-#include "spformulation.h"
+#include "ncspformulation.h"
 #include "rcspformulation.h"
 
 int main(int argc, char* argv[])
@@ -29,7 +29,7 @@ int main(int argc, char* argv[])
 
   try {
 	arg_parser.add<std::string>("ifile", "Input file", "inst/bp/bp1.inst");
-	arg_parser.add<std::string>("prob", "Problem: Shortest Path (SP), Resource Constrained Shortest Path (RCSP)", "SP", { "SP", "RCSP" });
+	arg_parser.add<std::string>("prob", "Problem: Node Constrained Shortest Path (NCSP), Resource Constrained Shortest Path (RCSP)", "NCSP", { "NCSP", "RCSP" });
 	arg_parser.add<int>("ttime", "total time limit", 0, 0, std::numeric_limits<int>::max());
 	arg_parser.add<int>("threads", "Number of used threads", 1, 0, 100);
 
@@ -49,29 +49,29 @@ int main(int argc, char* argv[])
 
   std::string instance_filename = arg_parser.get<std::string>("ifile");
 
-  if (arg_parser.get<std::string>("prob") == "SP") {
+  if (arg_parser.get<std::string>("prob") == "NCSP") {
 	/*****************************************************************************************/
 	/** Shortest Path ************************************************************************/
 	/*****************************************************************************************/
-	Instance<SP> inst(instance_filename);  // read SP instance
+	Instance<NCSP> inst(instance_filename);  // read SP instance
 
 	SOUT() << "instance: " << instance_filename << std::endl;
 	SOUT() << "\t" << inst << std::endl;
 
-	Solution<SP> sol(inst);  // create empty SP solution
+	Solution<NCSP> sol(inst);  // create empty SP solution
 
 	// setup MIP solver
-	MIPSolver<SP> mip_solver;
+	MIPSolver<NCSP> mip_solver;
 	mip_solver.setTimeLimit(arg_parser.get<int>("ttime"));  // set time limit; 0 -> no time limit
 	mip_solver.setThreads(arg_parser.get<int>("threads"));  // number of used threads, should be always one for our experiments
 
-	mip_solver.setFormulation<SPFormulation>();  // set MIP formulation
+	mip_solver.setFormulation<NCSPFormulation>();  // set MIP formulation
 
 	/**************************************************************/
 	auto status = mip_solver.run(inst, sol);  /** run MIP solver **/
 	/**************************************************************/
 
-	if (status == MIPSolver<SP>::Feasible || status == MIPSolver<SP>::Optimal) {
+	if (status == MIPSolver<NCSP>::Feasible || status == MIPSolver<NCSP>::Optimal) {
 	  SOUT() << std::endl;
 	  SOUT() << "# best solution:" << std::endl;
 	  SOUT() << "best objective value:\t" << inst.objective(sol) << std::endl;

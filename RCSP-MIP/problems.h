@@ -8,10 +8,10 @@
  * This problem type is used in generic algorithms.
  */
 
-/* Shortest Path */
-struct SP
+/* Node Constrained Shortest Path */
+struct NCSP
 {
-  constexpr static const std::string_view name = "Shortest Path";
+  constexpr static const std::string_view name = "Node Constrained Shortest Path";
 };
 
 /* Resource Constrained Shortest Path */

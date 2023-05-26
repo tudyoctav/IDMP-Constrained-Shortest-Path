@@ -139,7 +139,7 @@
     <ClCompile Include="mipsolver.cpp" />
     <ClCompile Include="rcspformulation.cpp" />
     <ClCompile Include="solution.cpp" />
-    <ClCompile Include="spformulation.cpp" />
+    <ClCompile Include="ncspformulation.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="instance.h" />
@@ -152,7 +152,7 @@
     <ClInclude Include="problems.h" />
     <ClInclude Include="rcspformulation.h" />
     <ClInclude Include="solution.h" />
-    <ClInclude Include="spformulation.h" />
+    <ClInclude Include="ncspformulation.h" />
     <ClInclude Include="users.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

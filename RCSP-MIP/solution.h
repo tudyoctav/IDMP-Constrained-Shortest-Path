@@ -22,18 +22,18 @@ struct Solution { };
 
 
 /*****************************************************************************************/
-/** Shortest Path Problem ****************************************************************/
+/** Node Constrained Shortest Path *******************************************************/
 /*****************************************************************************************/
 template<>
-struct Solution<SP>
+struct Solution<NCSP>
 {
-  Solution(const Instance<SP>& inst);
+  Solution(const Instance<NCSP>& inst);
   std::vector<int> shortest_path;
   int total_cost;
   double db;  // dual bound
 };
 
-std::ostream& operator<<(std::ostream& os, const Solution<SP>& sol);
+std::ostream& operator<<(std::ostream& os, const Solution<NCSP>& sol);
 
 
 

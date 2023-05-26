@@ -17,7 +17,7 @@ struct Solution;
 /*
  * Generic problem instance class.
  * To write an instance class for a specific problem,
- * speialize this class for the corresponding problem type.
+ * specialize this class for the corresponding problem type.
  */
 template<typename ProbT>
 struct Instance { };
@@ -26,16 +26,16 @@ struct Instance { };
 
 
 /*****************************************************************************************/
-/** Shortest Path ************************************************************************/
+/** Node Constrained Shortest Path *******************************************************/
 /*****************************************************************************************/
 template<>
-struct Instance<SP>
+struct Instance<NCSP>
 {
-	friend std::ostream& operator<<(std::ostream& os, const Instance<SP>& inst);
+	friend std::ostream& operator<<(std::ostream& os, const Instance<NCSP>& inst);
 
 	Instance(const std::string& input_file);
 
-	int objective(const Solution<SP>& sol) const;
+	int objective(const Solution<NCSP>& sol) const;
 
 	std::string filename;
 
@@ -46,9 +46,10 @@ struct Instance<SP>
 	std::vector<int> V;					 // index set of vertices [0,...,n-1]
 	std::vector<std::pair<int, int> > A; // index set of arcs (i, j) in A
 	std::vector<std::vector<int> > c;    // cost of arcs c(i, j)
+	std::vector<int> p;					 // penalty of node p(j)
 };
 
-std::ostream& operator<<(std::ostream& os, const Instance<RCSP>& inst);
+std::ostream& operator<<(std::ostream& os, const Instance<NCSP>& inst);
 
 
 

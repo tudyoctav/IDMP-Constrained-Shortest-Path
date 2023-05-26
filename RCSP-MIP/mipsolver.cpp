@@ -106,6 +106,6 @@ void MIPSolver<ProbT>::initCplex()
 }
 
 // Instantiate all required MIP solver classes
-template class MIPSolver<SP>;
+template class MIPSolver<NCSP>;
 template class MIPSolver<RCSP>;
 

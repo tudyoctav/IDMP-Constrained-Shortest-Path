@@ -39,7 +39,7 @@
     <ClCompile Include="rcspformulation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="spformulation.cpp">
+    <ClCompile Include="ncspformulation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -77,7 +77,7 @@
     <ClInclude Include="rcspformulation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="spformulation.h">
+    <ClInclude Include="ncspformulation.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
