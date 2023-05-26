@@ -9,14 +9,21 @@ Next create an empty sat folder and run the following command:
 python convert.py data/FRCSP_Instance_1.dzn
 ```
 
-
 ### For running NCSP:
 
 ```bash
-python sat_directed_edges.py .sat/SP_Instance_1-sat.txt node
+python sat_directed_edges-idpool.py .sat/SP_Instance_1-sat.txt node
 ```
 
-### For running TCSP: (You need to add the number of task sets at the end of first line ...)
+### For running TCSP - ordered or unordered: (You need to add the number of task sets at the end of first line ...)
 ```bash
-python sat_directed_edges.py .sat/SP_Instance_1-sat.txt task
+python sat_directed_edges-idpool.py .sat/SP_Instance_1-sat.txt unordered_task
+```
+
+### Running with run_all.py
+First create a folder output_sat, then inside it create to folders - g3 and m22. 
+In each one of them, create two subfolders - node and unordered_task. 
+Finally, to run all instances in the sat folder, run:
+```bash
+python run_all_with_sat.py sat-node-task
 ```
