@@ -1,13 +1,43 @@
 #!/usr/bin/env python
 from pysat.solvers import Minisat22, Lingeling
-from graph import Graph, Edge, parse_graph
+from graph import Graph, Edge, Node, parse_graph
 from pysat import formula
 from pysat.pb import PBEnc
 from optimizer import linear_search, max_sat
 import function_constructors
 from constraints import ConstraintBuilder
-from typing import List, Union
+from typing import List, Tuple, Union
 import sys
+from parse_dzn import get_par
+from pathlib import Path
+
+def parse_dzn(inp: str) -> Tuple[Graph, list]:
+    n = get_par(inp, "N")
+    m = get_par(inp, "M")
+    edge_start = get_par(inp, "Edge_Start")
+    edge_end = get_par(inp, "Edge_End")
+    l = get_par(inp, "L")
+    t = get_par(inp, "T")
+    weights_max = [get_par("Time")]
+    weights_min = [0]
+    weights_lim = list(zip(weights_min, weights_max))
+    edges = [Edge(Node(start - 1), Node(end - 1), [length, time]) for (start, end, length, time) in zip(edge_start, edge_end, l, t)]
+    graph = Graph(n, edges)
+    
+    return graph, weights_lim
+
+def parse_file(file_name: Union[Path,str]):
+    file_name = Path(file_name)
+    with open(file_name) as file:
+        inp = file.read()
+    match file_name.suffix:
+        case ".txt":
+            raise NotImplementedError()
+            return parse_graph(inp)
+        case ".dzn":
+            return parse_dzn(inp)
+        case _:
+            raise AssertionError("unkown file type")
 
 
 def run(constraints: formula.CNF, solver=Lingeling) -> Union[List[int],None]:
