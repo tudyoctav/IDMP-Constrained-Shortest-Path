@@ -18,10 +18,11 @@ def parse_dzn(inp: str) -> Tuple[Graph, list]:
     edge_end = get_par(inp, "Edge_End")
     l = get_par(inp, "L")
     t = get_par(inp, "T")
-    weights_max = [get_par("Time")]
+    weights_max = [get_par(inp, "Time")]
     weights_min = [0]
     weights_lim = list(zip(weights_min, weights_max))
     edges = [Edge(Node(start - 1), Node(end - 1), [length, time]) for (start, end, length, time) in zip(edge_start, edge_end, l, t)]
+    [print(e) for e in edges]
     graph = Graph(n, edges)
     
     return graph, weights_lim
@@ -49,14 +50,13 @@ def run(constraints: formula.CNF, solver=Lingeling) -> Union[List[int],None]:
 
 
 def main(file_name):
-    with open(file_name, 'r') as graph_file:
-        graph = parse_graph(graph_file.read())
+    graph,weights_lim = parse_file(file_name)
     id_pool = formula.IDPool()
     
     constraint_builder = ConstraintBuilder(graph, id_pool, start=0, end=-1)
     constraint_builder.start_and_end_constraint()
     constraint_builder.path_constraint()
-    constraint_builder.max_weight(1, 9)
+    constraint_builder.limit_weight_list(weights_lim)
 
     literals = list(map(id_pool.id, graph.edges))
     weights = list(map(lambda e: e.weights[0], graph.edges))

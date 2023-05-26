@@ -2,7 +2,7 @@ from graph import Graph, Node
 from pysat.pb import PBEnc
 from pysat.formula import IDPool
 from functools import wraps
-from typing import List
+from typing import List, Tuple
 
 def store_clauses(method):
     @wraps(method)
@@ -73,9 +73,33 @@ class ConstraintBuilder(object):
 
         literals = list(map(id_pool.id, self.graph.edges))
         weights = list(map(lambda e: e.weights[weight_index], self.graph.edges))
+        print("w:", weights)
+        assert all(w >= 0 for w in weights), "Edge weights should be possitive"
         
+        if max_weight < 0 or max_weight > sum(weights):
+            return []
+
         return PBEnc.atmost(literals, weights, max_weight, vpool=id_pool).clauses
         
+    @store_clauses
+    def min_weight(self, weight_index: int, min_weight: int) -> List[List[int]]:
+        id_pool = self.id_pool
+        if min_weight <= 0:
+            return []
+
+        literals = list(map(id_pool.id, self.graph.edges))
+        weights = list(map(lambda e: e.weights[weight_index], self.graph.edges))
+        
+        return PBEnc.atleast(literals, weights, min_weight, vpool=id_pool).clauses
+
+    def limit_weight_list(self, weights_lim: List[Tuple[int, int]]):
+        # Note cluasus are stored in the max/min weight function so no need to store them here!
+        res = []
+        for i, (min_weight, max_weight) in enumerate(weights_lim):
+            res.extend(self.min_weight(i+1, min_weight))
+            res.extend(self.max_weight(i+1, max_weight))
+        return res
+
 
     def get_all_clauses(self) -> List[List[int]]:
         return self.clauses

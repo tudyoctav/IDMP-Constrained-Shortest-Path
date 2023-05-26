@@ -18,7 +18,7 @@ def linear_search(constraints: formula.CNF, optim_func, solver: str="m22") -> Tu
 
     return model, optim_val
 
-def max_sat(constraints: formula.CNF, optim_literals: List[int], weights: List[int],  solver: Solver="m22") -> Tuple[List[int], int]:
+def max_sat(constraints: formula.CNF, optim_literals: List[int], weights: List[int],  solver: Solver="cadical153") -> Tuple[List[int], int]:
     assert len(optim_literals) == len(weights), "the weights and literals should have the same length"
     wcnf = formula.WCNF()
     # Add original Hard clauses
