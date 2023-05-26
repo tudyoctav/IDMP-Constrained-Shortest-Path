@@ -3,6 +3,7 @@ from pysat.pb import PBEnc
 from pysat import formula
 from pysat.examples.fm import  FM
 from typing import List, Tuple
+from time import time
 
 def linear_search(constraints: formula.CNF, optim_func, solver: str="m22") -> Tuple[List[int], int]:
     model = None
@@ -26,9 +27,11 @@ def max_sat(constraints: formula.CNF, optim_literals: List[int], weights: List[i
     # Add soft clauses for optimization func
     for lit, weight in zip(optim_literals, weights):
         wcnf.append([-lit], weight)
-
+    print("Starting solver")
     solv = FM(wcnf, solver=solver)
+    start_time = time()
     if solv.compute():
+        print(f"% time elapsed: {time() - start_time}")
         return solv.model, solv.cost
     else:
         return None, None
