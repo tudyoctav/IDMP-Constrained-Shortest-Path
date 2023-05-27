@@ -43,7 +43,7 @@ def run_model(model_file = "View2.mzn", data_file = "Example1.dzn", solver = "Ch
     return run_command(command, VERBOSE)
 
 
-def run_model_sat_node_task(data_file = "/sat/SP_Instance_1-sat.txt", type = "node", solver = "g3", VERBOSE = False):
+def run_model_sat_node_task(data_file = "/data-txt/SP_Instance_1-sat.txt", type = "node", solver = "g3", VERBOSE = False):
 
     command = f'python sat_directed_edges-idpool.py {data_file} {type} {solver}'
     return run_command(command, VERBOSE)
@@ -57,7 +57,7 @@ def write_output_to_file(filename,output):
 def main(technology):
     output_folder = "output_sat\\"
     if technology == 'cp':
-        path = "data/FRCSP_Instance_*.dzn"
+        path = "sat-node-task/data/FRCSP_Instance_*.dzn"
         models = glob.glob("*.mzn")
         #solvers = ["Gecode","Chuffed","HiGHS", "Coin-BC"]
         solvers = ["Gecode"]
@@ -66,7 +66,7 @@ def main(technology):
         second_row = [""] + [m.replace(".mzn","") for i in range(1,len(solvers) + 1) for m in models]
         result_csv = [first_row,second_row]
     else:
-        path = "sat/SP_Instance_*-sat.txt"
+        path = "sat-node-task/data-txt/SP_Instance_*-sat.txt"
         # models = ["node", "ordered_task", "unordered_task"]
         models = ["node", "unordered_task"]
         # solvers = ["Gecode","Chuffed","HiGHS", "Coin-BC"]
@@ -87,7 +87,7 @@ def main(technology):
         if technology == 'cp':
             row = [data_file.replace("data_bs\\","").replace(".dzn","")]
         else:
-            row = [data_file.replace("sat\\", "").replace(".txt", "")]
+            row = [data_file.replace("data-txt\\", "").replace(".txt", "")]
         for solver in solvers:
             for model in models:
                 print(f"Running {model} on {data_file} with {solver}")
@@ -112,7 +112,7 @@ def main(technology):
                 if technology == 'cp':
                     output_file = output_folder + solver + "\\" + model.replace(".mzn","") + data_file.replace("data\\","").replace(".dzn",".") + ".txt"
                 else:
-                    output_file = output_folder + solver + "\\" + model + "\\" + data_file.replace("sat\\","")
+                    output_file = output_folder + solver + "\\" + model + "\\" + data_file.replace("data-txt\\","")
                 #write intermediate output_sat for debud purposes results for debug
                 write_output_to_file(output_file,total_output)
         result_csv.append(row)

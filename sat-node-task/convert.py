@@ -49,7 +49,7 @@ def parse_file(instance, large_file):
 
 
 def compose_new_file(file_path):
-    # file_path = "SP_Instance1-sat.txt"
+    # file_path = "SP_Instance1-data-txt.txt"
     with open(file_path, 'w') as file:
         # Write content to the file
         file.writelines(first_line[0] + " " + first_line[1] + " " + first_line[2] + " " +
@@ -87,5 +87,5 @@ if __name__ == '__main__':
 
         # Specify the path and name of the new file
         new_file = file_to_be_translated[len("data/FRC"): len(file_to_be_translated) - 4] + "-sat.txt"
-        new_file = "sat/" + new_file
+        new_file = "data-txt/" + new_file
         compose_new_file(new_file)

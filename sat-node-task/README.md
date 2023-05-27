@@ -12,12 +12,12 @@ python convert.py data/FRCSP_Instance_1.dzn
 ### For running NCSP:
 
 ```bash
-python sat_directed_edges-idpool.py .sat/SP_Instance_1-sat.txt node g3
+python sat_directed_edges-idpool.py data-txt/SP_Instance_1-sat.txt node g3
 ```
 
 ### For running TCSP - ordered or unordered: (You need to add the number of task sets at the end of first line ...)
 ```bash
-python sat_directed_edges-idpool.py .sat/SP_Instance_1-sat.txt unordered_task g3
+python sat_directed_edges-idpool.py data-txt/SP_Instance_1-data.txt unordered_task g3
 ```
 
 ### Running with run_all.py
