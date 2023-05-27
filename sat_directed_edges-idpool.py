@@ -1,5 +1,5 @@
 import sys
-from pysat.solvers import Glucose3, Solver
+# from pysat.solvers import Glucose3, Solver
 from pysat.pb import *
 from pysat.formula import WCNFPlus
 from pysat.examples.fm import FM
@@ -43,7 +43,7 @@ def read_problem(type, file) -> (int, int, int):
         for i in range(0, int(num_vertices) + 1):  # first list will be empty
             incoming_edges.append([])
             outgoing_edges.append([])
-            neighbours.append([])  # I think this is needed only if the problem is task CSP
+            neighbours.append([])
             if i != 0:
                 vpool.id(i)  # assign each node an id (it will be the same as the node number)
 
@@ -62,15 +62,12 @@ def read_problem(type, file) -> (int, int, int):
                 # Create edge encoding
                 edge = int(elements[0] + elements[1])
 
-                # print(edge)
                 # Add neighbouring edges
                 outgoing_edges[vpool.id(int_elements[0])].append(vpool.id(edge))
                 incoming_edges[vpool.id(int_elements[1])].append(vpool.id(edge))
-                # neighbouring_edges[int_elements[1]].append(edge) # if directed remove this, they should be directed for TCSP
 
                 # Add neighbours
                 neighbours[vpool.id(int_elements[0])].append(vpool.id(int_elements[1]))  # outgoing neighbours
-                # neighbours[int_elements[1]].append(int_elements[0])
 
                 # append soft constraint to wcnf
                 # when the edge is picked edge == 1,
@@ -93,8 +90,7 @@ def read_problem(type, file) -> (int, int, int):
                     if counter_task_sets == num_task_sets:
                         break
             line = file.readline()
-        # print("Hard constraints are " + str(wcnf.hard))
-        # print("Soft constraints are " + str(wcnf.soft))
+
         return num_vertices, source, destination
 
 
@@ -109,23 +105,16 @@ def source_destination_constraints(source, destination):
     if not outgoing_edges[id_source]:
         return "There are no outgoing edges from the source! No possible path from source to destination"
 
-    # print("outgoing_edges[id_source] " + str(outgoing_edges[id_source]))
     wcnf.extend(PBEnc.equals(lits=outgoing_edges[id_source], bound=1))
     if incoming_edges[id_source]:
-        # print("incoming_edges[id_source] " + str(incoming_edges[id_source]))
         wcnf.extend(PBEnc.equals(lits=incoming_edges[id_source], bound=0))
 
     if not incoming_edges[id_destination]:  # add a constraint only if list of neighbours are non-empty
         return "There are no incoming edge for the destination! No possible path from source to destination"
 
-    # print("incoming_edges[id_destination] " + str(incoming_edges[id_destination]))
     wcnf.extend(PBEnc.equals(lits=incoming_edges[id_destination], bound=1))
     if outgoing_edges[id_destination]:
-        # print('outgoing_edges[id_destination]' + str(outgoing_edges[id_destination]))
         wcnf.extend(PBEnc.equals(lits=outgoing_edges[id_destination], bound=0))
-
-    # print("After adding source and destination constraints, hard constraints are " + str(wcnf.hard))
-    # print("After adding source and destination constraints, soft constraints are " + str(wcnf.soft))
 
 
 def add_constraints(num_vertices, source, destination):
@@ -141,29 +130,17 @@ def add_constraints(num_vertices, source, destination):
             weights_out = [1] * (len(outgoing_edges[id_i]) + 1)  # the weights of the vertex in -A + outgoing edges = 1
             weights_in = [1] * (len(incoming_edges[id_i]) + 1)
 
-            # if i < 3:
-            #     print(f'Initially outgoing_edges[{ id_i }] ' + str(outgoing_edges[id_i])+ f" incoming_edges[{ id_i }] "
-            #       + str(incoming_edges[id_i]), str(i) + " " + str(weights_in))
             outgoing_edges[id_i].append(-id_i)  # add the node to the constraint -A
             incoming_edges[id_i].append(-id_i)
-            # if i < 3:
-            #     print(f'outgoing_edges[{ id_i }] ' + str(outgoing_edges[id_i]) + f" incoming_edges[{ id_i }] " + str(
-            #     incoming_edges[id_i]), str(i) + " " + str(weights_out))
+
             wcnf.extend(PBEnc.equals(lits=outgoing_edges[id_i], weights=weights_out, vpool=vpool, bound=1))
             wcnf.extend(PBEnc.equals(lits=incoming_edges[id_i], weights=weights_in, vpool=vpool, bound=1))
             outgoing_edges[id_i].pop()
             incoming_edges[id_i].pop()
-            # if i < 3:
-            #     print(f'After outgoing_edges[{ id_i }] ' + str(outgoing_edges[id_i]) + f" incoming_edges[{ id_i }] " + str(
-            #     incoming_edges[id_i]))
-            # if i < 3:
-            #     print("After other nodes constraints, hard constraints are " + str(wcnf.hard))
-    # print("After other nodes constraints, soft constraints are " + str(wcnf.soft))
 
     # Additional specific constraints
     # Task path constraints
     if type == 'ordered_task':
-        print(task_sets)
         forbid_incorrect_task_paths(task_sets, source)
 
 
@@ -228,11 +205,9 @@ def run(file, type, solver):
     # solve the model
     fm = FM(wcnf, solver=solver, verbose=0)
 
-    # print("Hard constraints are " + str(wcnf.hard))
-    # print("Soft constraints are " + str(wcnf.soft))
+
     start_time = time()
     if fm.compute():  # set of hard clauses should be satisfiable
-        # print("The instance is satisfiable")
         print("The variables are assigned the following values " + str(fm.model))
         print("The length of the CSP is " + str(fm.cost))
         # print(f"Solving time: {time() - start_time}")

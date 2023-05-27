@@ -5,30 +5,36 @@ from time import sleep
 import numpy as np
 import csv
 from datetime import datetime
+import subprocess
 
 
 def run_command(command, VERBOSE):
     if VERBOSE:
         print(f"Running: {command}")
     start = datetime.now()
-    stream = os.popen(command)
+    # stream = os.popen(command)
     end = datetime.now()
     try:
-        output = stream.read()
+        # output = stream.read()
+        output = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE,  shell=True, text=True)
+        try:
+            output.wait(timeout=50)
+        except subprocess.TimeoutExpired:
+            return "*** Timeout ***", None
     except KeyboardInterrupt:
         sleep(2)
         print("Got KeyBoardIntrerup")
         return "*** Interrupted ***", None
     time = None
-    print(output)
-    lines = output.split("\n")
+    # print(output.stdout.read())
+    lines = output.stdout.read()
     if(lines[-1].startswith("% time elapsed:")):
         time = float(lines[-1].split(" ")[3])
     elif(lines[-2].startswith("% time elapsed:")):
         time = float(lines[-2].split(" ")[3])
     elif(lines[-3].startswith("% time elapsed:")):
          time = float(lines[-3].split(" ")[3])
-    return output,time
+    return lines,time
 
 
 def run_model(model_file = "View2.mzn", data_file = "Example1.dzn", solver = "Chuffed", VERBOSE = False):
