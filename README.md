@@ -9,6 +9,16 @@ Next create an empty sat folder and run the following command:
 python convert.py data/FRCSP_Instance_1.dzn
 ```
 
+## Instructions for solving with CP
+
+Navigate to ```cp/minizinc/Variants```. There you will find the ```run_all.py``` file which takes a single argument determining the type of problem to solve. To solve the Full Resource CSP, use ```frcsp```. To solve the Task-Constrained CSP, use ```tcsp```. The resulting command will look as follows:
+
+```bash
+python run_all.py tcsp
+```
+
+## Instructions for solving with SAT
+
 ### For running NCSP:
 
 ```bash
