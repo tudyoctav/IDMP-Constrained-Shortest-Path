@@ -42,7 +42,7 @@ def parse_file(file_name: Union[Path,str]):
         case _:
             raise AssertionError("unkown file type")
 
-def run(graph: TimeGraph):
+def run(graph: TimeGraph, solver:str):
     id_pool = IDPool()
     constraint_builder = TimeConstraintBuilder(graph, id_pool)
     # constraint_builder.channeling()
@@ -59,16 +59,16 @@ def run(graph: TimeGraph):
     literals = constraint_builder.get_optim_literals()
     weights = [1 for _ in literals]
     clauses = constraint_builder.get_all_clauses()
-    res, val = max_sat(formula.CNF(from_clauses=clauses), literals, weights)
+    res, val = max_sat(formula.CNF(from_clauses=clauses), literals, weights, solver)
 
     print(f"optimal val is: {val}")
     print_res(res, id_pool)
     if val == None:
         exit(1)
 
-def main(file_name):
+def main(file_name, solver="cadical153"):
     graph = parse_file(file_name)
-    run(graph)
+    run(graph, solver)
 
 if __name__ == "__main__":
     main(sys.argv[len(sys.argv)- 1])
