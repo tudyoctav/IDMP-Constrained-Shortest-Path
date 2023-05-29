@@ -49,7 +49,7 @@ def run(constraints: formula.CNF, solver=Lingeling) -> Union[List[int],None]:
         return solver.get_model()
 
 
-def main(file_name):
+def main(file_name, solver="cadical153"):
     graph,weights_lim = parse_file(file_name)
     id_pool = formula.IDPool()
     
@@ -65,7 +65,7 @@ def main(file_name):
     #     function_constructors.linear(literals, weights, id_pool)
     # )
 
-    res, val = max_sat(formula.CNF(from_clauses=constraint_builder.get_all_clauses()), literals, weights)
+    res, val = max_sat(formula.CNF(from_clauses=constraint_builder.get_all_clauses()), literals, weights, solver)
 
     print(f"optimal val is: {val}")
     print_res(res, id_pool)
