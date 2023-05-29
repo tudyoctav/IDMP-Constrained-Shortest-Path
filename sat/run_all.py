@@ -43,7 +43,7 @@ def init_arg_parse(args=None):
     parser.add_argument("-r", "--repeats", type=int,
                         help="The number of times to repeat the solver to get an average", default=REPEATS)
     parser.add_argument("--std_out_dir", dest="std_out_dir", type=Path,
-                        help="Path to folder containing the stdout of the solvers.", default=Path("output_sat"))
+                        help="Path to folder where to store the outputs of the solvers.", default=Path("output_sat"))
 
     parser.add_argument(
         "problem_type", help="The problem type to solve.", choices=[RC_KEY, TW_KEY])
@@ -187,8 +187,11 @@ def run_all(problem_type: str, instance_folder: Path, **vargs):
         instance_folder : The Path to the folder containing all test instances to run.
         For more parameters run `python run_all.py -h`
     """
-    vargs = vars(init_arg_parse([problem_type, instance_folder]))
-    main(**vargs)
+    new_vargs = init_arg_parse([problem_type, instance_folder])
+    for key in vargs:
+        assert key in new_vargs.keys(), f"Unkown option `{key}` allowed options: {new_vargs.keys()}"
+    new_vargs.update(vargs)
+    main(**new_vargs)
 
 if __name__ == "__main__":
     main(**init_arg_parse())
