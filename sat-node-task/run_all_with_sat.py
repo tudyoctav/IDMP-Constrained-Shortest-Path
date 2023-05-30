@@ -17,18 +17,20 @@ def run_command(command, VERBOSE):
     end = datetime.now()
     try:
         # output = stream.read()
-        output = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE,  shell=True, text=True)
+        output = subprocess.Popen(shlex.split(command), stdout=subprocess.PIPE, stderr=subprocess.STDOUT,  text=True)
         try:
             output.wait(timeout=50)
         except subprocess.TimeoutExpired:
+            output.kill()
             return "*** Timeout ***", None
     except KeyboardInterrupt:
+        output.kill()
         sleep(2)
         print("Got KeyBoardIntrerup")
         return "*** Interrupted ***", None
     time = None
     # print(output.stdout.read())
-    lines = output.stdout.read()
+    lines = output.stdout.readlines()
     if(lines[-1].startswith("% time elapsed:")):
         time = float(lines[-1].split(" ")[3])
     elif(lines[-2].startswith("% time elapsed:")):
