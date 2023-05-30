@@ -6,6 +6,7 @@ import numpy as np
 import csv
 from datetime import datetime
 import subprocess
+import shlex
 
 
 def run_command(command, VERBOSE):
@@ -55,9 +56,9 @@ def write_output_to_file(filename,output):
         f.write(output)
 
 def main(technology):
-    output_folder = "output_sat\\"
+    output_folder = "output_sat/"
     if technology == 'cp':
-        path = "sat-node-task/data/FRCSP_Instance_*.dzn"
+        path = "data/FRCSP_Instance_*.dzn"
         models = glob.glob("*.mzn")
         #solvers = ["Gecode","Chuffed","HiGHS", "Coin-BC"]
         solvers = ["Gecode"]
@@ -66,7 +67,7 @@ def main(technology):
         second_row = [""] + [m.replace(".mzn","") for i in range(1,len(solvers) + 1) for m in models]
         result_csv = [first_row,second_row]
     else:
-        path = "sat-node-task/data-txt/SP_Instance_*-sat.txt"
+        path = "data-txt/SP_Instance_*-sat.txt"
         # models = ["node", "ordered_task", "unordered_task"]
         models = ["node", "unordered_task"]
         # solvers = ["Gecode","Chuffed","HiGHS", "Coin-BC"]
@@ -75,7 +76,6 @@ def main(technology):
         first_row = ["Instance"] + [s for s in solvers]
         second_row = [""] # + [m.replace(".mzn", "") for i in range(1, len(solvers) + 1) for m in models]
         result_csv = [first_row, second_row]
-
     #write first two rows
     result_csv_file = 'output-five-minutes.csv'
     with open(result_csv_file, 'w', newline='') as file:
@@ -85,9 +85,9 @@ def main(technology):
     for data_file in glob.glob(path):
         print(data_file)
         if technology == 'cp':
-            row = [data_file.replace("data_bs\\","").replace(".dzn","")]
+            row = [data_file.replace("data_bs/","").replace(".dzn","")]
         else:
-            row = [data_file.replace("data-txt\\", "").replace(".txt", "")]
+            row = [data_file.replace("data_bs/","").replace(".dzn","")]
         for solver in solvers:
             for model in models:
                 print(f"Running {model} on {data_file} with {solver}")
@@ -99,7 +99,7 @@ def main(technology):
                         output,time = run_model(model_file = model, data_file = data_file,solver = solver, VERBOSE=True)
                     else:
                         output,time = run_model_sat_node_task(data_file = data_file, solver = solver, VERBOSE=True)
-                    total_output += output
+                    total_output += str(output)
                     total_time.append(time)
                     if time == None:
                         break
@@ -110,9 +110,9 @@ def main(technology):
                 row.append(str(average_time).replace("None","t\o"))
                 total_output += "Average time: " + str(average_time)
                 if technology == 'cp':
-                    output_file = output_folder + solver + "\\" + model.replace(".mzn","") + data_file.replace("data\\","").replace(".dzn",".") + ".txt"
+                    output_file = output_folder + solver + "/" + model.replace(".mzn","") + "_" + data_file.replace("data/","").replace(".dzn",".") + ".txt"
                 else:
-                    output_file = output_folder + solver + "\\" + model + "\\" + data_file.replace("data-txt\\","")
+                    output_file = output_folder + solver + "/" + model + "/" + data_file.replace("data-txt/","")
                 #write intermediate output_sat for debud purposes results for debug
                 write_output_to_file(output_file,total_output)
         result_csv.append(row)
