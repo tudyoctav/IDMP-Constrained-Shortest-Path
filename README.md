@@ -20,17 +20,20 @@ python run_all.py tcsp
 ## Instructions for solving with SAT
 
 ### For running NCSP:
+Navigate to sat-node-task folder and run:
 
 ```bash
 python sat_directed_edges-idpool.py data-txt/SP_Instance_1-sat.txt node g3
 ```
 
 ### For running TCSP - ordered or unordered: (You need to add the number of task sets at the end of first line ...)
+Navigate to sat-node-task folder and run:
 ```bash
-python sat_directed_edges-idpool.py data-txt/SP_Instance_1-data.txt unordered_task g3
+python sat_directed_edges-idpool.py data-txt/SP_Instance_1-sat.txt unordered_task g3
 ```
 
 ### Running with run_all.py
+Navigate to sat-node-task folder and perform the following steps:
 First create a folder output_sat, then inside it create to folders - g3 and m22. 
 In each one of them, create two subfolders - node and unordered_task. 
 Finally, to run all instances in the sat folder, run:

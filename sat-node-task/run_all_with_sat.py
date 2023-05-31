@@ -17,6 +17,7 @@ def run_command(command, VERBOSE):
     end = datetime.now()
     try:
         # output = stream.read()
+        # output = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE, shell=True, text=True)
         output = subprocess.Popen(shlex.split(command), stdout=subprocess.PIPE, stderr=subprocess.STDOUT,  text=True)
         try:
             output.wait(timeout=50)
@@ -89,6 +90,7 @@ def main(technology):
         if technology == 'cp':
             row = [data_file.replace("data_bs/","").replace(".dzn","")]
         else:
+            # row = [data_file.replace("data-txt\\", "").replace(".txt", "")]
             row = [data_file.replace("data_bs/","").replace(".dzn","")]
         for solver in solvers:
             for model in models:
@@ -114,6 +116,7 @@ def main(technology):
                 if technology == 'cp':
                     output_file = output_folder + solver + "/" + model.replace(".mzn","") + "_" + data_file.replace("data/","").replace(".dzn",".") + ".txt"
                 else:
+                    # output_file = output_folder + solver + "/" + model + "/" + data_file.replace("data-txt\\","")
                     output_file = output_folder + solver + "/" + model + "/" + data_file.replace("data-txt/","")
                 #write intermediate output_sat for debud purposes results for debug
                 write_output_to_file(output_file,total_output)
