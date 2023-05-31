@@ -31,7 +31,9 @@ def max_sat(constraints: formula.CNF, optim_literals: List[int], weights: List[i
     solv = FM(wcnf, solver=solver)
     start_time = time()
     if solv.compute():
-        print(f"% time elapsed: {time() - start_time}")
+        solv_time = time() - start_time
+        print(f"% time elapsed: {solv_time}")
+        print(f"% solveTime={solv_time}")
         return solv.model, solv.cost
     else:
         return None, None
