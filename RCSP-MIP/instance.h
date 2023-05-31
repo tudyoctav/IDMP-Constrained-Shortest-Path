@@ -55,6 +55,35 @@ std::ostream& operator<<(std::ostream& os, const Instance<NCSP>& inst);
 
 
 /*****************************************************************************************/
+/** Task Constrained Shortest Path *******************************************************/
+/*****************************************************************************************/
+template<>
+struct Instance<TCSP>
+{
+	friend std::ostream& operator<<(std::ostream& os, const Instance<TCSP>& inst);
+
+	Instance(const std::string& input_file);
+
+	int objective(const Solution<TCSP>& sol) const;
+
+	std::string filename;
+
+	int n; // number of nodes
+	int s; // starting node
+	int t; // target node 
+
+	std::vector<int> V;					 // index set of vertices [0,...,n-1]
+	std::vector<std::pair<int, int> > A; // index set of arcs (i, j) in A
+	std::vector<std::vector<int> > c;    // cost of arcs c(i, j)
+	std::vector<std::vector<int> > T;	 // task set of node i includes j
+};
+
+std::ostream& operator<<(std::ostream& os, const Instance<TCSP>& inst);
+
+
+
+
+/*****************************************************************************************/
 /** Resource Constrained Shortest Path ***************************************************/
 /*****************************************************************************************/
 template<>

@@ -14,6 +14,12 @@ struct NCSP
   constexpr static const std::string_view name = "Node Constrained Shortest Path";
 };
 
+/* Task Constrained Shortest Path */
+struct TCSP
+{
+	constexpr static const std::string_view name = "Task Constrained Shortest Path";
+};
+
 /* Resource Constrained Shortest Path */
 struct RCSP
 {

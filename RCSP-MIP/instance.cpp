@@ -15,7 +15,7 @@
 
 
 /*************************************************************************************************/
-/* SP ********************************************************************************************/
+/* NCSP ******************************************************************************************/
 /*************************************************************************************************/
 Instance<NCSP>::Instance(const std::string& input_file) : filename(input_file)
 {
@@ -43,6 +43,44 @@ Instance<NCSP>::Instance(const std::string& input_file) : filename(input_file)
 }
 
 int Instance<NCSP>::objective(const Solution<NCSP>& sol) const
+{
+	return sol.total_cost;
+}
+
+
+/*************************************************************************************************/
+/* TCSP ******************************************************************************************/
+/*************************************************************************************************/
+Instance<TCSP>::Instance(const std::string& input_file) : filename(input_file)
+{
+	std::ifstream file(input_file);
+	if (!file.is_open())
+		throw std::runtime_error("Cannot open file!");
+
+	int m; // number of arcs
+	file >> m >> n >> s >> t;
+
+	A.reserve(m);
+	c.assign(n, std::vector<int>(n));
+	for (int k = 0; k < m; k++) {
+		int i, j; file >> i >> j;
+		A.push_back({ i, j });
+		file >> c[i][j];
+	}
+
+	V.reserve(n);
+	T.assign(n, std::vector<int>(n));
+	for (int i = 0; i < n; i++) {
+		V.push_back(i);
+		std::string line;
+		std::getline(file, line);
+		std::stringstream  lstream(line);
+		for (int t; lstream >> t; )
+			file >> T[i][t];
+	}
+}
+
+int Instance<TCSP>::objective(const Solution<TCSP>& sol) const
 {
 	return sol.total_cost;
 }

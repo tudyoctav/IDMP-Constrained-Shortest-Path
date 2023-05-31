@@ -16,6 +16,7 @@
 // MIP stuff
 #include "mipsolver.h"          // generic mip solver, uses CPLEX to solve mips
 #include "ncspformulation.h"
+#include "tcspformulation.h"
 #include "rcspformulation.h"
 
 int main(int argc, char* argv[])
@@ -51,14 +52,14 @@ int main(int argc, char* argv[])
 
   if (arg_parser.get<std::string>("prob") == "NCSP") {
 	/*****************************************************************************************/
-	/** Shortest Path ************************************************************************/
+	/** Node Constrained Shortest Path *******************************************************/
 	/*****************************************************************************************/
-	Instance<NCSP> inst(instance_filename);  // read SP instance
+	Instance<NCSP> inst(instance_filename);  // read NCSP instance
 
 	SOUT() << "instance: " << instance_filename << std::endl;
 	SOUT() << "\t" << inst << std::endl;
 
-	Solution<NCSP> sol(inst);  // create empty SP solution
+	Solution<NCSP> sol(inst);  // create empty NCSP solution
 
 	// setup MIP solver
 	MIPSolver<NCSP> mip_solver;
@@ -79,6 +80,38 @@ int main(int argc, char* argv[])
 	  SOUT() << "optimality gap:\t" << (double)(inst.objective(sol) - sol.db) / (double)inst.objective(sol) * 100.0 << "%" << std::endl;
 	  SOUT() << "solution:\t\n" << sol.shortest_path << std::endl;
 	}
+
+  }
+  else if (arg_parser.get<std::string>("prob") == "TCSP") {
+	  /*****************************************************************************************/
+	  /** Task Constrained Shortest Path *******************************************************/
+	  /*****************************************************************************************/
+	  Instance<TCSP> inst(instance_filename);  // read TCSP instance
+
+	  SOUT() << "instance: " << instance_filename << std::endl;
+	  SOUT() << "\t" << inst << std::endl;
+
+	  Solution<TCSP> sol(inst);  // create empty TCSP solution
+
+	  // setup MIP solver
+	  MIPSolver<TCSP> mip_solver;
+	  mip_solver.setTimeLimit(arg_parser.get<int>("ttime"));  // set time limit; 0 -> no time limit
+	  mip_solver.setThreads(arg_parser.get<int>("threads"));  // number of used threads, should be always one for our experiments
+
+	  mip_solver.setFormulation<TCSPFormulation>();  // set MIP formulation
+
+	  /**************************************************************/
+	  auto status = mip_solver.run(inst, sol);  /** run MIP solver **/
+	  /**************************************************************/
+
+	  if (status == MIPSolver<TCSP>::Feasible || status == MIPSolver<TCSP>::Optimal) {
+		  SOUT() << std::endl;
+		  SOUT() << "# best solution:" << std::endl;
+		  SOUT() << "best objective value:\t" << inst.objective(sol) << std::endl;
+		  SOUT() << "best dual bound value:\t" << sol.db << std::endl;
+		  SOUT() << "optimality gap:\t" << (double)(inst.objective(sol) - sol.db) / (double)inst.objective(sol) * 100.0 << "%" << std::endl;
+		  SOUT() << "solution:\t\n" << sol.shortest_path << std::endl;
+	  }
 
   }
   else if (arg_parser.get<std::string>("prob") == "RCSP") {
@@ -103,7 +136,7 @@ int main(int argc, char* argv[])
 	auto status = mip_solver.run(inst, sol);  /** run MIP solver **/
 	/**************************************************************/
 
-	if (status == MIPSolver<SP>::Feasible || status == MIPSolver<SP>::Optimal) {
+	if (status == MIPSolver<RCSP>::Feasible || status == MIPSolver<RCSP>::Optimal) {
 		SOUT() << std::endl;
 		SOUT() << "# best solution:" << std::endl;
 		SOUT() << "best objective value:\t" << inst.objective(sol) << std::endl;

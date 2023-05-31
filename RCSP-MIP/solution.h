@@ -37,6 +37,22 @@ std::ostream& operator<<(std::ostream& os, const Solution<NCSP>& sol);
 
 
 
+/*****************************************************************************************/
+/** Task Constrained Shortest Path *******************************************************/
+/*****************************************************************************************/
+template<>
+struct Solution<TCSP>
+{
+	Solution(const Instance<TCSP>& inst);
+	std::vector<int> shortest_path;
+	int total_cost;
+	double db;  // dual bound
+};
+
+std::ostream& operator<<(std::ostream& os, const Solution<TCSP>& sol);
+
+
+
 
 /*****************************************************************************************/
 /** Resource Constrained Shortest Path ***************************************************/

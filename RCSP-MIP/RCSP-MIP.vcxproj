@@ -140,6 +140,7 @@
     <ClCompile Include="rcspformulation.cpp" />
     <ClCompile Include="solution.cpp" />
     <ClCompile Include="ncspformulation.cpp" />
+    <ClCompile Include="tcspformulation.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="instance.h" />
@@ -153,6 +154,7 @@
     <ClInclude Include="rcspformulation.h" />
     <ClInclude Include="solution.h" />
     <ClInclude Include="ncspformulation.h" />
+    <ClInclude Include="tcspformulation.h" />
     <ClInclude Include="users.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
