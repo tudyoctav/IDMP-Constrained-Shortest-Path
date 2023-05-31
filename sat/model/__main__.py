@@ -5,7 +5,7 @@ import sys
 import argparse
 
 TW_KEY = "time_window"
-RC_KEY = "resource_constraint"
+RC_KEY = "resource_constrained"
 
 def init_arg_parse(args=None):
     parser = argparse.ArgumentParser(
@@ -21,13 +21,14 @@ def init_arg_parse(args=None):
 
 if __name__ == "__main__":
     vargs =init_arg_parse()
-    if vargs["problem_type"] == 'time_window':
+    problem_type = vargs["problem_type"]
+    if problem_type == 'time_window':
         del vargs["problem_type"]
         time_window_main.main(**vargs)
         sys.exit()
-    elif sys.argv[1] == 'resource_constraint':
+    elif problem_type == 'resource_constrained':
         del vargs["problem_type"]
         resource_constrained_main.main(**vargs)
         sys.exit()
-    raise NotImplementedError()
+    raise NotImplementedError(f"Error unkown argument: {problem_type}")
         
