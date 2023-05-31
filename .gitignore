@@ -15,6 +15,7 @@ downloads/
 eggs/
 .eggs/
 lib/
+!RCSP-MIP/lib/
 lib64/
 parts/
 sdist/
