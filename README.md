@@ -9,7 +9,7 @@ python generate_demo_graphs.py
 ```
 
 The graph will be drawn and saved in the `graph_generation/graphs` folder.
-![Example graphs](../graph_generation/example.png)
+![Example graphs](graph_generation/example.png)
 
 To convert the graphs to the format used by the solvers, run the following command:
 ```
