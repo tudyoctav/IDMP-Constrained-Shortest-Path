@@ -1,0 +1,51 @@
+<?xml version="1.0" ?>
+<graphml>
+    <key id="label" attr.name="label" attr.type="string"/>
+    <key id="lower_bound" attr.name="lower_bound" attr.type="string"/>
+    <key id="upper_bound" attr.name="upper_bound" attr.type="string"/>
+    <key id="depth" attr.name="depth" attr.type="string"/>
+    <key id="weight" attr.name="weight" attr.type="string"/>
+    <key id="time" attr.name="time" attr.type="string"/>
+    <graph id="" edgedefault="directed">
+        <node id="0">
+            <data key="lower_bound">0</data>
+            <data key="upper_bound">20</data>
+            <data key="depth">0</data>
+        </node>
+        <node id="1">
+            <data key="lower_bound">0</data>
+            <data key="upper_bound">20</data>
+        </node>
+        <node id="2">
+            <data key="lower_bound">0</data>
+            <data key="upper_bound">20</data>
+            <data key="depth">0</data>
+        </node>
+        <node id="3">
+            <data key="lower_bound">0</data>
+            <data key="upper_bound">20</data>
+            <data key="depth">0</data>
+        </node>
+        <node id="4">
+            <data key="lower_bound">0</data>
+            <data key="upper_bound">20</data>
+            <data key="depth">1</data>
+        </node>
+        <edge source="0" target="2" directed="false">
+            <data key="weight">10</data>
+            <data key="time">15</data>
+        </edge>
+        <edge source="1" target="2" directed="false">
+            <data key="weight">5</data>
+            <data key="time">10</data>
+        </edge>
+        <edge source="2" target="3" directed="false">
+            <data key="weight">3</data>
+            <data key="time">5</data>
+        </edge>
+        <edge source="2" target="4" directed="false">
+            <data key="weight">2</data>
+            <data key="time">2</data>
+        </edge>
+    </graph>
+</graphml>
