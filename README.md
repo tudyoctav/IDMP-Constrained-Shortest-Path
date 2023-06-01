@@ -1,6 +1,23 @@
 # IDMP-Constrained-Shortest-Path
  This project explores CP, SAT, and MIP technologies for solving the Constrained Shortest Path problem and compares their performance.
 
+### Generating graphs
+To generate the graph, move to the `graph_generation` run the following commands:
+```
+cd graph_generation
+python generate_demo_graphs.py
+```
+
+The graph will be drawn and saved in the `graph_generation/graphs` folder.
+![Example graphs](../graph_generation/example.png)
+
+To convert the graphs to the format used by the solvers, run the following command:
+```
+python read_graphs.py
+```
+
+The new files will be saved in the `graph_generation/data` folder.
+
 ### To convert .dzn instances to txt file use the following:
 First, put the .dzn files that you want to convert in a cp_instances folder.
 Next create an empty sat folder and run the following command:
