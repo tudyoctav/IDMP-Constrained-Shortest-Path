@@ -55,9 +55,9 @@ def write_output_to_file(filename,output):
         f.write(output)
 
 def main(technology):
-    output_folder = "output_sat\\"
     if technology == 'cp':
-        path = "sat-node-task/data/FRCSP_Instance_*.dzn"
+        output_folder = "cp\\"
+        path = "data/FRCSP_Instance_*.dzn"
         models = glob.glob("*.mzn")
         #solvers = ["Gecode","Chuffed","HiGHS", "Coin-BC"]
         solvers = ["Gecode"]
@@ -66,7 +66,8 @@ def main(technology):
         second_row = [""] + [m.replace(".mzn","") for i in range(1,len(solvers) + 1) for m in models]
         result_csv = [first_row,second_row]
     else:
-        path = "sat-node-task/data-txt/SP_Instance_*-sat.txt"
+        output_folder = "output_sat\\"
+        path = "data-txt/SP_Instance_*-sat.txt"
         # models = ["node", "ordered_task", "unordered_task"]
         models = ["node", "unordered_task"]
         # solvers = ["Gecode","Chuffed","HiGHS", "Coin-BC"]
