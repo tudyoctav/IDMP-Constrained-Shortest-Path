@@ -18,7 +18,7 @@ def run_command(command, VERBOSE):
         # output = stream.read()
         output = subprocess.Popen(command, stdout=subprocess.PIPE, stderr=subprocess.PIPE,  shell=True, text=True)
         try:
-            output.wait(timeout=50)
+            output.wait(timeout=60)
         except subprocess.TimeoutExpired:
             return "*** Timeout ***", None
     except KeyboardInterrupt:
@@ -26,15 +26,20 @@ def run_command(command, VERBOSE):
         print("Got KeyBoardIntrerup")
         return "*** Interrupted ***", None
     time = None
-    # print(output.stdout.read())
+    # output_file = output.stdout.read()
     lines = output.stdout.read()
-    if(lines[-1].startswith("% time elapsed:")):
-        time = float(lines[-1].split(" ")[3])
-    elif(lines[-2].startswith("% time elapsed:")):
-        time = float(lines[-2].split(" ")[3])
-    elif(lines[-3].startswith("% time elapsed:")):
-         time = float(lines[-3].split(" ")[3])
-    return lines,time
+    # if(lines[-1].startswith("% time elapsed:")):
+    #     time = float(lines[-1].split(" ")[3])
+    # elif(lines[-2].startswith("% time elapsed:")):
+    #     time = float(lines[-2].split(" ")[3])
+    # elif(lines[-3].startswith("% time elapsed:")):
+    #     time = float(lines[-3].split(" ")[3])
+    index_time = lines.index("% time elapsed:")
+    time = lines[index_time + 1:]
+    time = time.split(" ")[3]
+    print("Time" + time)
+    print("Lines are " + lines)
+    return lines, float(time)
 
 
 def run_model(model_file = "View2.mzn", data_file = "Example1.dzn", solver = "Chuffed", VERBOSE = False):
@@ -43,7 +48,7 @@ def run_model(model_file = "View2.mzn", data_file = "Example1.dzn", solver = "Ch
     return run_command(command, VERBOSE)
 
 
-def run_model_sat_node_task(data_file = "/data-txt/SP_Instance_1-sat.txt", type = "node", solver = "g3", VERBOSE = False):
+def run_model_sat_node_task(data_file = "/data-txt/SP_Instance_1-sat.txt", type = "node", solver = "cadical153", VERBOSE = False):
 
     command = f'python sat_directed_edges-idpool.py {data_file} {type} {solver}'
     return run_command(command, VERBOSE)
@@ -70,8 +75,8 @@ def main(technology):
         path = "data-txt/SP_Instance_*-sat.txt"
         # models = ["node", "ordered_task", "unordered_task"]
         models = ["node", "unordered_task"]
-        # solvers = ["Gecode","Chuffed","HiGHS", "Coin-BC"]
-        solvers = ["g3", "m22"]
+        # solvers = ["g3", "m22", "cadical153"]
+        solvers = ["cadical153"]
         # start creating the csv
         first_row = ["Instance"] + [s for s in solvers]
         second_row = [""] # + [m.replace(".mzn", "") for i in range(1, len(solvers) + 1) for m in models]
