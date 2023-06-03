@@ -82,7 +82,6 @@ def make_cp_runs(exp: Experiment, problem: Path, problem_type: str, time_limit: 
                 raise NotImplementedError()
     for run in res:
         run.set_property("run_index", str(run_i))
-    print(res)
     return res
 
 
@@ -121,7 +120,6 @@ def make_sat_runs(exp: Experiment, problem: Path, problem_type: str, time_limit:
                 raise NotImplementedError(f"{problem_type} is not implemented for sat")
     for run in res:
         run.set_property("run_index", str(run_i))
-    print("res:", res)
     return res
 
 
