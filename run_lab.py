@@ -59,13 +59,13 @@ exp = Experiment(environment=ENV)
 exp.add_parser("parser_lab.py")
 
 runs = []
-# for problem in FRCSP_INSTANCES:
-#     runs.extend(run_lab_helper.make_runs(exp, problem, "time_window", TIME_LIMIT, MEMORY_LIMIT))
-# for problem in FRCSP_INSTANCES:
-#     runs.extend(run_lab_helper.make_runs(exp, problem, "resource_constrained", TIME_LIMIT, MEMORY_LIMIT))
-# for problem in NCSP_INSTANCES:
-#     runs.extend(run_lab_helper.make_runs(exp, problem, "node", TIME_LIMIT, MEMORY_LIMIT))
-for problem in TCSP_INSTANCES[:2]:
+for problem in FRCSP_INSTANCES:
+    runs.extend(run_lab_helper.make_runs(exp, problem, "time_window", TIME_LIMIT, MEMORY_LIMIT))
+for problem in FRCSP_INSTANCES:
+    runs.extend(run_lab_helper.make_runs(exp, problem, "resource_constrained", TIME_LIMIT, MEMORY_LIMIT))
+for problem in NCSP_INSTANCES:
+    runs.extend(run_lab_helper.make_runs(exp, problem, "node", TIME_LIMIT, MEMORY_LIMIT))
+for problem in TCSP_INSTANCES:
     runs.extend(run_lab_helper.make_runs(exp, problem, "unordered_task", TIME_LIMIT, MEMORY_LIMIT))
 
 # Add step that writes experiment files to disk.
