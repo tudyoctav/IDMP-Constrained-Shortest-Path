@@ -95,7 +95,7 @@ def make_sat_runs(exp: Experiment, problem: Path, problem_type: str, time_limit:
         run.set_property("solver", solver)
         # Every run should have a unique id
         run.set_property("id", BASE_ID + [solver, f"run_{run_i}"])
-        run.set_property("algorithm", f"sat(solver:{solver})")
+        run.set_property("algorithm", "sat")
 
         match problem_type:
             case "time_window" | "resource_constrained":
