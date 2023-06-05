@@ -20,10 +20,14 @@ void RCSPFormulation::createDecisionVariables(IloEnv env, const Instance<RCSP>& 
 	//                               +--------------------- number of variables
 	MIP_OUT(TRACE) << "created " << inst.n * inst.n << " x_{ij} variables" << std::endl;
 
-	// decision variables y_j
+//	// decision variables y_j
+//	y = IloNumVarArray(env, inst.n, 0, 1, ILOBOOL);
+//	MIP_OUT(TRACE) << "created " << inst.n << " y_{i} variables" << std::endl;
+
+	// decision variables z_j
 	int upper = inst.R[inst.t].second;
-	y = IloNumVarArray(env, inst.n, 0, upper, ILOINT);
-	MIP_OUT(TRACE) << "created " << inst.n << " y_{i} variables" << std::endl;
+	z = IloNumVarArray(env, inst.n, 0, upper, ILOINT);
+	MIP_OUT(TRACE) << "created " << inst.n << " z_{i} variables" << std::endl;
 }
 
 void RCSPFormulation::addConstraints(IloEnv env, IloModel model, const Instance<RCSP>& inst)
@@ -35,22 +39,23 @@ void RCSPFormulation::addConstraints(IloEnv env, IloModel model, const Instance<
 		incoming[a.second].push_back(a.first);
 	}
 
-	// each active node must have exactly one incoming and one outgoing arc
+	// the flow that enters a node must also leave the node
 	for (int i : inst.V) if (i != inst.s && i != inst.t) {
 		IloExpr sum_in(env); IloExpr sum_out(env); // represents a linear expression of decision variables and constants
 		for (int j : incoming[i]) sum_in += x[j][i]; // cplex overloads +,-,... operators
 		for (int j : outgoing[i]) sum_out += x[i][j];
+//		model.add(y[i] >= sum_in); // node can only be active if there's flow
 		model.add(sum_out - sum_in == 0); // add constraint to model
 		sum_in.end(); sum_out.end(); // IloExpr must always call end() to free memory!
 	}
 
-	// the source node must have exactly one outgoing arc
+	// the source node must send out one unit of flow
 	IloExpr sum_s(env);
 	for (int j : outgoing[inst.s])
 		sum_s += x[inst.s][j];
 	model.add(sum_s == 1); sum_s.end();
 
-	// the target node must have exactly one incoming arc
+	// the target node must receive one unit of flow
 	IloExpr sum_t(env);
 	for (int i : incoming[inst.t])
 		sum_t += x[i][inst.t];
@@ -58,15 +63,18 @@ void RCSPFormulation::addConstraints(IloEnv env, IloModel model, const Instance<
 
 	MIP_OUT(TRACE) << "added " << inst.n << " constraints to enforce the flow over each node" << std::endl;
 
-	// the arrival time in each node must be within the bounds
+	// the arrival time in a node must be within the bounds
 	for (int i : inst.V) {
-		model.add(y[i] >= inst.R[i].first);
-		model.add(y[i] <= inst.R[i].second);
+		model.add(z[i] >= inst.R[i].first);
+		model.add(z[i] <= inst.R[i].second);
 	}
 
-	// the arrival time must be greater than the arrival time of an active edge
-	for (int i : inst.V) for (int j : outgoing[i])
-		model.add(y[j] >= y[i] + x[i][j] * inst.d[i][j]);
+	// the arrival time in a node must be greater than
+	//	the arrival time of its predecessors plus the distance
+	for (std::pair<int, int> a : inst.A) {
+		int i = a.first; int j = a.second;
+		model.add(z[j] >= z[i] + inst.d[i][j] - (1 - x[i][j]) * 1e6);
+	}
 }
 
 void RCSPFormulation::addObjectiveFunction(IloEnv env, IloModel model, const Instance<RCSP>& inst)
@@ -94,12 +102,12 @@ void RCSPFormulation::extractSolution(IloCplex cplex, const Instance<RCSP>& inst
 		for (int j : outgoing[node])
 			if (cplex.getValue(x[node][j]) > 0.5) {
 				sol.shortest_path.push_back(node);
-				sol.arrival_times.push_back(cplex.getValue(y[node]));
+				sol.arrival_times.push_back(cplex.getValue(z[node]));
 				sol.total_cost += inst.c[node][j];
 				node = j; break;
 			}
 	}
 	sol.shortest_path.push_back(inst.t);
-	sol.arrival_times.push_back(cplex.getValue(y[inst.t]));
+	sol.arrival_times.push_back(cplex.getValue(z[inst.t]));
 }
 

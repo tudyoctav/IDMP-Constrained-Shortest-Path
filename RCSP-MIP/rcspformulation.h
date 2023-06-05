@@ -36,8 +36,11 @@ private:
 	// binary decision variables x_{ij}: the arc from i to j is active (=1) or not (=0)
 	IloArray<IloNumVarArray> x;
 
-	// integer decision variables y_j: node j is reached at time y_j
+	// binary decision variables y_j: node j is used (=1) or not (=0)
 	IloNumVarArray y;
+
+	// integer decision variables y_j: node j is reached at time y_j
+	IloNumVarArray z;
 };
 
 

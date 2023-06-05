@@ -17,7 +17,7 @@ for m in tqdm(ms, desc="m"):
         avg_t = 0
         for i in tqdm(range(ninst), desc="inst"):
             inst = "m{:02d}_n{:04d}__{:03d}".format(m, n, i)
-            input_str = "..\\x64\\Debug\\MIP-RCSP.exe ifile ..\\inst\\{}.inst prob {} ttime {}".format(inst, prob, t)
+            input_str = "..\\x64\\Debug\\RCSP-MIP.exe ifile ..\\inst\\{}.inst prob {} ttime {}".format(inst, prob, t)
 
             try:
                 res = subprocess.run(input_str, shell=True, capture_output=True, text=True)

@@ -34,7 +34,7 @@ void TCSPFormulation::addConstraints(IloEnv env, IloModel model, const Instance<
 		incoming[a.second].push_back(a.first);
 	}
 
-	// each active node must have exactly one incoming and one outgoing arc
+	// the flow that enters a node must also leave the node
 	for (int i : inst.V) if (i != inst.s && i != inst.t) {
 		IloExpr sum_in(env); IloExpr sum_out(env); // represents a linear expression of decision variables and constants
 		for (int j : incoming[i]) sum_in += x[j][i]; // cplex overloads +,-,... operators
@@ -44,13 +44,13 @@ void TCSPFormulation::addConstraints(IloEnv env, IloModel model, const Instance<
 		sum_in.end(); sum_out.end(); // IloExpr must always call end() to free memory!
 	}
 
-	// the source node must have exactly one outgoing arc
+	// the source node must send out one unit of flow
 	IloExpr sum_s(env);
 	for (int j : outgoing[inst.s])
 		sum_s += x[inst.s][j];
 	model.add(sum_s == 1); sum_s.end();
 
-	// the target node must have exactly one incoming arc
+	// the target node must receive one unit of flow
 	IloExpr sum_t(env);
 	for (int i : incoming[inst.t])
 		sum_t += x[i][inst.t];
