@@ -30,7 +30,7 @@ int main(int argc, char* argv[])
 
   try {
 	arg_parser.add<std::string>("ifile", "Input file", "inst/bp/bp1.inst");
-	arg_parser.add<std::string>("prob", "Problem: Node Constrained Shortest Path (NCSP), Resource Constrained Shortest Path (RCSP)", "NCSP", { "NCSP", "RCSP" });
+	arg_parser.add<std::string>("prob", "Problem: Node Constrained Shortest Path (NCSP), Resource Constrained Shortest Path (RCSP)", "NCSP", { "NCSP", "TCSP", "RCSP" });
 	arg_parser.add<int>("ttime", "total time limit", 0, 0, std::numeric_limits<int>::max());
 	arg_parser.add<int>("threads", "Number of used threads", 1, 0, 100);
 

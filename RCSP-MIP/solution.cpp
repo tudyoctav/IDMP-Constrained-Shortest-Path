@@ -35,7 +35,7 @@ Solution<TCSP>::Solution(const Instance<TCSP>& inst) : shortest_path(inst.n)
 	total_cost = (int)inst.c.size();
 }
 
-std::ostream& operator<<(std::ostream& os, const Solution<NCSP>& sol)
+std::ostream& operator<<(std::ostream& os, const Solution<TCSP>& sol)
 {
 	os << sol.shortest_path;
 	return os;

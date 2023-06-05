@@ -26,6 +26,7 @@ Instance<NCSP>::Instance(const std::string& input_file) : filename(input_file)
 	int m, r; // number of arcs
 	file >> m >> n >> s >> t >> r;
 
+	V.resize(n);
 	std::iota(V.begin(), V.end(), 0);
 
 	A.reserve(m);
@@ -36,7 +37,6 @@ Instance<NCSP>::Instance(const std::string& input_file) : filename(input_file)
 		file >> c[i][j];
 	}
 
-	V.reserve(n);
 	p.assign(n, 0);
 	for (int l = 0; l < r; l++) {
 		int i; file >> i;
@@ -48,6 +48,14 @@ int Instance<NCSP>::objective(const Solution<NCSP>& sol) const
 {
 	return sol.total_cost;
 }
+
+
+std::ostream& operator<<(std::ostream& os, const Instance<NCSP>& inst)
+{
+	os << "m=" << inst.A.size() << ", n=" << inst.n << ", s=" << inst.s << ", t=" << inst.t;
+	return os;
+}
+
 
 
 /*************************************************************************************************/
@@ -62,6 +70,7 @@ Instance<TCSP>::Instance(const std::string& input_file) : filename(input_file)
 	int m, r; // number of arcs
 	file >> m >> n >> s >> t >> r;
 
+	V.resize(n);
 	std::iota(V.begin(), V.end(), 0);
 
 	A.reserve(m);
@@ -88,7 +97,7 @@ int Instance<TCSP>::objective(const Solution<TCSP>& sol) const
 }
 
 
-std::ostream& operator<<(std::ostream& os, const Instance<NCSP>& inst)
+std::ostream& operator<<(std::ostream& os, const Instance<TCSP>& inst)
 {
 	os << "m=" << inst.A.size() << ", n=" << inst.n << ", s=" << inst.s << ", t=" << inst.t;
 	return os;
