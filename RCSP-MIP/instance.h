@@ -44,7 +44,7 @@ struct Instance<NCSP>
 	int t; // target node 
 
 	std::vector<int> V;					 // index set of vertices [0,...,n-1]
-	std::vector<std::pair<int, int> > A; // index set of arcs (i, j) in A
+	std::vector<std::pair<int, int> > A; // index set of arcs [{i, j}]
 	std::vector<std::vector<int> > c;    // cost of arcs c(i, j)
 	std::vector<int> p;					 // penalty of node p(j)
 };
@@ -73,9 +73,9 @@ struct Instance<TCSP>
 	int t; // target node 
 
 	std::vector<int> V;					 // index set of vertices [0,...,n-1]
-	std::vector<std::pair<int, int> > A; // index set of arcs (i, j) in A
+	std::vector<std::pair<int, int> > A; // index set of arcs [{i, j}]
 	std::vector<std::vector<int> > c;    // cost of arcs c(i, j)
-	std::vector<std::vector<int> > T;	 // task set of node i includes j
+	std::vector<std::vector<int> > T;	 // task i is found in node j
 };
 
 std::ostream& operator<<(std::ostream& os, const Instance<TCSP>& inst);
@@ -103,7 +103,7 @@ struct Instance<RCSP>
 
 	std::vector<int> V; 				 // index set of nodes [0,...,n-1]
 	std::vector<std::pair<int, int> > R; // constraints {l, u} on node i
-	std::vector<std::pair<int, int> > A; // index set of arcs {i, j} in A
+	std::vector<std::pair<int, int> > A; // index set of arcs [{i, j}]
 	std::vector<std::vector<int> > c;    // cost of arcs c(i, j)
 	std::vector<std::vector<int> > d;    // distance of arcs d(i, j)
 };

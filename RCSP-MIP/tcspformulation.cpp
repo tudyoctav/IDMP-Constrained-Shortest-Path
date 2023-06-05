@@ -59,10 +59,10 @@ void TCSPFormulation::addConstraints(IloEnv env, IloModel model, const Instance<
 	MIP_OUT(TRACE) << "added " << inst.n << " constraints to enforce the flow over each node" << std::endl;
 
 	// for each required task, there should be an active node containing that task
-	for (int t : std::vector<int>()) {
+	for (std::vector<int> t : inst.T) {
 		IloExpr sum(env);
 		for (int i : inst.V)
-			sum += y[i] * inst.T[i][t];
+			sum += y[i] * t[i];
 		model.add(sum >= 1); sum.end();
 	}
 }

@@ -23,8 +23,10 @@ Instance<NCSP>::Instance(const std::string& input_file) : filename(input_file)
 	if (!file.is_open())
 		throw std::runtime_error("Cannot open file!");
 
-	int m; // number of arcs
-	file >> m >> n >> s >> t;
+	int m, r; // number of arcs
+	file >> m >> n >> s >> t >> r;
+
+	std::iota(V.begin(), V.end(), 0);
 
 	A.reserve(m);
 	c.assign(n, std::vector<int>(n));
@@ -36,8 +38,8 @@ Instance<NCSP>::Instance(const std::string& input_file) : filename(input_file)
 
 	V.reserve(n);
 	p.assign(n, 0);
-	for (int i = 0; i < n; i++) {
-		V.push_back(i);
+	for (int l = 0; l < r; l++) {
+		int i; file >> i;
 		file >> p[i];
 	}
 }
@@ -57,8 +59,10 @@ Instance<TCSP>::Instance(const std::string& input_file) : filename(input_file)
 	if (!file.is_open())
 		throw std::runtime_error("Cannot open file!");
 
-	int m; // number of arcs
-	file >> m >> n >> s >> t;
+	int m, r; // number of arcs
+	file >> m >> n >> s >> t >> r;
+
+	std::iota(V.begin(), V.end(), 0);
 
 	A.reserve(m);
 	c.assign(n, std::vector<int>(n));
@@ -68,15 +72,13 @@ Instance<TCSP>::Instance(const std::string& input_file) : filename(input_file)
 		file >> c[i][j];
 	}
 
-	V.reserve(n);
-	T.assign(n, std::vector<int>(n));
-	for (int i = 0; i < n; i++) {
-		V.push_back(i);
+	T.assign(r, std::vector<int>(n));
+	for (int l = 0; l < r; l++) {
 		std::string line;
 		std::getline(file, line);
 		std::stringstream  lstream(line);
-		for (int t; lstream >> t; )
-			file >> T[i][t];
+		for (int i; lstream >> i; )
+			file >> T[l][i];
 	}
 }
 
