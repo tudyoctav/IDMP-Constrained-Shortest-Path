@@ -54,10 +54,10 @@ def run(graph: TimeGraph, solver:str):
     constraint_builder.stop_at_end()
     constraint_builder.enforce_time_windows()
 
-    # literals = list(map(id_pool.id, graph.edges))
-    # weights = list(map(lambda e: e.weights[0], graph.edges))
-    literals = constraint_builder.get_optim_literals()
-    weights = [1 for _ in literals]
+    literals = list(map(id_pool.id, graph.edges))
+    weights = list(map(lambda e: e.weights[0], graph.edges))
+    # literals = constraint_builder.get_optim_literals()
+    # weights = [1 for _ in literals]
     clauses = constraint_builder.get_all_clauses()
     res, val = max_sat(formula.CNF(from_clauses=clauses), literals, weights, solver)
 
