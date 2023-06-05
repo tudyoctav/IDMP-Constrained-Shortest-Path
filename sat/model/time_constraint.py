@@ -160,7 +160,7 @@ class TimeConstraintBuilder(ConstraintBuilder):
                     prev_node = id_pool.id(self.route_var[step_index-1][other_node.val])
                     edge_used = id_pool.id(f"edge'{node.val}, {other_node.val}' used at:{step_index}")
                     vars.append(edge_used)
-                    weights.append(edge.weights[0])
+                    weights.append(edge.weights[1])
                     # if current_node /\ prev_node -> egde is used
                     cur_clauses.append(
                         [-cur_node, -prev_node, edge_used]
@@ -180,7 +180,7 @@ class TimeConstraintBuilder(ConstraintBuilder):
                     lower_bound_clauses.append([-var, unary_literal])
                 cur_clauses.extend(lower_bound_clauses)
                 upper_bound_clauses = [[-var, *clause] for clause in PBEnc.leq(current_variables, bound=node.upper_bound - 1, vpool=id_pool)]
-                # cur_clauses.extend(upper_bound_clauses)
+                cur_clauses.extend(upper_bound_clauses)
             vars.extend(prev_variables)
             weights.extend([1 for _ in prev_variables])
             assert len(vars) == len(weights)
