@@ -272,9 +272,10 @@ def generate_constraints_for_rcsp(graph, source, target, name):
 
 
 files = glob.glob(f".\graphs\input\*.graphml")
+print(files[22:])
 # fname = "graphs/basic-graph.graphml"
 parser = GraphMLParser()
-for fname in files:
+for fname in files[22:]:
     graph = nx.read_graphml(fname)
     
     name = fname.split("\\")[-1].split(".")[0]
