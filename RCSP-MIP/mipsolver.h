@@ -3,6 +3,7 @@
 
 #include <ilcplex/ilocplex.h>
 #include "problems.h"
+#include <memory>
 
 
 template<typename> struct Instance;
