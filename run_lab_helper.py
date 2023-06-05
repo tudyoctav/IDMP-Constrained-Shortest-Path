@@ -1,3 +1,5 @@
+from copy import copy
+from functools import cache
 from pathlib import Path
 from lab.experiment import Experiment, Run
 from typing import List
@@ -122,24 +124,39 @@ def make_sat_runs(exp: Experiment, problem: Path, problem_type: str, time_limit:
         run.set_property("run_index", str(run_i))
     return res
 
+MIP_SOVLER = Path("RCSP-MIP/build/RCSP-MIP")
+@cache
+def get_mip_solver():
+    mip_solver = copy(MIP_SOVLER)
+    if mip_solver.exists():
+        return mip_solver
+    mip_solver.suffix=".exe"
+    if mip_solver.exists():
+        return mip_solver
+    print(f"Warning could not find: {mip_solver} please make sure that you have a compiled mip solver inside the RCSP-MIP/build!")
+    return None
 
 def make_mip_runs(exp: Experiment, problem: Path, problem_type: str, time_limit: str, memory_limit: str, run_i: int) -> List[Run]:
     res = []
+    model = get_mip_solver()
+    run = exp.add_run()
+    res.append(run)
+    run.set_property("solver", "cplex")
+    # Every run should have a unique id
+    run.set_property("id", ["cp", problem_type, str(problem), "cplex", f"run_{run_i}"])
+    run.set_property("algorithm", "sat")
+    run.add_resource("model", model.absolute(), symlink=True)
+    # TODO convert file to inst
     match problem_type:
-        case "time_window":
-            pass
         case "resource_constrained":
-            pass
+            run.add_command("solve", ["{model}", "ifile", "TODO", "RCSP"], time_limit, memory_limit)
         case "node":
-            # TODO
-            pass
-        case "ordered_task":
-            pass
+            run.add_command("solve", ["{model}", "ifile", "TODO", "NCSP"])
         case "unordered_task":
-            # TODO
-            pass
+            run.add_command("solve", ["{model}", "ifile", "TODO", "TCSP"])
         case _:
-            raise NotImplementedError()
+            exp.runs.pop()
+            res.pop()
     return res
 
 def count_non_zero(values: list):
