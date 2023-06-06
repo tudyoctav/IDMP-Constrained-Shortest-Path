@@ -21,42 +21,42 @@
     <node id="2">
       <data key="x_pos">0.0</data>
       <data key="y_pos">0.8660254037844386</data>
-      <data key="lower_bound">10</data>
-      <data key="upper_bound">10</data>
+      <data key="lower_bound">13</data>
+      <data key="upper_bound">13</data>
     </node>
     <node id="3">
       <data key="x_pos">0.5</data>
       <data key="y_pos">1.7320508075688772</data>
-      <data key="lower_bound">22</data>
-      <data key="upper_bound">22</data>
+      <data key="lower_bound">15</data>
+      <data key="upper_bound">15</data>
     </node>
     <node id="4">
       <data key="x_pos">1.5</data>
       <data key="y_pos">0.0</data>
-      <data key="lower_bound">11</data>
-      <data key="upper_bound">11</data>
+      <data key="lower_bound">5</data>
+      <data key="upper_bound">5</data>
     </node>
     <node id="5">
       <data key="x_pos">2.0</data>
       <data key="y_pos">0.8660254037844386</data>
-      <data key="lower_bound">18</data>
-      <data key="upper_bound">18</data>
+      <data key="lower_bound">6</data>
+      <data key="upper_bound">6</data>
     </node>
     <node id="6">
       <data key="end">True</data>
       <data key="x_pos">1.5</data>
       <data key="y_pos">1.7320508075688772</data>
-      <data key="lower_bound">23</data>
-      <data key="upper_bound">23</data>
-      <data key="final_time">23</data>
+      <data key="lower_bound">12</data>
+      <data key="upper_bound">12</data>
+      <data key="final_time">12</data>
     </node>
     <edge source="1" target="2">
       <data key="weight">11</data>
-      <data key="time">10</data>
+      <data key="time">13</data>
     </edge>
     <edge source="1" target="4">
       <data key="weight">8</data>
-      <data key="time">11</data>
+      <data key="time">5</data>
     </edge>
     <edge source="2" target="3">
       <data key="weight">8</data>
@@ -64,15 +64,15 @@
     </edge>
     <edge source="3" target="6">
       <data key="weight">10</data>
-      <data key="time">13</data>
+      <data key="time">3</data>
     </edge>
     <edge source="4" target="5">
       <data key="weight">1</data>
-      <data key="time">7</data>
+      <data key="time">1</data>
     </edge>
     <edge source="5" target="6">
       <data key="weight">1</data>
-      <data key="time">5</data>
+      <data key="time">6</data>
     </edge>
     <data key="name">hexagonal_lattice_N_1</data>
   </graph>

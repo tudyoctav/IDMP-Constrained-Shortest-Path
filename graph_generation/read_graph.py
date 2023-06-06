@@ -73,14 +73,14 @@ def create_data_file_rcsp(graphml_obj, filename):
         f.write(f'Time = {Time};\n')
 
     # Write the extracted information to a .txt file for the MIP solver
-    filename3 = "./data/mip/rcsp/" + filename + ".txt"
+    filename3 = "./data/mip/rcsp/" + filename + ".inst"
     with open(filename3, 'w') as f:
-        f.write(f'{M} {N} {Start} {End}')
+        f.write(f'{M} {N} {Start} {End}\n')
         for edge in graphml_obj.edges(data = True):
-            f.write(f'{edge[0]} {edge[1]} {edge[2]["weight"]} {edge[2]["time"]}')
-            f.write(f'{edge[1]} {edge[0]} {edge[2]["weight"]} {edge[2]["time"]}') # write the reverse of the edges since undirected
+            f.write(f'{edge[0]} {edge[1]} {edge[2]["weight"]} {edge[2]["time"]}\n')
+            f.write(f'{edge[1]} {edge[0]} {edge[2]["weight"]} {edge[2]["time"]}\n') # write the reverse of the edges since undirected
         for node in graphml_obj.nodes(data = True):
-            f.write(f'{node[1]["lower_bound"]} {node[1]["upper_bound"]}')
+            f.write(f'{node[1]["lower_bound"]} {node[1]["upper_bound"]}\n')
 
 def create_data_file_tcsp(graphml_obj, filename):
     # Extract necessary information from the graphml_obj
@@ -140,7 +140,7 @@ def create_data_file_tcsp(graphml_obj, filename):
             f.write(f'{" ".join(tasks[task])}\n')
 
     # Write the extracted information to text file for MIP solver
-    filename3 = "./data/mip/tcsp/" + filename + ".txt"
+    filename3 = "./data/mip/tcsp/" + filename + ".inst"
     with open(filename3, 'w') as f:
         f.write(f'{M * 2} {N} {Start} {End} {num_tasks}\n')
         for edge in graphml_obj.edges():
@@ -297,7 +297,7 @@ def display_graph(graph, source, target,fig = None, draw_labels = False):
         node_labels = {node: (data['lower_bound'], data['upper_bound']) for node,data in graph.nodes(data = True)}
         # nx.draw_networkx_labels(G, shifted_pos, labels=node_labels, horizontalalignment="left", font_color = start_colour)
         nx.draw_networkx_labels(graph, shifted_pos, labels=node_labels)
-    plt.show()
+
 
 files = glob.glob(f".\graphs\input\*.graphml")
 files.sort(key=os.path.getmtime)
