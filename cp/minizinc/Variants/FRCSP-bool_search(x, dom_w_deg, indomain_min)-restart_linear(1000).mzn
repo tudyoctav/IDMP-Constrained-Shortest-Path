@@ -73,7 +73,7 @@ constraint
     forall(i in 1..N ) (
         if i = Start then
              % we can not leave before lower bound or after the upper bound
-             Lower_Bound[i] <= left[i] /\ left[i] < Upper_Bound[i]
+             Lower_Bound[i] <= left[i] /\ left[i] <= Upper_Bound[i]
         else
              Lower_Bound[i] <= left[i] /\ left[i] <= Upper_Bound[i] /\
              % we can not leave before we arrive 

@@ -4,23 +4,6 @@ import matplotlib.pyplot as plt
 import random
 import sys
 
-def get_colour(time):
-    if time < 2:
-        colour = 'lightgreen'
-    elif time < 3 :
-        colour = 'green'
-    elif time < 4 :
-        colour = 'darkgreen'
-    elif time < 5 :
-        colour = 'yellow'
-    elif time < 6 :
-        colour = 'orange'
-    elif time < 7 :
-        colour = 'darkred'
-    else:
-        colour = 'red'
-    return colour
-
 def remove_random_edges(G, p = 0.1):
     G_copy = G.copy()
     res = 0
@@ -37,11 +20,6 @@ def remove_random_edges(G, p = 0.1):
 
 def add_random_weights(G , pos = None, scale = 100, var = 0):
     N = len(G.nodes())
-    # for n in G.nodes():
-    #     # generate random lower bound
-    #     G.nodes[n]['lower_bound'] = random.randint(0,5)
-    #     # generate random upper bound
-    #     G.nodes[n]['upper_bound'] = G.nodes[n]['lower_bound'] + random.randint(1,3) * N
 
     for (u, v) in G.edges():
         # generate random distance
@@ -52,17 +30,8 @@ def add_random_weights(G , pos = None, scale = 100, var = 0):
             # print("Distance", distance)
         else:
             distance = random.randint(3,10)
-        # generate random time by altering the distance
-        # time = distance + random.randint(-1,3)
         G[u][v]['weight'] = distance
-        # G[u][v]['time'] = time
-        # # generate appropriate lower bound and upper bound
-        # # G[u]['lower bound'] += int(G[u][v]['weight']  * random.lognormvariate(0,1))
-        # G.nodes[v]['upper_bound'] = max(G.nodes[v]['upper_bound'], G.nodes[u]['upper_bound'] + int(time * random.uniform(1,2)))
-        # # generate appropriate colour
-        # G[u][v]['colour'] = get_colour(distance)
-
-
+  
 def relable_tuple_nodes(G, custom = None):
     mapping = {}
     ind = 1
