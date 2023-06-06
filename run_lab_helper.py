@@ -5,7 +5,7 @@ from lab.experiment import Experiment, Run
 from typing import List
 import sys
 
-NUM_OF_RUNS = 3
+NUM_OF_RUNS = 1
 PYTHON = sys.executable
 
 
@@ -20,15 +20,17 @@ def make_runs(exp: Experiment, problem: Path, problem_type: str, time_limit: str
                    time_limit, memory_limit, i))
     for run in res:
         run.add_resource("problem", problem, symlink=True)
-        run.set_property("problem", problem.name)
+        run.set_property("problem", problem.stem)
         run.set_property("problem_type", problem_type)
-        run.set_property("domain", problem.name)
+        run.set_property("domain", problem.stem)
         run.set_property("time_limit", time_limit)
         run.set_property("memory_limit", memory_limit)
     return res
 
 
 def make_cp_runs(exp: Experiment, problem: Path, problem_type: str, time_limit: str, memory_limit: str, run_i: int) -> List[Run]:
+    if problem.suffix != ".dzn":
+        return []
     res = []
     BASE_ID = ["cp", problem_type, str(problem)]
 
@@ -38,7 +40,7 @@ def make_cp_runs(exp: Experiment, problem: Path, problem_type: str, time_limit: 
             continue
         match problem_type:
             case "time_window":
-                for model in Path("cp/minizinc/Variants").glob("TRCSP*.mzn"):
+                for model in Path("cp/minizinc/Variants").glob("FRCSP*.mzn"):
                     run = exp.add_run()
                     
 
@@ -90,7 +92,7 @@ def make_cp_runs(exp: Experiment, problem: Path, problem_type: str, time_limit: 
 def make_sat_runs(exp: Experiment, problem: Path, problem_type: str, time_limit: str, memory_limit: int, run_i: int) -> List[Run]:
     res = []
     BASE_ID = ["sat", problem_type, str(problem)]
-    for solver in ["m22", "cadical153"]:
+    for solver in ["cadical153"]:
 
         run = exp.add_run()
         res.append(run)
@@ -102,18 +104,20 @@ def make_sat_runs(exp: Experiment, problem: Path, problem_type: str, time_limit:
         match problem_type:
             case "time_window" | "resource_constrained":
                 # resources that are needed for running should be added
+                if problem.suffix != ".dzn":
+                    # Remove run and exit not correct format!
+                    exp.runs.pop()
+                    return []
                 run.add_resource("model", Path(
                     "sat/model").absolute(), symlink=True)
                 run.add_command("solve", [PYTHON, "{model}", "--solver", solver,
                                 problem_type, "{problem}"], time_limit, memory_limit)
             case "node" | "ordered_task" | "unordered_task":
                 problem_val = "{problem}"
-                if problem.suffix == ".dzn":
-                    # TODO Doesn't work yet converter needs updating
-                    run.add_resource("converter", Path("sat-node-task/convert.py").absolute(), symlink=True)
-                    run.add_command("create_data_txt", ["mkdir", Path("data-txt")])
-                    run.add_command("convert_dzn2txt", [PYTHON, "{converter}", problem_val])
-                    problem_val = "data-txt/" / Path(problem.stem + "-sat.txt")
+                if problem.suffix != ".txt":
+                    # Remove run and exit not correct format!
+                    exp.runs.pop()
+                    return []
                 run.add_resource("model", Path(
                     "sat-node-task/sat_directed_edges-idpool.py").absolute(), symlink=True)
                 run.add_command(
@@ -137,6 +141,8 @@ def get_mip_solver():
     return None
 
 def make_mip_runs(exp: Experiment, problem: Path, problem_type: str, time_limit: str, memory_limit: str, run_i: int) -> List[Run]:
+    if problem.suffix != ".inst":
+        return []
     res = []
     model = get_mip_solver()
     run = exp.add_run()
@@ -144,16 +150,15 @@ def make_mip_runs(exp: Experiment, problem: Path, problem_type: str, time_limit:
     run.set_property("solver", "cplex")
     # Every run should have a unique id
     run.set_property("id", ["cp", problem_type, str(problem), "cplex", f"run_{run_i}"])
-    run.set_property("algorithm", "sat")
+    run.set_property("algorithm", "mip")
     run.add_resource("model", model.absolute(), symlink=True)
-    # TODO convert file to inst
     match problem_type:
         case "resource_constrained":
-            run.add_command("solve", ["{model}", "ifile", "TODO", "RCSP"], time_limit, memory_limit)
+            run.add_command("solve", ["./{model}", "ifile", "{problem}", "prob", "RCSP"], time_limit, memory_limit)
         case "node":
-            run.add_command("solve", ["{model}", "ifile", "TODO", "NCSP"])
+            run.add_command("solve", ["./{model}", "ifile", "{problem}", "prob", "NCSP"], time_limit, memory_limit)
         case "unordered_task":
-            run.add_command("solve", ["{model}", "ifile", "TODO", "TCSP"])
+            run.add_command("solve", ["./{model}", "ifile", "{problem}", "prob", "TCSP"], time_limit, memory_limit)
         case _:
             exp.runs.pop()
             res.pop()
