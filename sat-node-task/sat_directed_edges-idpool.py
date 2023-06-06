@@ -234,7 +234,7 @@ if __name__ == '__main__':
         if num_args > 3:
             solver = str(args[3])
         else:
-            solver = 'g3'
+            solver = 'cadical153'
         output = run(file, type, solver)
         if output is not None:
             print(output)
