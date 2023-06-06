@@ -21,314 +21,314 @@
     <node id="2">
       <data key="x_pos">0.0</data>
       <data key="y_pos">0.8660254037844386</data>
-      <data key="lower_bound">2</data>
-      <data key="upper_bound">2</data>
+      <data key="lower_bound">3</data>
+      <data key="upper_bound">3</data>
     </node>
     <node id="3">
       <data key="x_pos">0.5</data>
       <data key="y_pos">1.7320508075688772</data>
-      <data key="lower_bound">3</data>
-      <data key="upper_bound">3</data>
+      <data key="lower_bound">16</data>
+      <data key="upper_bound">16</data>
     </node>
     <node id="4">
       <data key="x_pos">0.0</data>
       <data key="y_pos">2.598076211353316</data>
-      <data key="lower_bound">4</data>
-      <data key="upper_bound">4</data>
+      <data key="lower_bound">20</data>
+      <data key="upper_bound">20</data>
     </node>
     <node id="5">
       <data key="x_pos">0.5</data>
       <data key="y_pos">3.4641016151377544</data>
-      <data key="lower_bound">14</data>
-      <data key="upper_bound">14</data>
+      <data key="lower_bound">29</data>
+      <data key="upper_bound">29</data>
     </node>
     <node id="6">
       <data key="x_pos">0.0</data>
       <data key="y_pos">4.330127018922193</data>
-      <data key="lower_bound">20</data>
-      <data key="upper_bound">20</data>
+      <data key="lower_bound">33</data>
+      <data key="upper_bound">33</data>
     </node>
     <node id="7">
       <data key="x_pos">0.5</data>
       <data key="y_pos">5.196152422706632</data>
-      <data key="lower_bound">22</data>
-      <data key="upper_bound">22</data>
+      <data key="lower_bound">36</data>
+      <data key="upper_bound">36</data>
     </node>
     <node id="8">
       <data key="x_pos">0.0</data>
       <data key="y_pos">6.06217782649107</data>
-      <data key="lower_bound">30</data>
-      <data key="upper_bound">30</data>
+      <data key="lower_bound">37</data>
+      <data key="upper_bound">37</data>
     </node>
     <node id="9">
       <data key="x_pos">0.5</data>
       <data key="y_pos">6.928203230275509</data>
-      <data key="lower_bound">32</data>
-      <data key="upper_bound">32</data>
+      <data key="lower_bound">38</data>
+      <data key="upper_bound">38</data>
     </node>
     <node id="10">
       <data key="x_pos">1.5</data>
       <data key="y_pos">0.0</data>
-      <data key="lower_bound">14</data>
-      <data key="upper_bound">14</data>
+      <data key="lower_bound">19</data>
+      <data key="upper_bound">19</data>
     </node>
     <node id="11">
       <data key="x_pos">2.0</data>
       <data key="y_pos">0.8660254037844386</data>
-      <data key="lower_bound">25</data>
-      <data key="upper_bound">25</data>
+      <data key="lower_bound">20</data>
+      <data key="upper_bound">20</data>
     </node>
     <node id="12">
       <data key="x_pos">1.5</data>
       <data key="y_pos">1.7320508075688772</data>
-      <data key="lower_bound">22</data>
-      <data key="upper_bound">22</data>
+      <data key="lower_bound">32</data>
+      <data key="upper_bound">32</data>
     </node>
     <node id="13">
       <data key="x_pos">2.0</data>
       <data key="y_pos">2.598076211353316</data>
-      <data key="lower_bound">26</data>
-      <data key="upper_bound">26</data>
+      <data key="lower_bound">33</data>
+      <data key="upper_bound">33</data>
     </node>
     <node id="14">
       <data key="x_pos">1.5</data>
       <data key="y_pos">3.4641016151377544</data>
-      <data key="lower_bound">27</data>
-      <data key="upper_bound">27</data>
+      <data key="lower_bound">38</data>
+      <data key="upper_bound">38</data>
     </node>
     <node id="15">
       <data key="x_pos">2.0</data>
       <data key="y_pos">4.330127018922193</data>
-      <data key="lower_bound">28</data>
-      <data key="upper_bound">28</data>
+      <data key="lower_bound">44</data>
+      <data key="upper_bound">44</data>
     </node>
     <node id="16">
       <data key="x_pos">1.5</data>
       <data key="y_pos">5.196152422706632</data>
-      <data key="lower_bound">27</data>
-      <data key="upper_bound">27</data>
+      <data key="lower_bound">38</data>
+      <data key="upper_bound">38</data>
     </node>
     <node id="17">
       <data key="x_pos">2.0</data>
       <data key="y_pos">6.06217782649107</data>
-      <data key="lower_bound">38</data>
-      <data key="upper_bound">38</data>
+      <data key="lower_bound">58</data>
+      <data key="upper_bound">58</data>
     </node>
     <node id="18">
       <data key="x_pos">1.5</data>
       <data key="y_pos">6.928203230275509</data>
-      <data key="lower_bound">38</data>
-      <data key="upper_bound">38</data>
+      <data key="lower_bound">56</data>
+      <data key="upper_bound">56</data>
     </node>
     <node id="19">
       <data key="x_pos">2.0</data>
       <data key="y_pos">7.794228634059947</data>
-      <data key="lower_bound">89</data>
-      <data key="upper_bound">89</data>
+      <data key="lower_bound">120</data>
+      <data key="upper_bound">120</data>
     </node>
     <node id="20">
       <data key="x_pos">3.5</data>
       <data key="y_pos">0.0</data>
-      <data key="lower_bound">44</data>
-      <data key="upper_bound">44</data>
+      <data key="lower_bound">40</data>
+      <data key="upper_bound">40</data>
     </node>
     <node id="21">
       <data key="x_pos">3.0</data>
       <data key="y_pos">0.8660254037844386</data>
-      <data key="lower_bound">43</data>
-      <data key="upper_bound">43</data>
+      <data key="lower_bound">36</data>
+      <data key="upper_bound">36</data>
     </node>
     <node id="22">
       <data key="x_pos">3.5</data>
       <data key="y_pos">1.7320508075688772</data>
-      <data key="lower_bound">48</data>
-      <data key="upper_bound">48</data>
+      <data key="lower_bound">41</data>
+      <data key="upper_bound">41</data>
     </node>
     <node id="23">
       <data key="x_pos">3.0</data>
       <data key="y_pos">2.598076211353316</data>
-      <data key="lower_bound">42</data>
-      <data key="upper_bound">42</data>
+      <data key="lower_bound">47</data>
+      <data key="upper_bound">47</data>
     </node>
     <node id="24">
       <data key="x_pos">3.5</data>
       <data key="y_pos">3.4641016151377544</data>
-      <data key="lower_bound">39</data>
-      <data key="upper_bound">39</data>
+      <data key="lower_bound">57</data>
+      <data key="upper_bound">57</data>
     </node>
     <node id="25">
       <data key="x_pos">3.0</data>
       <data key="y_pos">4.330127018922193</data>
-      <data key="lower_bound">30</data>
-      <data key="upper_bound">30</data>
+      <data key="lower_bound">56</data>
+      <data key="upper_bound">56</data>
     </node>
     <node id="26">
       <data key="x_pos">3.5</data>
       <data key="y_pos">5.196152422706632</data>
-      <data key="lower_bound">48</data>
-      <data key="upper_bound">48</data>
+      <data key="lower_bound">64</data>
+      <data key="upper_bound">64</data>
     </node>
     <node id="27">
       <data key="x_pos">3.0</data>
       <data key="y_pos">6.06217782649107</data>
-      <data key="lower_bound">48</data>
-      <data key="upper_bound">48</data>
+      <data key="lower_bound">60</data>
+      <data key="upper_bound">60</data>
     </node>
     <node id="28">
       <data key="x_pos">3.5</data>
       <data key="y_pos">6.928203230275509</data>
-      <data key="lower_bound">64</data>
-      <data key="upper_bound">64</data>
+      <data key="lower_bound">78</data>
+      <data key="upper_bound">78</data>
     </node>
     <node id="29">
       <data key="x_pos">3.0</data>
       <data key="y_pos">7.794228634059947</data>
-      <data key="lower_bound">79</data>
-      <data key="upper_bound">79</data>
+      <data key="lower_bound">102</data>
+      <data key="upper_bound">102</data>
     </node>
     <node id="30">
       <data key="x_pos">4.5</data>
       <data key="y_pos">0.0</data>
-      <data key="lower_bound">93</data>
-      <data key="upper_bound">93</data>
+      <data key="lower_bound">84</data>
+      <data key="upper_bound">84</data>
     </node>
     <node id="31">
       <data key="x_pos">5.0</data>
       <data key="y_pos">0.8660254037844386</data>
-      <data key="lower_bound">80</data>
-      <data key="upper_bound">80</data>
+      <data key="lower_bound">81</data>
+      <data key="upper_bound">81</data>
     </node>
     <node id="32">
       <data key="x_pos">4.5</data>
       <data key="y_pos">1.7320508075688772</data>
-      <data key="lower_bound">49</data>
-      <data key="upper_bound">49</data>
+      <data key="lower_bound">54</data>
+      <data key="upper_bound">54</data>
     </node>
     <node id="33">
       <data key="x_pos">5.0</data>
       <data key="y_pos">2.598076211353316</data>
-      <data key="lower_bound">50</data>
-      <data key="upper_bound">50</data>
+      <data key="lower_bound">55</data>
+      <data key="upper_bound">55</data>
     </node>
     <node id="34">
       <data key="x_pos">4.5</data>
       <data key="y_pos">3.4641016151377544</data>
-      <data key="lower_bound">47</data>
-      <data key="upper_bound">47</data>
+      <data key="lower_bound">68</data>
+      <data key="upper_bound">68</data>
     </node>
     <node id="35">
       <data key="x_pos">5.0</data>
       <data key="y_pos">4.330127018922193</data>
-      <data key="lower_bound">48</data>
-      <data key="upper_bound">48</data>
+      <data key="lower_bound">71</data>
+      <data key="upper_bound">71</data>
     </node>
     <node id="36">
       <data key="x_pos">4.5</data>
       <data key="y_pos">5.196152422706632</data>
-      <data key="lower_bound">49</data>
-      <data key="upper_bound">49</data>
+      <data key="lower_bound">65</data>
+      <data key="upper_bound">65</data>
     </node>
     <node id="37">
       <data key="x_pos">5.0</data>
       <data key="y_pos">6.06217782649107</data>
-      <data key="lower_bound">51</data>
-      <data key="upper_bound">51</data>
+      <data key="lower_bound">66</data>
+      <data key="upper_bound">66</data>
     </node>
     <node id="38">
       <data key="x_pos">4.5</data>
       <data key="y_pos">6.928203230275509</data>
-      <data key="lower_bound">63</data>
-      <data key="upper_bound">63</data>
+      <data key="lower_bound">77</data>
+      <data key="upper_bound">77</data>
     </node>
     <node id="39">
       <data key="x_pos">5.0</data>
       <data key="y_pos">7.794228634059947</data>
-      <data key="lower_bound">78</data>
-      <data key="upper_bound">78</data>
+      <data key="lower_bound">82</data>
+      <data key="upper_bound">82</data>
     </node>
     <node id="40">
       <data key="x_pos">6.0</data>
       <data key="y_pos">0.8660254037844386</data>
-      <data key="lower_bound">74</data>
-      <data key="upper_bound">74</data>
+      <data key="lower_bound">72</data>
+      <data key="upper_bound">72</data>
     </node>
     <node id="41">
       <data key="x_pos">6.5</data>
       <data key="y_pos">1.7320508075688772</data>
-      <data key="lower_bound">58</data>
-      <data key="upper_bound">58</data>
+      <data key="lower_bound">71</data>
+      <data key="upper_bound">71</data>
     </node>
     <node id="42">
       <data key="x_pos">6.0</data>
       <data key="y_pos">2.598076211353316</data>
-      <data key="lower_bound">54</data>
-      <data key="upper_bound">54</data>
+      <data key="lower_bound">70</data>
+      <data key="upper_bound">70</data>
     </node>
     <node id="43">
       <data key="x_pos">6.5</data>
       <data key="y_pos">3.4641016151377544</data>
-      <data key="lower_bound">55</data>
-      <data key="upper_bound">55</data>
+      <data key="lower_bound">74</data>
+      <data key="upper_bound">74</data>
     </node>
     <node id="44">
       <data key="x_pos">6.0</data>
       <data key="y_pos">4.330127018922193</data>
-      <data key="lower_bound">60</data>
-      <data key="upper_bound">60</data>
+      <data key="lower_bound">84</data>
+      <data key="upper_bound">84</data>
     </node>
     <node id="45">
       <data key="x_pos">6.5</data>
       <data key="y_pos">5.196152422706632</data>
-      <data key="lower_bound">55</data>
-      <data key="upper_bound">55</data>
+      <data key="lower_bound">84</data>
+      <data key="upper_bound">84</data>
     </node>
     <node id="46">
       <data key="x_pos">6.0</data>
       <data key="y_pos">6.06217782649107</data>
-      <data key="lower_bound">54</data>
-      <data key="upper_bound">54</data>
+      <data key="lower_bound">83</data>
+      <data key="upper_bound">83</data>
     </node>
     <node id="47">
       <data key="x_pos">6.5</data>
       <data key="y_pos">6.928203230275509</data>
-      <data key="lower_bound">55</data>
-      <data key="upper_bound">55</data>
+      <data key="lower_bound">84</data>
+      <data key="upper_bound">84</data>
     </node>
     <node id="48">
       <data key="end">True</data>
       <data key="x_pos">6.0</data>
       <data key="y_pos">7.794228634059947</data>
-      <data key="lower_bound">74</data>
-      <data key="upper_bound">74</data>
-      <data key="final_time">74</data>
+      <data key="lower_bound">96</data>
+      <data key="upper_bound">96</data>
+      <data key="final_time">96</data>
     </node>
     <edge source="1" target="2">
       <data key="weight">1</data>
-      <data key="time">2</data>
+      <data key="time">3</data>
     </edge>
     <edge source="1" target="10">
       <data key="weight">13</data>
-      <data key="time">14</data>
+      <data key="time">19</data>
     </edge>
     <edge source="2" target="3">
       <data key="weight">11</data>
-      <data key="time">1</data>
+      <data key="time">13</data>
     </edge>
     <edge source="3" target="4">
       <data key="weight">1</data>
-      <data key="time">1</data>
+      <data key="time">4</data>
     </edge>
     <edge source="3" target="12">
       <data key="weight">18</data>
-      <data key="time">19</data>
+      <data key="time">23</data>
     </edge>
     <edge source="4" target="5">
       <data key="weight">8</data>
-      <data key="time">10</data>
+      <data key="time">9</data>
     </edge>
     <edge source="5" target="6">
       <data key="weight">12</data>
-      <data key="time">6</data>
+      <data key="time">4</data>
     </edge>
     <edge source="5" target="14">
       <data key="weight">13</data>
@@ -336,111 +336,111 @@
     </edge>
     <edge source="6" target="7">
       <data key="weight">1</data>
-      <data key="time">2</data>
+      <data key="time">3</data>
     </edge>
     <edge source="7" target="8">
       <data key="weight">3</data>
-      <data key="time">8</data>
+      <data key="time">1</data>
     </edge>
     <edge source="7" target="16">
       <data key="weight">5</data>
-      <data key="time">5</data>
+      <data key="time">2</data>
     </edge>
     <edge source="8" target="9">
       <data key="weight">1</data>
-      <data key="time">2</data>
+      <data key="time">1</data>
     </edge>
     <edge source="9" target="18">
       <data key="weight">15</data>
-      <data key="time">6</data>
+      <data key="time">18</data>
     </edge>
     <edge source="10" target="11">
       <data key="weight">6</data>
-      <data key="time">11</data>
+      <data key="time">1</data>
     </edge>
     <edge source="11" target="12">
       <data key="weight">8</data>
-      <data key="time">6</data>
+      <data key="time">12</data>
     </edge>
     <edge source="11" target="21">
       <data key="weight">19</data>
-      <data key="time">18</data>
+      <data key="time">16</data>
     </edge>
     <edge source="12" target="13">
       <data key="weight">5</data>
-      <data key="time">4</data>
+      <data key="time">1</data>
     </edge>
     <edge source="13" target="14">
       <data key="weight">11</data>
-      <data key="time">11</data>
+      <data key="time">5</data>
     </edge>
     <edge source="13" target="23">
       <data key="weight">10</data>
-      <data key="time">16</data>
+      <data key="time">14</data>
     </edge>
     <edge source="14" target="15">
       <data key="weight">10</data>
-      <data key="time">16</data>
+      <data key="time">13</data>
     </edge>
     <edge source="15" target="16">
       <data key="weight">10</data>
-      <data key="time">1</data>
+      <data key="time">6</data>
     </edge>
     <edge source="15" target="25">
       <data key="weight">6</data>
-      <data key="time">2</data>
+      <data key="time">12</data>
     </edge>
     <edge source="16" target="17">
       <data key="weight">16</data>
-      <data key="time">11</data>
+      <data key="time">20</data>
     </edge>
     <edge source="17" target="18">
       <data key="weight">12</data>
-      <data key="time">18</data>
+      <data key="time">8</data>
     </edge>
     <edge source="17" target="27">
       <data key="weight">6</data>
-      <data key="time">10</data>
+      <data key="time">2</data>
     </edge>
     <edge source="19" target="29">
       <data key="weight">11</data>
-      <data key="time">10</data>
+      <data key="time">18</data>
     </edge>
     <edge source="20" target="21">
       <data key="weight">2</data>
-      <data key="time">1</data>
+      <data key="time">4</data>
     </edge>
     <edge source="21" target="22">
       <data key="weight">7</data>
-      <data key="time">9</data>
+      <data key="time">5</data>
     </edge>
     <edge source="22" target="23">
       <data key="weight">12</data>
-      <data key="time">6</data>
+      <data key="time">16</data>
     </edge>
     <edge source="22" target="32">
       <data key="weight">3</data>
-      <data key="time">1</data>
+      <data key="time">13</data>
     </edge>
     <edge source="23" target="24">
       <data key="weight">7</data>
-      <data key="time">4</data>
+      <data key="time">11</data>
     </edge>
     <edge source="24" target="25">
       <data key="weight">2</data>
-      <data key="time">9</data>
+      <data key="time">1</data>
     </edge>
     <edge source="24" target="34">
       <data key="weight">12</data>
-      <data key="time">8</data>
+      <data key="time">11</data>
     </edge>
     <edge source="25" target="26">
       <data key="weight">19</data>
-      <data key="time">18</data>
+      <data key="time">23</data>
     </edge>
     <edge source="26" target="27">
       <data key="weight">6</data>
-      <data key="time">1</data>
+      <data key="time">4</data>
     </edge>
     <edge source="26" target="36">
       <data key="weight">4</data>
@@ -448,7 +448,7 @@
     </edge>
     <edge source="28" target="29">
       <data key="weight">14</data>
-      <data key="time">15</data>
+      <data key="time">24</data>
     </edge>
     <edge source="28" target="38">
       <data key="weight">2</data>
@@ -456,11 +456,11 @@
     </edge>
     <edge source="30" target="31">
       <data key="weight">1</data>
-      <data key="time">13</data>
+      <data key="time">3</data>
     </edge>
     <edge source="31" target="40">
       <data key="weight">11</data>
-      <data key="time">6</data>
+      <data key="time">9</data>
     </edge>
     <edge source="32" target="33">
       <data key="weight">4</data>
@@ -468,19 +468,19 @@
     </edge>
     <edge source="33" target="34">
       <data key="weight">13</data>
-      <data key="time">8</data>
+      <data key="time">14</data>
     </edge>
     <edge source="33" target="42">
       <data key="weight">15</data>
-      <data key="time">4</data>
+      <data key="time">15</data>
     </edge>
     <edge source="34" target="35">
       <data key="weight">1</data>
-      <data key="time">1</data>
+      <data key="time">3</data>
     </edge>
     <edge source="35" target="36">
       <data key="weight">18</data>
-      <data key="time">14</data>
+      <data key="time">17</data>
     </edge>
     <edge source="35" target="44">
       <data key="weight">16</data>
@@ -488,43 +488,43 @@
     </edge>
     <edge source="36" target="37">
       <data key="weight">5</data>
-      <data key="time">2</data>
+      <data key="time">1</data>
     </edge>
     <edge source="37" target="38">
       <data key="weight">10</data>
-      <data key="time">12</data>
+      <data key="time">11</data>
     </edge>
     <edge source="37" target="46">
       <data key="weight">9</data>
-      <data key="time">3</data>
+      <data key="time">17</data>
     </edge>
     <edge source="38" target="39">
       <data key="weight">15</data>
-      <data key="time">25</data>
+      <data key="time">5</data>
     </edge>
     <edge source="39" target="48">
       <data key="weight">11</data>
-      <data key="time">4</data>
+      <data key="time">14</data>
     </edge>
     <edge source="40" target="41">
       <data key="weight">11</data>
-      <data key="time">16</data>
+      <data key="time">1</data>
     </edge>
     <edge source="41" target="42">
       <data key="weight">3</data>
-      <data key="time">4</data>
+      <data key="time">1</data>
     </edge>
     <edge source="42" target="43">
       <data key="weight">5</data>
-      <data key="time">1</data>
+      <data key="time">4</data>
     </edge>
     <edge source="43" target="44">
       <data key="weight">8</data>
-      <data key="time">5</data>
+      <data key="time">10</data>
     </edge>
     <edge source="44" target="45">
       <data key="weight">10</data>
-      <data key="time">9</data>
+      <data key="time">12</data>
     </edge>
     <edge source="45" target="46">
       <data key="weight">2</data>
@@ -536,7 +536,7 @@
     </edge>
     <edge source="47" target="48">
       <data key="weight">13</data>
-      <data key="time">19</data>
+      <data key="time">13</data>
     </edge>
     <data key="name">hexagonal_lattice_N_4</data>
   </graph>

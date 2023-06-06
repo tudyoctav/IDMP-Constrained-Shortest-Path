@@ -75,7 +75,7 @@ def create_data_file_rcsp(graphml_obj, filename):
     # Write the extracted information to a .txt file for the MIP solver
     filename3 = "./data/mip/rcsp/" + filename + ".inst"
     with open(filename3, 'w') as f:
-        f.write(f'{M} {N} {Start} {End}\n')
+        f.write(f'{M * 2} {N} {Start} {End}\n')
         for edge in graphml_obj.edges(data = True):
             f.write(f'{edge[0]} {edge[1]} {edge[2]["weight"]} {edge[2]["time"]}\n')
             f.write(f'{edge[1]} {edge[0]} {edge[2]["weight"]} {edge[2]["time"]}\n') # write the reverse of the edges since undirected
