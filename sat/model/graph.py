@@ -63,7 +63,21 @@ class Graph(object):
                 res.append(edge)
         return res
 
-            
+    def edges_from(self, id: Node) -> List[Edge]:
+        assert id.val >= 0 and id.val < self.n_nodes, f"The id '{id}' is not valid for the interval [{0},{self.n_nodes})"
+        res = []
+        for edge in self.edges:
+            if edge.orig == id:
+                res.append(edge)
+        return res
+
+    def edges_to(self, id:Node) -> List[Edge]:
+        assert id.val >= 0 and id.val < self.n_nodes, f"The id '{id}' is not valid for the interval [{0},{self.n_nodes})"
+        res = []
+        for edge in self.edges:
+            if edge.dest == id:
+                res.append(edge)
+        return res
 
     def neighs_of(self, id: Node) -> List[Node]:
         res = []

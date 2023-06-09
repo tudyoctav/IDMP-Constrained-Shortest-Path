@@ -38,10 +38,10 @@ class ConstraintBuilder(object):
             end_node = self.end_node
 
         start_constraint = PBEnc.equals([
-            self.id_pool.id(edge) for edge in self.graph.edges_of(start_node)
+            self.id_pool.id(edge) for edge in self.graph.edges_from(start_node)
         ], vpool=self.id_pool)
         end_constraint = PBEnc.equals(
-            [self.id_pool.id(edge)for edge in self.graph.edges_of(end_node)
+            [self.id_pool.id(edge)for edge in self.graph.edges_to(end_node)
              ], vpool=self.id_pool)
         res = [*start_constraint.clauses, *end_constraint.clauses]
 
@@ -59,12 +59,12 @@ class ConstraintBuilder(object):
         for node in self.graph.get_nodes():
             if node == start_node or node == end_node:
                 continue
-            literals = [-id_pool.id(node), *[id_pool.id(edge)
-                                             for edge in self.graph.edges_of(node)]]
-            weights = [1] * len(literals)
-            weights[0] = 2
-
-            res.extend(PBEnc.equals(literals, weights, 2, vpool=id_pool).clauses)
+            # if node -> 1 outgoing edge
+            from_literals = [-id_pool.id(node), *[id_pool.id(edge)
+                                             for edge in self.graph.edges_from(node)]]
+            to_literals = [-id_pool.id(node), *[id_pool.id(edge) for edge in self.graph.edges_to(node)]]
+            res.extend(PBEnc.equals(from_literals, vpool=id_pool).clauses)
+            res.extend(PBEnc.equals(to_literals, vpool=id_pool).clauses)
         return res
 
     @store_clauses
