@@ -96,16 +96,20 @@ class TimeConstraintBuilder(ConstraintBuilder):
 
         res = []
         for node in self.graph.get_nodes():
-            edge_lits = [id_pool.id(edge) for edge in self.graph.edges_of(node)]
-            if node == start_node or node == end_node:
-                assert len(edge_lits) > 0, "The start and end node should be connected"
-                res.extend(PBEnc.equals(edge_lits, bound=1, vpool=id_pool))
-            else:
-                # node_lits  = [id_pool.id(self.route_var[i][node.val]) for i in range(self.graph.n_nodes)]
-                node_lits = [-id_pool.id(node)]
-                literals = edge_lits + node_lits
-                weights = [1 for _ in edge_lits] + [2 for _ in node_lits]
-                res.extend(PBEnc.equals(literals, weights, 2, vpool=id_pool))
+            if node == end_node:
+                continue
+            edge_lits = [id_pool.id(edge) for edge in self.graph.edges_from(node)]
+            literals = [-id_pool.id(node)] + edge_lits
+            res.extend(PBEnc.equals(literals, vpool=id_pool))
+            # if node == start_node or node == end_node:
+            #     assert len(edge_lits) > 0, "The start and end node should be connected"
+            #     res.extend(PBEnc.equals(edge_lits, bound=1, vpool=id_pool))
+            # else:
+            #     # node_lits  = [id_pool.id(self.route_var[i][node.val]) for i in range(self.graph.n_nodes)]
+            #     node_lits = [-id_pool.id(node)]
+            #     literals = edge_lits + node_lits
+            #     weights = [1 for _ in edge_lits] + [2 for _ in node_lits]
+            #     res.extend(PBEnc.equals(literals, weights, 2, vpool=id_pool))
         return res
     
     @store_clauses
@@ -118,16 +122,12 @@ class TimeConstraintBuilder(ConstraintBuilder):
                 if node == self.end_node:
                     continue
                 node_lit = id_pool.id((step_index, node))
-                for edge in self.graph.edges_of(node):
+                for edge in self.graph.edges_from(node):
                     edge_lit = id_pool.id(edge)
-                    other_node = edge.get_other(node)
+                    other_node = edge.dest
                     next_node_lit = id_pool.id((step_index + 1, other_node))
-                    if node == self.start_node:
-                        res_cluases.append([-node_lit, -edge_lit, next_node_lit])
-                    else:
-                        prev_node_lit = id_pool.id((step_index - 1, other_node))
-                        # If the current node is used than the previous or the next node is on the edge
-                        res_cluases.append([-node_lit, -edge_lit, prev_node_lit, next_node_lit])
+                    # If the current node is used than the previous or the next node is on the edge
+                    res_cluases.append([-node_lit, -edge_lit, next_node_lit])
 
 
         return res_cluases
@@ -155,15 +155,19 @@ class TimeConstraintBuilder(ConstraintBuilder):
             for node in self.graph.get_nodes():
                 cur_node  = id_pool.id(self.route_var[step_index  ][node.val])
 
-                for edge in self.graph.edges_of(node):
-                    other_node = edge.get_other(node)
-                    prev_node = id_pool.id(self.route_var[step_index-1][other_node.val])
-                    edge_used = id_pool.id(f"edge'{node.val}, {other_node.val}' used at:{step_index}")
+                for edge in self.graph.edges_to(node):
+                    prev_node = edge.orig
+                    prev_node_lit = id_pool.id(self.route_var[step_index-1][prev_node.val])
+                    # prev_node = id_pool.id(self.route_var[step_index-1][other_node.val])
+                    edge_used = id_pool.id(f"edge'{node.val}, {prev_node.val}' used at:{step_index}")
                     vars.append(edge_used)
                     weights.append(edge.weights[1])
                     # if current_node /\ prev_node -> egde is used
                     cur_clauses.append(
-                        [-cur_node, -prev_node, edge_used]
+                        [-cur_node, -prev_node_lit, edge_used]
+                    )
+                    cur_clauses.append(
+                        [-edge_used, id_pool.id(edge)]
                     )
             assert len(vars) == len(weights)
             prev_variables = current_variables

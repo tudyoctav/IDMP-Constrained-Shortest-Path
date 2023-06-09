@@ -45,7 +45,7 @@ def parse_file(file_name: Union[Path,str]):
 def run(graph: TimeGraph, solver:str):
     id_pool = IDPool()
     constraint_builder = TimeConstraintBuilder(graph, id_pool)
-    # constraint_builder.channeling()
+    constraint_builder.channeling()
     constraint_builder.connected()
     constraint_builder.node_order()
     constraint_builder.start_and_end_constraint()
