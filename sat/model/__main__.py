@@ -21,11 +21,11 @@ def init_arg_parse(args=None):
 
 if __name__ == "__main__":
     vargs =init_arg_parse()
-    if vargs["problem_type"] == 'time_window':
+    if vargs["problem_type"] == TW_KEY:
         del vargs["problem_type"]
         time_window_main.main(**vargs)
         sys.exit()
-    elif sys.argv[1] == 'resource_constraint':
+    elif vargs["problem_type"] == RC_KEY:
         del vargs["problem_type"]
         resource_constrained_main.main(**vargs)
         sys.exit()
