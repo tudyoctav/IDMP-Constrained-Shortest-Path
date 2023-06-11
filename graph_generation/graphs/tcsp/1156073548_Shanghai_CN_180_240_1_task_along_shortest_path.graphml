@@ -1,0 +1,2119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="ref" for="edge" attr.name="ref" attr.type="string" />
+  <key id="bridge" for="edge" attr.name="bridge" attr.type="string" />
+  <key id="id" for="edge" attr.name="id" attr.type="string" />
+  <key id="travel_time" for="edge" attr.name="travel_time" attr.type="long" />
+  <key id="speed_kph" for="edge" attr.name="speed_kph" attr.type="string" />
+  <key id="geometry" for="edge" attr.name="geometry" attr.type="string" />
+  <key id="length" for="edge" attr.name="length" attr.type="long" />
+  <key id="reversed" for="edge" attr.name="reversed" attr.type="string" />
+  <key id="highway" for="edge" attr.name="highway" attr.type="string" />
+  <key id="name" for="edge" attr.name="name" attr.type="string" />
+  <key id="lanes" for="edge" attr.name="lanes" attr.type="string" />
+  <key id="oneway" for="edge" attr.name="oneway" attr.type="string" />
+  <key id="osmid" for="edge" attr.name="osmid" attr.type="string" />
+  <key id="num_of_nodes_per_task" for="node" attr.name="num_of_nodes_per_task" attr.type="long" />
+  <key id="num_tasks" for="node" attr.name="num_tasks" attr.type="long" />
+  <key id="highway" for="node" attr.name="highway" attr.type="string" />
+  <key id="task" for="node" attr.name="task" attr.type="long" />
+  <key id="street_count" for="node" attr.name="street_count" attr.type="string" />
+  <key id="x" for="node" attr.name="x" attr.type="string" />
+  <key id="y" for="node" attr.name="y" attr.type="string" />
+  <key id="finish_node" for="graph" attr.name="finish_node" attr.type="string" />
+  <key id="start_node" for="graph" attr.name="start_node" attr.type="string" />
+  <key id="node_distance_range_to" for="graph" attr.name="node_distance_range_to" attr.type="string" />
+  <key id="node_distance_range_from" for="graph" attr.name="node_distance_range_from" attr.type="string" />
+  <key id="distance_coef" for="graph" attr.name="distance_coef" attr.type="string" />
+  <key id="split_seed" for="graph" attr.name="split_seed" attr.type="string" />
+  <key id="iso3" for="graph" attr.name="iso3" attr.type="string" />
+  <key id="iso2" for="graph" attr.name="iso2" attr.type="string" />
+  <key id="country" for="graph" attr.name="country" attr.type="string" />
+  <key id="city" for="graph" attr.name="city" attr.type="string" />
+  <key id="simplified" for="graph" attr.name="simplified" attr.type="string" />
+  <key id="crs" for="graph" attr.name="crs" attr.type="string" />
+  <key id="created_with" for="graph" attr.name="created_with" attr.type="string" />
+  <key id="created_date" for="graph" attr.name="created_date" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="1">
+      <data key="y">31.3961165</data>
+      <data key="x">121.3507993</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="2">
+      <data key="y">31.3660783</data>
+      <data key="x">121.3631222</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="3">
+      <data key="y">31.3748149</data>
+      <data key="x">121.361779</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="4">
+      <data key="y">31.3662049</data>
+      <data key="x">121.3630819</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="5">
+      <data key="y">31.3666483</data>
+      <data key="x">121.3654005</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="6">
+      <data key="y">31.3667666</data>
+      <data key="x">121.3653469</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="7">
+      <data key="y">31.4000043</data>
+      <data key="x">121.3486536</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="8">
+      <data key="y">31.3937296</data>
+      <data key="x">121.3517706</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="9">
+      <data key="y">31.4005543</data>
+      <data key="x">121.3485186</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="10">
+      <data key="y">31.3875233</data>
+      <data key="x">121.3534799</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="11">
+      <data key="y">31.3991545</data>
+      <data key="x">121.3530449</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="12">
+      <data key="y">31.3990556</data>
+      <data key="x">121.3531467</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="13">
+      <data key="y">31.389466</data>
+      <data key="x">121.3533637</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="14">
+      <data key="y">31.3839588</data>
+      <data key="x">121.3552136</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="15">
+      <data key="y">31.389324</data>
+      <data key="x">121.3531239</data>
+      <data key="street_count">4</data>
+      <data key="task">2</data>
+    </node>
+    <node id="16">
+      <data key="y">31.3894423</data>
+      <data key="x">121.3532675</data>
+      <data key="street_count">5</data>
+    </node>
+    <node id="17">
+      <data key="y">31.3906103</data>
+      <data key="x">121.3558865</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="18">
+      <data key="y">31.3894516</data>
+      <data key="x">121.3530874</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="19">
+      <data key="y">31.3672972</data>
+      <data key="x">121.3675269</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="20">
+      <data key="y">31.3953909</data>
+      <data key="x">121.3510052</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="21">
+      <data key="y">31.3855038</data>
+      <data key="x">121.3584621</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="22">
+      <data key="y">31.379133</data>
+      <data key="x">121.3581696</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="23">
+      <data key="y">31.3919392</data>
+      <data key="x">121.3523164</data>
+      <data key="street_count">3</data>
+      <data key="task">1</data>
+    </node>
+    <node id="24">
+      <data key="y">31.3978317</data>
+      <data key="x">121.3498813</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="25">
+      <data key="y">31.3747386</data>
+      <data key="x">121.3616897</data>
+      <data key="street_count">5</data>
+    </node>
+    <node id="26">
+      <data key="y">31.3994319</data>
+      <data key="x">121.3492528</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="27">
+      <data key="y">31.3672631</data>
+      <data key="x">121.3673756</data>
+      <data key="street_count">5</data>
+      <data key="task">0</data>
+    </node>
+    <node id="28">
+      <data key="y">31.385401</data>
+      <data key="x">121.3544516</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="29">
+      <data key="y">31.3861238</data>
+      <data key="x">121.3561832</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="30">
+      <data key="y">31.3867957</data>
+      <data key="x">121.3578206</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="31">
+      <data key="y">31.3855157</data>
+      <data key="x">121.3541264</data>
+      <data key="highway">traffic_signals</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="32">
+      <data key="y">31.4029156</data>
+      <data key="x">121.3461401</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="33">
+      <data key="y">31.397171</data>
+      <data key="x">121.3501676</data>
+      <data key="highway">traffic_signals</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="34">
+      <data key="y">31.3956475</data>
+      <data key="x">121.3506696</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="35">
+      <data key="y">31.3808811</data>
+      <data key="x">121.3569716</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="36">
+      <data key="y">31.4018238</data>
+      <data key="x">121.3473163</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="37">
+      <data key="y">31.3880341</data>
+      <data key="x">121.347245</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="38">
+      <data key="y">31.3876703</data>
+      <data key="x">121.3535517</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="39">
+      <data key="y">31.3875778</data>
+      <data key="x">121.3474587</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="40">
+      <data key="y">31.387502</data>
+      <data key="x">121.3474894</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="41">
+      <data key="y">31.3970149</data>
+      <data key="x">121.3500117</data>
+      <data key="highway">traffic_signals</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="42">
+      <data key="y">31.3970933</data>
+      <data key="x">121.3502021</data>
+      <data key="highway">traffic_signals</data>
+      <data key="street_count">5</data>
+    </node>
+    <node id="43">
+      <data key="y">31.4023357</data>
+      <data key="x">121.3472241</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="44">
+      <data key="y">31.3694636</data>
+      <data key="x">121.3646635</data>
+      <data key="street_count">1</data>
+    </node>
+    <node id="45">
+      <data key="y">31.3640089</data>
+      <data key="x">121.3672658</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="46">
+      <data key="y">31.3892953</data>
+      <data key="x">121.3530203</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="47">
+      <data key="y">31.3894194</data>
+      <data key="x">121.3529875</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="48">
+      <data key="y">31.3671542</data>
+      <data key="x">121.3674354</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="49">
+      <data key="y">31.3671873</data>
+      <data key="x">121.3675816</data>
+      <data key="street_count">5</data>
+    </node>
+    <node id="50">
+      <data key="y">31.3846817</data>
+      <data key="x">121.3569384</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="51">
+      <data key="y">31.3853519</data>
+      <data key="x">121.3585376</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="52">
+      <data key="y">31.3783416</data>
+      <data key="x">121.3586915</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="53">
+      <data key="y">31.3696503</data>
+      <data key="x">121.3662562</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="54">
+      <data key="y">31.4029569</data>
+      <data key="x">121.3463624</data>
+      <data key="street_count">5</data>
+    </node>
+    <node id="55">
+      <data key="y">31.3661911</data>
+      <data key="x">121.3680066</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="56">
+      <data key="y">31.3931089</data>
+      <data key="x">121.3517285</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="57">
+      <data key="y">31.3867953</data>
+      <data key="x">121.35367</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="58">
+      <data key="y">31.373316</data>
+      <data key="x">121.3588374</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="59">
+      <data key="y">31.3944829</data>
+      <data key="x">121.3547387</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="60">
+      <data key="y">31.4028365</data>
+      <data key="x">121.3462305</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="61">
+      <data key="y">31.4030321</data>
+      <data key="x">121.3462874</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="62">
+      <data key="y">31.3856104</data>
+      <data key="x">121.3542955</data>
+      <data key="highway">traffic_signals</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="63">
+      <data key="y">31.3925872</data>
+      <data key="x">121.3523727</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="64">
+      <data key="y">31.3652789</data>
+      <data key="x">121.3599267</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="65">
+      <data key="y">31.3654113</data>
+      <data key="x">121.3598815</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="66">
+      <data key="y">31.3689421</data>
+      <data key="x">121.3664642</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="67">
+      <data key="y">31.3859163</data>
+      <data key="x">121.354181</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="68">
+      <data key="y">31.3970913</data>
+      <data key="x">121.3499778</data>
+      <data key="highway">traffic_signals</data>
+      <data key="street_count">5</data>
+      <data key="num_tasks">3</data>
+      <data key="num_of_nodes_per_task">1</data>
+    </node>
+    <node id="69">
+      <data key="y">31.3680551</data>
+      <data key="x">121.3671404</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="70">
+      <data key="y">31.3855357</data>
+      <data key="x">121.3543098</data>
+      <data key="highway">traffic_signals</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="71">
+      <data key="y">31.4010223</data>
+      <data key="x">121.347871</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="72">
+      <data key="y">31.3738999</data>
+      <data key="x">121.362775</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="73">
+      <data key="y">31.3855886</data>
+      <data key="x">121.3541259</data>
+      <data key="highway">traffic_signals</data>
+      <data key="street_count">5</data>
+    </node>
+    <node id="74">
+      <data key="y">31.3849149</data>
+      <data key="x">121.354389</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="75">
+      <data key="y">31.4015293</data>
+      <data key="x">121.3478102</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="76">
+      <data key="y">31.3801005</data>
+      <data key="x">121.3573646</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="77">
+      <data key="y">31.3645825</data>
+      <data key="x">121.3689892</data>
+      <data key="street_count">3</data>
+    </node>
+    <edge source="1" target="42">
+      <data key="osmid">106903512</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">126</data>
+      <data key="geometry">LINESTRING (121.3507993 31.3961165, 121.3503833 31.3970137, 121.3502021 31.3970933)</data>
+      <data key="speed_kph">53.3</data>
+      <data key="travel_time">8</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="2" target="4">
+      <data key="osmid">344572074</data>
+      <data key="name">菊盛路</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">14</data>
+      <data key="speed_kph">30.2</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="2" target="5">
+      <data key="osmid">344572122</data>
+      <data key="oneway">True</data>
+      <data key="name">潘广路</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">225</data>
+      <data key="speed_kph">50.7</data>
+      <data key="travel_time">16</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="3" target="25">
+      <data key="osmid">340606421</data>
+      <data key="highway">unclassified</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">11</data>
+      <data key="speed_kph">40.6</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="4" target="2">
+      <data key="osmid">344572074</data>
+      <data key="name">菊盛路</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">14</data>
+      <data key="speed_kph">30.2</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="4" target="65">
+      <data key="osmid">344572119</data>
+      <data key="oneway">True</data>
+      <data key="name">潘广路</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">316</data>
+      <data key="speed_kph">50.7</data>
+      <data key="travel_time">22</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="5" target="6">
+      <data key="osmid">344572028</data>
+      <data key="name">菊泉街</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">14</data>
+      <data key="speed_kph">30.2</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="5" target="45">
+      <data key="osmid">344572028</data>
+      <data key="name">菊泉街</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">348</data>
+      <data key="geometry">LINESTRING (121.3654005 31.3666483, 121.3655107 31.3664775, 121.3657225 31.3662658, 121.3662235 31.3658335, 121.3664612 31.3655777, 121.3666213 31.3653748, 121.3667711 31.3651234, 121.3668641 31.3649249, 121.3669984 31.3645235, 121.3671017 31.3642809, 121.3672658 31.3640089)</data>
+      <data key="speed_kph">30.2</data>
+      <data key="travel_time">41</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="5" target="48">
+      <data key="osmid">[344571976, 344572057, 344572122]</data>
+      <data key="oneway">True</data>
+      <data key="name">潘广路</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">201</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.3654005 31.3666483, 121.3657553 31.366737, 121.3660834 31.3668191, 121.3670649 31.3670647, 121.3674354 31.3671542)</data>
+      <data key="speed_kph">50.7</data>
+      <data key="travel_time">14</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="6" target="4">
+      <data key="osmid">344572119</data>
+      <data key="oneway">True</data>
+      <data key="name">潘广路</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">223</data>
+      <data key="speed_kph">50.7</data>
+      <data key="travel_time">15</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="6" target="5">
+      <data key="osmid">344572028</data>
+      <data key="name">菊泉街</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">14</data>
+      <data key="speed_kph">30.2</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="6" target="44">
+      <data key="osmid">[344572004, 344572028, 344572000]</data>
+      <data key="name">菊泉街</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">306</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.3653469 31.3667666, 121.3650716 31.3677919, 121.3650437 31.3679062, 121.3646635 31.3694636)</data>
+      <data key="speed_kph">30.2</data>
+      <data key="travel_time">36</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="7" target="68">
+      <data key="osmid">[106060186, 106060164, 106060222]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">347</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.3486536 31.4000043, 121.3487574 31.3998029, 121.3489634 31.399367, 121.3494551 31.3983062, 121.3494856 31.3982354, 121.3499379 31.397273, 121.3499778 31.3970913)</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">21</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="8" target="20">
+      <data key="osmid">[106903570, 106903563, 106903526]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">198</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.3517706 31.3937296, 121.3516628 31.3939796, 121.351195 31.3949854, 121.3511168 31.3951553, 121.3510052 31.3953909)</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">12</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="9" target="75">
+      <data key="osmid">106060180</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">127</data>
+      <data key="geometry">LINESTRING (121.3485186 31.4005543, 121.3484185 31.4007131, 121.3481369 31.4011292, 121.3478102 31.4015293)</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">7</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="10" target="57">
+      <data key="osmid">106903556</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">82</data>
+      <data key="geometry">LINESTRING (121.3534799 31.3875233, 121.3535318 31.3872835, 121.35367 31.3867953)</data>
+      <data key="speed_kph">53.3</data>
+      <data key="travel_time">5</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="11" target="12">
+      <data key="osmid">196806637</data>
+      <data key="highway">unclassified</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">14</data>
+      <data key="speed_kph">40.6</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="11" target="33">
+      <data key="osmid">[344091432, 344091348, 344091532]</data>
+      <data key="oneway">True</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">False</data>
+      <data key="length">356</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.3530449 31.3991545, 121.3523999 31.3984278, 121.3521663 31.3982196, 121.3518666 31.3980074, 121.3515063 31.3978071, 121.3511052 31.3976049, 121.3506079 31.3973705, 121.3504124 31.397291, 121.3501676 31.397171)</data>
+      <data key="speed_kph">38.0</data>
+      <data key="travel_time">33</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="12" target="11">
+      <data key="osmid">196806637</data>
+      <data key="highway">unclassified</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">14</data>
+      <data key="speed_kph">40.6</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="12" target="59">
+      <data key="osmid">[344357480, 196806637, 344357455]</data>
+      <data key="highway">unclassified</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">538</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.3531467 31.3990556, 121.3534252 31.3987361, 121.353614 31.3985069, 121.3537496 31.3983027, 121.3538693 31.3980893, 121.3539464 31.3978919, 121.3540155 31.3976626, 121.354074 31.3974221, 121.3541777 31.3968206, 121.3542362 31.3964461, 121.3542522 31.3963304, 121.3542841 31.3960671, 121.3543293 31.3958061, 121.3544037 31.3954656, 121.3544888 31.395157, 121.3546297 31.394762, 121.3547387 31.3944829)</data>
+      <data key="speed_kph">40.6</data>
+      <data key="travel_time">47</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="13" target="16">
+      <data key="osmid">340606430</data>
+      <data key="highway">unclassified</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">9</data>
+      <data key="speed_kph">40.6</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="13" target="17">
+      <data key="osmid">340606430</data>
+      <data key="highway">unclassified</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">271</data>
+      <data key="geometry">LINESTRING (121.3533637 31.389466, 121.3534933 31.3895154, 121.3538768 31.3896615, 121.354116 31.3897752, 121.3547924 31.3901252, 121.3558865 31.3906103)</data>
+      <data key="speed_kph">40.6</data>
+      <data key="travel_time">24</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="13" target="63">
+      <data key="osmid">[106903522, 106903550, 106903575]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">359</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.3533637 31.389466, 121.3532336 31.3899651, 121.3529263 31.3909836, 121.3527658 31.3914776, 121.3527045 31.391655, 121.3525785 31.3920039, 121.352424 31.392418, 121.3523727 31.3925872)</data>
+      <data key="speed_kph">53.3</data>
+      <data key="travel_time">24</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="14" target="28">
+      <data key="osmid">[106903558, 106903503]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">['2', '1']</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">176</data>
+      <data key="geometry">LINESTRING (121.3552136 31.3839588, 121.3551328 31.3840805, 121.3548703 31.3845417, 121.3545286 31.3852493, 121.3544516 31.385401)</data>
+      <data key="speed_kph">53.3</data>
+      <data key="travel_time">11</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="14" target="50">
+      <data key="osmid">340606370</data>
+      <data key="highway">tertiary</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">182</data>
+      <data key="speed_kph">38.0</data>
+      <data key="travel_time">17</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="15" target="16">
+      <data key="osmid">559701030</data>
+      <data key="oneway">True</data>
+      <data key="name">杨南路</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">18</data>
+      <data key="speed_kph">50.7</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="15" target="38">
+      <data key="osmid">106903569</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">188</data>
+      <data key="geometry">LINESTRING (121.3531239 31.389324, 121.3532469 31.3888936, 121.3535517 31.3876703)</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">11</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="16" target="8">
+      <data key="osmid">[106903570, 106903532, 106903534]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">497</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.3532675 31.3894423, 121.3531327 31.3899472, 121.3528244 31.3909639, 121.352668 31.3914432, 121.3526061 31.3916205, 121.3524762 31.3919787, 121.3520972 31.3929734, 121.3517706 31.3937296)</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">30</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="16" target="13">
+      <data key="osmid">340606430</data>
+      <data key="highway">unclassified</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">9</data>
+      <data key="speed_kph">40.6</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="16" target="18">
+      <data key="osmid">559701031</data>
+      <data key="oneway">True</data>
+      <data key="name">杨南路</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">17</data>
+      <data key="speed_kph">50.7</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="17" target="13">
+      <data key="osmid">340606430</data>
+      <data key="highway">unclassified</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">271</data>
+      <data key="geometry">LINESTRING (121.3558865 31.3906103, 121.3547924 31.3901252, 121.354116 31.3897752, 121.3538768 31.3896615, 121.3534933 31.3895154, 121.3533637 31.389466)</data>
+      <data key="speed_kph">40.6</data>
+      <data key="travel_time">24</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="17" target="30">
+      <data key="osmid">[340606401, 340606378, 340606385, 340606419, 340606396]</data>
+      <data key="highway">unclassified</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">462</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.3558865 31.3906103, 121.3564126 31.389537, 121.3564741 31.3894116, 121.3570378 31.3882917, 121.3571279 31.388125, 121.3578206 31.3867957)</data>
+      <data key="speed_kph">40.6</data>
+      <data key="travel_time">41</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="17" target="59">
+      <data key="osmid">[344357505, 344357455, 344357551]</data>
+      <data key="highway">unclassified</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">452</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.3558865 31.3906103, 121.3555923 31.3912327, 121.3555258 31.3914074, 121.3554886 31.391564, 121.3554726 31.3917161, 121.3554859 31.3918954, 121.3555391 31.3921905, 121.355563 31.3923698, 121.355555 31.3925604, 121.3555364 31.392708, 121.3555205 31.3927988, 121.3554753 31.3929418, 121.3553928 31.393137, 121.3549727 31.3939586, 121.3547387 31.3944829)</data>
+      <data key="speed_kph">40.6</data>
+      <data key="travel_time">40</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="18" target="15">
+      <data key="osmid">106903569</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">14</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="18" target="47">
+      <data key="osmid">559701031</data>
+      <data key="oneway">True</data>
+      <data key="name">杨南路</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">10</data>
+      <data key="speed_kph">50.7</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="19" target="27">
+      <data key="osmid">967408596</data>
+      <data key="oneway">True</data>
+      <data key="name">友谊西路</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">14</data>
+      <data key="speed_kph">50.7</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="19" target="69">
+      <data key="osmid">106903540</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">91</data>
+      <data key="geometry">LINESTRING (121.3675269 31.3672972, 121.3674213 31.3675041, 121.3671404 31.3680551)</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">5</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="20" target="1">
+      <data key="osmid">106903581</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">83</data>
+      <data key="geometry">LINESTRING (121.3510052 31.3953909, 121.3509334 31.3957266, 121.3508114 31.3960312, 121.3507993 31.3961165)</data>
+      <data key="speed_kph">53.3</data>
+      <data key="travel_time">5</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="20" target="42">
+      <data key="osmid">106903526</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">204</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">12</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="21" target="30">
+      <data key="osmid">340606419</data>
+      <data key="highway">unclassified</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">156</data>
+      <data key="speed_kph">40.6</data>
+      <data key="travel_time">13</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="21" target="51">
+      <data key="osmid">340606419</data>
+      <data key="highway">unclassified</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">18</data>
+      <data key="speed_kph">40.6</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="22" target="52">
+      <data key="osmid">106903546</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">100</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">6</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="23" target="18">
+      <data key="osmid">[106903520, 106903569, 106903578]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">286</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.3523164 31.3919392, 121.3524454 31.391564, 121.3525058 31.391386, 121.3526443 31.3909292, 121.3529548 31.3899155, 121.353042 31.3896104, 121.3530874 31.3894516)</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">17</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="24" target="9">
+      <data key="osmid">[106060217, 106060180, 106060167]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">329</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.3498813 31.3978317, 121.3497146 31.3981255, 121.3496396 31.3982872, 121.3496065 31.3983587, 121.3491246 31.3993986, 121.3489114 31.3998513, 121.3486845 31.4002911, 121.3485186 31.4005543)</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">20</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="24" target="26">
+      <data key="osmid">[106060201, 106060194, 106060213]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">188</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.3498813 31.3978317, 121.3498081 31.3981597, 121.349738 31.3983204, 121.3497061 31.3983933, 121.3492528 31.3994319)</data>
+      <data key="speed_kph">53.3</data>
+      <data key="travel_time">12</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="25" target="3">
+      <data key="osmid">340606421</data>
+      <data key="highway">unclassified</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">11</data>
+      <data key="speed_kph">40.6</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="25" target="58">
+      <data key="osmid">340606421</data>
+      <data key="highway">unclassified</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">315</data>
+      <data key="geometry">LINESTRING (121.3616897 31.3747386, 121.3611869 31.374509, 121.3609437 31.3743652, 121.3605742 31.3741096, 121.3602093 31.373862, 121.3599287 31.3737183, 121.3596059 31.3735785, 121.3588374 31.373316)</data>
+      <data key="speed_kph">40.6</data>
+      <data key="travel_time">28</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="25" target="72">
+      <data key="osmid">106903518</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">138</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">8</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="26" target="9">
+      <data key="osmid">106060190</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">144</data>
+      <data key="geometry">LINESTRING (121.3492528 31.3994319, 121.3491731 31.3995153, 121.348999 31.3998788, 121.3487509 31.4003191, 121.3485186 31.4005543)</data>
+      <data key="speed_kph">53.3</data>
+      <data key="travel_time">9</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="26" target="43">
+      <data key="osmid">106060201</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">378</data>
+      <data key="geometry">LINESTRING (121.3492528 31.3994319, 121.3490324 31.3998893, 121.3488039 31.4003415, 121.3486239 31.4005987, 121.3485312 31.4007617, 121.3482354 31.4011688, 121.3476619 31.4018999, 121.3474245 31.4021657, 121.3472241 31.4023357)</data>
+      <data key="speed_kph">53.3</data>
+      <data key="travel_time">25</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="27" target="6">
+      <data key="osmid">[344572066, 344572020, 344572119]</data>
+      <data key="oneway">True</data>
+      <data key="name">潘广路</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">200</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.3673756 31.3672631, 121.3670252 31.3671767, 121.3660408 31.3669434, 121.3656947 31.3668529, 121.3653469 31.3667666)</data>
+      <data key="speed_kph">50.7</data>
+      <data key="travel_time">14</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="27" target="48">
+      <data key="osmid">967408593</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">13</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="28" target="29">
+      <data key="osmid">297255696</data>
+      <data key="highway">tertiary</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">182</data>
+      <data key="speed_kph">38.0</data>
+      <data key="travel_time">17</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="28" target="70">
+      <data key="osmid">106903503</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">20</data>
+      <data key="speed_kph">53.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="29" target="28">
+      <data key="osmid">297255696</data>
+      <data key="highway">tertiary</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">182</data>
+      <data key="speed_kph">38.0</data>
+      <data key="travel_time">17</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="29" target="30">
+      <data key="osmid">297255696</data>
+      <data key="highway">tertiary</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">172</data>
+      <data key="speed_kph">38.0</data>
+      <data key="travel_time">16</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="29" target="50">
+      <data key="osmid">340606377</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">175</data>
+      <data key="speed_kph">30.2</data>
+      <data key="travel_time">20</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="30" target="17">
+      <data key="osmid">[340606401, 340606378, 340606385, 340606419, 340606396]</data>
+      <data key="highway">unclassified</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">462</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.3578206 31.3867957, 121.3571279 31.388125, 121.3570378 31.3882917, 121.3564741 31.3894116, 121.3564126 31.389537, 121.3558865 31.3906103)</data>
+      <data key="speed_kph">40.6</data>
+      <data key="travel_time">41</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="30" target="21">
+      <data key="osmid">340606419</data>
+      <data key="highway">unclassified</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">156</data>
+      <data key="speed_kph">40.6</data>
+      <data key="travel_time">13</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="30" target="29">
+      <data key="osmid">297255696</data>
+      <data key="highway">tertiary</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">172</data>
+      <data key="speed_kph">38.0</data>
+      <data key="travel_time">16</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="31" target="70">
+      <data key="osmid">198864225</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="highway">motorway_link</data>
+      <data key="reversed">False</data>
+      <data key="length">17</data>
+      <data key="speed_kph">45.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="31" target="74">
+      <data key="osmid">106903531</data>
+      <data key="oneway">True</data>
+      <data key="lanes">4</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">71</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">4</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="32" target="60">
+      <data key="osmid">106060179</data>
+      <data key="oneway">True</data>
+      <data key="lanes">4</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">12</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="33" target="24">
+      <data key="osmid">106903576</data>
+      <data key="oneway">True</data>
+      <data key="lanes">4</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">78</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">4</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="33" target="68">
+      <data key="osmid">344091510</data>
+      <data key="oneway">True</data>
+      <data key="name">美兰湖路</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">False</data>
+      <data key="length">20</data>
+      <data key="speed_kph">38.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="34" target="23">
+      <data key="osmid">[106060184, 106060170, 106903578]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">441</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.3506696 31.3956475, 121.3508076 31.3954161, 121.3509788 31.3950637, 121.3510572 31.3948963, 121.3515155 31.3939304, 121.3519437 31.3929301, 121.3523164 31.3919392)</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">27</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="34" target="56">
+      <data key="osmid">[106903568, 106903516, 106903508]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">300</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.3506696 31.3956475, 121.3507242 31.3953772, 121.3508913 31.3950057, 121.3509668 31.3948378, 121.3514029 31.3938928, 121.351622 31.3934029, 121.3517285 31.3931089)</data>
+      <data key="speed_kph">53.3</data>
+      <data key="travel_time">20</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="35" target="22">
+      <data key="osmid">106903546</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">225</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">13</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="35" target="76">
+      <data key="osmid">106903562</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">94</data>
+      <data key="geometry">LINESTRING (121.3569716 31.3808811, 121.3571775 31.3804531, 121.3572947 31.3802725, 121.3573646 31.3801005)</data>
+      <data key="speed_kph">53.3</data>
+      <data key="travel_time">6</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="36" target="7">
+      <data key="osmid">106060186</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">239</data>
+      <data key="geometry">LINESTRING (121.3473163 31.4018238, 121.3476848 31.401453, 121.3479878 31.4010693, 121.3482736 31.4006507, 121.3485371 31.4002289, 121.3486536 31.4000043)</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">14</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="36" target="71">
+      <data key="osmid">106060189</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">103</data>
+      <data key="geometry">LINESTRING (121.3473163 31.4018238, 121.3474507 31.4015641, 121.3475943 31.4013979, 121.347871 31.4010223)</data>
+      <data key="speed_kph">53.3</data>
+      <data key="travel_time">7</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="37" target="39">
+      <data key="osmid">[810492528, 559717433, 810492527]</data>
+      <data key="name">罗贤路</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">54</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.347245 31.3880341, 121.3473112 31.3878927, 121.3473978 31.3877079, 121.3474587 31.3875778)</data>
+      <data key="speed_kph">30.2</data>
+      <data key="travel_time">6</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="38" target="57">
+      <data key="osmid">106903574</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">98</data>
+      <data key="geometry">LINESTRING (121.3535517 31.3876703, 121.3535808 31.3872971, 121.35367 31.3867953)</data>
+      <data key="speed_kph">53.3</data>
+      <data key="travel_time">6</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="38" target="73">
+      <data key="osmid">[106903569, 106903557, 106903511]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">237</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.3535517 31.3876703, 121.3537663 31.3868393, 121.3538209 31.3866195, 121.3538885 31.3863576, 121.3540337 31.3858779, 121.3541259 31.3855886)</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">14</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="39" target="37">
+      <data key="osmid">[810492528, 559717433, 810492527]</data>
+      <data key="name">罗贤路</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">54</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.3474587 31.3875778, 121.3473978 31.3877079, 121.3473112 31.3878927, 121.347245 31.3880341)</data>
+      <data key="speed_kph">30.2</data>
+      <data key="travel_time">6</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="39" target="40">
+      <data key="osmid">810492527</data>
+      <data key="name">罗贤路</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">8</data>
+      <data key="speed_kph">30.2</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="40" target="39">
+      <data key="osmid">810492527</data>
+      <data key="name">罗贤路</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">8</data>
+      <data key="speed_kph">30.2</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="40" target="46">
+      <data key="osmid">559701030</data>
+      <data key="oneway">True</data>
+      <data key="name">杨南路</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">561</data>
+      <data key="geometry">LINESTRING (121.3474894 31.387502, 121.3502488 31.3883959, 121.3528335 31.3892347, 121.3530203 31.3892953)</data>
+      <data key="speed_kph">50.7</data>
+      <data key="travel_time">39</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="41" target="34">
+      <data key="osmid">106060162</data>
+      <data key="oneway">True</data>
+      <data key="lanes">4</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">164</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">10</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="41" target="42">
+      <data key="osmid">559717424</data>
+      <data key="oneway">True</data>
+      <data key="name">美兰湖路</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">False</data>
+      <data key="length">20</data>
+      <data key="speed_kph">38.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="42" target="12">
+      <data key="osmid">[344091313, 344091534, 344091398]</data>
+      <data key="oneway">True</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">False</data>
+      <data key="length">360</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.3502021 31.3970933, 121.3504524 31.3972081, 121.3506703 31.3972941, 121.3511701 31.397502, 121.3515784 31.3977079, 121.3519479 31.3979132, 121.3522596 31.398134, 121.3525036 31.3983513, 121.3531467 31.3990556)</data>
+      <data key="speed_kph">38.0</data>
+      <data key="travel_time">34</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="42" target="33">
+      <data key="osmid">106903526</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">9</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="43" target="54">
+      <data key="osmid">106060201</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">109</data>
+      <data key="geometry">LINESTRING (121.3472241 31.4023357, 121.3468047 31.402715, 121.3465805 31.4028988, 121.3463624 31.4029569)</data>
+      <data key="speed_kph">53.3</data>
+      <data key="travel_time">7</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="44" target="6">
+      <data key="osmid">[344572000, 344572028, 344572004]</data>
+      <data key="name">菊泉街</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">306</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.3646635 31.3694636, 121.3650437 31.3679062, 121.3650716 31.3677919, 121.3653469 31.3667666)</data>
+      <data key="speed_kph">30.2</data>
+      <data key="travel_time">36</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="45" target="5">
+      <data key="osmid">344572028</data>
+      <data key="name">菊泉街</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">348</data>
+      <data key="geometry">LINESTRING (121.3672658 31.3640089, 121.3671017 31.3642809, 121.3669984 31.3645235, 121.3668641 31.3649249, 121.3667711 31.3651234, 121.3666213 31.3653748, 121.3664612 31.3655777, 121.3662235 31.3658335, 121.3657225 31.3662658, 121.3655107 31.3664775, 121.3654005 31.3666483)</data>
+      <data key="speed_kph">30.2</data>
+      <data key="travel_time">41</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="45" target="77">
+      <data key="osmid">[344571961, 344571980, 344572006]</data>
+      <data key="name">沪联路</data>
+      <data key="highway">tertiary</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">175</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.3672658 31.3640089, 121.367566 31.3640995, 121.3679283 31.364224, 121.3689892 31.3645825)</data>
+      <data key="speed_kph">38.0</data>
+      <data key="travel_time">16</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="46" target="10">
+      <data key="osmid">106903556</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">201</data>
+      <data key="geometry">LINESTRING (121.3530203 31.3892953, 121.3531324 31.3888715, 121.3534532 31.3876466, 121.3534799 31.3875233)</data>
+      <data key="speed_kph">53.3</data>
+      <data key="travel_time">13</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="46" target="15">
+      <data key="osmid">559701030</data>
+      <data key="oneway">True</data>
+      <data key="name">杨南路</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">10</data>
+      <data key="speed_kph">50.7</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="47" target="39">
+      <data key="osmid">559701031</data>
+      <data key="oneway">True</data>
+      <data key="name">杨南路</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">563</data>
+      <data key="geometry">LINESTRING (121.3529875 31.3894194, 121.3485942 31.3879517, 121.3474587 31.3875778)</data>
+      <data key="speed_kph">50.7</data>
+      <data key="travel_time">40</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="47" target="46">
+      <data key="osmid">106903556</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">14</data>
+      <data key="speed_kph">53.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="48" target="49">
+      <data key="osmid">967408594</data>
+      <data key="oneway">True</data>
+      <data key="name">友谊西路</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">14</data>
+      <data key="speed_kph">50.7</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="48" target="55">
+      <data key="osmid">39611938</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">120</data>
+      <data key="geometry">LINESTRING (121.3674354 31.3671542, 121.3675673 31.3669125, 121.3678863 31.3663809, 121.3680066 31.3661911)</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">7</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="49" target="19">
+      <data key="osmid">106903540</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">13</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="50" target="14">
+      <data key="osmid">340606370</data>
+      <data key="highway">tertiary</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">182</data>
+      <data key="speed_kph">38.0</data>
+      <data key="travel_time">17</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="50" target="29">
+      <data key="osmid">340606377</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">175</data>
+      <data key="speed_kph">30.2</data>
+      <data key="travel_time">20</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="50" target="51">
+      <data key="osmid">340606370</data>
+      <data key="highway">tertiary</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">169</data>
+      <data key="speed_kph">38.0</data>
+      <data key="travel_time">16</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="51" target="21">
+      <data key="osmid">340606419</data>
+      <data key="highway">unclassified</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">18</data>
+      <data key="speed_kph">40.6</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="51" target="50">
+      <data key="osmid">340606370</data>
+      <data key="highway">tertiary</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">169</data>
+      <data key="speed_kph">38.0</data>
+      <data key="travel_time">16</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="52" target="25">
+      <data key="osmid">[106903504, 106903546, 106903518]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">493</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.3586915 31.3783416, 121.3591789 31.3776024, 121.3597157 31.3768234, 121.3599964 31.376441, 121.3601085 31.3763024, 121.3602523 31.3761247, 121.3602965 31.37607, 121.3606168 31.3757214, 121.3609574 31.3753717, 121.3616897 31.3747386)</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">30</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="53" target="27">
+      <data key="osmid">967408545</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">285</data>
+      <data key="geometry">LINESTRING (121.3662562 31.3696503, 121.366746 31.3685622, 121.3670109 31.3680064, 121.3672901 31.3674474, 121.3673756 31.3672631)</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">17</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="53" target="66">
+      <data key="osmid">106903523</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">81</data>
+      <data key="speed_kph">53.3</data>
+      <data key="travel_time">5</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="54" target="61">
+      <data key="osmid">106060182</data>
+      <data key="oneway">True</data>
+      <data key="lanes">4</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">10</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="55" target="77">
+      <data key="osmid">106903564</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">False</data>
+      <data key="length">202</data>
+      <data key="geometry">LINESTRING (121.3680066 31.3661911, 121.3681396 31.3658064, 121.3684884 31.3652692, 121.3688604 31.3647525, 121.3689892 31.3645825)</data>
+      <data key="speed_kph">38.0</data>
+      <data key="travel_time">19</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="56" target="23">
+      <data key="osmid">106903544</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">142</data>
+      <data key="geometry">LINESTRING (121.3517285 31.3931089, 121.3518511 31.392904, 121.3521676 31.3921292, 121.3523164 31.3919392)</data>
+      <data key="speed_kph">53.3</data>
+      <data key="travel_time">9</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="56" target="47">
+      <data key="osmid">[106903556, 106903516, 106903573]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">427</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.3517285 31.3931089, 121.3518072 31.3928916, 121.3521222 31.3921081, 121.3522085 31.3919125, 121.35235 31.3915305, 121.3524122 31.3913531, 121.3525604 31.390913, 121.3528607 31.3898988, 121.3529483 31.3895675, 121.3529875 31.3894194)</data>
+      <data key="speed_kph">53.3</data>
+      <data key="travel_time">28</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="57" target="73">
+      <data key="osmid">[106903547, 106903572]</data>
+      <data key="bridge">yes</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">142</data>
+      <data key="geometry">LINESTRING (121.35367 31.3867953, 121.3537229 31.3865777, 121.353788 31.3863303, 121.3539283 31.3858505, 121.3541259 31.3855886)</data>
+      <data key="speed_kph">53.3</data>
+      <data key="travel_time">9</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="58" target="25">
+      <data key="osmid">340606421</data>
+      <data key="highway">unclassified</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">315</data>
+      <data key="geometry">LINESTRING (121.3588374 31.373316, 121.3596059 31.3735785, 121.3599287 31.3737183, 121.3602093 31.373862, 121.3605742 31.3741096, 121.3609437 31.3743652, 121.3611869 31.374509, 121.3616897 31.3747386)</data>
+      <data key="speed_kph">40.6</data>
+      <data key="travel_time">28</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="59" target="12">
+      <data key="osmid">[344357480, 196806637, 344357455]</data>
+      <data key="highway">unclassified</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">538</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.3547387 31.3944829, 121.3546297 31.394762, 121.3544888 31.395157, 121.3544037 31.3954656, 121.3543293 31.3958061, 121.3542841 31.3960671, 121.3542522 31.3963304, 121.3542362 31.3964461, 121.3541777 31.3968206, 121.354074 31.3974221, 121.3540155 31.3976626, 121.3539464 31.3978919, 121.3538693 31.3980893, 121.3537496 31.3983027, 121.353614 31.3985069, 121.3534252 31.3987361, 121.3531467 31.3990556)</data>
+      <data key="speed_kph">40.6</data>
+      <data key="travel_time">47</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="59" target="17">
+      <data key="osmid">[344357505, 344357551, 344357455]</data>
+      <data key="highway">unclassified</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">452</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.3547387 31.3944829, 121.3549727 31.3939586, 121.3553928 31.393137, 121.3554753 31.3929418, 121.3555205 31.3927988, 121.3555364 31.392708, 121.355555 31.3925604, 121.355563 31.3923698, 121.3555391 31.3921905, 121.3554859 31.3918954, 121.3554726 31.3917161, 121.3554886 31.391564, 121.3555258 31.3914074, 121.3555923 31.3912327, 121.3558865 31.3906103)</data>
+      <data key="speed_kph">40.6</data>
+      <data key="travel_time">40</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="60" target="36">
+      <data key="osmid">106060179</data>
+      <data key="oneway">True</data>
+      <data key="lanes">4</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">152</data>
+      <data key="geometry">LINESTRING (121.3462305 31.4028365, 121.3465728 31.402537, 121.3469646 31.4021794, 121.3473163 31.4018238)</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">9</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="60" target="54">
+      <data key="osmid">344091500</data>
+      <data key="oneway">True</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">False</data>
+      <data key="length">18</data>
+      <data key="speed_kph">38.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="61" target="32">
+      <data key="osmid">344091487</data>
+      <data key="oneway">True</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">False</data>
+      <data key="length">19</data>
+      <data key="speed_kph">38.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="62" target="67">
+      <data key="osmid">106903536</data>
+      <data key="oneway">True</data>
+      <data key="lanes">4</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">35</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">2</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="62" target="73">
+      <data key="osmid">104947887</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="highway">motorway_link</data>
+      <data key="reversed">False</data>
+      <data key="length">16</data>
+      <data key="speed_kph">45.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="63" target="1">
+      <data key="osmid">[106903537, 106903545, 106903575]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">420</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.3523727 31.3925872, 121.3521969 31.3930836, 121.3519811 31.393575, 121.3518185 31.3938831, 121.3517589 31.3940118, 121.3512832 31.3950425, 121.3512021 31.395212, 121.3508536 31.3960418, 121.3507993 31.3961165)</data>
+      <data key="speed_kph">53.3</data>
+      <data key="travel_time">28</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="63" target="8">
+      <data key="osmid">106903582</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">140</data>
+      <data key="geometry">LINESTRING (121.3523727 31.3925872, 121.3523116 31.3926786, 121.3521554 31.3930737, 121.3519028 31.3936179, 121.3517706 31.3937296)</data>
+      <data key="speed_kph">53.3</data>
+      <data key="travel_time">9</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="64" target="2">
+      <data key="osmid">344572122</data>
+      <data key="oneway">True</data>
+      <data key="name">潘广路</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">316</data>
+      <data key="speed_kph">50.7</data>
+      <data key="travel_time">22</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="64" target="65">
+      <data key="osmid">344572071</data>
+      <data key="name">韶山路</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">15</data>
+      <data key="speed_kph">30.2</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="65" target="64">
+      <data key="osmid">344572071</data>
+      <data key="name">韶山路</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">15</data>
+      <data key="speed_kph">30.2</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="66" target="27">
+      <data key="osmid">106903535</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">206</data>
+      <data key="geometry">LINESTRING (121.3664642 31.3689421, 121.3666441 31.3685317, 121.3669001 31.3679661, 121.3671305 31.3675508, 121.3673756 31.3672631)</data>
+      <data key="speed_kph">53.3</data>
+      <data key="travel_time">14</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="67" target="13">
+      <data key="osmid">[106903515, 106903550, 106903510]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">402</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.354181 31.3859163, 121.354138 31.3864251, 121.3540708 31.3867297, 121.3540123 31.386952, 121.3539045 31.3873865, 121.3538001 31.3877301, 121.3535001 31.3889425, 121.3534237 31.3892356, 121.3533637 31.389466)</data>
+      <data key="speed_kph">53.3</data>
+      <data key="travel_time">27</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="67" target="16">
+      <data key="osmid">[106903536, 106903521, 106903532, 106903525]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">['4', '3']</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">401</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.354181 31.3859163, 121.354045 31.3864, 121.3539705 31.3866874, 121.3539121 31.3869061, 121.3538219 31.3872726, 121.3537765 31.3873693, 121.3534058 31.3889243, 121.3533275 31.3892175, 121.3532675 31.3894423)</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">24</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="68" target="41">
+      <data key="osmid">106060162</data>
+      <data key="oneway">True</data>
+      <data key="lanes">4</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">9</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="69" target="3">
+      <data key="osmid">[106903577, 106903513, 106903540]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">923</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.3671404 31.3680551, 121.3668825 31.3686024, 121.366287 31.3699225, 121.3661226 31.3702523, 121.3659502 31.3705779, 121.3657622 31.3709043, 121.3655731 31.3712088, 121.3653509 31.3715303, 121.365127 31.3718363, 121.3648946 31.3721367, 121.3646398 31.3724213, 121.3643722 31.3727029, 121.3640906 31.3729723, 121.3634896 31.3734864, 121.3628654 31.3739844, 121.361779 31.3748149)</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">56</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="70" target="62">
+      <data key="osmid">106903527</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">8</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="71" target="7">
+      <data key="osmid">106060166</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">136</data>
+      <data key="geometry">LINESTRING (121.347871 31.4010223, 121.3480053 31.4008967, 121.3481857 31.4006127, 121.3484521 31.400193, 121.3486536 31.4000043)</data>
+      <data key="speed_kph">53.3</data>
+      <data key="travel_time">9</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="71" target="68">
+      <data key="osmid">[106060210, 106060189, 106060221]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">482</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.347871 31.4010223, 121.3481492 31.400597, 121.3484146 31.4001772, 121.3486537 31.3997703, 121.3488627 31.3993307, 121.3493564 31.3982719, 121.3493887 31.3982027, 121.3498483 31.3972161, 121.3499778 31.3970913)</data>
+      <data key="speed_kph">53.3</data>
+      <data key="travel_time">32</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="72" target="53">
+      <data key="osmid">[967408545, 106903518, 106903551]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">583</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.362775 31.3738999, 121.3633912 31.3734009, 121.3639822 31.3728894, 121.3642595 31.372624, 121.3645269 31.3723498, 121.3647729 31.3720654, 121.3650079 31.3717715, 121.3652287 31.3714698, 121.3654343 31.3711702, 121.3656264 31.3708668, 121.365823 31.3705276, 121.3659902 31.3702025, 121.3661547 31.3698759, 121.3662562 31.3696503)</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">35</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="72" target="66">
+      <data key="osmid">[106903529, 106903538, 106903579]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">660</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.362775 31.3738999, 121.3628907 31.3736997, 121.3631752 31.3734487, 121.3638953 31.3728229, 121.3641703 31.3725616, 121.3644313 31.3722892, 121.3646771 31.3720092, 121.3649079 31.371717, 121.3651261 31.3714206, 121.3653184 31.3711379, 121.3655088 31.3708344, 121.3657144 31.3704847, 121.3658845 31.3701628, 121.3660431 31.3698366, 121.3663809 31.3691031, 121.3664642 31.3689421)</data>
+      <data key="speed_kph">53.3</data>
+      <data key="travel_time">44</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="73" target="31">
+      <data key="osmid">106903557</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">8</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="74" target="35">
+      <data key="osmid">[106903546, 106903530, 106903517]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">511</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.354389 31.3849149, 121.3546412 31.3844523, 121.3548957 31.3839885, 121.355177 31.3835361, 121.3554734 31.3831065, 121.3563792 31.3817608, 121.3564854 31.3816032, 121.3569716 31.3808811)</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">31</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="74" target="76">
+      <data key="osmid">[106903505, 106903580, 106903566]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">607</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.354389 31.3849149, 121.3545753 31.3843429, 121.354798 31.3839506, 121.3550687 31.3834991, 121.3551653 31.3833666, 121.3552893 31.3832414, 121.3554042 31.3830929, 121.3554619 31.3829845, 121.3555201 31.3828294, 121.3562816 31.3817029, 121.3563882 31.3815451, 121.3573646 31.3801005)</data>
+      <data key="speed_kph">53.3</data>
+      <data key="travel_time">41</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="75" target="43">
+      <data key="osmid">106060197</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">106</data>
+      <data key="geometry">LINESTRING (121.3478102 31.4015293, 121.3476186 31.4018805, 121.3472241 31.4023357)</data>
+      <data key="speed_kph">53.3</data>
+      <data key="travel_time">7</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="75" target="54">
+      <data key="osmid">106060180</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">S106</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary</data>
+      <data key="reversed">False</data>
+      <data key="length">210</data>
+      <data key="geometry">LINESTRING (121.3478102 31.4015293, 121.3474542 31.4019163, 121.3471146 31.4022698, 121.3467088 31.4026414, 121.3463624 31.4029569)</data>
+      <data key="speed_kph">58.5</data>
+      <data key="travel_time">12</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="76" target="22">
+      <data key="osmid">106903566</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="name">沪太公路</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">137</data>
+      <data key="geometry">LINESTRING (121.3573646 31.3801005, 121.3579654 31.3791707, 121.3581696 31.379133)</data>
+      <data key="speed_kph">53.3</data>
+      <data key="travel_time">9</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="77" target="45">
+      <data key="osmid">[344571961, 344571980, 344572006]</data>
+      <data key="name">沪联路</data>
+      <data key="highway">tertiary</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">175</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (121.3689892 31.3645825, 121.3679283 31.364224, 121.367566 31.3640995, 121.3672658 31.3640089)</data>
+      <data key="speed_kph">38.0</data>
+      <data key="travel_time">16</data>
+      <data key="id">0</data>
+    </edge>
+    <data key="created_date">2023-06-08 12:10:29</data>
+    <data key="created_with">OSMnx 1.3.1.post0</data>
+    <data key="crs">epsg:4326</data>
+    <data key="simplified">True</data>
+    <data key="city">Shanghai</data>
+    <data key="country">China</data>
+    <data key="iso2">CN</data>
+    <data key="iso3">CHN</data>
+    <data key="split_seed">1</data>
+    <data key="distance_coef">1.5</data>
+    <data key="node_distance_range_from">180</data>
+    <data key="node_distance_range_to">240</data>
+    <data key="start_node">68</data>
+    <data key="finish_node">69</data>
+  </graph>
+</graphml>

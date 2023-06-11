@@ -18,19 +18,19 @@ def remove_random_edges(G, p = 0.1):
         print("Graph is not connected, retrying")
         return remove_random_edges(G, p = p)
 
-def add_random_weights(G , pos = None, scale = 100, var = 0):
+def add_random_lengths(G , pos = None, scale = 100, var = 0):
     N = len(G.nodes())
 
     for (u, v) in G.edges():
-        # generate random distance
+        # generate random length
         if pos:
-            distance = max(1,int(np.sum(np.square(pos[u] - pos[v])) * scale) + random.randint(-var,var))
+            length = max(1,int(np.sum(np.square(pos[u] - pos[v])) * scale) + random.randint(-var,var))
             # print("Raw",np.sum(np.square(pos[u] - pos[v])))
             # print("Scaled", np.sum(np.square(pos[u] - pos[v])) * scale)
-            # print("Distance", distance)
+            # print("Length", length)
         else:
-            distance = random.randint(3,10)
-        G[u][v]['weight'] = distance
+            length = random.randint(3,10)
+        G[u][v]['length'] = length
   
 def relable_tuple_nodes(G, custom = None):
     mapping = {}
@@ -46,8 +46,8 @@ def relable_tuple_nodes(G, custom = None):
 
 def add_pos_to_nodes(G, pos):
     for node in G.nodes():
-        G.nodes[node]['x_pos'] = pos[node][0]
-        G.nodes[node]['y_pos'] = pos[node][1]
+        G.nodes[node]['x'] = pos[node][0]
+        G.nodes[node]['y'] = pos[node][1]
 
 def remove_pos(G):
     for _,val in G.nodes().items():
@@ -81,13 +81,13 @@ def generate_graph(N = 10, scale = 10, var = 9, p = 0.1, draw_edge_labels = Fals
     plt.clf()
     plt.cla()
     plt.close()
-    fig = plt.figure(f"Network generation")
+    fig = plt.figure(f"Network generation", figsize=(17,10))
     start_colour = 'mediumorchid'
     G = nx.hexagonal_lattice_graph(N, N)
     start_node = 1
     end_node = relable_tuple_nodes(G)
-    G.nodes[start_node]["start"] = True
-    G.nodes[end_node]["end"] = True
+    G.graph["start_node"] = start_node
+    G.graph["finish_node"] = end_node
     subax1 = plt.subplot(2,2,1)
     subax1.set_title(f'Hexagonal lattice ({N},{N})')
     # Extract the positions
@@ -110,62 +110,63 @@ def generate_graph(N = 10, scale = 10, var = 9, p = 0.1, draw_edge_labels = Fals
 
 
 
-    # add weights
-    add_random_weights(G, pos = init_pos, scale = scale, var = 0)
+    # add lengths
+    add_random_lengths(G, pos = init_pos, scale = scale, var = 0)
     subax2 = plt.subplot(2,2,2)
-    subax2.set_title('Adding scaled weights to edges')
+    subax2.set_title('Adding scaled lengths to edges')
     #edges = G.edges()
     # colors = [G[u][v]['colour'] for u,v in edges]
-    pos = nx.kamada_kawai_layout(G, pos = init_pos)
-    shortestPath = nx.shortest_path(G, source = start_node, target = end_node, weight='weight')
+    pos = nx.kamada_kawai_layout(G, pos = init_pos, weight='length')
+    shortestPath = nx.shortest_path(G, source = start_node, target = end_node, weight='length')
     node_colors = ["red" if n in shortestPath else "tab:blue" for n in G.nodes()]
     node_colors[start_node - 1] = start_colour
     node_colors[end_node - 1] = start_colour
     nx.draw(G, pos,node_color=node_colors, **options)
     if draw_edge_labels:
-        labels = nx.get_edge_attributes(G,'weight')
+        labels = nx.get_edge_attributes(G,'length')
         nx.draw_networkx_edge_labels(G,pos = pos, edge_labels = labels, font_size = 6)
 
     # add variance
-    add_random_weights(G, pos = init_pos, scale = scale, var = var)
+    add_random_lengths(G, pos = init_pos, scale = scale, var = var)
     subax3 = plt.subplot(2,2,3)
     subax3.set_title('Adding variance to edges')
     #edges = G.edges()
     # colors = [G[u][v]['colour'] for u,v in edges]
-    pos = nx.kamada_kawai_layout(G, pos = init_pos)
-     
+    pos = nx.kamada_kawai_layout(G, pos = init_pos, weight='length')
+    shortestPath = nx.shortest_path(G, source = start_node, target = end_node, weight='length')
     node_colors = ["red" if n in shortestPath else "tab:blue" for n in G.nodes()]
     node_colors[start_node - 1] = start_colour
     node_colors[end_node - 1] = start_colour
     nx.draw(G, pos,node_color=node_colors, **options)
     if draw_edge_labels:
-        labels = nx.get_edge_attributes(G,'weight')
+        labels = nx.get_edge_attributes(G,'length')
         nx.draw_networkx_edge_labels(G,pos = pos, edge_labels = labels, font_size = 6)
 
     subax4 = plt.subplot(2,2,4)
     subax4.set_title(f'Removing edges with p = {p}')
     G = remove_random_edges(G, p)
-    pos = nx.kamada_kawai_layout(G, pos = init_pos)
-    shortestPath = nx.shortest_path(G, source = start_node, target = end_node, weight='weight')
+    pos = nx.kamada_kawai_layout(G, pos = init_pos, weight='length')
+    shortestPath = nx.shortest_path(G, source = start_node, target = end_node, weight='length')
     node_colors = ["red" if n in shortestPath else "tab:blue" for n in G.nodes()]
     node_colors[start_node - 1] = start_colour
     node_colors[end_node - 1] = start_colour
     nx.draw(G, pos, node_color=node_colors, **options)
     if draw_edge_labels:
-        labels = nx.get_edge_attributes(G,'weight')
+        labels = nx.get_edge_attributes(G,'length')
         nx.draw_networkx_edge_labels(G,pos = pos, edge_labels = labels, font_size = 6)
 
     # draw just the final graph
-    fig2 = plt.figure(f"Final network")
+    fig2 = plt.figure(f"Final network", figsize = (17,10))
     fig2.suptitle(f"Network with |V| = {G.number_of_nodes()} and |E| = {G.number_of_edges()}")
     nx.draw(G, pos, node_color=node_colors, **options)
     if draw_edge_labels:
-        labels = nx.get_edge_attributes(G,'weight')
+        labels = nx.get_edge_attributes(G,'length')
         nx.draw_networkx_edge_labels(G,pos = pos, edge_labels = labels, font_size = 6)
 
     # colors = [G[u][v]['colour'] for u,v in edges]
-    plt.show()
-
+    plt.show(block = False)
+    plt.pause(1)
+    plt.close()
     if save or ask_yes_no_question("Do you want to save the graph and image?"):
         name = f"hexagonal_lattice_N_{N}"
         G.graph['name'] = name
@@ -177,13 +178,13 @@ def generate_graph(N = 10, scale = 10, var = 9, p = 0.1, draw_edge_labels = Fals
         fig2.savefig(f"./images/input/{name}.png")
 
 def main():
-    # generate_graph(N = 1, p = 0, draw_edge_labels= True, draw_node_labels = True, save = True)
-    # for N in range(2,5):
-    #     generate_graph(N = N, p = 0.10, draw_edge_labels= True, draw_node_labels = True, save = True)
-    # for N in range(5, 10):
-    #     generate_graph(N = N, p = 0.20, draw_node_labels = True, save = True)
-    # for N in range(10, 20):
-    #         generate_graph(N = N, p = 0.15, save = True)
+    generate_graph(N = 1, p = 0, draw_edge_labels= True, draw_node_labels = True, save = True)
+    for N in range(2,5):
+        generate_graph(N = N, p = 0.10, draw_edge_labels= True, draw_node_labels = True, save = True)
+    for N in range(5, 10):
+        generate_graph(N = N, p = 0.20, draw_node_labels = True, save = True)
+    for N in range(10, 20):
+            generate_graph(N = N, p = 0.15, save = True)
     for N in range(20, 30):
             generate_graph(N = N, p = 0.10, save = True)
 if __name__ == "__main__":

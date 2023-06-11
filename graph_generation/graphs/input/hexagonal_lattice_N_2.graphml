@@ -1,132 +1,135 @@
 <?xml version='1.0' encoding='utf-8'?>
 <graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
-  <key id="weight" for="edge" attr.name="weight" attr.type="long" />
-  <key id="end" for="node" attr.name="end" attr.type="boolean" />
-  <key id="y_pos" for="node" attr.name="y_pos" attr.type="float" />
-  <key id="x_pos" for="node" attr.name="x_pos" attr.type="float" />
-  <key id="start" for="node" attr.name="start" attr.type="boolean" />
+  <key id="length" for="edge" attr.name="length" attr.type="long" />
+  <key id="y" for="node" attr.name="y" attr.type="float" />
+  <key id="x" for="node" attr.name="x" attr.type="float" />
   <key id="name" for="graph" attr.name="name" attr.type="string" />
+  <key id="finish_node" for="graph" attr.name="finish_node" attr.type="long" />
+  <key id="start_node" for="graph" attr.name="start_node" attr.type="long" />
   <graph edgedefault="undirected">
     <node id="1">
-      <data key="start">True</data>
-      <data key="x_pos">0.5</data>
-      <data key="y_pos">0.0</data>
+      <data key="x">0.5</data>
+      <data key="y">0.0</data>
     </node>
     <node id="2">
-      <data key="x_pos">0.0</data>
-      <data key="y_pos">0.8660254037844386</data>
+      <data key="x">0.0</data>
+      <data key="y">0.8660254037844386</data>
     </node>
     <node id="3">
-      <data key="x_pos">0.5</data>
-      <data key="y_pos">1.7320508075688772</data>
+      <data key="x">0.5</data>
+      <data key="y">1.7320508075688772</data>
     </node>
     <node id="4">
-      <data key="x_pos">0.0</data>
-      <data key="y_pos">2.598076211353316</data>
+      <data key="x">0.0</data>
+      <data key="y">2.598076211353316</data>
     </node>
     <node id="5">
-      <data key="x_pos">0.5</data>
-      <data key="y_pos">3.4641016151377544</data>
+      <data key="x">0.5</data>
+      <data key="y">3.4641016151377544</data>
     </node>
     <node id="6">
-      <data key="x_pos">1.5</data>
-      <data key="y_pos">0.0</data>
+      <data key="x">1.5</data>
+      <data key="y">0.0</data>
     </node>
     <node id="7">
-      <data key="x_pos">2.0</data>
-      <data key="y_pos">0.8660254037844386</data>
+      <data key="x">2.0</data>
+      <data key="y">0.8660254037844386</data>
     </node>
     <node id="8">
-      <data key="x_pos">1.5</data>
-      <data key="y_pos">1.7320508075688772</data>
+      <data key="x">1.5</data>
+      <data key="y">1.7320508075688772</data>
     </node>
     <node id="9">
-      <data key="x_pos">2.0</data>
-      <data key="y_pos">2.598076211353316</data>
+      <data key="x">2.0</data>
+      <data key="y">2.598076211353316</data>
     </node>
     <node id="10">
-      <data key="x_pos">1.5</data>
-      <data key="y_pos">3.4641016151377544</data>
+      <data key="x">1.5</data>
+      <data key="y">3.4641016151377544</data>
     </node>
     <node id="11">
-      <data key="x_pos">2.0</data>
-      <data key="y_pos">4.330127018922193</data>
+      <data key="x">2.0</data>
+      <data key="y">4.330127018922193</data>
     </node>
     <node id="12">
-      <data key="x_pos">3.0</data>
-      <data key="y_pos">0.8660254037844386</data>
+      <data key="x">3.0</data>
+      <data key="y">0.8660254037844386</data>
     </node>
     <node id="13">
-      <data key="x_pos">3.5</data>
-      <data key="y_pos">1.7320508075688772</data>
+      <data key="x">3.5</data>
+      <data key="y">1.7320508075688772</data>
     </node>
     <node id="14">
-      <data key="x_pos">3.0</data>
-      <data key="y_pos">2.598076211353316</data>
+      <data key="x">3.0</data>
+      <data key="y">2.598076211353316</data>
     </node>
     <node id="15">
-      <data key="x_pos">3.5</data>
-      <data key="y_pos">3.4641016151377544</data>
+      <data key="x">3.5</data>
+      <data key="y">3.4641016151377544</data>
     </node>
     <node id="16">
-      <data key="end">True</data>
-      <data key="x_pos">3.0</data>
-      <data key="y_pos">4.330127018922193</data>
+      <data key="x">3.0</data>
+      <data key="y">4.330127018922193</data>
     </node>
     <edge source="1" target="2">
-      <data key="weight">14</data>
+      <data key="length">5</data>
     </edge>
     <edge source="1" target="6">
-      <data key="weight">16</data>
+      <data key="length">12</data>
     </edge>
     <edge source="2" target="3">
-      <data key="weight">11</data>
+      <data key="length">13</data>
     </edge>
     <edge source="3" target="4">
-      <data key="weight">8</data>
+      <data key="length">15</data>
     </edge>
     <edge source="3" target="8">
-      <data key="weight">18</data>
+      <data key="length">1</data>
     </edge>
     <edge source="4" target="5">
-      <data key="weight">4</data>
+      <data key="length">1</data>
     </edge>
     <edge source="5" target="10">
-      <data key="weight">16</data>
+      <data key="length">10</data>
+    </edge>
+    <edge source="6" target="7">
+      <data key="length">18</data>
     </edge>
     <edge source="7" target="8">
-      <data key="weight">16</data>
+      <data key="length">15</data>
     </edge>
     <edge source="7" target="12">
-      <data key="weight">7</data>
+      <data key="length">2</data>
     </edge>
     <edge source="8" target="9">
-      <data key="weight">19</data>
+      <data key="length">4</data>
     </edge>
     <edge source="9" target="10">
-      <data key="weight">12</data>
+      <data key="length">6</data>
     </edge>
     <edge source="9" target="14">
-      <data key="weight">19</data>
+      <data key="length">3</data>
     </edge>
     <edge source="10" target="11">
-      <data key="weight">15</data>
+      <data key="length">14</data>
     </edge>
     <edge source="11" target="16">
-      <data key="weight">16</data>
+      <data key="length">12</data>
     </edge>
     <edge source="12" target="13">
-      <data key="weight">16</data>
+      <data key="length">8</data>
     </edge>
     <edge source="13" target="14">
-      <data key="weight">3</data>
+      <data key="length">12</data>
     </edge>
     <edge source="14" target="15">
-      <data key="weight">17</data>
+      <data key="length">2</data>
     </edge>
     <edge source="15" target="16">
-      <data key="weight">2</data>
+      <data key="length">15</data>
     </edge>
+    <data key="start_node">1</data>
+    <data key="finish_node">16</data>
     <data key="name">hexagonal_lattice_N_2</data>
   </graph>
 </graphml>
