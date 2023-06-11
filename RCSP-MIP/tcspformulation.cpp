@@ -38,11 +38,11 @@ void TCSPFormulation::addConstraints(IloEnv env, IloModel model, const Instance<
 	for (int i : inst.V) {
 		IloExpr sum_in(env); IloExpr sum_out(env); // represents a linear expression of decision variables and constants
 		for (int j : incoming[i]) sum_in += x[j][i]; // cplex overloads +,-,... operators
-		for (int j : outgoing[i]) sum_out += x[i][j];
+		for (int j : outgoing[i]) sum_out += x[i][j]; 
+		model.add(sum_in <= 1); model.add(sum_out <= 1); // add constraint to model
 
-		if (i == inst.s) model.add(sum_out - sum_in == 1);
-		if (i == inst.t) model.add(sum_out - sum_in == -1);
-		else model.add(sum_out - sum_in == 0); // add constraint to model
+		int sum = (i == inst.s) - (i == inst.t);
+		model.add(sum_out - sum_in == sum);
 		model.add(y[i] <= sum_in + sum_out); // node can only be active if there's flow
 		sum_in.end(); sum_out.end(); // IloExpr must always call end() to free memory!
 	}
