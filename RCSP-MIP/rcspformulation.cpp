@@ -25,8 +25,8 @@ void RCSPFormulation::createDecisionVariables(IloEnv env, const Instance<RCSP>& 
 //	MIP_OUT(TRACE) << "created " << inst.n << " y_{i} variables" << std::endl;
 
 	// decision variables z_j
-	int upper = inst.R[inst.t].second;
-	z = IloNumVarArray(env, inst.n, 0, upper, ILOINT);
+	// int upper = inst.R[inst.t].second;
+	z = IloNumVarArray(env, inst.n, 0, inst.upper, ILOINT);
 	MIP_OUT(TRACE) << "created " << inst.n << " z_{i} variables" << std::endl;
 }
 

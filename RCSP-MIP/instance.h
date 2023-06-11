@@ -101,8 +101,10 @@ struct Instance<RCSP>
 	int s; // starting node
 	int t; // target node 
 
+	int upper = 0;
+
 	std::vector<int> V; 				 // index set of nodes [0,...,n-1]
-	std::vector<std::pair<int, int> > R; // constraints {l, u} on node i
+	std::vector<std::pair<int, int> > R; // constraints {a, b} on node i
 	std::vector<std::pair<int, int> > A; // index set of arcs [{i, j}]
 	std::vector<std::vector<int> > c;    // cost of arcs c(i, j)
 	std::vector<std::vector<int> > d;    // distance of arcs d(i, j)

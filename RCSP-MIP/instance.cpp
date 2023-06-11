@@ -133,7 +133,10 @@ Instance<RCSP>::Instance(const std::string& input_file) : filename(input_file)
 		std::pair<int, int> b;
 		file >> b.first >> b.second;
 		R.push_back(b);
-	}		
+
+		if (b.second > upper)
+			upper = b.second;
+	}
 }
 
 int Instance<RCSP>::objective(const Solution<RCSP>&sol) const
