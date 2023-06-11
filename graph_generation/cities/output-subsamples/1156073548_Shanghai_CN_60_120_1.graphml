@@ -1,0 +1,635 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d29" for="edge" attr.name="bridge" attr.type="string" />
+  <key id="d28" for="edge" attr.name="geometry" attr.type="string" />
+  <key id="d27" for="edge" attr.name="travel_time" attr.type="string" />
+  <key id="d26" for="edge" attr.name="speed_kph" attr.type="string" />
+  <key id="d25" for="edge" attr.name="length" attr.type="string" />
+  <key id="d24" for="edge" attr.name="reversed" attr.type="string" />
+  <key id="d23" for="edge" attr.name="highway" attr.type="string" />
+  <key id="d22" for="edge" attr.name="name" attr.type="string" />
+  <key id="d21" for="edge" attr.name="ref" attr.type="string" />
+  <key id="d20" for="edge" attr.name="lanes" attr.type="string" />
+  <key id="d19" for="edge" attr.name="oneway" attr.type="string" />
+  <key id="d18" for="edge" attr.name="osmid" attr.type="string" />
+  <key id="d17" for="node" attr.name="highway" attr.type="string" />
+  <key id="d16" for="node" attr.name="street_count" attr.type="string" />
+  <key id="d15" for="node" attr.name="x" attr.type="string" />
+  <key id="d14" for="node" attr.name="y" attr.type="string" />
+  <key id="d13" for="graph" attr.name="finish_node" attr.type="string" />
+  <key id="d12" for="graph" attr.name="start_node" attr.type="string" />
+  <key id="d11" for="graph" attr.name="node_distance_range_to" attr.type="string" />
+  <key id="d10" for="graph" attr.name="node_distance_range_from" attr.type="string" />
+  <key id="d9" for="graph" attr.name="distance_coef" attr.type="string" />
+  <key id="d8" for="graph" attr.name="split_seed" attr.type="string" />
+  <key id="d7" for="graph" attr.name="iso3" attr.type="string" />
+  <key id="d6" for="graph" attr.name="iso2" attr.type="string" />
+  <key id="d5" for="graph" attr.name="country" attr.type="string" />
+  <key id="d4" for="graph" attr.name="city" attr.type="string" />
+  <key id="d3" for="graph" attr.name="simplified" attr.type="string" />
+  <key id="d2" for="graph" attr.name="crs" attr.type="string" />
+  <key id="d1" for="graph" attr.name="created_with" attr.type="string" />
+  <key id="d0" for="graph" attr.name="created_date" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="1221258003">
+      <data key="d14">31.4029569</data>
+      <data key="d15">121.3463624</data>
+      <data key="d16">5</data>
+    </node>
+    <node id="3508490648">
+      <data key="d14">31.4071667</data>
+      <data key="d15">121.338812</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="3508490649">
+      <data key="d14">31.4071735</data>
+      <data key="d15">121.3384872</data>
+      <data key="d16">5</data>
+    </node>
+    <node id="3508490651">
+      <data key="d14">31.4072547</data>
+      <data key="d15">121.3386303</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="3508490655">
+      <data key="d14">31.4075891</data>
+      <data key="d15">121.3392153</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="3508490022">
+      <data key="d14">31.4028365</data>
+      <data key="d15">121.3462305</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="3508490026">
+      <data key="d14">31.4030321</data>
+      <data key="d15">121.3462874</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="1221258669">
+      <data key="d14">31.4049708</data>
+      <data key="d15">121.3435758</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="1221257902">
+      <data key="d14">31.4040199</data>
+      <data key="d15">121.3450648</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="3508490032">
+      <data key="d14">31.4042073</data>
+      <data key="d15">121.3475805</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="1221257905">
+      <data key="d14">31.3978317</data>
+      <data key="d15">121.3498813</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="1221258931">
+      <data key="d14">31.3994319</data>
+      <data key="d15">121.3492528</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="1221258166">
+      <data key="d14">31.4015293</data>
+      <data key="d15">121.3478102</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="2071048378">
+      <data key="d14">31.4041619</data>
+      <data key="d15">121.347663</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="1221258569">
+      <data key="d14">31.4056179</data>
+      <data key="d15">121.3420182</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="1221257937">
+      <data key="d14">31.4029156</data>
+      <data key="d15">121.3461401</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="1221258066">
+      <data key="d14">31.3970913</data>
+      <data key="d15">121.3499778</data>
+      <data key="d17">traffic_signals</data>
+      <data key="d16">5</data>
+    </node>
+    <node id="1221258964">
+      <data key="d14">31.397171</data>
+      <data key="d15">121.3501676</data>
+      <data key="d17">traffic_signals</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="1221257824">
+      <data key="d14">31.4005543</data>
+      <data key="d15">121.3485186</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="5398099683">
+      <data key="d14">31.3970149</data>
+      <data key="d15">121.3500117</data>
+      <data key="d17">traffic_signals</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="1221258724">
+      <data key="d14">31.4071042</data>
+      <data key="d15">121.3392472</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="2071048292">
+      <data key="d14">31.4086564</data>
+      <data key="d15">121.3410823</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="5398099684">
+      <data key="d14">31.3970933</data>
+      <data key="d15">121.3502021</data>
+      <data key="d17">traffic_signals</data>
+      <data key="d16">5</data>
+    </node>
+    <node id="1221257960">
+      <data key="d14">31.4023357</data>
+      <data key="d15">121.3472241</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="1221258859">
+      <data key="d14">31.4068248</data>
+      <data key="d15">121.3397943</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="1221258231">
+      <data key="d14">31.4062173</data>
+      <data key="d15">121.340773</data>
+      <data key="d16">3</data>
+    </node>
+    <edge source="1221258003" target="3508490026" id="0">
+      <data key="d18">106060182</data>
+      <data key="d19">True</data>
+      <data key="d20">4</data>
+      <data key="d21">S106</data>
+      <data key="d22">沪太公路</data>
+      <data key="d23">primary</data>
+      <data key="d24">False</data>
+      <data key="d25">10.981</data>
+      <data key="d26">58.5</data>
+      <data key="d27">0</data>
+    </edge>
+    <edge source="1221258003" target="2071048378" id="0">
+      <data key="d18">344091500</data>
+      <data key="d19">True</data>
+      <data key="d23">tertiary</data>
+      <data key="d24">False</data>
+      <data key="d25">182.181</data>
+      <data key="d26">38.0</data>
+      <data key="d27">17</data>
+    </edge>
+    <edge source="3508490648" target="3508490651" id="0">
+      <data key="d18">106060165</data>
+      <data key="d19">True</data>
+      <data key="d20">3</data>
+      <data key="d21">S106</data>
+      <data key="d22">沪太公路</data>
+      <data key="d23">primary</data>
+      <data key="d24">False</data>
+      <data key="d25">19.827</data>
+      <data key="d26">58.5</data>
+      <data key="d27">1</data>
+    </edge>
+    <edge source="3508490649" target="3508490651" id="0">
+      <data key="d18">344091481</data>
+      <data key="d23">primary</data>
+      <data key="d19">False</data>
+      <data key="d24">True</data>
+      <data key="d25">16.308</data>
+      <data key="d26">58.5</data>
+      <data key="d27">1</data>
+    </edge>
+    <edge source="3508490651" target="3508490649" id="0">
+      <data key="d18">344091481</data>
+      <data key="d23">primary</data>
+      <data key="d19">False</data>
+      <data key="d24">False</data>
+      <data key="d25">16.308</data>
+      <data key="d26">58.5</data>
+      <data key="d27">1</data>
+    </edge>
+    <edge source="3508490651" target="3508490655" id="0">
+      <data key="d18">344091481</data>
+      <data key="d23">primary</data>
+      <data key="d19">False</data>
+      <data key="d24">True</data>
+      <data key="d25">66.82</data>
+      <data key="d26">58.5</data>
+      <data key="d27">4</data>
+    </edge>
+    <edge source="3508490655" target="2071048292" id="0">
+      <data key="d18">344091464</data>
+      <data key="d23">primary</data>
+      <data key="d19">False</data>
+      <data key="d24">True</data>
+      <data key="d25">213.257</data>
+      <data key="d26">58.5</data>
+      <data key="d27">13</data>
+    </edge>
+    <edge source="3508490655" target="3508490651" id="0">
+      <data key="d18">344091481</data>
+      <data key="d23">primary</data>
+      <data key="d19">False</data>
+      <data key="d24">False</data>
+      <data key="d25">66.82</data>
+      <data key="d26">58.5</data>
+      <data key="d27">4</data>
+    </edge>
+    <edge source="3508490022" target="1221258003" id="0">
+      <data key="d18">344091500</data>
+      <data key="d19">True</data>
+      <data key="d23">tertiary</data>
+      <data key="d24">False</data>
+      <data key="d25">18.329</data>
+      <data key="d26">38.0</data>
+      <data key="d27">1</data>
+    </edge>
+    <edge source="3508490026" target="1221257937" id="0">
+      <data key="d18">344091487</data>
+      <data key="d19">True</data>
+      <data key="d23">tertiary</data>
+      <data key="d24">False</data>
+      <data key="d25">19.059</data>
+      <data key="d26">38.0</data>
+      <data key="d27">1</data>
+    </edge>
+    <edge source="3508490026" target="1221257902" id="0">
+      <data key="d18">106060182</data>
+      <data key="d19">True</data>
+      <data key="d20">4</data>
+      <data key="d21">S106</data>
+      <data key="d22">沪太公路</data>
+      <data key="d23">primary</data>
+      <data key="d24">False</data>
+      <data key="d25">159.83499999999998</data>
+      <data key="d28">LINESTRING (121.3462874 31.4030321, 121.3459241 31.4033498, 121.3455041 31.4036833, 121.3450648 31.4040199)</data>
+      <data key="d26">58.5</data>
+      <data key="d27">9</data>
+    </edge>
+    <edge source="1221258669" target="1221258859" id="0">
+      <data key="d18">106060192</data>
+      <data key="d19">True</data>
+      <data key="d20">1</data>
+      <data key="d22">沪太公路</data>
+      <data key="d23">primary_link</data>
+      <data key="d24">False</data>
+      <data key="d25">414.159</data>
+      <data key="d28">LINESTRING (121.3435758 31.4049708, 121.3432966 31.4051208, 121.3429213 31.4053138, 121.3425507 31.4054884, 121.3420498 31.4057018, 121.3408394 31.4062946, 121.3402894 31.4065984, 121.340037 31.406724, 121.3397943 31.4068248)</data>
+      <data key="d26">53.3</data>
+      <data key="d27">28</data>
+    </edge>
+    <edge source="1221258669" target="1221258569" id="0">
+      <data key="d18">106060195</data>
+      <data key="d19">True</data>
+      <data key="d23">primary_link</data>
+      <data key="d24">False</data>
+      <data key="d25">164.743</data>
+      <data key="d28">LINESTRING (121.3435758 31.4049708, 121.3425308 31.4054538, 121.3420182 31.4056179)</data>
+      <data key="d26">53.3</data>
+      <data key="d27">11</data>
+    </edge>
+    <edge source="1221257902" target="1221258569" id="0">
+      <data key="d18">[106060209, 106060196, 106060165]</data>
+      <data key="d19">True</data>
+      <data key="d20">3</data>
+      <data key="d21">S106</data>
+      <data key="d22">沪太公路</data>
+      <data key="d23">primary</data>
+      <data key="d24">False</data>
+      <data key="d25">339.603</data>
+      <data key="d29">yes</data>
+      <data key="d28">LINESTRING (121.3450648 31.4040199, 121.344175 31.4045446, 121.3439969 31.4046377, 121.3437407 31.4047713, 121.3432282 31.4050286, 121.3420182 31.4056179)</data>
+      <data key="d26">58.5</data>
+      <data key="d27">20</data>
+    </edge>
+    <edge source="1221257902" target="1221258669" id="0">
+      <data key="d18">[106060192, 106060161, 106060223]</data>
+      <data key="d19">True</data>
+      <data key="d20">1</data>
+      <data key="d22">沪太公路</data>
+      <data key="d23">primary_link</data>
+      <data key="d24">False</data>
+      <data key="d25">177.54000000000002</data>
+      <data key="d29">yes</data>
+      <data key="d28">LINESTRING (121.3450648 31.4040199, 121.3448412 31.4042383, 121.3445541 31.4044361, 121.3442455 31.4046149, 121.3441046 31.4046899, 121.3438504 31.4048235, 121.3435758 31.4049708)</data>
+      <data key="d26">53.3</data>
+      <data key="d27">12</data>
+    </edge>
+    <edge source="3508490032" target="2071048378" id="0">
+      <data key="d18">196806639</data>
+      <data key="d23">tertiary</data>
+      <data key="d19">False</data>
+      <data key="d24">False</data>
+      <data key="d25">9.316</data>
+      <data key="d26">38.0</data>
+      <data key="d27">0</data>
+    </edge>
+    <edge source="3508490032" target="3508490026" id="0">
+      <data key="d18">344091487</data>
+      <data key="d19">True</data>
+      <data key="d23">tertiary</data>
+      <data key="d24">False</data>
+      <data key="d25">179.27</data>
+      <data key="d26">38.0</data>
+      <data key="d27">17</data>
+    </edge>
+    <edge source="3508490032" target="2071048292" id="0">
+      <data key="d18">[344091525, 344091326, 196806639]</data>
+      <data key="d23">tertiary</data>
+      <data key="d19">False</data>
+      <data key="d24">True</data>
+      <data key="d25">794.455</data>
+      <data key="d29">yes</data>
+      <data key="d28">LINESTRING (121.3475805 31.4042073, 121.345402 31.4054058, 121.3451527 31.4055578, 121.3442129 31.4061186, 121.3436456 31.4064774, 121.3428469 31.4071084, 121.3419488 31.4078481, 121.3410823 31.4086564)</data>
+      <data key="d26">38.0</data>
+      <data key="d27">75</data>
+    </edge>
+    <edge source="1221257905" target="1221257824" id="0">
+      <data key="d18">[106060217, 106060180, 106060167]</data>
+      <data key="d19">True</data>
+      <data key="d20">3</data>
+      <data key="d21">S106</data>
+      <data key="d22">沪太公路</data>
+      <data key="d23">primary</data>
+      <data key="d24">False</data>
+      <data key="d25">329.456</data>
+      <data key="d29">yes</data>
+      <data key="d28">LINESTRING (121.3498813 31.3978317, 121.3497146 31.3981255, 121.3496396 31.3982872, 121.3496065 31.3983587, 121.3491246 31.3993986, 121.3489114 31.3998513, 121.3486845 31.4002911, 121.3485186 31.4005543)</data>
+      <data key="d26">58.5</data>
+      <data key="d27">20</data>
+    </edge>
+    <edge source="1221257905" target="1221258931" id="0">
+      <data key="d18">[106060201, 106060194, 106060213]</data>
+      <data key="d19">True</data>
+      <data key="d20">1</data>
+      <data key="d22">沪太公路</data>
+      <data key="d23">primary_link</data>
+      <data key="d24">False</data>
+      <data key="d25">188.09</data>
+      <data key="d29">yes</data>
+      <data key="d28">LINESTRING (121.3498813 31.3978317, 121.3498081 31.3981597, 121.349738 31.3983204, 121.3497061 31.3983933, 121.3492528 31.3994319)</data>
+      <data key="d26">53.3</data>
+      <data key="d27">12</data>
+    </edge>
+    <edge source="1221258931" target="1221257824" id="0">
+      <data key="d18">106060190</data>
+      <data key="d19">True</data>
+      <data key="d20">1</data>
+      <data key="d23">primary_link</data>
+      <data key="d24">False</data>
+      <data key="d25">144.169</data>
+      <data key="d28">LINESTRING (121.3492528 31.3994319, 121.3491731 31.3995153, 121.348999 31.3998788, 121.3487509 31.4003191, 121.3485186 31.4005543)</data>
+      <data key="d26">53.3</data>
+      <data key="d27">9</data>
+    </edge>
+    <edge source="1221258931" target="1221257960" id="0">
+      <data key="d18">106060201</data>
+      <data key="d19">True</data>
+      <data key="d20">1</data>
+      <data key="d22">沪太公路</data>
+      <data key="d23">primary_link</data>
+      <data key="d24">False</data>
+      <data key="d25">378.2939999999999</data>
+      <data key="d28">LINESTRING (121.3492528 31.3994319, 121.3490324 31.3998893, 121.3488039 31.4003415, 121.3486239 31.4005987, 121.3485312 31.4007617, 121.3482354 31.4011688, 121.3476619 31.4018999, 121.3474245 31.4021657, 121.3472241 31.4023357)</data>
+      <data key="d26">53.3</data>
+      <data key="d27">25</data>
+    </edge>
+    <edge source="1221258166" target="1221258003" id="0">
+      <data key="d18">106060180</data>
+      <data key="d19">True</data>
+      <data key="d20">3</data>
+      <data key="d21">S106</data>
+      <data key="d22">沪太公路</data>
+      <data key="d23">primary</data>
+      <data key="d24">False</data>
+      <data key="d25">210.109</data>
+      <data key="d28">LINESTRING (121.3478102 31.4015293, 121.3474542 31.4019163, 121.3471146 31.4022698, 121.3467088 31.4026414, 121.3463624 31.4029569)</data>
+      <data key="d26">58.5</data>
+      <data key="d27">12</data>
+    </edge>
+    <edge source="1221258166" target="1221257960" id="0">
+      <data key="d18">106060197</data>
+      <data key="d19">True</data>
+      <data key="d20">1</data>
+      <data key="d23">primary_link</data>
+      <data key="d24">False</data>
+      <data key="d25">106.037</data>
+      <data key="d28">LINESTRING (121.3478102 31.4015293, 121.3476186 31.4018805, 121.3472241 31.4023357)</data>
+      <data key="d26">53.3</data>
+      <data key="d27">7</data>
+    </edge>
+    <edge source="2071048378" target="3508490032" id="0">
+      <data key="d18">196806639</data>
+      <data key="d23">tertiary</data>
+      <data key="d19">False</data>
+      <data key="d24">True</data>
+      <data key="d25">9.316</data>
+      <data key="d26">38.0</data>
+      <data key="d27">0</data>
+    </edge>
+    <edge source="1221258569" target="1221258231" id="0">
+      <data key="d18">106060165</data>
+      <data key="d19">True</data>
+      <data key="d20">3</data>
+      <data key="d21">S106</data>
+      <data key="d22">沪太公路</data>
+      <data key="d23">primary</data>
+      <data key="d24">False</data>
+      <data key="d25">135.675</data>
+      <data key="d26">58.5</data>
+      <data key="d27">8</data>
+    </edge>
+    <edge source="1221257937" target="3508490022" id="0">
+      <data key="d18">106060179</data>
+      <data key="d19">True</data>
+      <data key="d20">4</data>
+      <data key="d21">S106</data>
+      <data key="d22">沪太公路</data>
+      <data key="d23">primary</data>
+      <data key="d24">False</data>
+      <data key="d25">12.287</data>
+      <data key="d26">58.5</data>
+      <data key="d27">0</data>
+    </edge>
+    <edge source="1221258066" target="5398099683" id="0">
+      <data key="d18">106060162</data>
+      <data key="d19">True</data>
+      <data key="d20">4</data>
+      <data key="d21">S106</data>
+      <data key="d22">沪太公路</data>
+      <data key="d23">primary</data>
+      <data key="d24">False</data>
+      <data key="d25">9.084</data>
+      <data key="d26">58.5</data>
+      <data key="d27">0</data>
+    </edge>
+    <edge source="1221258964" target="1221257905" id="0">
+      <data key="d18">106903576</data>
+      <data key="d19">True</data>
+      <data key="d20">4</data>
+      <data key="d21">S106</data>
+      <data key="d22">沪太公路</data>
+      <data key="d23">primary</data>
+      <data key="d24">False</data>
+      <data key="d25">78.331</data>
+      <data key="d26">58.5</data>
+      <data key="d27">4</data>
+    </edge>
+    <edge source="1221258964" target="1221258066" id="0">
+      <data key="d18">344091510</data>
+      <data key="d19">True</data>
+      <data key="d22">美兰湖路</data>
+      <data key="d23">tertiary</data>
+      <data key="d24">False</data>
+      <data key="d25">20.076</data>
+      <data key="d26">38.0</data>
+      <data key="d27">1</data>
+    </edge>
+    <edge source="1221257824" target="1221258166" id="0">
+      <data key="d18">106060180</data>
+      <data key="d19">True</data>
+      <data key="d20">3</data>
+      <data key="d21">S106</data>
+      <data key="d22">沪太公路</data>
+      <data key="d23">primary</data>
+      <data key="d24">False</data>
+      <data key="d25">127.71199999999999</data>
+      <data key="d28">LINESTRING (121.3485186 31.4005543, 121.3484185 31.4007131, 121.3481369 31.4011292, 121.3478102 31.4015293)</data>
+      <data key="d26">58.5</data>
+      <data key="d27">7</data>
+    </edge>
+    <edge source="5398099683" target="5398099684" id="0">
+      <data key="d18">559717424</data>
+      <data key="d19">True</data>
+      <data key="d22">美兰湖路</data>
+      <data key="d23">tertiary</data>
+      <data key="d24">False</data>
+      <data key="d25">20.064</data>
+      <data key="d26">38.0</data>
+      <data key="d27">1</data>
+    </edge>
+    <edge source="1221258724" target="3508490648" id="0">
+      <data key="d18">106060176</data>
+      <data key="d19">True</data>
+      <data key="d20">1</data>
+      <data key="d22">沪太公路</data>
+      <data key="d23">primary_link</data>
+      <data key="d24">False</data>
+      <data key="d25">43.291</data>
+      <data key="d28">LINESTRING (121.3392472 31.4071042, 121.3390307 31.4071852, 121.338812 31.4071667)</data>
+      <data key="d26">53.3</data>
+      <data key="d27">2</data>
+    </edge>
+    <edge source="1221258724" target="3508490655" id="0">
+      <data key="d18">344091521</data>
+      <data key="d19">True</data>
+      <data key="d23">primary_link</data>
+      <data key="d24">False</data>
+      <data key="d25">58.562999999999995</data>
+      <data key="d28">LINESTRING (121.3392472 31.4071042, 121.3391662 31.4072048, 121.339128 31.4073046, 121.339128 31.4074085, 121.3391638 31.4074981, 121.3392153 31.4075891)</data>
+      <data key="d26">53.3</data>
+      <data key="d27">4</data>
+    </edge>
+    <edge source="2071048292" target="3508490655" id="0">
+      <data key="d18">344091464</data>
+      <data key="d23">primary</data>
+      <data key="d19">False</data>
+      <data key="d24">False</data>
+      <data key="d25">213.257</data>
+      <data key="d26">58.5</data>
+      <data key="d27">13</data>
+    </edge>
+    <edge source="2071048292" target="3508490032" id="0">
+      <data key="d18">[344091525, 344091326, 196806639]</data>
+      <data key="d23">tertiary</data>
+      <data key="d19">False</data>
+      <data key="d24">False</data>
+      <data key="d25">794.4549999999999</data>
+      <data key="d29">yes</data>
+      <data key="d28">LINESTRING (121.3410823 31.4086564, 121.3419488 31.4078481, 121.3428469 31.4071084, 121.3436456 31.4064774, 121.3442129 31.4061186, 121.3451527 31.4055578, 121.345402 31.4054058, 121.3475805 31.4042073)</data>
+      <data key="d26">38.0</data>
+      <data key="d27">75</data>
+    </edge>
+    <edge source="5398099684" target="1221258964" id="0">
+      <data key="d18">106903526</data>
+      <data key="d19">True</data>
+      <data key="d20">3</data>
+      <data key="d21">S106</data>
+      <data key="d22">沪太公路</data>
+      <data key="d23">primary</data>
+      <data key="d24">False</data>
+      <data key="d25">9.24</data>
+      <data key="d26">58.5</data>
+      <data key="d27">0</data>
+    </edge>
+    <edge source="1221257960" target="1221258003" id="0">
+      <data key="d18">106060201</data>
+      <data key="d19">True</data>
+      <data key="d20">1</data>
+      <data key="d22">沪太公路</data>
+      <data key="d23">primary_link</data>
+      <data key="d24">False</data>
+      <data key="d25">109.181</data>
+      <data key="d28">LINESTRING (121.3472241 31.4023357, 121.3468047 31.402715, 121.3465805 31.4028988, 121.3463624 31.4029569)</data>
+      <data key="d26">53.3</data>
+      <data key="d27">7</data>
+    </edge>
+    <edge source="1221258859" target="1221258724" id="0">
+      <data key="d18">[106060176, 106060177]</data>
+      <data key="d19">True</data>
+      <data key="d20">['1', '2']</data>
+      <data key="d22">沪太公路</data>
+      <data key="d23">primary_link</data>
+      <data key="d24">False</data>
+      <data key="d25">60.509</data>
+      <data key="d28">LINESTRING (121.3397943 31.4068248, 121.3393816 31.4070334, 121.3392472 31.4071042)</data>
+      <data key="d26">53.3</data>
+      <data key="d27">4</data>
+    </edge>
+    <edge source="1221258231" target="3508490648" id="0">
+      <data key="d18">106060165</data>
+      <data key="d19">True</data>
+      <data key="d20">3</data>
+      <data key="d21">S106</data>
+      <data key="d22">沪太公路</data>
+      <data key="d23">primary</data>
+      <data key="d24">False</data>
+      <data key="d25">213.963</data>
+      <data key="d26">58.5</data>
+      <data key="d27">13</data>
+    </edge>
+    <edge source="1221258231" target="1221258859" id="0">
+      <data key="d18">106060172</data>
+      <data key="d19">True</data>
+      <data key="d20">1</data>
+      <data key="d23">primary_link</data>
+      <data key="d24">False</data>
+      <data key="d25">114.93299999999999</data>
+      <data key="d28">LINESTRING (121.340773 31.4062173, 121.340249 31.4065657, 121.3400104 31.4066969, 121.3397943 31.4068248)</data>
+      <data key="d26">53.3</data>
+      <data key="d27">7</data>
+    </edge>
+    <data key="d0">2023-06-08 12:10:29</data>
+    <data key="d1">OSMnx 1.3.1.post0</data>
+    <data key="d2">epsg:4326</data>
+    <data key="d3">True</data>
+    <data key="d4">Shanghai</data>
+    <data key="d5">China</data>
+    <data key="d6">CN</data>
+    <data key="d7">CHN</data>
+    <data key="d8">1</data>
+    <data key="d9">1.5</data>
+    <data key="d10">60</data>
+    <data key="d11">120</data>
+    <data key="d12">1221258066</data>
+    <data key="d13">3508490649</data>
+  </graph>
+</graphml>

@@ -1,0 +1,2799 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d27" for="edge" attr.name="geometry" attr.type="string" />
+  <key id="d26" for="edge" attr.name="travel_time" attr.type="string" />
+  <key id="d25" for="edge" attr.name="speed_kph" attr.type="string" />
+  <key id="d24" for="edge" attr.name="length" attr.type="string" />
+  <key id="d23" for="edge" attr.name="reversed" attr.type="string" />
+  <key id="d22" for="edge" attr.name="width" attr.type="string" />
+  <key id="d21" for="edge" attr.name="highway" attr.type="string" />
+  <key id="d20" for="edge" attr.name="name" attr.type="string" />
+  <key id="d19" for="edge" attr.name="lanes" attr.type="string" />
+  <key id="d18" for="edge" attr.name="oneway" attr.type="string" />
+  <key id="d17" for="edge" attr.name="osmid" attr.type="string" />
+  <key id="d16" for="node" attr.name="street_count" attr.type="string" />
+  <key id="d15" for="node" attr.name="x" attr.type="string" />
+  <key id="d14" for="node" attr.name="y" attr.type="string" />
+  <key id="d13" for="graph" attr.name="finish_node" attr.type="string" />
+  <key id="d12" for="graph" attr.name="start_node" attr.type="string" />
+  <key id="d11" for="graph" attr.name="node_distance_range_to" attr.type="string" />
+  <key id="d10" for="graph" attr.name="node_distance_range_from" attr.type="string" />
+  <key id="d9" for="graph" attr.name="distance_coef" attr.type="string" />
+  <key id="d8" for="graph" attr.name="split_seed" attr.type="string" />
+  <key id="d7" for="graph" attr.name="iso3" attr.type="string" />
+  <key id="d6" for="graph" attr.name="iso2" attr.type="string" />
+  <key id="d5" for="graph" attr.name="country" attr.type="string" />
+  <key id="d4" for="graph" attr.name="city" attr.type="string" />
+  <key id="d3" for="graph" attr.name="simplified" attr.type="string" />
+  <key id="d2" for="graph" attr.name="crs" attr.type="string" />
+  <key id="d1" for="graph" attr.name="created_with" attr.type="string" />
+  <key id="d0" for="graph" attr.name="created_date" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="409557377">
+      <data key="d14">-6.147855</data>
+      <data key="d15">106.723453</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="409557506">
+      <data key="d14">-6.1477499</data>
+      <data key="d15">106.7213083</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409557380">
+      <data key="d14">-6.1481199</data>
+      <data key="d15">106.7221067</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="383330949">
+      <data key="d14">-6.14755</data>
+      <data key="d15">106.7234673</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409474821">
+      <data key="d14">-6.1490542</data>
+      <data key="d15">106.7214931</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409557381">
+      <data key="d14">-6.1481854</data>
+      <data key="d15">106.7234374</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="409557636">
+      <data key="d14">-6.1489156</data>
+      <data key="d15">106.725073</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409554572">
+      <data key="d14">-6.1499213</data>
+      <data key="d15">106.7240153</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409557389">
+      <data key="d14">-6.1485014</data>
+      <data key="d15">106.7234226</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="5509695245">
+      <data key="d14">-6.1501149</data>
+      <data key="d15">106.7273792</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="381902738">
+      <data key="d14">-6.1477591</data>
+      <data key="d15">106.7208809</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409557396">
+      <data key="d14">-6.1484348</data>
+      <data key="d15">106.7220915</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="409554581">
+      <data key="d14">-6.1503949</data>
+      <data key="d15">106.7239896</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409557398">
+      <data key="d14">-6.1494046</data>
+      <data key="d15">106.722052</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409554584">
+      <data key="d14">-6.1515339</data>
+      <data key="d15">106.7239407</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409557400">
+      <data key="d14">-6.1494749</data>
+      <data key="d15">106.7233786</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="409554587">
+      <data key="d14">-6.1515426</data>
+      <data key="d15">106.7242735</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="383330973">
+      <data key="d14">-6.1498763</data>
+      <data key="d15">106.723358</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409554718">
+      <data key="d14">-6.1503305</data>
+      <data key="d15">106.7211373</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="5042318493">
+      <data key="d14">-6.1516423</data>
+      <data key="d15">106.725557</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409554592">
+      <data key="d14">-6.1500617</data>
+      <data key="d15">106.7267517</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409554593">
+      <data key="d14">-6.1505207</data>
+      <data key="d15">106.726713</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409554594">
+      <data key="d14">-6.1504097</data>
+      <data key="d15">106.7243496</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409554595">
+      <data key="d14">-6.1504192</data>
+      <data key="d15">106.7246196</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409554596">
+      <data key="d14">-6.1504276</data>
+      <data key="d15">106.7249628</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409554597">
+      <data key="d14">-6.1504411</data>
+      <data key="d15">106.7252869</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="409554598">
+      <data key="d14">-6.1504599</data>
+      <data key="d15">106.7256324</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409554599">
+      <data key="d14">-6.1504751</data>
+      <data key="d15">106.7259201</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409554600">
+      <data key="d14">-6.1504834</data>
+      <data key="d15">106.7262231</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409554601">
+      <data key="d14">-6.1500035</data>
+      <data key="d15">106.7253097</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409557369">
+      <data key="d14">-6.1477877</data>
+      <data key="d15">106.7221227</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="383330859">
+      <data key="d14">-6.1474938</data>
+      <data key="d15">106.7221368</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409554605">
+      <data key="d14">-6.1510864</data>
+      <data key="d15">106.724323</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409554607">
+      <data key="d14">-6.1511122</data>
+      <data key="d15">106.7246046</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409557424">
+      <data key="d14">-6.1487397</data>
+      <data key="d15">106.7220781</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="383331122">
+      <data key="d14">-6.1495652</data>
+      <data key="d15">106.7250628</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409554612">
+      <data key="d14">-6.1511449</data>
+      <data key="d15">106.7249448</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="9473339189">
+      <data key="d14">-6.1504871</data>
+      <data key="d15">106.7215885</data>
+      <data key="d16">1</data>
+    </node>
+    <node id="409557566">
+      <data key="d14">-6.1487072</data>
+      <data key="d15">106.7214376</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409554625">
+      <data key="d14">-6.1511686</data>
+      <data key="d15">106.7259081</data>
+      <data key="d16">1</data>
+    </node>
+    <node id="7070121666">
+      <data key="d14">-6.1499732</data>
+      <data key="d15">106.7265384</data>
+      <data key="d16">1</data>
+    </node>
+    <node id="7072521027">
+      <data key="d14">-6.1487392</data>
+      <data key="d15">106.7208615</data>
+      <data key="d16">1</data>
+    </node>
+    <node id="383330884">
+      <data key="d14">-6.1498088</data>
+      <data key="d15">106.722032</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409554639">
+      <data key="d14">-6.1510906</data>
+      <data key="d15">106.7262051</data>
+      <data key="d16">1</data>
+    </node>
+    <node id="409557456">
+      <data key="d14">-6.1477573</data>
+      <data key="d15">106.7214933</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409557463">
+      <data key="d14">-6.1480857</data>
+      <data key="d15">106.7214876</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409557593">
+      <data key="d14">-6.1495351</data>
+      <data key="d15">106.7246936</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="409557594">
+      <data key="d14">-6.149153</data>
+      <data key="d15">106.723392</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409557595">
+      <data key="d14">-6.1492164</data>
+      <data key="d15">106.7247086</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409557596">
+      <data key="d14">-6.1489022</data>
+      <data key="d15">106.7247233</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409557598">
+      <data key="d14">-6.1488052</data>
+      <data key="d15">106.7234083</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409557599">
+      <data key="d14">-6.148558</data>
+      <data key="d15">106.7247325</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409554784">
+      <data key="d14">-6.1487205</data>
+      <data key="d15">106.7209976</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409557600">
+      <data key="d14">-6.1482403</data>
+      <data key="d15">106.7247376</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409557602">
+      <data key="d14">-6.1479147</data>
+      <data key="d15">106.7247445</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409557603">
+      <data key="d14">-6.1500529</data>
+      <data key="d15">106.7265323</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="383330790">
+      <data key="d14">-6.1474476</data>
+      <data key="d15">106.7212832</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409557482">
+      <data key="d14">-6.1483868</data>
+      <data key="d15">106.7214891</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="7781819755">
+      <data key="d14">-6.148773</data>
+      <data key="d15">106.7220768</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409557408">
+      <data key="d14">-6.1490775</data>
+      <data key="d15">106.7220654</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="409554672">
+      <data key="d14">-6.1497734</data>
+      <data key="d15">106.7216297</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409554673">
+      <data key="d14">-6.1502747</data>
+      <data key="d15">106.72159</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="381905778">
+      <data key="d14">-6.1499623</data>
+      <data key="d15">106.7246736</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409557364">
+      <data key="d14">-6.1484915</data>
+      <data key="d15">106.7230716</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="409557365">
+      <data key="d14">-6.1494579</data>
+      <data key="d15">106.7230236</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409557366">
+      <data key="d14">-6.1491419</data>
+      <data key="d15">106.7230371</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409557367">
+      <data key="d14">-6.1488113</data>
+      <data key="d15">106.7230533</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409557368">
+      <data key="d14">-6.1481743</data>
+      <data key="d15">106.7230826</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409474809">
+      <data key="d14">-6.1496972</data>
+      <data key="d15">106.721343</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409557626">
+      <data key="d14">-6.1492402</data>
+      <data key="d15">106.725066</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409557538">
+      <data key="d14">-6.1483861</data>
+      <data key="d15">106.721386</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="409474813">
+      <data key="d14">-6.1491938</data>
+      <data key="d15">106.7210727</data>
+      <data key="d16">3</data>
+    </node>
+    <edge source="409557377" target="409557381" id="0">
+      <data key="d17">33565557</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama V</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">36.779</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409557377" target="383330949" id="0">
+      <data key="d17">33565557</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama V</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">33.951</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409557377" target="409557369" id="0">
+      <data key="d17">34912630</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Pepaya VI</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">147.262</data>
+      <data key="d25">21.8</data>
+      <data key="d26">24</data>
+    </edge>
+    <edge source="409557377" target="409557602" id="0">
+      <data key="d17">34912659</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Nangka VI</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">142.93800000000002</data>
+      <data key="d27">LINESTRING (106.723453 -6.147855, 106.7246722 -6.1479105, 106.7247445 -6.1479147)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">23</data>
+    </edge>
+    <edge source="409557506" target="409557538" id="0">
+      <data key="d17">33565554</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Melati Raya</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">71.262</data>
+      <data key="d25">21.8</data>
+      <data key="d26">11</data>
+    </edge>
+    <edge source="409557506" target="383330790" id="0">
+      <data key="d17">33565554</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Melati Raya</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">33.729</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409557506" target="409557456" id="0">
+      <data key="d17">34912644</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Melati V</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">20.469</data>
+      <data key="d25">21.8</data>
+      <data key="d26">3</data>
+    </edge>
+    <edge source="409557380" target="409557396" id="0">
+      <data key="d17">33565556</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama VII</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">35.056</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409557380" target="409557369" id="0">
+      <data key="d17">33565556</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama VII</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">36.981</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409557380" target="409557368" id="0">
+      <data key="d17">34912631</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Pepaya V</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">108.061</data>
+      <data key="d25">21.8</data>
+      <data key="d26">17</data>
+    </edge>
+    <edge source="409557380" target="409557463" id="0">
+      <data key="d17">34912646</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Melati IV</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">68.55</data>
+      <data key="d25">21.8</data>
+      <data key="d26">11</data>
+    </edge>
+    <edge source="383330949" target="409557377" id="0">
+      <data key="d17">33565557</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama V</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">33.951</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="383330949" target="383330859" id="0">
+      <data key="d17">33565559</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Pepaya VII</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">147.227</data>
+      <data key="d25">21.8</data>
+      <data key="d26">24</data>
+    </edge>
+    <edge source="409474821" target="409557566" id="0">
+      <data key="d17">33565554</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Melati Raya</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">39.07</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409474821" target="409557408" id="0">
+      <data key="d17">34912650</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Nangka</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">63.352999999999994</data>
+      <data key="d27">LINESTRING (106.7214931 -6.1490542, 106.7216098 -6.1490519, 106.7220654 -6.1490775)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">10</data>
+    </edge>
+    <edge source="409474821" target="409474813" id="0">
+      <data key="d17">916216840</data>
+      <data key="d21">residential</data>
+      <data key="d18">False</data>
+      <data key="d23">True</data>
+      <data key="d24">49.01</data>
+      <data key="d27">LINESTRING (106.7214931 -6.1490542, 106.7211554 -6.1491697, 106.7210727 -6.1491938)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">8</data>
+    </edge>
+    <edge source="409557381" target="409557389" id="0">
+      <data key="d17">33565557</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama V</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">35.176</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409557381" target="409557377" id="0">
+      <data key="d17">33565557</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama V</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">36.779</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409557381" target="409557368" id="0">
+      <data key="d17">34912631</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Pepaya V</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">39.245</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409557381" target="409557600" id="0">
+      <data key="d17">34912658</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Nangka V</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">143.874</data>
+      <data key="d27">LINESTRING (106.7234374 -6.1481854, 106.7246649 -6.1482365, 106.7247376 -6.1482403)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">23</data>
+    </edge>
+    <edge source="409557636" target="409557626" id="0">
+      <data key="d17">33565562</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Bambu Kuning 4</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">36.102</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409554572" target="381905778" id="0">
+      <data key="d17">34905985</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Raya</data>
+      <data key="d21">secondary</data>
+      <data key="d22">7</data>
+      <data key="d23">False</data>
+      <data key="d24">72.921</data>
+      <data key="d25">26.5</data>
+      <data key="d26">9</data>
+    </edge>
+    <edge source="409554572" target="383330973" id="0">
+      <data key="d17">34905985</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Raya</data>
+      <data key="d21">secondary</data>
+      <data key="d22">7</data>
+      <data key="d23">True</data>
+      <data key="d24">72.84</data>
+      <data key="d25">26.5</data>
+      <data key="d26">9</data>
+    </edge>
+    <edge source="409554572" target="409554581" id="0">
+      <data key="d17">[933100877, 34912327]</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama VI</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">52.75</data>
+      <data key="d27">LINESTRING (106.7240153 -6.1499213, 106.7240036 -6.1500713, 106.7239989 -6.1501312, 106.7239896 -6.1503949)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">8</data>
+    </edge>
+    <edge source="409557389" target="409557598" id="0">
+      <data key="d17">33565557</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama V</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">33.818</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409557389" target="409557381" id="0">
+      <data key="d17">33565557</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama V</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">35.176</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409557389" target="409557364" id="0">
+      <data key="d17">34912635</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Pepaya IV</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">38.821</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409557389" target="409557599" id="0">
+      <data key="d17">34912657</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Nangka IV</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">144.956</data>
+      <data key="d27">LINESTRING (106.7234226 -6.1485014, 106.7246488 -6.1485565, 106.7247325 -6.148558)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">23</data>
+    </edge>
+    <edge source="5509695245" target="409554592" id="0">
+      <data key="d17">34905985</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Raya</data>
+      <data key="d21">secondary</data>
+      <data key="d22">7</data>
+      <data key="d23">True</data>
+      <data key="d24">69.625</data>
+      <data key="d27">LINESTRING (106.7273792 -6.1501149, 106.7270205 -6.1500845, 106.7267517 -6.1500617)</data>
+      <data key="d25">26.5</data>
+      <data key="d26">9</data>
+    </edge>
+    <edge source="381902738" target="409554784" id="0">
+      <data key="d17">769393912</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Raya</data>
+      <data key="d21">secondary</data>
+      <data key="d22">7</data>
+      <data key="d23">False</data>
+      <data key="d24">107.679</data>
+      <data key="d25">26.5</data>
+      <data key="d26">14</data>
+    </edge>
+    <edge source="409557396" target="409557424" id="0">
+      <data key="d17">33565556</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama VII</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">33.936</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409557396" target="409557380" id="0">
+      <data key="d17">33565556</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama VII</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">35.056</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409557396" target="409557364" id="0">
+      <data key="d17">34912635</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Pepaya IV</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">108.539</data>
+      <data key="d25">21.8</data>
+      <data key="d26">17</data>
+    </edge>
+    <edge source="409557396" target="409557482" id="0">
+      <data key="d17">34912648</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Melati III</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">66.812</data>
+      <data key="d25">21.8</data>
+      <data key="d26">11</data>
+    </edge>
+    <edge source="409554581" target="409554594" id="0">
+      <data key="d17">34912330</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Selatan</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">39.834</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409554581" target="409554584" id="0">
+      <data key="d17">34912327</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama VI</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">133.047</data>
+      <data key="d27">LINESTRING (106.7239896 -6.1503949, 106.7239916 -6.1506245, 106.7239462 -6.1507681, 106.7238118 -6.1511736, 106.723806 -6.1512094, 106.7238086 -6.1512465, 106.7239407 -6.1515339)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">22</data>
+    </edge>
+    <edge source="409554581" target="409554572" id="0">
+      <data key="d17">[933100877, 34912327]</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama VI</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">52.75</data>
+      <data key="d27">LINESTRING (106.7239896 -6.1503949, 106.7239989 -6.1501312, 106.7240036 -6.1500713, 106.7240153 -6.1499213)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">8</data>
+    </edge>
+    <edge source="409557398" target="409557408" id="0">
+      <data key="d17">33565556</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama VII</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">36.402</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409557398" target="409557365" id="0">
+      <data key="d17">34912636</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Pepaya I</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">107.579</data>
+      <data key="d25">21.8</data>
+      <data key="d26">17</data>
+    </edge>
+    <edge source="409557398" target="383330884" id="0">
+      <data key="d17">33565556</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama VII</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">45.002</data>
+      <data key="d27">LINESTRING (106.722052 -6.1494046, 106.722051 -6.1494239, 106.7220502 -6.1494301, 106.722032 -6.1498088)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">7</data>
+    </edge>
+    <edge source="409554584" target="409554587" id="0">
+      <data key="d17">34912328</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan EE</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">36.805</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409554584" target="409554581" id="0">
+      <data key="d17">34912327</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama VI</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">133.047</data>
+      <data key="d27">LINESTRING (106.7239407 -6.1515339, 106.7238086 -6.1512465, 106.723806 -6.1512094, 106.7238118 -6.1511736, 106.7239462 -6.1507681, 106.7239916 -6.1506245, 106.7239896 -6.1503949)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">22</data>
+    </edge>
+    <edge source="409557400" target="409557594" id="0">
+      <data key="d17">33565557</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama V</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">35.824</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409557400" target="409557365" id="0">
+      <data key="d17">34912636</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Pepaya I</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">39.293</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409557400" target="383330973" id="0">
+      <data key="d17">[933102333, 33565557]</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama V</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">44.693999999999996</data>
+      <data key="d27">LINESTRING (106.7233786 -6.1494749, 106.7233729 -6.1495579, 106.723358 -6.1498763)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">7</data>
+    </edge>
+    <edge source="409557400" target="409557593" id="0">
+      <data key="d17">34912654</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Nangka I</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">145.536</data>
+      <data key="d27">LINESTRING (106.7233786 -6.1494749, 106.7246012 -6.1495326, 106.7246936 -6.1495351)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">24</data>
+    </edge>
+    <edge source="409554587" target="409554584" id="0">
+      <data key="d17">34912328</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan EE</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">36.805</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409554587" target="409554605" id="0">
+      <data key="d17">34912333</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Selatan VII</data>
+      <data key="d21">living_street</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">51.022</data>
+      <data key="d25">19.1</data>
+      <data key="d26">9</data>
+    </edge>
+    <edge source="383330973" target="409554572" id="0">
+      <data key="d17">34905985</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Raya</data>
+      <data key="d21">secondary</data>
+      <data key="d22">7</data>
+      <data key="d23">False</data>
+      <data key="d24">72.84</data>
+      <data key="d25">26.5</data>
+      <data key="d26">9</data>
+    </edge>
+    <edge source="383330973" target="383330884" id="0">
+      <data key="d17">34905985</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Raya</data>
+      <data key="d21">secondary</data>
+      <data key="d22">7</data>
+      <data key="d23">True</data>
+      <data key="d24">146.789</data>
+      <data key="d27">LINESTRING (106.723358 -6.1498763, 106.7229214 -6.1498546, 106.722032 -6.1498088)</data>
+      <data key="d25">26.5</data>
+      <data key="d26">19</data>
+    </edge>
+    <edge source="383330973" target="409557400" id="0">
+      <data key="d17">[33565557, 933102333]</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama V</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">44.693999999999996</data>
+      <data key="d27">LINESTRING (106.723358 -6.1498763, 106.7233729 -6.1495579, 106.7233786 -6.1494749)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">7</data>
+    </edge>
+    <edge source="409554718" target="409554673" id="0">
+      <data key="d17">34912360</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Kenanga I</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">50.44500000000001</data>
+      <data key="d27">LINESTRING (106.7211373 -6.1503305, 106.7212259 -6.1503154, 106.7215324 -6.1502808, 106.7215398 -6.15028, 106.72159 -6.1502747)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">8</data>
+    </edge>
+    <edge source="5042318493" target="409554598" id="0">
+      <data key="d17">[34912337, 712290099, 516542311]</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Selatan 3</data>
+      <data key="d21">['residential', 'living_street']</data>
+      <data key="d22">['1', '5']</data>
+      <data key="d23">False</data>
+      <data key="d24">132.61599999999999</data>
+      <data key="d27">LINESTRING (106.725557 -6.1516423, 106.7256023 -6.151401, 106.7255942 -6.1513546, 106.7256057 -6.1511576, 106.725603 -6.1511456, 106.7255945 -6.1511378, 106.7256324 -6.1504599)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">21</data>
+    </edge>
+    <edge source="409554592" target="409557603" id="0">
+      <data key="d17">34905985</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Raya</data>
+      <data key="d21">secondary</data>
+      <data key="d22">7</data>
+      <data key="d23">True</data>
+      <data key="d24">24.276</data>
+      <data key="d25">26.5</data>
+      <data key="d26">3</data>
+    </edge>
+    <edge source="409554592" target="409554593" id="0">
+      <data key="d17">34912329</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama II</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">51.218</data>
+      <data key="d25">21.8</data>
+      <data key="d26">8</data>
+    </edge>
+    <edge source="409554592" target="5509695245" id="0">
+      <data key="d17">34905985</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Raya</data>
+      <data key="d21">secondary</data>
+      <data key="d22">7</data>
+      <data key="d23">False</data>
+      <data key="d24">69.625</data>
+      <data key="d27">LINESTRING (106.7267517 -6.1500617, 106.7270205 -6.1500845, 106.7273792 -6.1501149)</data>
+      <data key="d25">26.5</data>
+      <data key="d26">9</data>
+    </edge>
+    <edge source="409554593" target="409554592" id="0">
+      <data key="d17">34912329</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama II</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">51.218</data>
+      <data key="d25">21.8</data>
+      <data key="d26">8</data>
+    </edge>
+    <edge source="409554593" target="409554600" id="0">
+      <data key="d17">34912330</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Selatan</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">54.319</data>
+      <data key="d25">21.8</data>
+      <data key="d26">9</data>
+    </edge>
+    <edge source="409554594" target="409554595" id="0">
+      <data key="d17">34912330</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Selatan</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">29.869</data>
+      <data key="d25">21.8</data>
+      <data key="d26">4</data>
+    </edge>
+    <edge source="409554594" target="409554581" id="0">
+      <data key="d17">34912330</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Selatan</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">39.834</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409554594" target="409554605" id="0">
+      <data key="d17">34912333</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Selatan VII</data>
+      <data key="d21">living_street</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">75.303</data>
+      <data key="d25">19.1</data>
+      <data key="d26">14</data>
+    </edge>
+    <edge source="409554595" target="409554596" id="0">
+      <data key="d17">34912330</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Selatan</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">37.954</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409554595" target="409554594" id="0">
+      <data key="d17">34912330</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Selatan</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">29.869</data>
+      <data key="d25">21.8</data>
+      <data key="d26">4</data>
+    </edge>
+    <edge source="409554595" target="409554607" id="0">
+      <data key="d17">34912334</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Selatan VI</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">77.076</data>
+      <data key="d25">21.8</data>
+      <data key="d26">12</data>
+    </edge>
+    <edge source="409554596" target="409554597" id="0">
+      <data key="d17">34912330</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Selatan</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">35.862</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409554596" target="409554595" id="0">
+      <data key="d17">34912330</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Selatan</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">37.954</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409554596" target="409554612" id="0">
+      <data key="d17">[34912336, 726041817]</data>
+      <data key="d20">Jalan Utama Selatan V</data>
+      <data key="d21">['residential', 'living_street']</data>
+      <data key="d18">False</data>
+      <data key="d23">False</data>
+      <data key="d24">79.81</data>
+      <data key="d27">LINESTRING (106.7249628 -6.1504276, 106.7249626 -6.1507946, 106.7249448 -6.1511449)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">13</data>
+    </edge>
+    <edge source="409554597" target="409554598" id="0">
+      <data key="d17">34912330</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Selatan</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">38.254</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409554597" target="409554596" id="0">
+      <data key="d17">34912330</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Selatan</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">35.862</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409554597" target="409554612" id="0">
+      <data key="d17">[725740837, 34912335]</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Selatan IV</data>
+      <data key="d21">['residential', 'living_street']</data>
+      <data key="d22">5</data>
+      <data key="d23">[False, True]</data>
+      <data key="d24">111.90100000000001</data>
+      <data key="d27">LINESTRING (106.7252869 -6.1504411, 106.7252361 -6.1511046, 106.7252241 -6.1511659, 106.7249448 -6.1511449)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">18</data>
+    </edge>
+    <edge source="409554597" target="409554601" id="0">
+      <data key="d17">[1053191673, 34912332]</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama IV</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">48.724999999999994</data>
+      <data key="d27">LINESTRING (106.7252869 -6.1504411, 106.7253065 -6.150066, 106.7253097 -6.1500035)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">8</data>
+    </edge>
+    <edge source="409554598" target="409554599" id="0">
+      <data key="d17">34912330</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Selatan</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">31.852</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409554598" target="409554597" id="0">
+      <data key="d17">34912330</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Selatan</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">38.254</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409554598" target="5042318493" id="0">
+      <data key="d17">[34912337, 712290099, 516542311]</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Selatan 3</data>
+      <data key="d21">['residential', 'living_street']</data>
+      <data key="d22">['1', '5']</data>
+      <data key="d23">True</data>
+      <data key="d24">132.61599999999999</data>
+      <data key="d27">LINESTRING (106.7256324 -6.1504599, 106.7255945 -6.1511378, 106.725603 -6.1511456, 106.7256057 -6.1511576, 106.7255942 -6.1513546, 106.7256023 -6.151401, 106.725557 -6.1516423)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">21</data>
+    </edge>
+    <edge source="409554599" target="409554600" id="0">
+      <data key="d17">34912330</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Selatan</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">33.511</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409554599" target="409554598" id="0">
+      <data key="d17">34912330</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Selatan</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">31.852</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409554599" target="409554625" id="0">
+      <data key="d17">34912338</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Selatan 2</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">77.125</data>
+      <data key="d25">21.8</data>
+      <data key="d26">12</data>
+    </edge>
+    <edge source="409554600" target="409554593" id="0">
+      <data key="d17">34912330</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Selatan</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">54.319</data>
+      <data key="d25">21.8</data>
+      <data key="d26">9</data>
+    </edge>
+    <edge source="409554600" target="409554599" id="0">
+      <data key="d17">34912330</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Selatan</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">33.511</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409554600" target="409554639" id="0">
+      <data key="d17">726040620</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Selatan I</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">67.547</data>
+      <data key="d25">21.8</data>
+      <data key="d26">11</data>
+    </edge>
+    <edge source="409554601" target="409557603" id="0">
+      <data key="d17">34905985</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Raya</data>
+      <data key="d21">secondary</data>
+      <data key="d22">7</data>
+      <data key="d23">False</data>
+      <data key="d24">135.276</data>
+      <data key="d25">26.5</data>
+      <data key="d26">18</data>
+    </edge>
+    <edge source="409554601" target="381905778" id="0">
+      <data key="d17">34905985</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Raya</data>
+      <data key="d21">secondary</data>
+      <data key="d22">7</data>
+      <data key="d23">True</data>
+      <data key="d24">70.473</data>
+      <data key="d25">26.5</data>
+      <data key="d26">9</data>
+    </edge>
+    <edge source="409554601" target="409554597" id="0">
+      <data key="d17">[1053191673, 34912332]</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama IV</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">48.724999999999994</data>
+      <data key="d27">LINESTRING (106.7253097 -6.1500035, 106.7253065 -6.150066, 106.7252869 -6.1504411)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">8</data>
+    </edge>
+    <edge source="409557369" target="409557380" id="0">
+      <data key="d17">33565556</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama VII</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">36.981</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409557369" target="383330859" id="0">
+      <data key="d17">33565556</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama VII</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">32.717</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409557369" target="409557377" id="0">
+      <data key="d17">34912630</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Pepaya VI</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">147.262</data>
+      <data key="d25">21.8</data>
+      <data key="d26">24</data>
+    </edge>
+    <edge source="409557369" target="409557456" id="0">
+      <data key="d17">34912644</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Melati V</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">69.666</data>
+      <data key="d25">21.8</data>
+      <data key="d26">11</data>
+    </edge>
+    <edge source="383330859" target="409557369" id="0">
+      <data key="d17">33565556</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama VII</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">32.717</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="383330859" target="383330790" id="0">
+      <data key="d17">33565558</data>
+      <data key="d20">Melati 6</data>
+      <data key="d21">residential</data>
+      <data key="d18">False</data>
+      <data key="d23">True</data>
+      <data key="d24">94.51</data>
+      <data key="d25">21.8</data>
+      <data key="d26">15</data>
+    </edge>
+    <edge source="383330859" target="383330949" id="0">
+      <data key="d17">33565559</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Pepaya VII</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">147.227</data>
+      <data key="d25">21.8</data>
+      <data key="d26">24</data>
+    </edge>
+    <edge source="409554605" target="409554587" id="0">
+      <data key="d17">34912333</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Selatan VII</data>
+      <data key="d21">living_street</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">51.022</data>
+      <data key="d25">19.1</data>
+      <data key="d26">9</data>
+    </edge>
+    <edge source="409554605" target="409554594" id="0">
+      <data key="d17">34912333</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Selatan VII</data>
+      <data key="d21">living_street</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">75.303</data>
+      <data key="d25">19.1</data>
+      <data key="d26">14</data>
+    </edge>
+    <edge source="409554605" target="409554607" id="0">
+      <data key="d17">34912335</data>
+      <data key="d21">residential</data>
+      <data key="d18">False</data>
+      <data key="d23">False</data>
+      <data key="d24">31.264</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409554607" target="409554595" id="0">
+      <data key="d17">34912334</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Selatan VI</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">77.076</data>
+      <data key="d25">21.8</data>
+      <data key="d26">12</data>
+    </edge>
+    <edge source="409554607" target="409554605" id="0">
+      <data key="d17">34912335</data>
+      <data key="d21">residential</data>
+      <data key="d18">False</data>
+      <data key="d23">True</data>
+      <data key="d24">31.264</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409554607" target="409554612" id="0">
+      <data key="d17">34912335</data>
+      <data key="d21">residential</data>
+      <data key="d18">False</data>
+      <data key="d23">False</data>
+      <data key="d24">37.804</data>
+      <data key="d27">LINESTRING (106.7246046 -6.1511122, 106.7247158 -6.1511179, 106.7249448 -6.1511449)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409557424" target="7781819755" id="0">
+      <data key="d17">33565556</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama VII</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">3.706</data>
+      <data key="d25">21.8</data>
+      <data key="d26">0</data>
+    </edge>
+    <edge source="409557424" target="409557396" id="0">
+      <data key="d17">33565556</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama VII</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">33.936</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409557424" target="409557566" id="0">
+      <data key="d17">34912652</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Melati II</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">70.903</data>
+      <data key="d25">21.8</data>
+      <data key="d26">11</data>
+    </edge>
+    <edge source="383331122" target="409557626" id="0">
+      <data key="d17">33565562</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Bambu Kuning 4</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">36.14</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="383331122" target="409557593" id="0">
+      <data key="d17">34912663</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Bambu Kuning Raya</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">40.958</data>
+      <data key="d27">LINESTRING (106.7250628 -6.1495652, 106.7247772 -6.1495399, 106.7246936 -6.1495351)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409554612" target="409554597" id="0">
+      <data key="d17">[725740837, 34912335]</data>
+      <data key="d21">['residential', 'living_street']</data>
+      <data key="d18">False</data>
+      <data key="d23">[False, True]</data>
+      <data key="d24">111.90100000000001</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Selatan IV</data>
+      <data key="d22">5</data>
+      <data key="d27">LINESTRING (106.7249448 -6.1511449, 106.7252241 -6.1511659, 106.7252361 -6.1511046, 106.7252869 -6.1504411)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">18</data>
+    </edge>
+    <edge source="409554612" target="409554607" id="0">
+      <data key="d17">34912335</data>
+      <data key="d21">residential</data>
+      <data key="d18">False</data>
+      <data key="d23">True</data>
+      <data key="d24">37.804</data>
+      <data key="d27">LINESTRING (106.7249448 -6.1511449, 106.7247158 -6.1511179, 106.7246046 -6.1511122)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409554612" target="409554596" id="0">
+      <data key="d17">[34912336, 726041817]</data>
+      <data key="d20">Jalan Utama Selatan V</data>
+      <data key="d21">['residential', 'living_street']</data>
+      <data key="d18">False</data>
+      <data key="d23">True</data>
+      <data key="d24">79.81</data>
+      <data key="d27">LINESTRING (106.7249448 -6.1511449, 106.7249626 -6.1507946, 106.7249628 -6.1504276)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">13</data>
+    </edge>
+    <edge source="9473339189" target="409554673" id="0">
+      <data key="d17">1027603480</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Komplek Imigrasi</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">23.618</data>
+      <data key="d25">21.8</data>
+      <data key="d26">3</data>
+    </edge>
+    <edge source="409557566" target="409474821" id="0">
+      <data key="d17">33565554</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Melati Raya</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">39.07</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409557566" target="409557538" id="0">
+      <data key="d17">33565554</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Melati Raya</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">36.158</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409557566" target="409557424" id="0">
+      <data key="d17">34912652</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Melati II</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">70.903</data>
+      <data key="d25">21.8</data>
+      <data key="d26">11</data>
+    </edge>
+    <edge source="409554625" target="409554599" id="0">
+      <data key="d17">34912338</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Selatan 2</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">77.125</data>
+      <data key="d25">21.8</data>
+      <data key="d26">12</data>
+    </edge>
+    <edge source="7070121666" target="409557603" id="0">
+      <data key="d17">933102752</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama I</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">8.888</data>
+      <data key="d25">21.8</data>
+      <data key="d26">1</data>
+    </edge>
+    <edge source="7072521027" target="409554784" id="0">
+      <data key="d17">757344061</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Masjid IV</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">15.19</data>
+      <data key="d25">21.8</data>
+      <data key="d26">2</data>
+    </edge>
+    <edge source="383330884" target="409554672" id="0">
+      <data key="d17">34905985</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Raya</data>
+      <data key="d21">secondary</data>
+      <data key="d22">7</data>
+      <data key="d23">True</data>
+      <data key="d24">44.65</data>
+      <data key="d25">26.5</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="383330884" target="409557398" id="0">
+      <data key="d17">33565556</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama VII</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">45.002</data>
+      <data key="d27">LINESTRING (106.722032 -6.1498088, 106.7220502 -6.1494301, 106.722051 -6.1494239, 106.722052 -6.1494046)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">7</data>
+    </edge>
+    <edge source="383330884" target="383330973" id="0">
+      <data key="d17">34905985</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Raya</data>
+      <data key="d21">secondary</data>
+      <data key="d22">7</data>
+      <data key="d23">False</data>
+      <data key="d24">146.789</data>
+      <data key="d27">LINESTRING (106.722032 -6.1498088, 106.7229214 -6.1498546, 106.723358 -6.1498763)</data>
+      <data key="d25">26.5</data>
+      <data key="d26">19</data>
+    </edge>
+    <edge source="409554639" target="409554600" id="0">
+      <data key="d17">726040620</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Selatan I</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">67.547</data>
+      <data key="d25">21.8</data>
+      <data key="d26">11</data>
+    </edge>
+    <edge source="409557456" target="409557463" id="0">
+      <data key="d17">34912640</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">36.522</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409557456" target="409557506" id="0">
+      <data key="d17">34912644</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Melati V</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">20.469</data>
+      <data key="d25">21.8</data>
+      <data key="d26">3</data>
+    </edge>
+    <edge source="409557456" target="409557369" id="0">
+      <data key="d17">34912644</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Melati V</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">69.666</data>
+      <data key="d25">21.8</data>
+      <data key="d26">11</data>
+    </edge>
+    <edge source="409557463" target="409557482" id="0">
+      <data key="d17">34912640</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">33.481</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409557463" target="409557456" id="0">
+      <data key="d17">34912640</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">36.522</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409557463" target="409557380" id="0">
+      <data key="d17">34912646</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Melati IV</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">68.55</data>
+      <data key="d25">21.8</data>
+      <data key="d26">11</data>
+    </edge>
+    <edge source="409557593" target="409557595" id="0">
+      <data key="d17">33503636</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama III</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">35.477</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409557593" target="381905778" id="0">
+      <data key="d17">33503636</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama III</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">47.554</data>
+      <data key="d25">21.8</data>
+      <data key="d26">7</data>
+    </edge>
+    <edge source="409557593" target="409557400" id="0">
+      <data key="d17">34912654</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Nangka I</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">145.536</data>
+      <data key="d27">LINESTRING (106.7246936 -6.1495351, 106.7246012 -6.1495326, 106.7233786 -6.1494749)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">24</data>
+    </edge>
+    <edge source="409557593" target="383331122" id="0">
+      <data key="d17">34912663</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Bambu Kuning Raya</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">40.958</data>
+      <data key="d27">LINESTRING (106.7246936 -6.1495351, 106.7247772 -6.1495399, 106.7250628 -6.1495652)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409557594" target="409557400" id="0">
+      <data key="d17">33565557</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama V</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">35.824</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409557594" target="409557598" id="0">
+      <data key="d17">33565557</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama V</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">38.716</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409557594" target="409557595" id="0">
+      <data key="d17">34912655</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Nangka II</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">145.732</data>
+      <data key="d27">LINESTRING (106.723392 -6.149153, 106.7246334 -6.1492105, 106.7247086 -6.1492164)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">24</data>
+    </edge>
+    <edge source="409557595" target="409557596" id="0">
+      <data key="d17">33503636</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama III</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">34.975</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409557595" target="409557593" id="0">
+      <data key="d17">33503636</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama III</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">35.477</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409557595" target="409557594" id="0">
+      <data key="d17">34912655</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Nangka II</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">145.732</data>
+      <data key="d27">LINESTRING (106.7247086 -6.1492164, 106.7246334 -6.1492105, 106.723392 -6.149153)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">24</data>
+    </edge>
+    <edge source="409557596" target="409557599" id="0">
+      <data key="d17">33503636</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama III</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">38.287</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409557596" target="409557595" id="0">
+      <data key="d17">33503636</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama III</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">34.975</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409557596" target="409557598" id="0">
+      <data key="d17">34912656</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Nangka III</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">145.789</data>
+      <data key="d27">LINESTRING (106.7247233 -6.1489022, 106.7246354 -6.1488992, 106.7234083 -6.1488052)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">24</data>
+    </edge>
+    <edge source="409557598" target="409557594" id="0">
+      <data key="d17">33565557</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama V</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">38.716</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409557598" target="409557389" id="0">
+      <data key="d17">33565557</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama V</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">33.818</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409557598" target="409557596" id="0">
+      <data key="d17">34912656</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Nangka III</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">145.789</data>
+      <data key="d27">LINESTRING (106.7234083 -6.1488052, 106.7246354 -6.1488992, 106.7247233 -6.1489022)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">24</data>
+    </edge>
+    <edge source="409557599" target="409557600" id="0">
+      <data key="d17">33503636</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama III</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">35.331</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409557599" target="409557596" id="0">
+      <data key="d17">33503636</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama III</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">38.287</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409557599" target="409557389" id="0">
+      <data key="d17">34912657</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Nangka IV</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">144.956</data>
+      <data key="d27">LINESTRING (106.7247325 -6.148558, 106.7246488 -6.1485565, 106.7234226 -6.1485014)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">23</data>
+    </edge>
+    <edge source="409554784" target="409474813" id="0">
+      <data key="d17">34905985</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Raya</data>
+      <data key="d21">secondary</data>
+      <data key="d22">7</data>
+      <data key="d23">False</data>
+      <data key="d24">53.28</data>
+      <data key="d25">26.5</data>
+      <data key="d26">7</data>
+    </edge>
+    <edge source="409554784" target="7072521027" id="0">
+      <data key="d17">757344061</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Masjid IV</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">15.19</data>
+      <data key="d25">21.8</data>
+      <data key="d26">2</data>
+    </edge>
+    <edge source="409554784" target="381902738" id="0">
+      <data key="d17">769393912</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Raya</data>
+      <data key="d21">secondary</data>
+      <data key="d22">7</data>
+      <data key="d23">True</data>
+      <data key="d24">107.679</data>
+      <data key="d25">26.5</data>
+      <data key="d26">14</data>
+    </edge>
+    <edge source="409557600" target="409557602" id="0">
+      <data key="d17">33503636</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama III</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">36.213</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409557600" target="409557599" id="0">
+      <data key="d17">33503636</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama III</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">35.331</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409557600" target="409557381" id="0">
+      <data key="d17">34912658</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Nangka V</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">143.874</data>
+      <data key="d27">LINESTRING (106.7247376 -6.1482403, 106.7246649 -6.1482365, 106.7234374 -6.1481854)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">23</data>
+    </edge>
+    <edge source="409557602" target="409557600" id="0">
+      <data key="d17">33503636</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama III</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">36.213</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409557602" target="409557377" id="0">
+      <data key="d17">34912659</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Nangka VI</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">142.93800000000002</data>
+      <data key="d27">LINESTRING (106.7247445 -6.1479147, 106.7246722 -6.1479105, 106.723453 -6.147855)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">23</data>
+    </edge>
+    <edge source="409557603" target="409554592" id="0">
+      <data key="d17">34905985</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Raya</data>
+      <data key="d21">secondary</data>
+      <data key="d22">7</data>
+      <data key="d23">False</data>
+      <data key="d24">24.276</data>
+      <data key="d25">26.5</data>
+      <data key="d26">3</data>
+    </edge>
+    <edge source="409557603" target="409554601" id="0">
+      <data key="d17">34905985</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Raya</data>
+      <data key="d21">secondary</data>
+      <data key="d22">7</data>
+      <data key="d23">True</data>
+      <data key="d24">135.276</data>
+      <data key="d25">26.5</data>
+      <data key="d26">18</data>
+    </edge>
+    <edge source="409557603" target="7070121666" id="0">
+      <data key="d17">933102752</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama I</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">8.888</data>
+      <data key="d25">21.8</data>
+      <data key="d26">1</data>
+    </edge>
+    <edge source="383330790" target="409557506" id="0">
+      <data key="d17">33565554</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Melati Raya</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">33.729</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="383330790" target="383330859" id="0">
+      <data key="d17">33565558</data>
+      <data key="d20">Melati 6</data>
+      <data key="d21">residential</data>
+      <data key="d18">False</data>
+      <data key="d23">False</data>
+      <data key="d24">94.51</data>
+      <data key="d25">21.8</data>
+      <data key="d26">15</data>
+    </edge>
+    <edge source="409557482" target="409557463" id="0">
+      <data key="d17">34912640</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">33.481</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409557482" target="409557538" id="0">
+      <data key="d17">34912648</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Melati III</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">11.399</data>
+      <data key="d25">21.8</data>
+      <data key="d26">1</data>
+    </edge>
+    <edge source="409557482" target="409557396" id="0">
+      <data key="d17">34912648</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Melati III</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">66.812</data>
+      <data key="d25">21.8</data>
+      <data key="d26">11</data>
+    </edge>
+    <edge source="7781819755" target="409557408" id="0">
+      <data key="d17">33565556</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama VII</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">33.882</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="7781819755" target="409557424" id="0">
+      <data key="d17">33565556</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama VII</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">3.706</data>
+      <data key="d25">21.8</data>
+      <data key="d26">0</data>
+    </edge>
+    <edge source="7781819755" target="409557367" id="0">
+      <data key="d17">34912638</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Pepaya III</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">108.041</data>
+      <data key="d25">21.8</data>
+      <data key="d26">17</data>
+    </edge>
+    <edge source="409557408" target="409557398" id="0">
+      <data key="d17">33565556</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama VII</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">36.402</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409557408" target="7781819755" id="0">
+      <data key="d17">33565556</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama VII</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">33.882</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409557408" target="409557366" id="0">
+      <data key="d17">34912637</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Pepaya II</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">107.665</data>
+      <data key="d25">21.8</data>
+      <data key="d26">17</data>
+    </edge>
+    <edge source="409557408" target="409474821" id="0">
+      <data key="d17">34912650</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Nangka</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">63.352999999999994</data>
+      <data key="d27">LINESTRING (106.7220654 -6.1490775, 106.7216098 -6.1490519, 106.7214931 -6.1490542)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">10</data>
+    </edge>
+    <edge source="409554672" target="383330884" id="0">
+      <data key="d17">34905985</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Raya</data>
+      <data key="d21">secondary</data>
+      <data key="d22">7</data>
+      <data key="d23">False</data>
+      <data key="d24">44.65</data>
+      <data key="d25">26.5</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409554672" target="409554673" id="0">
+      <data key="d17">1027603479</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Komplek Imigrasi</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">55.915</data>
+      <data key="d25">21.8</data>
+      <data key="d26">9</data>
+    </edge>
+    <edge source="409554672" target="409474809" id="0">
+      <data key="d17">34905985</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Raya</data>
+      <data key="d21">secondary</data>
+      <data key="d22">7</data>
+      <data key="d23">True</data>
+      <data key="d24">32.809</data>
+      <data key="d27">LINESTRING (106.7216297 -6.1497734, 106.7215356 -6.1497484, 106.721343 -6.1496972)</data>
+      <data key="d25">26.5</data>
+      <data key="d26">4</data>
+    </edge>
+    <edge source="409554673" target="409554672" id="0">
+      <data key="d17">1027603479</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Komplek Imigrasi</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">55.915</data>
+      <data key="d25">21.8</data>
+      <data key="d26">9</data>
+    </edge>
+    <edge source="409554673" target="9473339189" id="0">
+      <data key="d17">1027603480</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Komplek Imigrasi</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">23.618</data>
+      <data key="d25">21.8</data>
+      <data key="d26">3</data>
+    </edge>
+    <edge source="409554673" target="409554718" id="0">
+      <data key="d17">34912360</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Kenanga I</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">50.44500000000001</data>
+      <data key="d27">LINESTRING (106.72159 -6.1502747, 106.7215398 -6.15028, 106.7215324 -6.1502808, 106.7212259 -6.1503154, 106.7211373 -6.1503305)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">8</data>
+    </edge>
+    <edge source="381905778" target="409557593" id="0">
+      <data key="d17">33503636</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama III</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">47.554</data>
+      <data key="d25">21.8</data>
+      <data key="d26">7</data>
+    </edge>
+    <edge source="381905778" target="409554601" id="0">
+      <data key="d17">34905985</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Raya</data>
+      <data key="d21">secondary</data>
+      <data key="d22">7</data>
+      <data key="d23">False</data>
+      <data key="d24">70.473</data>
+      <data key="d25">26.5</data>
+      <data key="d26">9</data>
+    </edge>
+    <edge source="381905778" target="409554572" id="0">
+      <data key="d17">34905985</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Raya</data>
+      <data key="d21">secondary</data>
+      <data key="d22">7</data>
+      <data key="d23">True</data>
+      <data key="d24">72.921</data>
+      <data key="d25">26.5</data>
+      <data key="d26">9</data>
+    </edge>
+    <edge source="409557364" target="409557368" id="0">
+      <data key="d17">34912628</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Pepaya Raya</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">35.292</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409557364" target="409557367" id="0">
+      <data key="d17">34912628</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Pepaya Raya</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">35.618</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409557364" target="409557396" id="0">
+      <data key="d17">34912635</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Pepaya IV</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">108.539</data>
+      <data key="d25">21.8</data>
+      <data key="d26">17</data>
+    </edge>
+    <edge source="409557364" target="409557389" id="0">
+      <data key="d17">34912635</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Pepaya IV</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">38.821</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409557365" target="409557366" id="0">
+      <data key="d17">34912628</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Pepaya Raya</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">35.169</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409557365" target="409557400" id="0">
+      <data key="d17">34912636</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Pepaya I</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">39.293</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409557365" target="409557398" id="0">
+      <data key="d17">34912636</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Pepaya I</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">107.579</data>
+      <data key="d25">21.8</data>
+      <data key="d26">17</data>
+    </edge>
+    <edge source="409557366" target="409557367" id="0">
+      <data key="d17">34912628</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Pepaya Raya</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">36.805</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409557366" target="409557365" id="0">
+      <data key="d17">34912628</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Pepaya Raya</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">35.169</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409557366" target="409557408" id="0">
+      <data key="d17">34912637</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Pepaya II</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">107.665</data>
+      <data key="d25">21.8</data>
+      <data key="d26">17</data>
+    </edge>
+    <edge source="409557367" target="409557364" id="0">
+      <data key="d17">34912628</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Pepaya Raya</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">35.618</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409557367" target="409557366" id="0">
+      <data key="d17">34912628</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Pepaya Raya</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">36.805</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409557367" target="7781819755" id="0">
+      <data key="d17">34912638</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Pepaya III</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">108.041</data>
+      <data key="d25">21.8</data>
+      <data key="d26">17</data>
+    </edge>
+    <edge source="409557368" target="409557364" id="0">
+      <data key="d17">34912628</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Pepaya Raya</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">35.292</data>
+      <data key="d25">21.8</data>
+      <data key="d26">5</data>
+    </edge>
+    <edge source="409557368" target="409557381" id="0">
+      <data key="d17">34912631</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Pepaya V</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">39.245</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409557368" target="409557380" id="0">
+      <data key="d17">34912631</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Pepaya V</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">108.061</data>
+      <data key="d25">21.8</data>
+      <data key="d26">17</data>
+    </edge>
+    <edge source="409474809" target="409554672" id="0">
+      <data key="d17">34905985</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Raya</data>
+      <data key="d21">secondary</data>
+      <data key="d22">7</data>
+      <data key="d23">False</data>
+      <data key="d24">32.809</data>
+      <data key="d27">LINESTRING (106.721343 -6.1496972, 106.7215356 -6.1497484, 106.7216297 -6.1497734)</data>
+      <data key="d25">26.5</data>
+      <data key="d26">4</data>
+    </edge>
+    <edge source="409474809" target="409474813" id="0">
+      <data key="d17">34905985</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Raya</data>
+      <data key="d21">secondary</data>
+      <data key="d22">7</data>
+      <data key="d23">True</data>
+      <data key="d24">64.503</data>
+      <data key="d27">LINESTRING (106.721343 -6.1496972, 106.721233 -6.1495739, 106.7211632 -6.1494632, 106.7210959 -6.1492905, 106.7210727 -6.1491938)</data>
+      <data key="d25">26.5</data>
+      <data key="d26">8</data>
+    </edge>
+    <edge source="409557626" target="383331122" id="0">
+      <data key="d17">33565562</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Bambu Kuning 4</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">36.14</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409557626" target="409557636" id="0">
+      <data key="d17">33565562</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Bambu Kuning 4</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">36.102</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409557538" target="409557566" id="0">
+      <data key="d17">33565554</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Melati Raya</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">False</data>
+      <data key="d24">36.158</data>
+      <data key="d25">21.8</data>
+      <data key="d26">6</data>
+    </edge>
+    <edge source="409557538" target="409557506" id="0">
+      <data key="d17">33565554</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Melati Raya</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">71.262</data>
+      <data key="d25">21.8</data>
+      <data key="d26">11</data>
+    </edge>
+    <edge source="409557538" target="409557482" id="0">
+      <data key="d17">34912648</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Melati III</data>
+      <data key="d21">residential</data>
+      <data key="d22">5</data>
+      <data key="d23">True</data>
+      <data key="d24">11.399</data>
+      <data key="d25">21.8</data>
+      <data key="d26">1</data>
+    </edge>
+    <edge source="409474813" target="409554784" id="0">
+      <data key="d17">34905985</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Raya</data>
+      <data key="d21">secondary</data>
+      <data key="d22">7</data>
+      <data key="d23">True</data>
+      <data key="d24">53.28</data>
+      <data key="d25">26.5</data>
+      <data key="d26">7</data>
+    </edge>
+    <edge source="409474813" target="409474809" id="0">
+      <data key="d17">34905985</data>
+      <data key="d18">False</data>
+      <data key="d19">1</data>
+      <data key="d20">Jalan Utama Raya</data>
+      <data key="d21">secondary</data>
+      <data key="d22">7</data>
+      <data key="d23">False</data>
+      <data key="d24">64.503</data>
+      <data key="d27">LINESTRING (106.7210727 -6.1491938, 106.7210959 -6.1492905, 106.7211632 -6.1494632, 106.721233 -6.1495739, 106.721343 -6.1496972)</data>
+      <data key="d25">26.5</data>
+      <data key="d26">8</data>
+    </edge>
+    <edge source="409474813" target="409474821" id="0">
+      <data key="d17">916216840</data>
+      <data key="d21">residential</data>
+      <data key="d18">False</data>
+      <data key="d23">False</data>
+      <data key="d24">49.01</data>
+      <data key="d27">LINESTRING (106.7210727 -6.1491938, 106.7211554 -6.1491697, 106.7214931 -6.1490542)</data>
+      <data key="d25">21.8</data>
+      <data key="d26">8</data>
+    </edge>
+    <data key="d0">2023-06-08 12:07:12</data>
+    <data key="d1">OSMnx 1.3.1.post0</data>
+    <data key="d2">epsg:4326</data>
+    <data key="d3">True</data>
+    <data key="d4">Jakarta</data>
+    <data key="d5">Indonesia</data>
+    <data key="d6">ID</data>
+    <data key="d7">IDN</data>
+    <data key="d8">1</data>
+    <data key="d9">1.5</data>
+    <data key="d10">60</data>
+    <data key="d11">120</data>
+    <data key="d12">409554599</data>
+    <data key="d13">409557566</data>
+  </graph>
+</graphml>
