@@ -58,6 +58,8 @@ typename MIPSolver<ProbT>::Status MIPSolver<ProbT>::run(const Instance<ProbT>& i
 #endif
 
 //		cplex.setParam(IloCplex::Param::MIP::Limits::Nodes, 1); // Stop after root node.
+//		cplex.setParam(IloCplex::Param::Preprocessing::Presolve, 0); // Disable presolve.
+//		cplex.setParam(IloCplex::Param::MIP::Strategy::Search, 1); // Enforce b&c solve.
 
 		MIP_OUT(DBG) << "calling CPLEX solve ..." << std::endl;
 		cplex.solve();

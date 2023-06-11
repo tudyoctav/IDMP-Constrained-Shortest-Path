@@ -81,13 +81,12 @@ Instance<TCSP>::Instance(const std::string& input_file) : filename(input_file)
 		file >> c[i][j];
 	}
 
-	T.assign(r, std::vector<int>(n));
-	for (int l = 0; l < r; l++) {
-		std::string line;
-		std::getline(file, line);
-		std::stringstream  lstream(line);
+	T.assign(r, std::vector<int>());
+	file.ignore(); int l = 0;
+	for (std::string line; std::getline(file, line); l++) {
+		std::stringstream lstream(line);
 		for (int i; lstream >> i; )
-			file >> T[l][i];
+			T[l].push_back(i);
 	}
 }
 

@@ -35,16 +35,19 @@ void TCSPFormulation::addConstraints(IloEnv env, IloModel model, const Instance<
 	}
 
 	// the flow that enters a node must also leave the node
-	for (int i : inst.V) if (i != inst.s && i != inst.t) {
+	for (int i : inst.V) {
 		IloExpr sum_in(env); IloExpr sum_out(env); // represents a linear expression of decision variables and constants
 		for (int j : incoming[i]) sum_in += x[j][i]; // cplex overloads +,-,... operators
 		for (int j : outgoing[i]) sum_out += x[i][j];
-		model.add(sum_out - sum_in == 0); // add constraint to model
+
+		if (i == inst.s) model.add(sum_out - sum_in == 1);
+		if (i == inst.t) model.add(sum_out - sum_in == -1);
+		else model.add(sum_out - sum_in == 0); // add constraint to model
 		model.add(y[i] <= sum_in + sum_out); // node can only be active if there's flow
 		sum_in.end(); sum_out.end(); // IloExpr must always call end() to free memory!
 	}
-
-	// the source node must send out one unit of flow
+	
+	/** the source node must send out one unit of flow
 	IloExpr sum_s(env);
 	for (int j : outgoing[inst.s])
 		sum_s += x[inst.s][j];
@@ -54,17 +57,17 @@ void TCSPFormulation::addConstraints(IloEnv env, IloModel model, const Instance<
 	IloExpr sum_t(env);
 	for (int i : incoming[inst.t])
 		sum_t += x[i][inst.t];
-	model.add(sum_t == 1); sum_t.end();
-
+	model.add(sum_t == 1); sum_t.end(); //*/
+	
 	MIP_OUT(TRACE) << "added " << inst.n << " constraints to enforce the flow over each node" << std::endl;
 
 	// for each required task, there should be an active node containing that task
 	for (std::vector<int> t : inst.T) {
 		IloExpr sum(env);
-		for (int i : inst.V)
-			sum += y[i] * t[i];
+		for (int i : t) sum += y[i];
 		model.add(sum >= 1); sum.end();
 	}
+
 }
 
 void TCSPFormulation::addObjectiveFunction(IloEnv env, IloModel model, const Instance<TCSP>& inst)
