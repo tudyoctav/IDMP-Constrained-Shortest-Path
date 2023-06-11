@@ -3,6 +3,8 @@
   <key id="weight" for="edge" attr.name="weight" attr.type="long" />
   <key id="end" for="node" attr.name="end" attr.type="boolean" />
   <key id="task" for="node" attr.name="task" attr.type="long" />
+  <key id="num_of_nodes_per_task" for="node" attr.name="num_of_nodes_per_task" attr.type="long" />
+  <key id="num_tasks" for="node" attr.name="num_tasks" attr.type="long" />
   <key id="y_pos" for="node" attr.name="y_pos" attr.type="double" />
   <key id="x_pos" for="node" attr.name="x_pos" attr.type="double" />
   <key id="start" for="node" attr.name="start" attr.type="boolean" />
@@ -12,11 +14,13 @@
       <data key="start">True</data>
       <data key="x_pos">0.5</data>
       <data key="y_pos">0.0</data>
+      <data key="num_tasks">13</data>
+      <data key="num_of_nodes_per_task">1</data>
     </node>
     <node id="2">
       <data key="x_pos">0.0</data>
       <data key="y_pos">0.8660254037844386</data>
-      <data key="task">2</data>
+      <data key="task">9</data>
     </node>
     <node id="3">
       <data key="x_pos">0.5</data>
@@ -209,12 +213,10 @@
     <node id="50">
       <data key="x_pos">1.5</data>
       <data key="y_pos">1.7320508075688772</data>
-      <data key="task">11</data>
     </node>
     <node id="51">
       <data key="x_pos">2.0</data>
       <data key="y_pos">2.598076211353316</data>
-      <data key="task">15</data>
     </node>
     <node id="52">
       <data key="x_pos">1.5</data>
@@ -407,7 +409,6 @@
     <node id="99">
       <data key="x_pos">3.0</data>
       <data key="y_pos">2.598076211353316</data>
-      <data key="task">11</data>
     </node>
     <node id="100">
       <data key="x_pos">3.5</data>
@@ -604,12 +605,10 @@
     <node id="148">
       <data key="x_pos">4.5</data>
       <data key="y_pos">3.4641016151377544</data>
-      <data key="task">12</data>
     </node>
     <node id="149">
       <data key="x_pos">5.0</data>
       <data key="y_pos">4.330127018922193</data>
-      <data key="task">8</data>
     </node>
     <node id="150">
       <data key="x_pos">4.5</data>
@@ -806,7 +805,6 @@
     <node id="198">
       <data key="x_pos">6.5</data>
       <data key="y_pos">5.196152422706632</data>
-      <data key="task">10</data>
     </node>
     <node id="199">
       <data key="x_pos">6.0</data>
@@ -999,12 +997,10 @@
     <node id="246">
       <data key="x_pos">7.5</data>
       <data key="y_pos">5.196152422706632</data>
-      <data key="task">3</data>
     </node>
     <node id="247">
       <data key="x_pos">8.0</data>
       <data key="y_pos">6.06217782649107</data>
-      <data key="task">8</data>
     </node>
     <node id="248">
       <data key="x_pos">7.5</data>
@@ -1197,7 +1193,6 @@
     <node id="295">
       <data key="x_pos">9.0</data>
       <data key="y_pos">6.06217782649107</data>
-      <data key="task">10</data>
     </node>
     <node id="296">
       <data key="x_pos">9.5</data>
@@ -1386,22 +1381,18 @@
     <node id="342">
       <data key="x_pos">10.5</data>
       <data key="y_pos">5.196152422706632</data>
-      <data key="task">7</data>
     </node>
     <node id="343">
       <data key="x_pos">11.0</data>
       <data key="y_pos">6.06217782649107</data>
-      <data key="task">16</data>
     </node>
     <node id="344">
       <data key="x_pos">10.5</data>
       <data key="y_pos">6.928203230275509</data>
-      <data key="task">8</data>
     </node>
     <node id="345">
       <data key="x_pos">11.0</data>
       <data key="y_pos">7.794228634059947</data>
-      <data key="task">2</data>
     </node>
     <node id="346">
       <data key="x_pos">10.5</data>
@@ -1594,7 +1585,6 @@
     <node id="393">
       <data key="x_pos">12.0</data>
       <data key="y_pos">7.794228634059947</data>
-      <data key="task">9</data>
     </node>
     <node id="394">
       <data key="x_pos">12.5</data>
@@ -1783,7 +1773,6 @@
     <node id="440">
       <data key="x_pos">13.5</data>
       <data key="y_pos">6.928203230275509</data>
-      <data key="task">1</data>
     </node>
     <node id="441">
       <data key="x_pos">14.0</data>
@@ -1980,12 +1969,11 @@
     <node id="489">
       <data key="x_pos">15.0</data>
       <data key="y_pos">7.794228634059947</data>
-      <data key="task">6</data>
     </node>
     <node id="490">
       <data key="x_pos">15.5</data>
       <data key="y_pos">8.660254037844386</data>
-      <data key="task">15</data>
+      <data key="task">1</data>
     </node>
     <node id="491">
       <data key="x_pos">15.0</data>
@@ -2178,7 +2166,6 @@
     <node id="538">
       <data key="x_pos">16.5</data>
       <data key="y_pos">8.660254037844386</data>
-      <data key="task">4</data>
     </node>
     <node id="539">
       <data key="x_pos">17.0</data>
@@ -2367,12 +2354,11 @@
     <node id="585">
       <data key="x_pos">18.0</data>
       <data key="y_pos">7.794228634059947</data>
-      <data key="task">9</data>
     </node>
     <node id="586">
       <data key="x_pos">18.5</data>
       <data key="y_pos">8.660254037844386</data>
-      <data key="task">12</data>
+      <data key="task">11</data>
     </node>
     <node id="587">
       <data key="x_pos">18.0</data>
@@ -2569,6 +2555,7 @@
     <node id="635">
       <data key="x_pos">20.0</data>
       <data key="y_pos">9.526279441628825</data>
+      <data key="task">2</data>
     </node>
     <node id="636">
       <data key="x_pos">19.5</data>
@@ -2765,7 +2752,6 @@
     <node id="684">
       <data key="x_pos">21.5</data>
       <data key="y_pos">10.392304845413264</data>
-      <data key="task">17</data>
     </node>
     <node id="685">
       <data key="x_pos">21.0</data>
@@ -2958,12 +2944,11 @@
     <node id="732">
       <data key="x_pos">22.5</data>
       <data key="y_pos">10.392304845413264</data>
-      <data key="task">11</data>
+      <data key="task">0</data>
     </node>
     <node id="733">
       <data key="x_pos">23.0</data>
       <data key="y_pos">11.258330249197702</data>
-      <data key="task">14</data>
     </node>
     <node id="734">
       <data key="x_pos">22.5</data>
@@ -3156,7 +3141,6 @@
     <node id="781">
       <data key="x_pos">24.0</data>
       <data key="y_pos">11.258330249197702</data>
-      <data key="task">2</data>
     </node>
     <node id="782">
       <data key="x_pos">24.5</data>
@@ -3353,32 +3337,27 @@
     <node id="830">
       <data key="x_pos">25.5</data>
       <data key="y_pos">12.12435565298214</data>
-      <data key="task">9</data>
     </node>
     <node id="831">
       <data key="x_pos">26.0</data>
       <data key="y_pos">12.990381056766578</data>
-      <data key="task">16</data>
     </node>
     <node id="832">
       <data key="x_pos">25.5</data>
       <data key="y_pos">13.856406460551018</data>
-      <data key="task">17</data>
+      <data key="task">3</data>
     </node>
     <node id="833">
       <data key="x_pos">26.0</data>
       <data key="y_pos">14.722431864335457</data>
-      <data key="task">14</data>
     </node>
     <node id="834">
       <data key="x_pos">25.5</data>
       <data key="y_pos">15.588457268119894</data>
-      <data key="task">5</data>
     </node>
     <node id="835">
       <data key="x_pos">26.0</data>
       <data key="y_pos">16.454482671904334</data>
-      <data key="task">17</data>
     </node>
     <node id="836">
       <data key="x_pos">25.5</data>
@@ -3579,12 +3558,10 @@
     <node id="885">
       <data key="x_pos">27.0</data>
       <data key="y_pos">18.186533479473212</data>
-      <data key="task">4</data>
     </node>
     <node id="886">
       <data key="x_pos">27.5</data>
       <data key="y_pos">19.05255888325765</data>
-      <data key="task">13</data>
     </node>
     <node id="887">
       <data key="x_pos">27.0</data>
@@ -3777,11 +3754,11 @@
     <node id="934">
       <data key="x_pos">28.5</data>
       <data key="y_pos">19.05255888325765</data>
-      <data key="task">16</data>
     </node>
     <node id="935">
       <data key="x_pos">29.0</data>
       <data key="y_pos">19.918584287042087</data>
+      <data key="task">5</data>
     </node>
     <node id="936">
       <data key="x_pos">28.5</data>
@@ -3974,22 +3951,19 @@
     <node id="983">
       <data key="x_pos">30.0</data>
       <data key="y_pos">19.918584287042087</data>
-      <data key="task">6</data>
     </node>
     <node id="984">
       <data key="x_pos">30.5</data>
       <data key="y_pos">20.784609690826528</data>
-      <data key="task">0</data>
+      <data key="task">10</data>
     </node>
     <node id="985">
       <data key="x_pos">30.0</data>
       <data key="y_pos">21.650635094610966</data>
-      <data key="task">14</data>
     </node>
     <node id="986">
       <data key="x_pos">30.5</data>
       <data key="y_pos">22.516660498395403</data>
-      <data key="task">3</data>
     </node>
     <node id="987">
       <data key="x_pos">30.0</data>
@@ -3998,7 +3972,6 @@
     <node id="988">
       <data key="x_pos">30.5</data>
       <data key="y_pos">24.24871130596428</data>
-      <data key="task">5</data>
     </node>
     <node id="989">
       <data key="x_pos">30.0</data>
@@ -4007,17 +3980,15 @@
     <node id="990">
       <data key="x_pos">30.5</data>
       <data key="y_pos">25.980762113533157</data>
-      <data key="task">15</data>
     </node>
     <node id="991">
       <data key="x_pos">30.0</data>
       <data key="y_pos">26.846787517317598</data>
-      <data key="task">0</data>
+      <data key="task">6</data>
     </node>
     <node id="992">
       <data key="x_pos">30.5</data>
       <data key="y_pos">27.712812921102035</data>
-      <data key="task">13</data>
     </node>
     <node id="993">
       <data key="x_pos">30.0</data>
@@ -4210,16 +4181,15 @@
     <node id="1040">
       <data key="x_pos">31.5</data>
       <data key="y_pos">27.712812921102035</data>
-      <data key="task">3</data>
     </node>
     <node id="1041">
       <data key="x_pos">32.0</data>
       <data key="y_pos">28.578838324886473</data>
-      <data key="task">12</data>
     </node>
     <node id="1042">
       <data key="x_pos">31.5</data>
       <data key="y_pos">29.444863728670914</data>
+      <data key="task">8</data>
     </node>
     <node id="1043">
       <data key="x_pos">32.0</data>
@@ -4228,7 +4198,6 @@
     <node id="1044">
       <data key="x_pos">31.5</data>
       <data key="y_pos">31.17691453623979</data>
-      <data key="task">13</data>
     </node>
     <node id="1045">
       <data key="x_pos">32.0</data>
@@ -4425,7 +4394,7 @@
     <node id="1093">
       <data key="x_pos">33.0</data>
       <data key="y_pos">32.042939940024226</data>
-      <data key="task">7</data>
+      <data key="task">4</data>
     </node>
     <node id="1094">
       <data key="x_pos">33.5</data>
@@ -4434,22 +4403,18 @@
     <node id="1095">
       <data key="x_pos">33.0</data>
       <data key="y_pos">33.77499074759311</data>
-      <data key="task">0</data>
     </node>
     <node id="1096">
       <data key="x_pos">33.5</data>
       <data key="y_pos">34.64101615137754</data>
-      <data key="task">1</data>
     </node>
     <node id="1097">
       <data key="x_pos">33.0</data>
       <data key="y_pos">35.50704155516198</data>
-      <data key="task">1</data>
     </node>
     <node id="1098">
       <data key="x_pos">33.5</data>
       <data key="y_pos">36.373066958946424</data>
-      <data key="task">7</data>
     </node>
     <node id="1099">
       <data key="x_pos">33.0</data>
@@ -4642,7 +4607,6 @@
     <node id="1146">
       <data key="x_pos">34.5</data>
       <data key="y_pos">36.373066958946424</data>
-      <data key="task">4</data>
     </node>
     <node id="1147">
       <data key="x_pos">35.0</data>
@@ -4651,18 +4615,17 @@
     <node id="1148">
       <data key="x_pos">34.5</data>
       <data key="y_pos">38.1051177665153</data>
-      <data key="task">5</data>
+      <data key="task">12</data>
     </node>
     <node id="1149">
       <data key="x_pos">35.0</data>
       <data key="y_pos">38.97114317029974</data>
-      <data key="task">10</data>
     </node>
     <node id="1150">
       <data key="end">True</data>
       <data key="x_pos">34.5</data>
       <data key="y_pos">39.837168574084174</data>
-      <data key="task">6</data>
+      <data key="task">7</data>
     </node>
     <edge source="1" target="2">
       <data key="weight">7</data>

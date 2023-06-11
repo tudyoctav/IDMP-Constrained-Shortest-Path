@@ -75,10 +75,10 @@ def create_data_file_rcsp(graphml_obj, filename):
     # Write the extracted information to a .txt file for the MIP solver
     filename3 = "./data/mip/rcsp/" + filename + ".inst"
     with open(filename3, 'w') as f:
-        f.write(f'{M * 2} {N} {Start} {End}\n')
+        f.write(f'{M * 2} {N} {int(Start)-1} {int(End)-1}\n')
         for edge in graphml_obj.edges(data = True):
-            f.write(f'{edge[0]} {edge[1]} {edge[2]["weight"]} {edge[2]["time"]}\n')
-            f.write(f'{edge[1]} {edge[0]} {edge[2]["weight"]} {edge[2]["time"]}\n') # write the reverse of the edges since undirected
+            f.write(f'{int(edge[0])-1} {int(edge[1])-1} {edge[2]["weight"]} {edge[2]["time"]}\n')
+            f.write(f'{int(edge[1])-1} {int(edge[0])-1} {edge[2]["weight"]} {edge[2]["time"]}\n') # write the reverse of the edges since undirected
         for node in graphml_obj.nodes(data = True):
             f.write(f'{node[1]["lower_bound"]} {node[1]["upper_bound"]}\n')
 
@@ -142,10 +142,10 @@ def create_data_file_tcsp(graphml_obj, filename):
     # Write the extracted information to text file for MIP solver
     filename3 = "./data/mip/tcsp/" + filename + ".inst"
     with open(filename3, 'w') as f:
-        f.write(f'{M * 2} {N} {Start} {End} {num_tasks}\n')
+        f.write(f'{M * 2} {N} {int(Start)-1} {int(End)-1} {num_tasks}\n')
         for edge in graphml_obj.edges():
-            f.write(f'{edge[0]} {edge[1]} {graphml_obj.edges[edge]["weight"]}\n')
-            f.write(f'{edge[1]} {edge[0]} {graphml_obj.edges[edge]["weight"]}\n') # write the reverse of the edges since undirected
+            f.write(f'{int(edge[0])-1} {int(edge[1])-1} {graphml_obj.edges[edge]["weight"]}\n')
+            f.write(f'{int(edge[1])-1} {int(edge[0])-1} {graphml_obj.edges[edge]["weight"]}\n') # write the reverse of the edges since undirected
         for i, task in enumerate(tasks):
             f.write(f'{" ".join(tasks[task])}\n')
 
@@ -160,39 +160,57 @@ def get_source_target(graph):
             target = node
     return source, target
 
-def add_time_attribute(graph):
-    for u, v, attr in graph.edges.data():
-        weight = attr.get('weight', 10)
-        # Sample time attribute around the weight
-        time = max(1,random.uniform(weight - 5, weight + 5))
-        attr['time'] = time
-    return graph
+def display_graph_for_tcsp(graph, source, target,fig = None, draw_labels = False):
+    init_pos = {node : (data['x_pos'], data['y_pos']) for node,data in graph.nodes(data = True)}
+    fig = fig if fig else plt.figure(figsize=(12,12))
 
+    shortest_path_weight = nx.shortest_path(graph, source = source, target = target, weight = 'weight')
+    shortest_weight = nx.shortest_path_length(graph, source = source, target = target, weight = 'weight')
+    edges_in_shortest_path = [(str(min(int(u),int(v))), str(max(int(u),int(v)))) for (u,v) in zip(shortest_path_weight, shortest_path_weight[1:])]
+    node_color = ["red" if n in shortest_path_weight else "tab:blue" for n in graph.nodes()]
+    nx.draw_networkx(graph, pos=init_pos, with_labels=True ,node_color = node_color)
+    num_nodes = len(graph.nodes())
+    shift_pos = { 6 : 0.1, 16: 0.15, 30: 0.2,48: 0.2, 70 : 0.3, 96: 0.4}
+    if draw_labels:
+        weight = nx.get_edge_attributes(graph,'weight')
+        labels = {edge : f"{weight[edge]}" for edge in graph.edges()}
+        if num_nodes in shift_pos:
+            nx.draw_networkx_edge_labels(graph,pos = init_pos, edge_labels = labels, font_size = 10)
 
-def add_time_constraint(graph):
-    path = nx.shortest_path(graph, source, target, weight='time')
+        if num_nodes in shift_pos:
+            shift = shift_pos[num_nodes]
+        else:
+            shift = 0.4
+        shifted_pos ={node: (node_pos[0],node_pos[1] - shift) for node, node_pos in init_pos.items()}
+        node_labels = {node: str([data["task"] + 1]) if "task" in data else "" for node,data in graph.nodes(data = True)}
+        # nx.draw_networkx_labels(G, shifted_pos, labels=node_labels, horizontalalignment="left", font_color = start_colour)
+        nx.draw_networkx_labels(graph, shifted_pos, labels=node_labels)
+    # plt.show()
 
-def pick_random_tasks_for_tcsp(graph, considered_nodes):
+def pick_random_tasks_for_tcsp(graph, source, target, considered_nodes):
     graph = graph.copy()
+    norm = 5
     if len(considered_nodes) < 2:
-        num_tasks = len(considered_nodes)
+        num_tasks = random.int(0,len(considered_nodes))
     else:
-        num_tasks = random.randint(1, len(considered_nodes))
-    num_of_nodes_per_task = random.randint(1, len(considered_nodes) // num_tasks)
+        num_tasks = random.randint(1, max(1,len(considered_nodes)//norm))
+    num_of_nodes_per_task = random.randint(1, max(1,len(considered_nodes) // num_tasks // norm))
     select_subset = random.sample(considered_nodes ,num_tasks * num_of_nodes_per_task)
     select_subset = np.resize(select_subset, (num_tasks, num_of_nodes_per_task))
     # print(f"Generating {num_tasks} task(s) with {num_of_nodes_per_task} nodes per task: {[('task' + str(ind), val) for ind,val in enumerate(select_subset)]}")
     for task, nodes in enumerate(select_subset):
         for node in nodes:
             graph.nodes[node]["task"] = task
-    return graph
+    graph.nodes[source]["num_tasks"] = num_tasks
+    graph.nodes[source]["num_of_nodes_per_task"] = num_of_nodes_per_task
+    return graph, num_tasks, num_of_nodes_per_task
 
 def tcsp_along_shortest_path(graph, source, target):
     shortest_path = nx.shortest_path(graph, source, target, weight='weight')
     path_ids = [node for node in shortest_path]
     print("Shortest Path:", " -> ".join(str(node) for node in path_ids))
     print("Picking tasks along the shortest path...")
-    return pick_random_tasks_for_tcsp(graph, path_ids) # pick nodes along the path
+    return pick_random_tasks_for_tcsp(graph, source, target, path_ids) # pick nodes along the path
 
 def tcsp_outside_shortes_path(graph, source, target):
     shortest_path = nx.shortest_path(graph, source, target, weight='weight')
@@ -201,28 +219,40 @@ def tcsp_outside_shortes_path(graph, source, target):
     num_of_nodes_per_task = random.randint(1, len(path_ids) // num_tasks)
     considered_nodes = [node for node in graph.nodes() if node not in path_ids]
     print("Picking tasks outside the shortest path...")
-    return pick_random_tasks_for_tcsp(graph, considered_nodes) # pick nodes outside the path
+    return pick_random_tasks_for_tcsp(graph, source, target, considered_nodes) # pick nodes outside the path
 
 def tcsp_random(graph, source, target):
     print("Picking tasks randomly...")
-    return pick_random_tasks_for_tcsp(graph, list(graph.nodes()))
+    return pick_random_tasks_for_tcsp(graph, source, target, list(graph.nodes()))
 
 def generate_constraints_for_tcsp(graph, source, target, name):
-    graph_1 = tcsp_along_shortest_path(graph, source, target)
+    graph_1, num_tasks, num_nodes_per_task = tcsp_along_shortest_path(graph, source, target)
     name_1 = name + "_task_along_shortest_path"
     nx.write_graphml(graph_1, f"./graphs/tcsp/{name_1}.graphml", named_key_ids=True)
     create_data_file_tcsp(graph_1, name_1)   
+    display_graph_for_tcsp(graph_1, source, target, draw_labels = True)
+    plt.title(f"Task along shortest path with #tasks = {num_tasks}, #nodes_per_task = {num_nodes_per_task}")
+    plt.savefig(f"./images/tcsp/{name_1}.png")
+    plt.show(block=False)
 
-    graph_2 = tcsp_outside_shortes_path(graph, source, target)
+    
+    graph_2, num_tasks, num_nodes_per_task = tcsp_outside_shortes_path(graph, source, target)
     name_2 = name + "_task_outside_shortest_path"
     nx.write_graphml(graph_2, f"./graphs/tcsp/{name_2}.graphml", named_key_ids=True)
     create_data_file_tcsp(graph_2, name_2)
+    display_graph_for_tcsp(graph_2, source, target, draw_labels = True)
+    plt.title(f"Task outside shortest path with #tasks = {num_tasks}, #nodes_per_task = {num_nodes_per_task}")
+    plt.savefig(f"./images/tcsp/{name_2}.png")
+    plt.show(block=False)
 
-    graph_3 = tcsp_random(graph, source, target)
+    graph_3, num_tasks, num_nodes_per_task = tcsp_random(graph, source, target)
     name_3 = name + "_task_random"
     nx.write_graphml(graph_3, f"./graphs/tcsp/{name_3}.graphml", named_key_ids=True)
     create_data_file_tcsp(graph_3, name_3)
-
+    display_graph_for_tcsp(graph_3, source, target, draw_labels = True)
+    plt.title(f"Task random with #tasks = {num_tasks}, #nodes_per_task = {num_nodes_per_task}")
+    plt.savefig(f"./images/tcsp/{name_3}.png")
+    plt.show(block=False)
 
 def get_colour(time):
     if time < 2:
@@ -240,6 +270,16 @@ def get_colour(time):
     else:
         colour = 'red'
     return colour
+
+
+# def add_time_attribute(graph):
+#     for u, v, attr in graph.edges.data():
+#         weight = attr.get('weight', 10)
+#         # Sample time attribute around the weight
+#         time = max(1,random.uniform(weight - 5, weight + 5))
+#         attr['time'] = time
+#     print("BRAAAAAAAAAAAAAAAAA")
+#     return graph
 
 def add_time_attributes(graph , pos = None, scale = 1, var = 5):
     graph = graph.copy()
@@ -266,10 +306,12 @@ def generate_constraints_for_rcsp(graph, source, target, name):
     name_1 = name + "_all_nodes_are_reachable"
     nx.write_graphml(graph_1, f"./graphs/rcsp/{name_1}.graphml", named_key_ids=True)
     create_data_file_rcsp(graph_1, name_1)
-    # display_graph(graph_1, source, target, draw_labels = True)
+    display_graph_for_rcsp(graph_1, source, target, draw_labels = True)
+    plt.title("All nodes are reachable")
+    plt.savefig(f"./images/rcsp/{name_1}.png")
+    plt.show(block=False)
 
-
-def display_graph(graph, source, target,fig = None, draw_labels = False):
+def display_graph_for_rcsp(graph, source, target,fig = None, draw_labels = False):
     init_pos = {node : (data['x_pos'], data['y_pos']) for node,data in graph.nodes(data = True)}
     fig = fig if fig else plt.figure(figsize=(10,10))
 
@@ -286,30 +328,33 @@ def display_graph(graph, source, target,fig = None, draw_labels = False):
 
     edge_color = ["magenta" if ((u,v) or (v,u)) in edges_in_shortest_time_path else "tab:blue" for u,v in graph.edges()]
     nx.draw_networkx(graph, pos=init_pos, with_labels=True ,node_color = node_color, edge_color=edge_color)
-    if draw_labels:
+    num_nodes = len(graph.nodes())
+    shift_pos = { 6 : 0.1, 16: 0.15, 30: 0.2, 48: 0.2, 70 : 0.3}
+    if draw_labels and num_nodes in shift_pos:
         weight = nx.get_edge_attributes(graph,'weight')
         time = nx.get_edge_attributes(graph,'time')
         labels = {edge : f"{weight[edge]} / {time[edge]}" for edge in graph.edges()}
-        nx.draw_networkx_edge_labels(graph,pos = init_pos, edge_labels = labels, font_size = 6)
-
-        
-        shifted_pos ={node: (node_pos[0],node_pos[1] - 0.1) for node, node_pos in init_pos.items()}
+        nx.draw_networkx_edge_labels(graph,pos = init_pos, edge_labels = labels, font_size = 10)
+       
+        if num_nodes in shift_pos:
+            shift = shift_pos[num_nodes]
+        else:
+            shift = 0.4
+        shifted_pos ={node: (node_pos[0],node_pos[1] - shift) for node, node_pos in init_pos.items()}
         node_labels = {node: (data['lower_bound'], data['upper_bound']) for node,data in graph.nodes(data = True)}
         # nx.draw_networkx_labels(G, shifted_pos, labels=node_labels, horizontalalignment="left", font_color = start_colour)
         nx.draw_networkx_labels(graph, shifted_pos, labels=node_labels)
-
+    # plt.show()
 
 files = glob.glob(f".\graphs\input\*.graphml")
 files.sort(key=os.path.getmtime)
-print(files)
 # fname = "graphs/basic-graph.graphml"
 parser = GraphMLParser()
 for fname in files:
     graph = nx.read_graphml(fname)
-    print([node for node in graph.nodes(data=True)])
     name = fname.split("\\")[-1].split(".")[0]
-    print(name)
+    print(f"----------------------------------------------------\nProcessing {name}...")
     source, target = get_source_target(graph)
     generate_constraints_for_tcsp(graph, source, target, name)       
     generate_constraints_for_rcsp(graph, source, target, name)
-
+    plt.close()

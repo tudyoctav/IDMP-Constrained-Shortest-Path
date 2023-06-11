@@ -6,4 +6,4 @@ weights = [11, 8, 8, 10, 1, 1, 11, 8, 8, 10, 1, 1];
 start = 1;
 end= 6;
 tasks = 1;
-task = array2d(1..tasks, 1..nodes, [0, 1, 0, 0, 0, 0]);
+task = array2d(1..tasks, 1..nodes, [0, 0, 1, 0, 0, 0]);

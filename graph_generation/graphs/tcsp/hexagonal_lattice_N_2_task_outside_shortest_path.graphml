@@ -3,6 +3,8 @@
   <key id="weight" for="edge" attr.name="weight" attr.type="long" />
   <key id="end" for="node" attr.name="end" attr.type="boolean" />
   <key id="task" for="node" attr.name="task" attr.type="long" />
+  <key id="num_of_nodes_per_task" for="node" attr.name="num_of_nodes_per_task" attr.type="long" />
+  <key id="num_tasks" for="node" attr.name="num_tasks" attr.type="long" />
   <key id="y_pos" for="node" attr.name="y_pos" attr.type="double" />
   <key id="x_pos" for="node" attr.name="x_pos" attr.type="double" />
   <key id="start" for="node" attr.name="start" attr.type="boolean" />
@@ -12,6 +14,8 @@
       <data key="start">True</data>
       <data key="x_pos">0.5</data>
       <data key="y_pos">0.0</data>
+      <data key="num_tasks">1</data>
+      <data key="num_of_nodes_per_task">1</data>
     </node>
     <node id="2">
       <data key="x_pos">0.0</data>
@@ -32,22 +36,19 @@
     <node id="6">
       <data key="x_pos">1.5</data>
       <data key="y_pos">0.0</data>
-      <data key="task">0</data>
     </node>
     <node id="7">
       <data key="x_pos">2.0</data>
       <data key="y_pos">0.8660254037844386</data>
-      <data key="task">2</data>
+      <data key="task">0</data>
     </node>
     <node id="8">
       <data key="x_pos">1.5</data>
       <data key="y_pos">1.7320508075688772</data>
-      <data key="task">1</data>
     </node>
     <node id="9">
       <data key="x_pos">2.0</data>
       <data key="y_pos">2.598076211353316</data>
-      <data key="task">0</data>
     </node>
     <node id="10">
       <data key="x_pos">1.5</data>
@@ -60,22 +61,18 @@
     <node id="12">
       <data key="x_pos">3.0</data>
       <data key="y_pos">0.8660254037844386</data>
-      <data key="task">3</data>
     </node>
     <node id="13">
       <data key="x_pos">3.5</data>
       <data key="y_pos">1.7320508075688772</data>
-      <data key="task">3</data>
     </node>
     <node id="14">
       <data key="x_pos">3.0</data>
       <data key="y_pos">2.598076211353316</data>
-      <data key="task">2</data>
     </node>
     <node id="15">
       <data key="x_pos">3.5</data>
       <data key="y_pos">3.4641016151377544</data>
-      <data key="task">1</data>
     </node>
     <node id="16">
       <data key="end">True</data>
