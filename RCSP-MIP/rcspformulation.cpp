@@ -69,8 +69,8 @@ void RCSPFormulation::addConstraints(IloEnv env, IloModel model, const Instance<
 		model.add(z[i] <= inst.R[i].second);
 	}
 
-	// the arrival time in a node must be greater than
-	//	the arrival time of its predecessors plus the distance
+	// the arrival time in a node must be greater than the
+	//	arrival time of its predecessors plus the distance
 	for (std::pair<int, int> a : inst.A) {
 		int i = a.first; int j = a.second;
 		model.add(z[j] >= z[i] + inst.d[i][j] - (1 - x[i][j]) * 1e6);
@@ -102,12 +102,13 @@ void RCSPFormulation::extractSolution(IloCplex cplex, const Instance<RCSP>& inst
 		for (int j : outgoing[node])
 			if (cplex.getValue(x[node][j]) > 0.5) {
 				sol.shortest_path.push_back(node);
-				sol.arrival_times.push_back(cplex.getValue(z[node]));
+				int a = cplex.getValue(z[node]);
+				sol.arrival_times.push_back(a);
 				sol.total_cost += inst.c[node][j];
 				node = j; break;
 			}
 	}
 	sol.shortest_path.push_back(inst.t);
-	sol.arrival_times.push_back(cplex.getValue(z[inst.t]));
+	sol.arrival_times.push_back((int) cplex.getValue(z[inst.t]));
 }
 
