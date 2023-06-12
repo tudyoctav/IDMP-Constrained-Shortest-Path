@@ -44,7 +44,7 @@ def make_cp_runs(exp: Experiment, problem: Path, problem_type: str, time_limit: 
                     run = exp.add_run()
                     
 
-                    run.add_resource("model", model.absolute())
+                    run.add_resource("model", model.absolute(), symlink=True)
                     run.add_command("solve", ["minizinc", "--output-time", "-s", "--solver", solver, "{model}", "{problem}"], time_limit, memory_limit)
 
                     run.set_property("solver", solver)
@@ -56,7 +56,7 @@ def make_cp_runs(exp: Experiment, problem: Path, problem_type: str, time_limit: 
                 for model in Path("cp/minizinc/Variants").glob("RCSP*.mzn"):
                     run = exp.add_run()
                     
-                    run.add_resource("model", model.absolute())
+                    run.add_resource("model", model.absolute(), symlink=True)
                     run.add_command("solve", ["minizinc", "--output-time", "-s", "--solver", solver, "{model}", "{problem}"], time_limit, memory_limit)
 
                     run.set_property("solver", solver)
@@ -65,7 +65,17 @@ def make_cp_runs(exp: Experiment, problem: Path, problem_type: str, time_limit: 
 
                     res.append(run)
             case "node":
-                # TODO
+                for model in Path("cp/minizinc/Variants").glob("NCSP*.mzn"):
+                    run = exp.add_run()
+                    
+                    run.add_resource("model", model.absolute(), symlink=True)
+                    run.add_command("solve", ["minizinc", "--output-time", "-s", "--solver", solver, "{model}", "{problem}"], time_limit, memory_limit)
+
+                    run.set_property("solver", solver)
+                    run.set_property("id", BASE_ID + [model.stem, solver, f"run_{run_i}"])
+                    run.set_property("algorithm", model.stem)
+
+                    res.append(run)
                 pass
             case "ordered_task":
                 pass
@@ -73,7 +83,7 @@ def make_cp_runs(exp: Experiment, problem: Path, problem_type: str, time_limit: 
                 for model in Path("cp/minizinc/Variants").glob("TCSP*.mzn"):
                     run = exp.add_run()
                     
-                    run.add_resource("model", model.absolute())
+                    run.add_resource("model", model.absolute(), symlink=True)
                     run.add_command("solve", ["minizinc", "--output-time", "-s", "--solver", solver, "{model}", "{problem}"], time_limit, memory_limit)
 
                     run.set_property("solver", solver)
