@@ -47,19 +47,7 @@ void TCSPFormulation::addConstraints(IloEnv env, IloModel model, const Instance<
 		sum_in.end(); sum_out.end(); // IloExpr must always call end() to free memory!
 	}
 	
-	/** the source node must send out one unit of flow
-	IloExpr sum_s(env);
-	for (int j : outgoing[inst.s])
-		sum_s += x[inst.s][j];
-	model.add(sum_s == 1); sum_s.end();
-
-	// the target node must receive one unit of flow
-	IloExpr sum_t(env);
-	for (int i : incoming[inst.t])
-		sum_t += x[i][inst.t];
-	model.add(sum_t == 1); sum_t.end(); //*/
-	
-	MIP_OUT(TRACE) << "added " << inst.n << " constraints to enforce the flow over each node" << std::endl;
+	MIP_OUT(TRACE) << "added " << 3 * inst.n << " constraints to enforce the flow over each node" << std::endl;
 
 	// for each required task, there should be an active node containing that task
 	for (std::vector<int> t : inst.T) {
@@ -67,7 +55,6 @@ void TCSPFormulation::addConstraints(IloEnv env, IloModel model, const Instance<
 		for (int i : t) sum += y[i];
 		model.add(sum >= 1); sum.end();
 	}
-
 }
 
 void TCSPFormulation::addObjectiveFunction(IloEnv env, IloModel model, const Instance<TCSP>& inst)

@@ -35,28 +35,19 @@ void NCSPFormulation::addConstraints(IloEnv env, IloModel model, const Instance<
 	}
 
 	// the flow that enters a node must also leave the node
-	for (int i : inst.V) if (i != inst.s && i != inst.t) {
+	for (int i : inst.V) {
 		IloExpr sum_in(env); IloExpr sum_out(env); // represents a linear expression of decision variables and constants
 		for (int j : incoming[i]) sum_in += x[j][i]; // cplex overloads +,-,... operators
 		for (int j : outgoing[i]) sum_out += x[i][j];
-		model.add(sum_out - sum_in == 0); // add constraint to model
+		model.add(sum_in <= 1); model.add(sum_out <= 1); // add constraint to model
+
+		int sum = (i == inst.s) - (i == inst.t);
+		model.add(sum_out - sum_in == sum);
 		model.add(y[i] <= sum_in + sum_out); // node can only be active if there's flow
 		sum_in.end(); sum_out.end(); // IloExpr must always call end() to free memory!
 	}
 
-	// the source node must send out one unit of flow
-	IloExpr sum_s(env);
-	for (int j : outgoing[inst.s])
-		sum_s += x[inst.s][j];
-	model.add(sum_s == 1); sum_s.end();
-
-	// the target node must receive one unit of flow
-	IloExpr sum_t(env);
-	for (int i : incoming[inst.t])
-		sum_t += x[i][inst.t];
-	model.add(sum_t == 1); sum_t.end();
-
-	MIP_OUT(TRACE) << "added " << inst.n << " constraints to enforce the flow over each node" << std::endl;
+	MIP_OUT(TRACE) << "added " << 3 * inst.n << " constraints to enforce the flow over each node" << std::endl;
 }
 
 void NCSPFormulation::addObjectiveFunction(IloEnv env, IloModel model, const Instance<NCSP>& inst)
