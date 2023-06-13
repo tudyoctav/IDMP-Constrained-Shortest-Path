@@ -27,7 +27,8 @@ class FunctionReport(Report):
         self.function(result, self.outfile)
 
 def write_csv(frame: pd.DataFrame, outfile: str):
-    frame.to_csv(outfile)
+    del frame['id']
+    frame.to_csv(outfile,na_rep="None")
 
 class CSVReport(FunctionReport):
     def __init__(self, attributes=None, filter=None, **kwargs):

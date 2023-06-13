@@ -5,7 +5,7 @@ import platform
 import os
 
 import pandas as pd
-from lab_report import FunctionReport
+from lab_report import CSVReport, FunctionReport
 import run_lab_helper
 from downward.reports.absolute import AbsoluteReport, PlanningReport
 from lab.environments import BaselSlurmEnvironment, LocalEnvironment
@@ -106,6 +106,8 @@ def timeout(run: dict):
 
 # Make a report.
 exp.add_report(PlanningReport(attributes=ATTRIBUTES))
+exp.add_report(CSVReport(attributes=ATTRIBUTES), outfile="all_results.csv")
+
 exp.add_report(BaseReport(attributes=SUMMARY_ATTRIBUTES, filter=[timeout, problem_type(
     "time_window")], format="html"), outfile="report_time_window.html")
 exp.add_report(BaseReport(attributes=SUMMARY_ATTRIBUTES, filter=[timeout, problem_type(
