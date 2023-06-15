@@ -11,7 +11,7 @@ from lab.parser import Parser
 from pathlib import Path
 
 def solved(content, props):
-    props["solved"] = int("path_length" in props)
+    props["solved"] = int(props.get("solve_time", None) != None)
 
 ERROR_VALUE = None
 
@@ -28,7 +28,8 @@ if __name__ == "__main__":
         "solver_exit_code", r"solve exit code: (.+)\n", type=int, file="driver.log", required=True
     )
     if Path("run.log").exists():
-        parser.add_pattern("path_length", r"(?:Length: |optimal val is: )(\d+)\n", type=int, required=False)
+        REGEX = r"(?:Length: |optimal val is: |The length of the CSP is )(\d+)\n"
+        parser.add_pattern("path_length", REGEX, type=int, required=False)
         parser.add_pattern("solve_time", r"solveTime=([-+]?[0-9]*\.?[0-9]+([eE][-+]?[0-9]+)?)", type=float, required=False)
     else:
         parser.add_function(timed_out, "driver.log")

@@ -19,7 +19,7 @@ def make_runs(exp: Experiment, problem: Path, problem_type: str, time_limit: str
         res.extend(make_mip_runs(exp, problem, problem_type,
                    time_limit, memory_limit, i))
     for run in res:
-        run.add_resource("problem", problem, symlink=True)
+        run.add_resource("problem", problem, symlink=False)
         run.set_property("problem", problem.stem)
         run.set_property("problem_type", problem_type)
         run.set_property("domain", problem.stem)

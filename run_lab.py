@@ -49,7 +49,7 @@ if REMOTE:
 else:
     ENV = LocalEnvironment(processes=None)
     # Use lower timeout for local tests.
-    TIME_LIMIT = 5  # seconds
+    TIME_LIMIT = 60  # seconds
 SUMMARY_ATTRIBUTES = [
     Attribute("path_length", function=max),
     Attribute("solve_time", function=arithmetic_mean, digits=5),
@@ -106,16 +106,25 @@ def timeout(run: dict):
 
 # Make a report.
 exp.add_report(PlanningReport(attributes=ATTRIBUTES))
-exp.add_report(CSVReport(attributes=ATTRIBUTES), outfile="all_results.csv")
 
-exp.add_report(BaseReport(attributes=SUMMARY_ATTRIBUTES, filter=[timeout, problem_type(
-    "time_window")], format="html"), outfile="report_time_window.html")
-exp.add_report(BaseReport(attributes=SUMMARY_ATTRIBUTES, filter=[timeout, problem_type(
-    "resource_constrained")], format="html"), outfile="report_time_constraint.html")
-exp.add_report(BaseReport(attributes=SUMMARY_ATTRIBUTES, filter=[timeout, problem_type(
-    "unordered_task")], format="html"), outfile="report_unordered_task.html")
-exp.add_report(BaseReport(attributes=SUMMARY_ATTRIBUTES, filter=[
-               timeout, problem_type("node")], format="html"), outfile="report_node.html")
+exp.add_report(CSVReport(attributes=ATTRIBUTES), outfile="all_results.csv")
+exp.add_report(CSVReport(attributes=ATTRIBUTES,
+               filter_problem_type="time_window"), outfile="time_window_results.csv")
+exp.add_report(CSVReport(attributes=ATTRIBUTES,
+               filter_problem_type="resource_constrained"), outfile="resource_results.csv")
+exp.add_report(CSVReport(attributes=ATTRIBUTES,
+               filter_problem_type="unordered_task"), outfile="unordered_task_results.csv")
+exp.add_report(CSVReport(attributes=ATTRIBUTES,
+               filter_problem_type="node"), outfile="node_results.csv")
+
+# exp.add_report(BaseReport(attributes=SUMMARY_ATTRIBUTES, filter=[timeout, problem_type(
+#     "time_window")], format="html"), outfile="report_time_window.html")
+# exp.add_report(BaseReport(attributes=SUMMARY_ATTRIBUTES, filter=[timeout, problem_type(
+#     "resource_constrained")], format="html"), outfile="report_time_constraint.html")
+# exp.add_report(BaseReport(attributes=SUMMARY_ATTRIBUTES, filter=[timeout, problem_type(
+#     "unordered_task")], format="html"), outfile="report_unordered_task.html")
+# exp.add_report(BaseReport(attributes=SUMMARY_ATTRIBUTES, filter=[
+#                timeout, problem_type("node")], format="html"), outfile="report_node.html")
 
 
 def plot_times(data: pd.DataFrame, out_file):
@@ -127,6 +136,7 @@ def plot_times(data: pd.DataFrame, out_file):
     # plt.title("Number of solved resource constrained instances over time spend solving")
     for (alg, solver), frame in data.groupby(["algorithm", "solver"]):
         frame = sorted(frame.loc[frame["solve_time"].notnull(), "solve_time"])
+        frame = list(filter(lambda x: x < maximum, frame))
         plt.stairs(frame + [maximum], list(range(len(frame) + 1)) + [len(frame)],
                    baseline=None, orientation="horizontal", label=f"{alg}")
     plt.xlabel("Time (s)")
@@ -140,9 +150,13 @@ def plot_times(data: pd.DataFrame, out_file):
 # exp.add_report(FunctionReport(plot_times, ATTRIBUTES, filter_problem_type="time_window", filter_algorithm=[
 #                "","sat"]), name="plot_time_window", outfile="tw_plot.png")
 exp.add_report(FunctionReport(plot_times, ATTRIBUTES, filter_problem_type="resource_constrained", filter_algorithm=[
-               "RCSP", "RCSP-dpath-bool_search(x,dom_w_deg, indomain_min)-restart_linear(1000)", "sat"]), name="plot_resource", outfile="rc_plot.png")
+               "RCSP", "RCSP-dpath-bool_search(x,dom_w_deg, indomain_min)-restart_linear(1000)", "sat", "mip"]), name="plot_resource", outfile="resource_plot.png")
+exp.add_report(FunctionReport(plot_times, ATTRIBUTES, filter_problem_type="time_window", filter_algorithm=[
+               "FRCSP", "FRCSP-dpath-bool_search(x,dom_w_deg, indomain_min)-restart_linear(1000)", "sat", "mip"]), name="plot_time_window", outfile="time_window_plot.png")
 exp.add_report(FunctionReport(plot_times, ATTRIBUTES, filter_problem_type="unordered_task", filter_algorithm=[
-               "TCSP", "TCSP_bounded_search_restart", "sat"]), name="plot_task", outfile="tc_plot.png")
+               "TCSP", "TCSP_bounded_search_restart", "sat", "mip"]), name="plot_task", outfile="unordered_task_plot.png")
+exp.add_report(FunctionReport(plot_times, ATTRIBUTES, filter_problem_type="node", filter_algorithm=[
+               "NCSP", "NCSP_bounded_search_restart", "sat", "mip"]), name="plot_node", outfile="node_plot.png")
 
 # Parse the commandline and run the given steps.
 exp.run_steps()

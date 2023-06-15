@@ -211,7 +211,7 @@ def run(file, type, solver):
         print("The variables are assigned the following values " + str(fm.model))
         print("The length of the CSP is " + str(fm.cost))
         # print(f"Solving time: {time() - start_time}")
-        print(f"% time elapsed: {time() - start_time}")
+        print(f"solveTime={time() - start_time}")
     else:
         print("The instance is unsatisfiable")
 
