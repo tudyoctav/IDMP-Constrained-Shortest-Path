@@ -263,47 +263,128 @@ def get_colour(time):
         colour = 'red'
     return colour
 
+def add_weights_random(graph , scale = 1, var = 5):
+    flag = True
+    iter = 0
+    while flag and iter < 100:
+        result = graph.copy()
+        for (u, v) in result.edges():
+            if 'travel_time' not in result[u][v]:
+                distance = result[u][v]['length']
+                result[u][v]['travel_time'] = max(1,int(np.random.normal(distance * scale, var)))
+            if 'length' not in result[u][v]:
+                time = result[u][v]['travel_time']
+                result[u][v]['length'] = max(1,int(np.random.normal(time / scale, var)))
+       
+        shortest_path_length = nx.shortest_path(result, source = source, target = target, weight = 'length')
+        shortest_length = nx.shortest_path_length(result, source = source, target = target, weight = 'length')
+        shortest_path_time = nx.shortest_path(result, source = source, target = target, weight = 'travel_time')
+        shortest_time = nx.shortest_path_length(result, source = source, target = target, weight = 'travel_time')
+        flag = (shortest_path_length == shortest_path_time)
+        # print(f"Shortest length {shortest_length} = {shortest_path_length}")
+        # print(f"Shortest time {shortest_time} = {shortest_path_time}")
+        iter += 1
+    print(f"iter = {iter}, flag = {flag}")
+    return result
 
-# def add_time_attribute(graph):
-#     for u, v, attr in graph.edges.data():
-#         weight = attr.get('weight', 10)
-#         # Sample time attribute around the weight
-#         time = max(1,random.uniform(weight - 5, weight + 5))
-#         attr['time'] = time
-#     print("BRAAAAAAAAAAAAAAAAA")
-#     return graph
-
-def add_weights(graph , pos = None, scale = 1, var = 5):
+def add_weights_all_one(graph):
     graph = graph.copy()
     for (u, v) in graph.edges():
-        if 'travel_time' not in graph[u][v]:
-            distance = graph[u][v]['length']
-            graph[u][v]['travel_time'] = max(1,int(np.random.normal(distance * scale, var)))
-        if 'length' not in graph[u][v]:
-            TimeoutError = graph[u][v]['travel_time']
-            graph[u][v]['length'] = max(1,int(np.random.normal(time / scale, var)))
+        graph[u][v]['travel_time'] = 1
+        graph[u][v]['length'] = 1
     return graph
 
-
-def rcsp_all_nodes_are_reachable(graph, source, target):
+def rcsp_add_tight_bounds(graph, source, target):
     graph = graph.copy()
     # shortest_path = nx.shortest_path(graph, source, target, weight='time')
-    time_shortes_paths = nx.single_source_dijkstra_path(graph, source, weight='travel_time')
+    time_shortest_paths = nx.single_source_dijkstra_path(graph, source, weight='travel_time')
     time_shortest_lengts = nx.single_source_dijkstra_path_length(graph, source, weight='travel_time')
     for n in graph.nodes():
         graph.nodes[n]['lower_bound'] = time_shortest_lengts[n]
         graph.nodes[n]['upper_bound'] = time_shortest_lengts[n]
     return graph
 
+def rcsp_add_loose_bounds(graph, source, target):
+    graph = graph.copy()
+    # shortest_path = nx.shortest_path(graph, source, target, weight='time')
+    time_shortest_paths = nx.single_source_dijkstra_path(graph, source, weight='travel_time')
+    time_shortest_lengts = nx.single_source_dijkstra_path_length(graph, source, weight='travel_time')
+
+    for n in graph.nodes():
+        interval = np.random.geometric(0.2) 
+        var = np.random.geometric(0.7) - 1
+        graph.nodes[n]['lower_bound'] = var + time_shortest_lengts[n]
+        graph.nodes[n]['upper_bound'] = var + time_shortest_lengts[n] + interval
+    return graph
+
 def generate_constraints_for_rcsp(graph, source, target, name):
-    graph_time = add_weights(graph)
-    graph_1 = rcsp_all_nodes_are_reachable(graph_time, source, target)
-    name_1 = name + "_all_nodes_are_reachable"
-    nx.write_graphml(graph_1, f"./graphs/rcsp/{name_1}.graphml", named_key_ids=True)
-    create_data_file_rcsp(graph_1, name_1)
-    display_graph_for_rcsp(graph_1, source, target, draw_labels = True)
-    plt.title("All nodes are reachable")
-    plt.savefig(f"./images/rcsp/{name_1}.png")
+    # all weights are equal to one
+    graph_weights_one = add_weights_all_one(graph)
+    graph_tight_one = rcsp_add_tight_bounds(graph_weights_one, source, target)
+    graph_loose_one = rcsp_add_loose_bounds(graph_weights_one, source, target)
+    name_tight_one = f"{name}_weights-one_windows-tight"
+    name_loose_one = f"{name}_weights-one_windows-loose"
+    nx.write_graphml(graph_tight_one, f"./graphs/rcsp/{name_tight_one}.graphml", named_key_ids=True)
+    nx.write_graphml(graph_loose_one, f"./graphs/rcsp/{name_loose_one}.graphml", named_key_ids=True)
+    create_data_file_rcsp(graph_tight_one, name_tight_one)
+    create_data_file_rcsp(graph_loose_one, name_loose_one)
+
+    # all weights are random
+    graph_weights_random = add_weights_random(graph)
+    graph_tight_random = rcsp_add_tight_bounds(graph_weights_random, source, target) 
+    graph_loose_random = rcsp_add_loose_bounds(graph_weights_random, source, target) 
+    name_tight_random = f"{name}_weights-random_windows-tight" 
+    name_loose_random = f"{name}_weights-random_windows-loose"
+    nx.write_graphml(graph_tight_random, f"./graphs/rcsp/{name_tight_random}.graphml", named_key_ids=True)
+    nx.write_graphml(graph_loose_random, f"./graphs/rcsp/{name_loose_random}.graphml", named_key_ids=True)
+    create_data_file_rcsp(graph_tight_random, name_tight_random)
+    create_data_file_rcsp(graph_loose_random, name_loose_random)
+
+    # display graphs
+    display_graph_for_rcsp(graph_tight_one, source, target, title = "Weights are all one and windows are tight")
+    plt.savefig(f"./images/rcsp/{name_tight_one}.png")
+    display_graph_for_rcsp(graph_loose_one, source, target, title = "Weights are all one and windows are loose")
+    plt.savefig(f"./images/rcsp/{name_loose_one}.png")
+    display_graph_for_rcsp(graph_tight_random, source, target, title = "Weights are random and windows are tight")
+    plt.savefig(f"./images/rcsp/{name_tight_random}.png")
+    display_graph_for_rcsp(graph_loose_random, source, target, title = "Weights are random and windows are loose")
+    plt.savefig(f"./images/rcsp/{name_loose_random}.png")
+    plt.close('all')
+
+def display_graph_for_rcsp(graph, source, target,fig = None, title = None):
+    init_pos = {node : (float(data['x']), float(data['y'])) for node,data in graph.nodes(data = True)}
+    fig = fig if fig else plt.figure(figsize=(10,10))
+    plt.title(title)
+    num_nodes = len(graph.nodes())
+    draw_labels = True
+    if num_nodes > 70:
+        draw_labels = False
+    shortest_path_length = nx.shortest_path(graph, source = source, target = target, weight = 'length')
+    shortest_length = nx.shortest_path_length(graph, source = source, target = target, weight = 'length')
+    shortest_path_time = nx.shortest_path(graph, source = source, target = target, weight = 'travel_time')
+    shortest_time = nx.shortest_path_length(graph, source = source, target = target, weight = 'travel_time')
+    edges_in_shortest_time_path = [(str(min(int(u),int(v))), str(max(int(u),int(v)))) for (u,v) in zip(shortest_path_time, shortest_path_time[1:])]
+    # print(f"Shortest length {shortest_length} with path: {shortest_path_length}")
+    # print(f"Shortest time {shortest_time} with path: {shortest_path_time}")
+    # print(f"Edges in shortest time path: {edges_in_shortest_time_path}")
+    node_color = ["red" if n in shortest_path_length else "tab:blue" for n in graph.nodes()]
+    edge_color = ["magenta" if ((u,v) or (v,u)) in edges_in_shortest_time_path else "tab:blue" for u,v in graph.edges()]
+    nx.draw_networkx(graph, pos=init_pos, with_labels=draw_labels ,node_color = node_color, edge_color=edge_color)
+    shift_pos = { 6 : 0.1, 16: 0.15, 30: 0.2, 48: 0.2, 70 : 0.3}
+    font_size = { 6 : 10, 16: 9, 30: 8, 48: 7, 70 : 6 }
+    if draw_labels and num_nodes in shift_pos:
+        weight = nx.get_edge_attributes(graph,'length')
+        time = nx.get_edge_attributes(graph,'travel_time')
+        labels = {edge : f"{weight[edge]} / {time[edge]}" for edge in graph.edges()}
+        nx.draw_networkx_edge_labels(graph,pos = init_pos, edge_labels = labels, font_size = font_size[num_nodes])
+        if num_nodes in shift_pos:
+            shift = shift_pos[num_nodes]
+        else:
+            shift = 0.4
+        shifted_pos ={node: (node_pos[0],node_pos[1] - shift) for node, node_pos in init_pos.items()}
+        node_labels = {node: (data['lower_bound'], data['upper_bound']) for node,data in graph.nodes(data = True)}
+        # nx.draw_networkx_labels(G, shifted_pos, labels=node_labels, horizontalalignment="left", font_color = start_colour)
+        nx.draw_networkx_labels(graph, shifted_pos, labels=node_labels, font_size= font_size[num_nodes])
 
 def make_weights_int(graph):
     graph = graph.copy()
@@ -314,45 +395,14 @@ def make_weights_int(graph):
             graph[u][v]['travel_time'] = int(float(graph[u][v]['travel_time']))
     return graph
 
-def display_graph_for_rcsp(graph, source, target,fig = None, draw_labels = False):
-    init_pos = {node : (float(data['x']), float(data['y'])) for node,data in graph.nodes(data = True)}
-    fig = fig if fig else plt.figure(figsize=(10,10))
 
-
-    shortest_path_length = nx.shortest_path(graph, source = source, target = target, weight = 'length')
-    shortest_length = nx.shortest_path_length(graph, source = source, target = target, weight = 'length')
-    shortest_path_time = nx.shortest_path(graph, source = source, target = target, weight = 'travel_time')
-    shortest_time = nx.shortest_path_length(graph, source = source, target = target, weight = 'travel_time')
-    edges_in_shortest_time_path = [(str(min(int(u),int(v))), str(max(int(u),int(v)))) for (u,v) in zip(shortest_path_time, shortest_path_time[1:])]
-    print(f"Shortest length {shortest_length} with path: {shortest_path_length}")
-    print(f"Shortest time {shortest_time} with path: {shortest_path_time}")
-    print(f"Edges in shortest time path: {edges_in_shortest_time_path}")
-    node_color = ["red" if n in shortest_path_length else "tab:blue" for n in graph.nodes()]
-
-    edge_color = ["magenta" if ((u,v) or (v,u)) in edges_in_shortest_time_path else "tab:blue" for u,v in graph.edges()]
-    nx.draw_networkx(graph, pos=init_pos, with_labels=True ,node_color = node_color, edge_color=edge_color)
-    num_nodes = len(graph.nodes())
-    shift_pos = { 6 : 0.1, 16: 0.15, 30: 0.2, 48: 0.2, 70 : 0.3}
-    if draw_labels and num_nodes in shift_pos:
-        weight = nx.get_edge_attributes(graph,'length')
-        time = nx.get_edge_attributes(graph,'travel_time')
-        labels = {edge : f"{weight[edge]} / {time[edge]}" for edge in graph.edges()}
-        nx.draw_networkx_edge_labels(graph,pos = init_pos, edge_labels = labels, font_size = 10)
-       
-        if num_nodes in shift_pos:
-            shift = shift_pos[num_nodes]
-        else:
-            shift = 0.4
-        shifted_pos ={node: (node_pos[0],node_pos[1] - shift) for node, node_pos in init_pos.items()}
-        node_labels = {node: (data['lower_bound'], data['upper_bound']) for node,data in graph.nodes(data = True)}
-        # nx.draw_networkx_labels(G, shifted_pos, labels=node_labels, horizontalalignment="left", font_color = start_colour)
-        nx.draw_networkx_labels(graph, shifted_pos, labels=node_labels)
-
-folder = ".\graphs\input\\"
-# folder = ".\cities\output-subsamples\\"
-
-files = glob.glob(f"{folder}*.graphml")
-files.sort(key=os.path.getmtime)
+    
+folder_hexagons = ".\graphs\input\\"
+hexagons = sorted(glob.glob(f"{folder_hexagons}*.graphml"), key = os.path.getmtime)
+folder_cities = ".\cities\output-subsamples\\"
+cities = sorted(glob.glob(f"{folder_cities}*.graphml"))
+files = hexagons + cities
+# files.sort(key=os.path.getmtime)
 parser = GraphMLParser()
 for fname in files:
     graph = nx.read_graphml(fname)
@@ -366,7 +416,7 @@ for fname in files:
 
    
     graph = make_weights_int(graph)
-    generate_constraints_for_tcsp(graph, source, target, name)       
+    # generate_constraints_for_tcsp(graph, source, target, name)       
     generate_constraints_for_rcsp(graph, source, target, name)
     plt.show(block=False)
     plt.pause(0.1)

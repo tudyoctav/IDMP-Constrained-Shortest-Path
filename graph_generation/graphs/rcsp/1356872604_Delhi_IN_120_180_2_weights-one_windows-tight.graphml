@@ -1,0 +1,3207 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="lanes" for="edge" attr.name="lanes" attr.type="string" />
+  <key id="geometry" for="edge" attr.name="geometry" attr.type="string" />
+  <key id="name" for="edge" attr.name="name" attr.type="string" />
+  <key id="id" for="edge" attr.name="id" attr.type="string" />
+  <key id="travel_time" for="edge" attr.name="travel_time" attr.type="long" />
+  <key id="speed_kph" for="edge" attr.name="speed_kph" attr.type="string" />
+  <key id="length" for="edge" attr.name="length" attr.type="long" />
+  <key id="reversed" for="edge" attr.name="reversed" attr.type="string" />
+  <key id="oneway" for="edge" attr.name="oneway" attr.type="string" />
+  <key id="highway" for="edge" attr.name="highway" attr.type="string" />
+  <key id="osmid" for="edge" attr.name="osmid" attr.type="string" />
+  <key id="highway" for="node" attr.name="highway" attr.type="string" />
+  <key id="upper_bound" for="node" attr.name="upper_bound" attr.type="long" />
+  <key id="lower_bound" for="node" attr.name="lower_bound" attr.type="long" />
+  <key id="street_count" for="node" attr.name="street_count" attr.type="string" />
+  <key id="x" for="node" attr.name="x" attr.type="string" />
+  <key id="y" for="node" attr.name="y" attr.type="string" />
+  <key id="finish_node" for="graph" attr.name="finish_node" attr.type="string" />
+  <key id="start_node" for="graph" attr.name="start_node" attr.type="string" />
+  <key id="node_distance_range_to" for="graph" attr.name="node_distance_range_to" attr.type="string" />
+  <key id="node_distance_range_from" for="graph" attr.name="node_distance_range_from" attr.type="string" />
+  <key id="distance_coef" for="graph" attr.name="distance_coef" attr.type="string" />
+  <key id="split_seed" for="graph" attr.name="split_seed" attr.type="string" />
+  <key id="iso3" for="graph" attr.name="iso3" attr.type="string" />
+  <key id="iso2" for="graph" attr.name="iso2" attr.type="string" />
+  <key id="country" for="graph" attr.name="country" attr.type="string" />
+  <key id="city" for="graph" attr.name="city" attr.type="string" />
+  <key id="simplified" for="graph" attr.name="simplified" attr.type="string" />
+  <key id="crs" for="graph" attr.name="crs" attr.type="string" />
+  <key id="created_with" for="graph" attr.name="created_with" attr.type="string" />
+  <key id="created_date" for="graph" attr.name="created_date" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="1">
+      <data key="y">28.5672767</data>
+      <data key="x">77.230633</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">5</data>
+      <data key="upper_bound">5</data>
+    </node>
+    <node id="2">
+      <data key="y">28.5600686</data>
+      <data key="x">77.2324383</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">18</data>
+      <data key="upper_bound">18</data>
+    </node>
+    <node id="3">
+      <data key="y">28.5627634</data>
+      <data key="x">77.232742</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">15</data>
+      <data key="upper_bound">15</data>
+    </node>
+    <node id="4">
+      <data key="y">28.5612249</data>
+      <data key="x">77.2375011</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">17</data>
+      <data key="upper_bound">17</data>
+    </node>
+    <node id="5">
+      <data key="y">28.5587963</data>
+      <data key="x">77.2378583</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">20</data>
+      <data key="upper_bound">20</data>
+    </node>
+    <node id="6">
+      <data key="y">28.5676118</data>
+      <data key="x">77.2304419</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">6</data>
+      <data key="upper_bound">6</data>
+    </node>
+    <node id="7">
+      <data key="y">28.5678367</data>
+      <data key="x">77.231558</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">3</data>
+      <data key="upper_bound">3</data>
+    </node>
+    <node id="8">
+      <data key="y">28.563411</data>
+      <data key="x">77.2366882</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">19</data>
+      <data key="upper_bound">19</data>
+    </node>
+    <node id="9">
+      <data key="y">28.5639365</data>
+      <data key="x">77.2335214</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">12</data>
+      <data key="upper_bound">12</data>
+    </node>
+    <node id="10">
+      <data key="y">28.5585236</data>
+      <data key="x">77.2396691</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">23</data>
+      <data key="upper_bound">23</data>
+    </node>
+    <node id="11">
+      <data key="y">28.5584656</data>
+      <data key="x">77.2397339</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">24</data>
+      <data key="upper_bound">24</data>
+    </node>
+    <node id="12">
+      <data key="y">28.5631005</data>
+      <data key="x">77.2329335</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">14</data>
+      <data key="upper_bound">14</data>
+    </node>
+    <node id="13">
+      <data key="y">28.5591377</data>
+      <data key="x">77.2365681</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">18</data>
+      <data key="upper_bound">18</data>
+    </node>
+    <node id="14">
+      <data key="y">28.5635347</data>
+      <data key="x">77.2343775</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">13</data>
+      <data key="upper_bound">13</data>
+    </node>
+    <node id="15">
+      <data key="y">28.5681971</data>
+      <data key="x">77.2307734</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">5</data>
+      <data key="upper_bound">5</data>
+    </node>
+    <node id="16">
+      <data key="y">28.5684147</data>
+      <data key="x">77.2323257</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">1</data>
+      <data key="upper_bound">1</data>
+    </node>
+    <node id="17">
+      <data key="y">28.5684541</data>
+      <data key="x">77.2315658</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">3</data>
+      <data key="upper_bound">3</data>
+    </node>
+    <node id="18">
+      <data key="y">28.568508</data>
+      <data key="x">77.2306556</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">4</data>
+      <data key="upper_bound">4</data>
+    </node>
+    <node id="19">
+      <data key="y">28.568671</data>
+      <data key="x">77.2310191</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">4</data>
+      <data key="upper_bound">4</data>
+    </node>
+    <node id="20">
+      <data key="y">28.5695886</data>
+      <data key="x">77.2328255</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">5</data>
+      <data key="upper_bound">5</data>
+    </node>
+    <node id="21">
+      <data key="y">28.5694359</data>
+      <data key="x">77.2317579</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">5</data>
+      <data key="upper_bound">5</data>
+    </node>
+    <node id="22">
+      <data key="y">28.5691385</data>
+      <data key="x">77.2326355</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">4</data>
+      <data key="upper_bound">4</data>
+    </node>
+    <node id="23">
+      <data key="y">28.5689179</data>
+      <data key="x">77.2325411</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">3</data>
+      <data key="upper_bound">3</data>
+    </node>
+    <node id="24">
+      <data key="y">28.5689819</data>
+      <data key="x">77.2308911</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">2</data>
+      <data key="upper_bound">2</data>
+    </node>
+    <node id="25">
+      <data key="y">28.5691315</data>
+      <data key="x">77.2313108</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">4</data>
+      <data key="upper_bound">4</data>
+    </node>
+    <node id="26">
+      <data key="y">28.5692657</data>
+      <data key="x">77.231662</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">4</data>
+      <data key="upper_bound">4</data>
+    </node>
+    <node id="27">
+      <data key="y">28.5670492</data>
+      <data key="x">77.2305129</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">4</data>
+      <data key="upper_bound">4</data>
+    </node>
+    <node id="28">
+      <data key="y">28.569785</data>
+      <data key="x">77.232907</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">6</data>
+      <data key="upper_bound">6</data>
+    </node>
+    <node id="29">
+      <data key="y">28.5597159</data>
+      <data key="x">77.2357753</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">16</data>
+      <data key="upper_bound">16</data>
+    </node>
+    <node id="30">
+      <data key="y">28.5682146</data>
+      <data key="x">77.2322401</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">0</data>
+      <data key="upper_bound">0</data>
+    </node>
+    <node id="31">
+      <data key="y">28.5581062</data>
+      <data key="x">77.2392422</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">25</data>
+      <data key="upper_bound">25</data>
+    </node>
+    <node id="32">
+      <data key="y">28.5692456</data>
+      <data key="x">77.2310381</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">3</data>
+      <data key="upper_bound">3</data>
+    </node>
+    <node id="33">
+      <data key="y">28.5686627</data>
+      <data key="x">77.2324319</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">2</data>
+      <data key="upper_bound">2</data>
+    </node>
+    <node id="34">
+      <data key="y">28.559337</data>
+      <data key="x">77.235145</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">20</data>
+      <data key="upper_bound">20</data>
+    </node>
+    <node id="35">
+      <data key="y">28.5594438</data>
+      <data key="x">77.2351787</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">19</data>
+      <data key="upper_bound">19</data>
+    </node>
+    <node id="36">
+      <data key="y">28.5700492</data>
+      <data key="x">77.2330166</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">7</data>
+      <data key="upper_bound">7</data>
+    </node>
+    <node id="37">
+      <data key="y">28.5702916</data>
+      <data key="x">77.233128</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">8</data>
+      <data key="upper_bound">8</data>
+    </node>
+    <node id="38">
+      <data key="y">28.5594012</data>
+      <data key="x">77.2353721</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">20</data>
+      <data key="upper_bound">20</data>
+    </node>
+    <node id="39">
+      <data key="y">28.5665723</data>
+      <data key="x">77.2318936</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">3</data>
+      <data key="upper_bound">3</data>
+    </node>
+    <node id="40">
+      <data key="y">28.5592904</data>
+      <data key="x">77.2353456</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">19</data>
+      <data key="upper_bound">19</data>
+    </node>
+    <node id="41">
+      <data key="y">28.5583268</data>
+      <data key="x">77.2328641</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">22</data>
+      <data key="upper_bound">22</data>
+    </node>
+    <node id="42">
+      <data key="y">28.5588524</data>
+      <data key="x">77.2323125</data>
+      <data key="street_count">5</data>
+      <data key="lower_bound">20</data>
+      <data key="upper_bound">20</data>
+    </node>
+    <node id="43">
+      <data key="y">28.5591645</data>
+      <data key="x">77.2364467</data>
+      <data key="highway">traffic_signals</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">17</data>
+      <data key="upper_bound">17</data>
+    </node>
+    <node id="44">
+      <data key="y">28.5653268</data>
+      <data key="x">77.2337986</data>
+      <data key="highway">traffic_signals</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">10</data>
+      <data key="upper_bound">10</data>
+    </node>
+    <node id="45">
+      <data key="y">28.5656717</data>
+      <data key="x">77.2332623</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">6</data>
+      <data key="upper_bound">6</data>
+    </node>
+    <node id="46">
+      <data key="y">28.5665627</data>
+      <data key="x">77.2323364</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">6</data>
+      <data key="upper_bound">6</data>
+    </node>
+    <node id="47">
+      <data key="y">28.5599764</data>
+      <data key="x">77.2323913</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">19</data>
+      <data key="upper_bound">19</data>
+    </node>
+    <node id="48">
+      <data key="y">28.5674908</data>
+      <data key="x">77.230746</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">6</data>
+      <data key="upper_bound">6</data>
+    </node>
+    <node id="49">
+      <data key="y">28.5680815</data>
+      <data key="x">77.231058</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">5</data>
+      <data key="upper_bound">5</data>
+    </node>
+    <node id="50">
+      <data key="y">28.560349</data>
+      <data key="x">77.2318324</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">17</data>
+      <data key="upper_bound">17</data>
+    </node>
+    <node id="51">
+      <data key="y">28.5682856</data>
+      <data key="x">77.2305555</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">5</data>
+      <data key="upper_bound">5</data>
+    </node>
+    <node id="52">
+      <data key="y">28.5590136</data>
+      <data key="x">77.2365377</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">21</data>
+      <data key="upper_bound">21</data>
+    </node>
+    <node id="53">
+      <data key="y">28.5676941</data>
+      <data key="x">77.2302351</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">6</data>
+      <data key="upper_bound">6</data>
+    </node>
+    <node id="54">
+      <data key="y">28.5669878</data>
+      <data key="x">77.2307693</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">4</data>
+      <data key="upper_bound">4</data>
+    </node>
+    <node id="55">
+      <data key="y">28.5605611</data>
+      <data key="x">77.2315096</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">17</data>
+      <data key="upper_bound">17</data>
+    </node>
+    <node id="56">
+      <data key="y">28.5580469</data>
+      <data key="x">77.2393337</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">24</data>
+      <data key="upper_bound">24</data>
+    </node>
+    <node id="57">
+      <data key="y">28.5608481</data>
+      <data key="x">77.2316766</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">16</data>
+      <data key="upper_bound">16</data>
+    </node>
+    <node id="58">
+      <data key="y">28.5581062</data>
+      <data key="x">77.2360646</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">21</data>
+      <data key="upper_bound">21</data>
+    </node>
+    <node id="59">
+      <data key="y">28.5581794</data>
+      <data key="x">77.2394427</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">23</data>
+      <data key="upper_bound">23</data>
+    </node>
+    <node id="60">
+      <data key="y">28.5656192</data>
+      <data key="x">77.2339132</data>
+      <data key="highway">traffic_signals</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">7</data>
+      <data key="upper_bound">7</data>
+    </node>
+    <node id="61">
+      <data key="y">28.5655793</data>
+      <data key="x">77.2343135</data>
+      <data key="highway">traffic_signals</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">8</data>
+      <data key="upper_bound">8</data>
+    </node>
+    <node id="62">
+      <data key="y">28.5652654</data>
+      <data key="x">77.2342355</data>
+      <data key="highway">traffic_signals</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">9</data>
+      <data key="upper_bound">9</data>
+    </node>
+    <node id="63">
+      <data key="y">28.5685472</data>
+      <data key="x">77.2313039</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">4</data>
+      <data key="upper_bound">4</data>
+    </node>
+    <node id="64">
+      <data key="y">28.5584016</data>
+      <data key="x">77.2396747</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">25</data>
+      <data key="upper_bound">25</data>
+    </node>
+    <node id="65">
+      <data key="y">28.5576022</data>
+      <data key="x">77.2358304</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">23</data>
+      <data key="upper_bound">23</data>
+    </node>
+    <node id="66">
+      <data key="y">28.5691325</data>
+      <data key="x">77.2299576</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">4</data>
+      <data key="upper_bound">4</data>
+    </node>
+    <node id="67">
+      <data key="y">28.5591235</data>
+      <data key="x">77.2366219</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">19</data>
+      <data key="upper_bound">19</data>
+    </node>
+    <node id="68">
+      <data key="y">28.5590442</data>
+      <data key="x">77.2364061</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">18</data>
+      <data key="upper_bound">18</data>
+    </node>
+    <node id="69">
+      <data key="y">28.5665918</data>
+      <data key="x">77.2302713</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">4</data>
+      <data key="upper_bound">4</data>
+    </node>
+    <node id="70">
+      <data key="y">28.5670366</data>
+      <data key="x">77.2317408</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">2</data>
+      <data key="upper_bound">2</data>
+    </node>
+    <node id="71">
+      <data key="y">28.5682961</data>
+      <data key="x">77.2320105</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">1</data>
+      <data key="upper_bound">1</data>
+    </node>
+    <node id="72">
+      <data key="y">28.5612872</data>
+      <data key="x">77.2369889</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">17</data>
+      <data key="upper_bound">17</data>
+    </node>
+    <node id="73">
+      <data key="y">28.560846</data>
+      <data key="x">77.2370227</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">16</data>
+      <data key="upper_bound">16</data>
+    </node>
+    <node id="74">
+      <data key="y">28.5597869</data>
+      <data key="x">77.2356855</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">15</data>
+      <data key="upper_bound">15</data>
+    </node>
+    <node id="75">
+      <data key="y">28.5687765</data>
+      <data key="x">77.2307765</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">3</data>
+      <data key="upper_bound">3</data>
+    </node>
+    <node id="76">
+      <data key="y">28.5582901</data>
+      <data key="x">77.2389125</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">26</data>
+      <data key="upper_bound">26</data>
+    </node>
+    <node id="77">
+      <data key="y">28.5570627</data>
+      <data key="x">77.2356292</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">25</data>
+      <data key="upper_bound">25</data>
+    </node>
+    <node id="78">
+      <data key="y">28.5573656</data>
+      <data key="x">77.2357341</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">24</data>
+      <data key="upper_bound">24</data>
+    </node>
+    <node id="79">
+      <data key="y">28.557987</data>
+      <data key="x">77.2328408</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">23</data>
+      <data key="upper_bound">23</data>
+    </node>
+    <node id="80">
+      <data key="y">28.5582435</data>
+      <data key="x">77.2393753</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">22</data>
+      <data key="upper_bound">22</data>
+    </node>
+    <node id="81">
+      <data key="y">28.5658053</data>
+      <data key="x">77.2318306</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">5</data>
+      <data key="upper_bound">5</data>
+    </node>
+    <node id="82">
+      <data key="y">28.5683658</data>
+      <data key="x">77.2318144</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">2</data>
+      <data key="upper_bound">2</data>
+    </node>
+    <node id="83">
+      <data key="y">28.5670773</data>
+      <data key="x">77.2319763</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">1</data>
+      <data key="upper_bound">1</data>
+    </node>
+    <node id="84">
+      <data key="y">28.5659307</data>
+      <data key="x">77.2318361</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">4</data>
+      <data key="upper_bound">4</data>
+    </node>
+    <node id="85">
+      <data key="y">28.566956</data>
+      <data key="x">77.2310638</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">4</data>
+      <data key="upper_bound">4</data>
+    </node>
+    <node id="86">
+      <data key="y">28.5690382</data>
+      <data key="x">77.2315339</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">3</data>
+      <data key="upper_bound">3</data>
+    </node>
+    <node id="87">
+      <data key="y">28.5625434</data>
+      <data key="x">77.2367382</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">21</data>
+      <data key="upper_bound">21</data>
+    </node>
+    <node id="88">
+      <data key="y">28.563538</data>
+      <data key="x">77.2350753</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">14</data>
+      <data key="upper_bound">14</data>
+    </node>
+    <node id="89">
+      <data key="y">28.5645955</data>
+      <data key="x">77.2338832</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">11</data>
+      <data key="upper_bound">11</data>
+    </node>
+    <node id="90">
+      <data key="y">28.5638692</data>
+      <data key="x">77.233474</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">13</data>
+      <data key="upper_bound">13</data>
+    </node>
+    <node id="91">
+      <data key="y">28.5634284</data>
+      <data key="x">77.2344062</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">14</data>
+      <data key="upper_bound">14</data>
+    </node>
+    <node id="92">
+      <data key="y">28.5576606</data>
+      <data key="x">77.2358542</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">22</data>
+      <data key="upper_bound">22</data>
+    </node>
+    <node id="93">
+      <data key="y">28.5590005</data>
+      <data key="x">77.2365899</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">20</data>
+      <data key="upper_bound">20</data>
+    </node>
+    <node id="94">
+      <data key="y">28.5584122</data>
+      <data key="x">77.2322769</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">21</data>
+      <data key="upper_bound">21</data>
+    </node>
+    <node id="95">
+      <data key="y">28.5650193</data>
+      <data key="x">77.2341174</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">10</data>
+      <data key="upper_bound">10</data>
+    </node>
+    <node id="96">
+      <data key="y">28.5580508</data>
+      <data key="x">77.2359714</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">21</data>
+      <data key="upper_bound">21</data>
+    </node>
+    <node id="97">
+      <data key="y">28.5584257</data>
+      <data key="x">77.2390433</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">21</data>
+      <data key="upper_bound">21</data>
+    </node>
+    <node id="98">
+      <data key="y">28.5584608</data>
+      <data key="x">77.2396021</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">22</data>
+      <data key="upper_bound">22</data>
+    </node>
+    <node id="99">
+      <data key="y">28.563126</data>
+      <data key="x">77.2366577</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">20</data>
+      <data key="upper_bound">20</data>
+    </node>
+    <node id="100">
+      <data key="y">28.5622356</data>
+      <data key="x">77.2368341</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">20</data>
+      <data key="upper_bound">20</data>
+    </node>
+    <node id="101">
+      <data key="y">28.5663954</data>
+      <data key="x">77.2323094</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">5</data>
+      <data key="upper_bound">5</data>
+    </node>
+    <node id="102">
+      <data key="y">28.5619627</data>
+      <data key="x">77.2369292</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">19</data>
+      <data key="upper_bound">19</data>
+    </node>
+    <node id="103">
+      <data key="y">28.5614709</data>
+      <data key="x">77.2372516</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">18</data>
+      <data key="upper_bound">18</data>
+    </node>
+    <node id="104">
+      <data key="y">28.5635182</data>
+      <data key="x">77.235582</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">16</data>
+      <data key="upper_bound">16</data>
+    </node>
+    <node id="105">
+      <data key="y">28.5667755</data>
+      <data key="x">77.2323643</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">7</data>
+      <data key="upper_bound">7</data>
+    </node>
+    <node id="106">
+      <data key="y">28.5635301</data>
+      <data key="x">77.235348</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">15</data>
+      <data key="upper_bound">15</data>
+    </node>
+    <node id="107">
+      <data key="y">28.563441</data>
+      <data key="x">77.2363012</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">18</data>
+      <data key="upper_bound">18</data>
+    </node>
+    <node id="108">
+      <data key="y">28.5667939</data>
+      <data key="x">77.2303783</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">3</data>
+      <data key="upper_bound">3</data>
+    </node>
+    <node id="109">
+      <data key="y">28.5634694</data>
+      <data key="x">77.2360537</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">17</data>
+      <data key="upper_bound">17</data>
+    </node>
+    <node id="110">
+      <data key="y">28.5668222</data>
+      <data key="x">77.2319345</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">2</data>
+      <data key="upper_bound">2</data>
+    </node>
+    <node id="111">
+      <data key="y">28.5669912</data>
+      <data key="x">77.2314963</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">3</data>
+      <data key="upper_bound">3</data>
+    </node>
+    <edge source="1" target="27">
+      <data key="osmid">167468603</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="1" target="48">
+      <data key="osmid">167468603</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="2" target="35">
+      <data key="osmid">44316334</data>
+      <data key="oneway">True</data>
+      <data key="name">Lala Lajpat Rai Marg</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2324383 28.5600686, 77.2327146 28.5599839, 77.2333529 28.5598459, 77.2333905 28.5598378, 77.2351787 28.5594438)</data>
+      <data key="speed_kph">49.5</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="2" target="47">
+      <data key="osmid">80513374</data>
+      <data key="oneway">False</data>
+      <data key="name">Hansraj Gupta Marg</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="3" target="57">
+      <data key="osmid">565347505</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="name">Josip Broz Tito Marg</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.232742 28.5627634, 77.2324707 28.5621204, 77.2316766 28.5608481)</data>
+      <data key="speed_kph">49.5</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="4" target="73">
+      <data key="osmid">164702920</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="4" target="103">
+      <data key="osmid">541617750</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2375011 28.5612249, 77.2373359 28.5613932, 77.2372516 28.5614709)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="5" target="97">
+      <data key="osmid">1130786624</data>
+      <data key="oneway">True</data>
+      <data key="name">Lala Lajpat Rai Marg</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2378583 28.5587963, 77.2385679 28.5586085, 77.2390433 28.5584257)</data>
+      <data key="speed_kph">49.5</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="6" target="15">
+      <data key="osmid">424021864</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="6" target="48">
+      <data key="osmid">417010624</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="6" target="53">
+      <data key="osmid">417010624</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="7" target="82">
+      <data key="osmid">418982753</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="7" target="85">
+      <data key="osmid">418982753</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="7" target="111">
+      <data key="osmid">424021861</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="8" target="99">
+      <data key="osmid">541617750</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="9" target="14">
+      <data key="osmid">44316333</data>
+      <data key="oneway">True</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="9" target="90">
+      <data key="osmid">474761803</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="highway">secondary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">40.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="10" target="11">
+      <data key="osmid">686621300</data>
+      <data key="highway">tertiary_link</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">30.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="11" target="10">
+      <data key="osmid">686621300</data>
+      <data key="highway">tertiary_link</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">30.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="11" target="64">
+      <data key="osmid">1055677022</data>
+      <data key="oneway">True</data>
+      <data key="name">Kalka Devi Marg</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="12" target="3">
+      <data key="osmid">44316337</data>
+      <data key="oneway">True</data>
+      <data key="name">Josip Broz Tito Marg</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">49.5</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="13" target="67">
+      <data key="osmid">1130786624</data>
+      <data key="oneway">True</data>
+      <data key="name">Lala Lajpat Rai Marg</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">49.5</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="14" target="88">
+      <data key="osmid">44316333</data>
+      <data key="oneway">True</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2343775 28.5635347, 77.2346285 28.5635039, 77.2347011 28.5635095, 77.2350753 28.563538)</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="14" target="91">
+      <data key="osmid">1135375092</data>
+      <data key="oneway">False</data>
+      <data key="name">Gurumukh Nihal Singh Marg</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="15" target="6">
+      <data key="osmid">424021864</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="15" target="19">
+      <data key="osmid">424021864</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="15" target="49">
+      <data key="osmid">417010625</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="15" target="51">
+      <data key="osmid">417010625</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="16" target="24">
+      <data key="osmid">424021872</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="16" target="30">
+      <data key="osmid">417156340</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="16" target="33">
+      <data key="osmid">417156340</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="17" target="54">
+      <data key="osmid">424021844</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="17" target="63">
+      <data key="osmid">167468628</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="17" target="82">
+      <data key="osmid">167468628</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="18" target="51">
+      <data key="osmid">167468630</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="18" target="75">
+      <data key="osmid">167468630</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="19" target="15">
+      <data key="osmid">424021864</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="19" target="63">
+      <data key="osmid">167468628</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="19" target="75">
+      <data key="osmid">167468628</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="20" target="22">
+      <data key="osmid">417156340</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2328255 28.5695886, 77.2326616 28.5692003, 77.2326355 28.5691385)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="20" target="28">
+      <data key="osmid">417156340</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="21" target="22">
+      <data key="osmid">418982757</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="21" target="26">
+      <data key="osmid">418982755</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="22" target="20">
+      <data key="osmid">417156340</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2326355 28.5691385, 77.2326616 28.5692003, 77.2328255 28.5695886)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="22" target="21">
+      <data key="osmid">418982757</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="22" target="23">
+      <data key="osmid">417156340</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="23" target="22">
+      <data key="osmid">417156340</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="23" target="26">
+      <data key="osmid">424021837</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="23" target="33">
+      <data key="osmid">417156340</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="24" target="16">
+      <data key="osmid">424021872</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="24" target="32">
+      <data key="osmid">167468630</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="24" target="75">
+      <data key="osmid">167468630</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="25" target="32">
+      <data key="osmid">417157120</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="25" target="86">
+      <data key="osmid">417157120</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="26" target="21">
+      <data key="osmid">418982755</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="26" target="23">
+      <data key="osmid">424021837</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="26" target="86">
+      <data key="osmid">418982755</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="27" target="1">
+      <data key="osmid">167468603</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="27" target="54">
+      <data key="osmid">417010628</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="27" target="108">
+      <data key="osmid">167468603</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="28" target="20">
+      <data key="osmid">417156340</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="28" target="36">
+      <data key="osmid">417156340</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="29" target="43">
+      <data key="osmid">235103581</data>
+      <data key="oneway">True</data>
+      <data key="name">Gurumukh Nihal Singh Marg</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2357753 28.5597159, 77.2360844 28.5594714, 77.2364307 28.5592325, 77.2364467 28.5591645)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="30" target="16">
+      <data key="osmid">417156340</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="30" target="71">
+      <data key="osmid">167468628</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="30" target="83">
+      <data key="osmid">417156340</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2322401 28.5682146, 77.2320531 28.5676023, 77.231991 28.5671775, 77.2319763 28.5670773)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="31" target="76">
+      <data key="osmid">557760406</data>
+      <data key="oneway">True</data>
+      <data key="name">Lala Lajpat Rai Marg</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">49.5</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="31" target="80">
+      <data key="osmid">80513385</data>
+      <data key="oneway">True</data>
+      <data key="name">Kalka Devi Marg</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="32" target="24">
+      <data key="osmid">167468630</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="32" target="25">
+      <data key="osmid">417157120</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="33" target="16">
+      <data key="osmid">417156340</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="33" target="23">
+      <data key="osmid">417156340</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="33" target="86">
+      <data key="osmid">417157120</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="34" target="35">
+      <data key="osmid">557610150</data>
+      <data key="highway">secondary</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">49.5</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="34" target="47">
+      <data key="osmid">557760413</data>
+      <data key="oneway">True</data>
+      <data key="name">Lala Lajpat Rai Marg</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">49.5</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="35" target="34">
+      <data key="osmid">557610150</data>
+      <data key="highway">secondary</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">49.5</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="35" target="38">
+      <data key="osmid">44316334</data>
+      <data key="oneway">True</data>
+      <data key="name">Lala Lajpat Rai Marg</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">49.5</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="36" target="28">
+      <data key="osmid">417156340</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="36" target="37">
+      <data key="osmid">417156340</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="37" target="36">
+      <data key="osmid">417156340</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="38" target="40">
+      <data key="osmid">557610151</data>
+      <data key="highway">secondary</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">49.5</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="38" target="43">
+      <data key="osmid">44316334</data>
+      <data key="oneway">True</data>
+      <data key="name">Lala Lajpat Rai Marg</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">49.5</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="39" target="69">
+      <data key="osmid">167468618</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2318936 28.5665723, 77.2314065 28.566495, 77.2310653 28.566474, 77.2306602 28.5665034, 77.2302713 28.5665918)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="39" target="84">
+      <data key="osmid">417156340</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2318936 28.5665723, 77.2318439 28.5660174, 77.2318361 28.5659307)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="39" target="110">
+      <data key="osmid">417156340</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="40" target="34">
+      <data key="osmid">557760413</data>
+      <data key="oneway">True</data>
+      <data key="name">Lala Lajpat Rai Marg</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">49.5</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="40" target="38">
+      <data key="osmid">557610151</data>
+      <data key="highway">secondary</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">49.5</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="41" target="79">
+      <data key="osmid">408879069</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="41" target="94">
+      <data key="osmid">661384822</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="42" target="47">
+      <data key="osmid">80513374</data>
+      <data key="oneway">False</data>
+      <data key="name">Hansraj Gupta Marg</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="42" target="94">
+      <data key="osmid">80513374</data>
+      <data key="oneway">False</data>
+      <data key="name">Hansraj Gupta Marg</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="42" target="96">
+      <data key="osmid">80513408</data>
+      <data key="highway">tertiary</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="43" target="13">
+      <data key="osmid">1130786624</data>
+      <data key="oneway">True</data>
+      <data key="name">Lala Lajpat Rai Marg</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">49.5</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="43" target="68">
+      <data key="osmid">1130786625</data>
+      <data key="oneway">False</data>
+      <data key="name">Gurumukh Nihal Singh Marg</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="44" target="60">
+      <data key="osmid">557760411</data>
+      <data key="oneway">True</data>
+      <data key="highway">secondary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">40.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="45" target="60">
+      <data key="osmid">561759724</data>
+      <data key="oneway">True</data>
+      <data key="name">Mahatma Gandhi Marg</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2332623 28.5656717, 77.233692 28.5656371, 77.2339132 28.5656192)</data>
+      <data key="speed_kph">39.2</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="46" target="101">
+      <data key="osmid">417156347</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="46" target="105">
+      <data key="osmid">417156347</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="47" target="2">
+      <data key="osmid">80513374</data>
+      <data key="oneway">False</data>
+      <data key="name">Hansraj Gupta Marg</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="47" target="42">
+      <data key="osmid">80513374</data>
+      <data key="oneway">False</data>
+      <data key="name">Hansraj Gupta Marg</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="48" target="1">
+      <data key="osmid">167468603</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="48" target="6">
+      <data key="osmid">417010624</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="48" target="49">
+      <data key="osmid">167468603</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="49" target="15">
+      <data key="osmid">417010625</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="49" target="48">
+      <data key="osmid">167468603</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="49" target="63">
+      <data key="osmid">167468603</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="50" target="2">
+      <data key="osmid">44316334</data>
+      <data key="oneway">True</data>
+      <data key="name">Lala Lajpat Rai Marg</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2318324 28.560349, 77.2319582 28.5602879, 77.2324383 28.5600686)</data>
+      <data key="speed_kph">49.5</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="51" target="15">
+      <data key="osmid">417010625</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="51" target="18">
+      <data key="osmid">167468630</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="51" target="53">
+      <data key="osmid">417010627</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="52" target="13">
+      <data key="osmid">557610156</data>
+      <data key="oneway">True</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="52" target="68">
+      <data key="osmid">557760413</data>
+      <data key="oneway">True</data>
+      <data key="name">Lala Lajpat Rai Marg</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">49.5</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="53" target="6">
+      <data key="osmid">417010624</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="53" target="51">
+      <data key="osmid">417010627</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="54" target="17">
+      <data key="osmid">424021844</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="54" target="27">
+      <data key="osmid">417010628</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="54" target="85">
+      <data key="osmid">417010628</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2307693 28.5669878, 77.2309946 28.5669595, 77.2310638 28.566956)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="55" target="50">
+      <data key="osmid">565347503</data>
+      <data key="oneway">True</data>
+      <data key="name">Lala Lajpat Rai Marg</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2315096 28.5605611, 77.2316168 28.560495, 77.2318324 28.560349)</data>
+      <data key="speed_kph">49.5</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="56" target="31">
+      <data key="osmid">557760406</data>
+      <data key="oneway">True</data>
+      <data key="name">Lala Lajpat Rai Marg</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">49.5</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="57" target="50">
+      <data key="osmid">474761806</data>
+      <data key="oneway">True</data>
+      <data key="highway">secondary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2316766 28.5608481, 77.2316851 28.5606729, 77.2316957 28.5605798, 77.2317419 28.5604918, 77.2317794 28.5604405, 77.2318324 28.560349)</data>
+      <data key="speed_kph">40.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="57" target="55">
+      <data key="osmid">312031912</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="name">Josip Broz Tito Marg</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">49.5</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="58" target="92">
+      <data key="osmid">557610157</data>
+      <data key="oneway">True</data>
+      <data key="name">Nandi Vithi Marg</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2360646 28.5581062, 77.2358984 28.557727, 77.2358542 28.5576606)</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="59" target="56">
+      <data key="osmid">1055677022</data>
+      <data key="oneway">True</data>
+      <data key="name">Kalka Devi Marg</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="60" target="61">
+      <data key="osmid">563679826</data>
+      <data key="oneway">True</data>
+      <data key="name">Mahatma Gandhi Marg</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">39.2</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="61" target="62">
+      <data key="osmid">563679825</data>
+      <data key="oneway">True</data>
+      <data key="highway">secondary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">40.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="62" target="44">
+      <data key="osmid">759020451</data>
+      <data key="oneway">True</data>
+      <data key="name">Mahatma Gandhi Marg</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">39.2</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="62" target="95">
+      <data key="osmid">474761803</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="highway">secondary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">40.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="63" target="17">
+      <data key="osmid">167468628</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="63" target="19">
+      <data key="osmid">167468628</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="63" target="49">
+      <data key="osmid">167468603</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="64" target="59">
+      <data key="osmid">1055677022</data>
+      <data key="oneway">True</data>
+      <data key="name">Kalka Devi Marg</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2396747 28.5584016, 77.2395019 28.5582361, 77.2394427 28.5581794)</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="65" target="78">
+      <data key="osmid">80513413</data>
+      <data key="name">Nandi Vithi Marg</data>
+      <data key="highway">tertiary</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="65" target="92">
+      <data key="osmid">80513413</data>
+      <data key="name">Nandi Vithi Marg</data>
+      <data key="highway">tertiary</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="66" target="75">
+      <data key="osmid">167468628</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="67" target="5">
+      <data key="osmid">1130786624</data>
+      <data key="oneway">True</data>
+      <data key="name">Lala Lajpat Rai Marg</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">49.5</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="67" target="93">
+      <data key="osmid">557610155</data>
+      <data key="oneway">True</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="68" target="40">
+      <data key="osmid">557760413</data>
+      <data key="oneway">True</data>
+      <data key="name">Lala Lajpat Rai Marg</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">49.5</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="68" target="43">
+      <data key="osmid">1130786625</data>
+      <data key="oneway">False</data>
+      <data key="name">Gurumukh Nihal Singh Marg</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="69" target="39">
+      <data key="osmid">167468618</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2302713 28.5665918, 77.2306602 28.5665034, 77.2310653 28.566474, 77.2314065 28.566495, 77.2318936 28.5665723)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="69" target="108">
+      <data key="osmid">167468603</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="70" target="71">
+      <data key="osmid">819046423</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2317408 28.5670366, 77.2318148 28.567725, 77.2318845 28.5680407, 77.2320105 28.5682961)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="70" target="83">
+      <data key="osmid">417010628</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="70" target="111">
+      <data key="osmid">417010628</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2317408 28.5670366, 77.2316759 28.5670254, 77.2314963 28.5669912)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="71" target="30">
+      <data key="osmid">167468628</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="71" target="70">
+      <data key="osmid">819046423</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2320105 28.5682961, 77.2318845 28.5680407, 77.2318148 28.567725, 77.2317408 28.5670366)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="71" target="82">
+      <data key="osmid">167468628</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="72" target="73">
+      <data key="osmid">1122591139</data>
+      <data key="highway">living_street</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2369889 28.5612872, 77.2368159 28.5611402, 77.2368038 28.5611131, 77.2368052 28.5610942, 77.2368427 28.5610377, 77.2370227 28.560846)</data>
+      <data key="speed_kph">23.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="72" target="103">
+      <data key="osmid">1122591138</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="73" target="4">
+      <data key="osmid">164702920</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="73" target="72">
+      <data key="osmid">1122591139</data>
+      <data key="highway">living_street</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2370227 28.560846, 77.2368427 28.5610377, 77.2368052 28.5610942, 77.2368038 28.5611131, 77.2368159 28.5611402, 77.2369889 28.5612872)</data>
+      <data key="speed_kph">23.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="73" target="74">
+      <data key="osmid">164702920</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2370227 28.560846, 77.2358427 28.5599114, 77.2356855 28.5597869)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="74" target="29">
+      <data key="osmid">235103581</data>
+      <data key="oneway">True</data>
+      <data key="name">Gurumukh Nihal Singh Marg</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="74" target="73">
+      <data key="osmid">164702920</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2356855 28.5597869, 77.2358427 28.5599114, 77.2370227 28.560846)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="75" target="18">
+      <data key="osmid">167468630</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="75" target="19">
+      <data key="osmid">167468628</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="75" target="24">
+      <data key="osmid">167468630</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="75" target="66">
+      <data key="osmid">167468628</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="76" target="93">
+      <data key="osmid">557760406</data>
+      <data key="oneway">True</data>
+      <data key="name">Lala Lajpat Rai Marg</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2389125 28.5582901, 77.2387978 28.5583372, 77.2383663 28.5584945, 77.2366732 28.5589768, 77.2365899 28.5590005)</data>
+      <data key="speed_kph">49.5</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="77" target="78">
+      <data key="osmid">80513413</data>
+      <data key="name">Nandi Vithi Marg</data>
+      <data key="highway">tertiary</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2356292 28.5570627, 77.2356626 28.557159, 77.2357341 28.5573656)</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="78" target="65">
+      <data key="osmid">80513413</data>
+      <data key="name">Nandi Vithi Marg</data>
+      <data key="highway">tertiary</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="78" target="77">
+      <data key="osmid">80513413</data>
+      <data key="name">Nandi Vithi Marg</data>
+      <data key="highway">tertiary</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2357341 28.5573656, 77.2356626 28.557159, 77.2356292 28.5570627)</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="79" target="41">
+      <data key="osmid">408879069</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="80" target="59">
+      <data key="osmid">77363996</data>
+      <data key="oneway">True</data>
+      <data key="name">Lala Lajpat Rai Marg</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">49.5</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="80" target="98">
+      <data key="osmid">80513385</data>
+      <data key="oneway">True</data>
+      <data key="name">Kalka Devi Marg</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="81" target="45">
+      <data key="osmid">44316341</data>
+      <data key="oneway">True</data>
+      <data key="name">Mahatma Gandhi Marg</data>
+      <data key="highway">primary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2318306 28.5658053, 77.2324249 28.5657548, 77.2332623 28.5656717)</data>
+      <data key="speed_kph">39.2</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="81" target="84">
+      <data key="osmid">417156340</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="82" target="7">
+      <data key="osmid">418982753</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="82" target="17">
+      <data key="osmid">167468628</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="82" target="71">
+      <data key="osmid">167468628</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="83" target="30">
+      <data key="osmid">417156340</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2319763 28.5670773, 77.231991 28.5671775, 77.2320531 28.5676023, 77.2322401 28.5682146)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="83" target="70">
+      <data key="osmid">417010628</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="83" target="110">
+      <data key="osmid">417156340</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="84" target="39">
+      <data key="osmid">417156340</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2318361 28.5659307, 77.2318439 28.5660174, 77.2318936 28.5665723)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="84" target="81">
+      <data key="osmid">417156340</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="84" target="101">
+      <data key="osmid">[417156344, 417156347]</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2318361 28.5659307, 77.2322623 28.5658975, 77.2322732 28.5660123, 77.2323094 28.5663954)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="85" target="7">
+      <data key="osmid">418982753</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="85" target="54">
+      <data key="osmid">417010628</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2310638 28.566956, 77.2309946 28.5669595, 77.2307693 28.5669878)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="85" target="111">
+      <data key="osmid">417010628</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2310638 28.566956, 77.2312012 28.5669524, 77.2313413 28.5669668, 77.2314963 28.5669912)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="86" target="25">
+      <data key="osmid">417157120</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="86" target="26">
+      <data key="osmid">418982755</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="86" target="33">
+      <data key="osmid">417157120</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="87" target="99">
+      <data key="osmid">541617750</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2367382 28.5625434, 77.2366921 28.5626913, 77.2366492 28.5630329, 77.2366577 28.563126)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="87" target="100">
+      <data key="osmid">541617750</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="88" target="106">
+      <data key="osmid">44316333</data>
+      <data key="oneway">True</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="89" target="9">
+      <data key="osmid">474761803</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="highway">secondary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">40.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="90" target="12">
+      <data key="osmid">474761803</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="highway">secondary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">40.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="91" target="14">
+      <data key="osmid">1135375092</data>
+      <data key="oneway">False</data>
+      <data key="name">Gurumukh Nihal Singh Marg</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="91" target="74">
+      <data key="osmid">235103581</data>
+      <data key="oneway">True</data>
+      <data key="name">Gurumukh Nihal Singh Marg</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2344062 28.5634284, 77.2344527 28.5632561, 77.2344914 28.5630443, 77.2345042 28.5629006, 77.2345229 28.5626913, 77.2346033 28.5620797, 77.2346076 28.5620511, 77.2346902 28.5615073, 77.2347686 28.5612267, 77.2348464 28.5608975, 77.2349582 28.5607097, 77.2351671 28.5604115, 77.2352243 28.5603345, 77.2354735 28.5599988, 77.2356855 28.5597869)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="91" target="90">
+      <data key="osmid">1135375091</data>
+      <data key="oneway">True</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="92" target="65">
+      <data key="osmid">80513413</data>
+      <data key="name">Nandi Vithi Marg</data>
+      <data key="highway">tertiary</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="92" target="96">
+      <data key="osmid">1053310650</data>
+      <data key="oneway">True</data>
+      <data key="name">Nandi Vithi Marg</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2358542 28.5576606, 77.23586 28.5577291, 77.2359714 28.5580508)</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="93" target="52">
+      <data key="osmid">557760413</data>
+      <data key="oneway">True</data>
+      <data key="name">Lala Lajpat Rai Marg</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">49.5</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="93" target="58">
+      <data key="osmid">557610157</data>
+      <data key="oneway">True</data>
+      <data key="name">Nandi Vithi Marg</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2365899 28.5590005, 77.2363383 28.5585822, 77.2360915 28.5581675, 77.2360646 28.5581062)</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="94" target="41">
+      <data key="osmid">661384822</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="94" target="42">
+      <data key="osmid">80513374</data>
+      <data key="oneway">False</data>
+      <data key="name">Hansraj Gupta Marg</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="95" target="89">
+      <data key="osmid">474761803</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="highway">secondary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">40.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="96" target="42">
+      <data key="osmid">80513408</data>
+      <data key="highway">tertiary</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="96" target="52">
+      <data key="osmid">1053310650</data>
+      <data key="oneway">True</data>
+      <data key="name">Nandi Vithi Marg</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2359714 28.5580508, 77.235995 28.5581008, 77.2360661 28.5582511, 77.2363061 28.5586364, 77.2365125 28.5589726, 77.2365246 28.5589923, 77.2365377 28.5590136)</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="97" target="80">
+      <data key="osmid">1130786624</data>
+      <data key="oneway">True</data>
+      <data key="name">Lala Lajpat Rai Marg</data>
+      <data key="highway">secondary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2390433 28.5584257, 77.2393072 28.5582916, 77.2393753 28.5582435)</data>
+      <data key="speed_kph">49.5</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="97" target="98">
+      <data key="osmid">164779419</data>
+      <data key="oneway">True</data>
+      <data key="highway">secondary_link</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2390433 28.5584257, 77.239242 28.5584275, 77.2394237 28.5584309, 77.2396021 28.5584608)</data>
+      <data key="speed_kph">40.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="98" target="10">
+      <data key="osmid">80513385</data>
+      <data key="oneway">True</data>
+      <data key="name">Kalka Devi Marg</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="99" target="8">
+      <data key="osmid">541617750</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="99" target="87">
+      <data key="osmid">541617750</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2366577 28.563126, 77.2366492 28.5630329, 77.2366921 28.5626913, 77.2367382 28.5625434)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="100" target="87">
+      <data key="osmid">541617750</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="100" target="102">
+      <data key="osmid">541617750</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2368341 28.5622356, 77.2369175 28.5620011, 77.2369292 28.5619627)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="101" target="46">
+      <data key="osmid">417156347</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="101" target="84">
+      <data key="osmid">[417156344, 417156347]</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2323094 28.5663954, 77.2322732 28.5660123, 77.2322623 28.5658975, 77.2318361 28.5659307)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="102" target="100">
+      <data key="osmid">541617750</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2369292 28.5619627, 77.2369175 28.5620011, 77.2368341 28.5622356)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="102" target="103">
+      <data key="osmid">541617750</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2369292 28.5619627, 77.2371186 28.5616311, 77.2372516 28.5614709)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="103" target="4">
+      <data key="osmid">541617750</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2372516 28.5614709, 77.2373359 28.5613932, 77.2375011 28.5612249)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="103" target="72">
+      <data key="osmid">1122591138</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="103" target="102">
+      <data key="osmid">541617750</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2372516 28.5614709, 77.2371186 28.5616311, 77.2369292 28.5619627)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="104" target="109">
+      <data key="osmid">44316333</data>
+      <data key="oneway">True</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="105" target="46">
+      <data key="osmid">417156347</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="106" target="104">
+      <data key="osmid">44316333</data>
+      <data key="oneway">True</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="107" target="8">
+      <data key="osmid">44316333</data>
+      <data key="oneway">True</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="108" target="27">
+      <data key="osmid">167468603</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="108" target="69">
+      <data key="osmid">167468603</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="108" target="110">
+      <data key="osmid">424021892</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2303783 28.5667939, 77.230853 28.5666956, 77.2313395 28.5667097, 77.2319345 28.5668222)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="109" target="107">
+      <data key="osmid">44316333</data>
+      <data key="oneway">True</data>
+      <data key="highway">tertiary</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">35.8</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="110" target="39">
+      <data key="osmid">417156340</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="110" target="83">
+      <data key="osmid">417156340</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="110" target="108">
+      <data key="osmid">424021892</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2319345 28.5668222, 77.2313395 28.5667097, 77.230853 28.5666956, 77.2303783 28.5667939)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="111" target="7">
+      <data key="osmid">424021861</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="111" target="70">
+      <data key="osmid">417010628</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">False</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2314963 28.5669912, 77.2316759 28.5670254, 77.2317408 28.5670366)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="111" target="85">
+      <data key="osmid">417010628</data>
+      <data key="oneway">False</data>
+      <data key="highway">residential</data>
+      <data key="reversed">True</data>
+      <data key="length">1</data>
+      <data key="geometry">LINESTRING (77.2314963 28.5669912, 77.2313413 28.5669668, 77.2312012 28.5669524, 77.2310638 28.566956)</data>
+      <data key="speed_kph">25.3</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <data key="created_date">2023-06-08 12:07:06</data>
+    <data key="created_with">OSMnx 1.3.1.post0</data>
+    <data key="crs">epsg:4326</data>
+    <data key="simplified">True</data>
+    <data key="city">Delhi</data>
+    <data key="country">India</data>
+    <data key="iso2">IN</data>
+    <data key="iso3">IND</data>
+    <data key="split_seed">2</data>
+    <data key="distance_coef">1.5</data>
+    <data key="node_distance_range_from">120</data>
+    <data key="node_distance_range_to">180</data>
+    <data key="start_node">30</data>
+    <data key="finish_node">34</data>
+  </graph>
+</graphml>

@@ -35,19 +35,19 @@
       <data key="length">11</data>
     </edge>
     <edge source="1" target="4">
-      <data key="length">4</data>
+      <data key="length">12</data>
     </edge>
     <edge source="2" target="3">
-      <data key="length">10</data>
+      <data key="length">6</data>
     </edge>
     <edge source="3" target="6">
-      <data key="length">1</data>
+      <data key="length">6</data>
     </edge>
     <edge source="4" target="5">
-      <data key="length">1</data>
+      <data key="length">10</data>
     </edge>
     <edge source="5" target="6">
-      <data key="length">3</data>
+      <data key="length">14</data>
     </edge>
     <data key="start_node">1</data>
     <data key="finish_node">6</data>
