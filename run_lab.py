@@ -42,6 +42,7 @@ NCSP_INSTANCES = sorted(BENCHMARKS_DIR.glob("**/ncsp/*"))
 SEED = 42
 MEMORY_LIMIT = None  # MiB
 EMAIL = os.environ.get('email', None)
+NUM_RUNS = 1
 
 if REMOTE:
     ENV = BaselSlurmEnvironment(email=EMAIL)
@@ -68,18 +69,19 @@ exp = Experiment(environment=ENV)
 exp.add_parser("parser_lab.py")
 
 runs = []
-for problem in FRCSP_INSTANCES:
-    runs.extend(run_lab_helper.make_runs(
-        exp, problem, "time_window", TIME_LIMIT, MEMORY_LIMIT))
-for problem in FRCSP_INSTANCES:
-    runs.extend(run_lab_helper.make_runs(
-        exp, problem, "resource_constrained", TIME_LIMIT, MEMORY_LIMIT))
-for problem in NCSP_INSTANCES:
-    runs.extend(run_lab_helper.make_runs(
-        exp, problem, "node", TIME_LIMIT, MEMORY_LIMIT))
-for problem in TCSP_INSTANCES:
-    runs.extend(run_lab_helper.make_runs(
-        exp, problem, "unordered_task", TIME_LIMIT, MEMORY_LIMIT))
+for i in range(NUM_RUNS):
+    for problem in FRCSP_INSTANCES:
+        runs.extend(run_lab_helper.make_runs(
+            exp, problem, "time_window", TIME_LIMIT, MEMORY_LIMIT, i))
+    for problem in FRCSP_INSTANCES:
+        runs.extend(run_lab_helper.make_runs(
+            exp, problem, "resource_constrained", TIME_LIMIT, MEMORY_LIMIT, i))
+    for problem in NCSP_INSTANCES:
+        runs.extend(run_lab_helper.make_runs(
+            exp, problem, "node", TIME_LIMIT, MEMORY_LIMIT, i))
+    for problem in TCSP_INSTANCES:
+        runs.extend(run_lab_helper.make_runs(
+            exp, problem, "unordered_task", TIME_LIMIT, MEMORY_LIMIT, i))
 
 # Add step that writes experiment files to disk.
 exp.add_step("build", exp.build)

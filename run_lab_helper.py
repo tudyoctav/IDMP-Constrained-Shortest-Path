@@ -5,19 +5,18 @@ from lab.experiment import Experiment, Run
 from typing import List
 import sys
 
-NUM_OF_RUNS = 1
+NUM_OF_RUNS = 3
 PYTHON = sys.executable
 
 
-def make_runs(exp: Experiment, problem: Path, problem_type: str, time_limit: str, memory_limit: str) -> List[Run]:
+def make_runs(exp: Experiment, problem: Path, problem_type: str, time_limit: str, memory_limit: str, run_i: int) -> List[Run]:
     res: List[Run] = []
-    for i in range(NUM_OF_RUNS):
-        res.extend(make_cp_runs(exp, problem, problem_type,
-                   time_limit, memory_limit, i))
-        res.extend(make_sat_runs(exp, problem, problem_type,
-                   time_limit, memory_limit, i))
-        res.extend(make_mip_runs(exp, problem, problem_type,
-                   time_limit, memory_limit, i))
+    res.extend(make_cp_runs(exp, problem, problem_type,
+                time_limit, memory_limit, run_i))
+    res.extend(make_sat_runs(exp, problem, problem_type,
+                time_limit, memory_limit, run_i))
+    res.extend(make_mip_runs(exp, problem, problem_type,
+                time_limit, memory_limit, run_i))
     for run in res:
         run.add_resource("problem", problem, symlink=False)
         run.set_property("problem", problem.stem)
