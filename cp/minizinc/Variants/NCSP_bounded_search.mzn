@@ -14,25 +14,25 @@ array[1..edges] of int: weights;
 array[1..edges] of var bool: x;
 array[1..nodes] of var bool: y;
 
-array[1..nodes] of 0..1: must;
+array[1..nodes] of int: p;
 
 var int: k;
+var int: z;
 
 
 solve :: bool_search(x, dom_w_deg, indomain_min)
-           minimize k;
+           minimize z;
 
 
 constraint bounded_dpath(nodes, edges, starts, ends, weights, start, end, y, x, k);
 
+constraint z = k + sum(i in 1..nodes) ((1-y[i])*p[i]);
 
-% additional constraint: must visit certain nodes
-constraint forall(i in 1..nodes) (must[i]=0 \/ y[i]=1);
 
 
 output
 [
   "x: " ++ show(x) ++ "\n" ++
   "y: " ++ show(y) ++ "\n" ++
-  "z: " ++ show(k) ++ "\n"
+  "z: " ++ show(z) ++ "\n"
 ];
