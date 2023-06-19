@@ -1,0 +1,612 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="travel_time" for="edge" attr.name="travel_time" attr.type="long" />
+  <key id="length" for="edge" attr.name="length" attr.type="long" />
+  <key id="task" for="node" attr.name="task" attr.type="long" />
+  <key id="y" for="node" attr.name="y" attr.type="double" />
+  <key id="x" for="node" attr.name="x" attr.type="double" />
+  <key id="num_of_nodes_per_task" for="graph" attr.name="num_of_nodes_per_task" attr.type="long" />
+  <key id="num_tasks" for="graph" attr.name="num_tasks" attr.type="long" />
+  <key id="name" for="graph" attr.name="name" attr.type="string" />
+  <key id="finish_node" for="graph" attr.name="finish_node" attr.type="string" />
+  <key id="start_node" for="graph" attr.name="start_node" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="1">
+      <data key="x">0.5</data>
+      <data key="y">0.0</data>
+    </node>
+    <node id="2">
+      <data key="x">0.0</data>
+      <data key="y">0.8660254037844386</data>
+      <data key="task">5</data>
+    </node>
+    <node id="3">
+      <data key="x">0.5</data>
+      <data key="y">1.7320508075688772</data>
+      <data key="task">4</data>
+    </node>
+    <node id="4">
+      <data key="x">0.0</data>
+      <data key="y">2.598076211353316</data>
+    </node>
+    <node id="5">
+      <data key="x">0.5</data>
+      <data key="y">3.4641016151377544</data>
+      <data key="task">0</data>
+    </node>
+    <node id="6">
+      <data key="x">0.0</data>
+      <data key="y">4.330127018922193</data>
+    </node>
+    <node id="7">
+      <data key="x">0.5</data>
+      <data key="y">5.196152422706632</data>
+    </node>
+    <node id="8">
+      <data key="x">0.0</data>
+      <data key="y">6.06217782649107</data>
+    </node>
+    <node id="9">
+      <data key="x">0.5</data>
+      <data key="y">6.928203230275509</data>
+    </node>
+    <node id="10">
+      <data key="x">0.0</data>
+      <data key="y">7.794228634059947</data>
+    </node>
+    <node id="11">
+      <data key="x">0.5</data>
+      <data key="y">8.660254037844386</data>
+    </node>
+    <node id="12">
+      <data key="x">1.5</data>
+      <data key="y">0.0</data>
+    </node>
+    <node id="13">
+      <data key="x">2.0</data>
+      <data key="y">0.8660254037844386</data>
+    </node>
+    <node id="14">
+      <data key="x">1.5</data>
+      <data key="y">1.7320508075688772</data>
+    </node>
+    <node id="15">
+      <data key="x">2.0</data>
+      <data key="y">2.598076211353316</data>
+    </node>
+    <node id="16">
+      <data key="x">1.5</data>
+      <data key="y">3.4641016151377544</data>
+    </node>
+    <node id="17">
+      <data key="x">2.0</data>
+      <data key="y">4.330127018922193</data>
+      <data key="task">7</data>
+    </node>
+    <node id="18">
+      <data key="x">1.5</data>
+      <data key="y">5.196152422706632</data>
+    </node>
+    <node id="19">
+      <data key="x">2.0</data>
+      <data key="y">6.06217782649107</data>
+    </node>
+    <node id="20">
+      <data key="x">1.5</data>
+      <data key="y">6.928203230275509</data>
+    </node>
+    <node id="21">
+      <data key="x">2.0</data>
+      <data key="y">7.794228634059947</data>
+    </node>
+    <node id="22">
+      <data key="x">1.5</data>
+      <data key="y">8.660254037844386</data>
+    </node>
+    <node id="23">
+      <data key="x">2.0</data>
+      <data key="y">9.526279441628825</data>
+    </node>
+    <node id="24">
+      <data key="x">3.5</data>
+      <data key="y">0.0</data>
+    </node>
+    <node id="25">
+      <data key="x">3.0</data>
+      <data key="y">0.8660254037844386</data>
+    </node>
+    <node id="26">
+      <data key="x">3.5</data>
+      <data key="y">1.7320508075688772</data>
+    </node>
+    <node id="27">
+      <data key="x">3.0</data>
+      <data key="y">2.598076211353316</data>
+    </node>
+    <node id="28">
+      <data key="x">3.5</data>
+      <data key="y">3.4641016151377544</data>
+    </node>
+    <node id="29">
+      <data key="x">3.0</data>
+      <data key="y">4.330127018922193</data>
+    </node>
+    <node id="30">
+      <data key="x">3.5</data>
+      <data key="y">5.196152422706632</data>
+    </node>
+    <node id="31">
+      <data key="x">3.0</data>
+      <data key="y">6.06217782649107</data>
+    </node>
+    <node id="32">
+      <data key="x">3.5</data>
+      <data key="y">6.928203230275509</data>
+    </node>
+    <node id="33">
+      <data key="x">3.0</data>
+      <data key="y">7.794228634059947</data>
+    </node>
+    <node id="34">
+      <data key="x">3.5</data>
+      <data key="y">8.660254037844386</data>
+    </node>
+    <node id="35">
+      <data key="x">3.0</data>
+      <data key="y">9.526279441628825</data>
+    </node>
+    <node id="36">
+      <data key="x">4.5</data>
+      <data key="y">0.0</data>
+    </node>
+    <node id="37">
+      <data key="x">5.0</data>
+      <data key="y">0.8660254037844386</data>
+    </node>
+    <node id="38">
+      <data key="x">4.5</data>
+      <data key="y">1.7320508075688772</data>
+    </node>
+    <node id="39">
+      <data key="x">5.0</data>
+      <data key="y">2.598076211353316</data>
+    </node>
+    <node id="40">
+      <data key="x">4.5</data>
+      <data key="y">3.4641016151377544</data>
+    </node>
+    <node id="41">
+      <data key="x">5.0</data>
+      <data key="y">4.330127018922193</data>
+    </node>
+    <node id="42">
+      <data key="x">4.5</data>
+      <data key="y">5.196152422706632</data>
+    </node>
+    <node id="43">
+      <data key="x">5.0</data>
+      <data key="y">6.06217782649107</data>
+    </node>
+    <node id="44">
+      <data key="x">4.5</data>
+      <data key="y">6.928203230275509</data>
+    </node>
+    <node id="45">
+      <data key="x">5.0</data>
+      <data key="y">7.794228634059947</data>
+    </node>
+    <node id="46">
+      <data key="x">4.5</data>
+      <data key="y">8.660254037844386</data>
+    </node>
+    <node id="47">
+      <data key="x">5.0</data>
+      <data key="y">9.526279441628825</data>
+    </node>
+    <node id="48">
+      <data key="x">6.5</data>
+      <data key="y">0.0</data>
+    </node>
+    <node id="49">
+      <data key="x">6.0</data>
+      <data key="y">0.8660254037844386</data>
+    </node>
+    <node id="50">
+      <data key="x">6.5</data>
+      <data key="y">1.7320508075688772</data>
+    </node>
+    <node id="51">
+      <data key="x">6.0</data>
+      <data key="y">2.598076211353316</data>
+    </node>
+    <node id="52">
+      <data key="x">6.5</data>
+      <data key="y">3.4641016151377544</data>
+    </node>
+    <node id="53">
+      <data key="x">6.0</data>
+      <data key="y">4.330127018922193</data>
+    </node>
+    <node id="54">
+      <data key="x">6.5</data>
+      <data key="y">5.196152422706632</data>
+    </node>
+    <node id="55">
+      <data key="x">6.0</data>
+      <data key="y">6.06217782649107</data>
+      <data key="task">2</data>
+    </node>
+    <node id="56">
+      <data key="x">6.5</data>
+      <data key="y">6.928203230275509</data>
+      <data key="task">6</data>
+    </node>
+    <node id="57">
+      <data key="x">6.0</data>
+      <data key="y">7.794228634059947</data>
+      <data key="task">1</data>
+    </node>
+    <node id="58">
+      <data key="x">6.5</data>
+      <data key="y">8.660254037844386</data>
+      <data key="task">3</data>
+    </node>
+    <node id="59">
+      <data key="x">6.0</data>
+      <data key="y">9.526279441628825</data>
+    </node>
+    <node id="60">
+      <data key="x">7.5</data>
+      <data key="y">0.0</data>
+    </node>
+    <node id="61">
+      <data key="x">8.0</data>
+      <data key="y">0.8660254037844386</data>
+    </node>
+    <node id="62">
+      <data key="x">7.5</data>
+      <data key="y">1.7320508075688772</data>
+    </node>
+    <node id="63">
+      <data key="x">8.0</data>
+      <data key="y">2.598076211353316</data>
+    </node>
+    <node id="64">
+      <data key="x">7.5</data>
+      <data key="y">3.4641016151377544</data>
+    </node>
+    <node id="65">
+      <data key="x">8.0</data>
+      <data key="y">4.330127018922193</data>
+    </node>
+    <node id="66">
+      <data key="x">7.5</data>
+      <data key="y">5.196152422706632</data>
+    </node>
+    <node id="67">
+      <data key="x">8.0</data>
+      <data key="y">6.06217782649107</data>
+    </node>
+    <node id="68">
+      <data key="x">7.5</data>
+      <data key="y">6.928203230275509</data>
+    </node>
+    <node id="69">
+      <data key="x">8.0</data>
+      <data key="y">7.794228634059947</data>
+    </node>
+    <node id="70">
+      <data key="x">7.5</data>
+      <data key="y">8.660254037844386</data>
+    </node>
+    <edge source="1" target="2">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="1" target="12">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="2" target="3">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="3" target="4">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="3" target="14">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="4" target="5">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="5" target="16">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="6" target="7">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="7" target="8">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="7" target="18">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="8" target="9">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="9" target="10">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="9" target="20">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="10" target="11">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="13" target="14">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="13" target="25">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="14" target="15">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="15" target="16">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="15" target="27">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="16" target="17">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="17" target="18">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="17" target="29">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="18" target="19">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="19" target="20">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="19" target="31">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="20" target="21">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="22" target="23">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="23" target="35">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="24" target="25">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="24" target="36">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="25" target="26">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="26" target="27">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="27" target="28">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="28" target="29">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="28" target="40">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="29" target="30">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="30" target="42">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="32" target="33">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="32" target="44">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="33" target="34">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="34" target="35">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="34" target="46">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="36" target="37">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="37" target="38">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="37" target="49">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="39" target="40">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="39" target="51">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="41" target="42">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="41" target="53">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="42" target="43">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="43" target="55">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="44" target="45">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="45" target="57">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="46" target="47">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="48" target="49">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="48" target="60">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="49" target="50">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="51" target="52">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="52" target="53">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="52" target="64">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="54" target="66">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="55" target="56">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="56" target="57">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="56" target="68">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="57" target="58">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="58" target="59">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="58" target="70">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="60" target="61">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="61" target="62">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="62" target="63">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="63" target="64">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="64" target="65">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="65" target="66">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="66" target="67">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="67" target="68">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <edge source="68" target="69">
+      <data key="length">1</data>
+      <data key="travel_time">1</data>
+    </edge>
+    <data key="start_node">1</data>
+    <data key="finish_node">70</data>
+    <data key="name">hexagonal_lattice_N_5</data>
+    <data key="num_tasks">8</data>
+    <data key="num_of_nodes_per_task">1</data>
+  </graph>
+</graphml>

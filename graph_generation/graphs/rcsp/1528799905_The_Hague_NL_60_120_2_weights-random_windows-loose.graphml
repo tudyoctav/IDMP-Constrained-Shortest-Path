@@ -1,0 +1,899 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="bridge" for="edge" attr.name="bridge" attr.type="string" />
+  <key id="geometry" for="edge" attr.name="geometry" attr.type="string" />
+  <key id="ref" for="edge" attr.name="ref" attr.type="string" />
+  <key id="lanes" for="edge" attr.name="lanes" attr.type="string" />
+  <key id="id" for="edge" attr.name="id" attr.type="string" />
+  <key id="travel_time" for="edge" attr.name="travel_time" attr.type="long" />
+  <key id="speed_kph" for="edge" attr.name="speed_kph" attr.type="string" />
+  <key id="length" for="edge" attr.name="length" attr.type="long" />
+  <key id="reversed" for="edge" attr.name="reversed" attr.type="string" />
+  <key id="oneway" for="edge" attr.name="oneway" attr.type="string" />
+  <key id="maxspeed" for="edge" attr.name="maxspeed" attr.type="string" />
+  <key id="highway" for="edge" attr.name="highway" attr.type="string" />
+  <key id="name" for="edge" attr.name="name" attr.type="string" />
+  <key id="osmid" for="edge" attr.name="osmid" attr.type="string" />
+  <key id="upper_bound" for="node" attr.name="upper_bound" attr.type="long" />
+  <key id="lower_bound" for="node" attr.name="lower_bound" attr.type="long" />
+  <key id="street_count" for="node" attr.name="street_count" attr.type="string" />
+  <key id="x" for="node" attr.name="x" attr.type="string" />
+  <key id="y" for="node" attr.name="y" attr.type="string" />
+  <key id="finish_node" for="graph" attr.name="finish_node" attr.type="string" />
+  <key id="start_node" for="graph" attr.name="start_node" attr.type="string" />
+  <key id="node_distance_range_to" for="graph" attr.name="node_distance_range_to" attr.type="string" />
+  <key id="node_distance_range_from" for="graph" attr.name="node_distance_range_from" attr.type="string" />
+  <key id="distance_coef" for="graph" attr.name="distance_coef" attr.type="string" />
+  <key id="split_seed" for="graph" attr.name="split_seed" attr.type="string" />
+  <key id="iso3" for="graph" attr.name="iso3" attr.type="string" />
+  <key id="iso2" for="graph" attr.name="iso2" attr.type="string" />
+  <key id="country" for="graph" attr.name="country" attr.type="string" />
+  <key id="city" for="graph" attr.name="city" attr.type="string" />
+  <key id="simplified" for="graph" attr.name="simplified" attr.type="string" />
+  <key id="crs" for="graph" attr.name="crs" attr.type="string" />
+  <key id="created_with" for="graph" attr.name="created_with" attr.type="string" />
+  <key id="created_date" for="graph" attr.name="created_date" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="1">
+      <data key="y">52.0552024</data>
+      <data key="x">4.2546863</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">14</data>
+      <data key="upper_bound">15</data>
+    </node>
+    <node id="2">
+      <data key="y">52.0553698</data>
+      <data key="x">4.2504738</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">43</data>
+      <data key="upper_bound">45</data>
+    </node>
+    <node id="3">
+      <data key="y">52.0564927</data>
+      <data key="x">4.2515343</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">36</data>
+      <data key="upper_bound">39</data>
+    </node>
+    <node id="4">
+      <data key="y">52.055835</data>
+      <data key="x">4.2553284</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">7</data>
+      <data key="upper_bound">14</data>
+    </node>
+    <node id="5">
+      <data key="y">52.0563157</data>
+      <data key="x">4.2557973</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">0</data>
+      <data key="upper_bound">2</data>
+    </node>
+    <node id="6">
+      <data key="y">52.0550965</data>
+      <data key="x">4.2545882</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">15</data>
+      <data key="upper_bound">17</data>
+    </node>
+    <node id="7">
+      <data key="y">52.0560338</data>
+      <data key="x">4.2509886</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">34</data>
+      <data key="upper_bound">35</data>
+    </node>
+    <node id="8">
+      <data key="y">52.0569054</data>
+      <data key="x">4.2558521</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">8</data>
+      <data key="upper_bound">12</data>
+    </node>
+    <node id="9">
+      <data key="y">52.0566121</data>
+      <data key="x">4.2513579</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">40</data>
+      <data key="upper_bound">43</data>
+    </node>
+    <node id="10">
+      <data key="y">52.0558756</data>
+      <data key="x">4.2508273</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">36</data>
+      <data key="upper_bound">37</data>
+    </node>
+    <node id="11">
+      <data key="y">52.0576404</data>
+      <data key="x">4.2491487</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">48</data>
+      <data key="upper_bound">49</data>
+    </node>
+    <node id="12">
+      <data key="y">52.0561112</data>
+      <data key="x">4.2511523</data>
+      <data key="street_count">5</data>
+      <data key="lower_bound">33</data>
+      <data key="upper_bound">34</data>
+    </node>
+    <node id="13">
+      <data key="y">52.056774</data>
+      <data key="x">4.253581</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">53</data>
+      <data key="upper_bound">54</data>
+    </node>
+    <node id="14">
+      <data key="y">52.055447</data>
+      <data key="x">4.2549088</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">13</data>
+      <data key="upper_bound">18</data>
+    </node>
+    <node id="15">
+      <data key="y">52.0566971</data>
+      <data key="x">4.2559944</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">5</data>
+      <data key="upper_bound">10</data>
+    </node>
+    <node id="16">
+      <data key="y">52.0553</data>
+      <data key="x">4.2507</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">45</data>
+      <data key="upper_bound">47</data>
+    </node>
+    <node id="17">
+      <data key="y">52.0574764</data>
+      <data key="x">4.2492752</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">50</data>
+      <data key="upper_bound">69</data>
+    </node>
+    <node id="18">
+      <data key="y">52.0575289</data>
+      <data key="x">4.2494203</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">49</data>
+      <data key="upper_bound">50</data>
+    </node>
+    <node id="19">
+      <data key="y">52.0576979</data>
+      <data key="x">4.2492884</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">48</data>
+      <data key="upper_bound">55</data>
+    </node>
+    <node id="20">
+      <data key="y">52.0555755</data>
+      <data key="x">4.2567086</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">13</data>
+      <data key="upper_bound">25</data>
+    </node>
+    <node id="21">
+      <data key="y">52.0573311</data>
+      <data key="x">4.2537435</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">73</data>
+      <data key="upper_bound">78</data>
+    </node>
+    <node id="22">
+      <data key="y">52.0559566</data>
+      <data key="x">4.2511711</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">35</data>
+      <data key="upper_bound">45</data>
+    </node>
+    <node id="23">
+      <data key="y">52.0539849</data>
+      <data key="x">4.2568835</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">29</data>
+      <data key="upper_bound">34</data>
+    </node>
+    <node id="24">
+      <data key="y">52.0540422</data>
+      <data key="x">4.2567263</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">30</data>
+      <data key="upper_bound">34</data>
+    </node>
+    <node id="25">
+      <data key="y">52.054051</data>
+      <data key="x">4.2569885</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">29</data>
+      <data key="upper_bound">33</data>
+    </node>
+    <node id="26">
+      <data key="y">52.055407</data>
+      <data key="x">4.2548668</data>
+      <data key="street_count">3</data>
+      <data key="lower_bound">13</data>
+      <data key="upper_bound">16</data>
+    </node>
+    <node id="27">
+      <data key="y">52.0541141</data>
+      <data key="x">4.2568429</data>
+      <data key="street_count">4</data>
+      <data key="lower_bound">29</data>
+      <data key="upper_bound">31</data>
+    </node>
+    <edge source="1" target="6">
+      <data key="osmid">7492189</data>
+      <data key="name">Architect Berlagelaan</data>
+      <data key="highway">residential</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">13</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="1" target="12">
+      <data key="osmid">32136653</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="ref">S104</data>
+      <data key="name">Houtwijklaan</data>
+      <data key="highway">secondary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">263</data>
+      <data key="geometry">LINESTRING (4.2546863 52.0552024, 4.2546259 52.0552219, 4.2545693 52.0552416, 4.2540407 52.0554202, 4.2533704 52.0555686, 4.252722 52.0556825, 4.2526353 52.0556966, 4.2525415 52.0557119, 4.2519341 52.0558382, 4.2517235 52.0559019, 4.2514357 52.0559871, 4.2513916 52.0560083, 4.251335 52.0560281, 4.2511523 52.0561112)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">19</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="1" target="26">
+      <data key="osmid">7492189</data>
+      <data key="name">Architect Berlagelaan</data>
+      <data key="highway">residential</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">25</data>
+      <data key="geometry">LINESTRING (4.2546863 52.0552024, 4.2547498 52.0552706, 4.254774 52.0553075, 4.2547943 52.0553384, 4.2548668 52.055407)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="2" target="16">
+      <data key="osmid">[7492184, 384764530, 7492174]</data>
+      <data key="name">['Toon Dupuisstraat', 'Jan Bronnerstraat']</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">17</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (4.2504738 52.0553698, 4.2505331 52.055352, 4.2505421 52.0553493, 4.2506447 52.0553168, 4.2506547 52.0553137, 4.2507 52.0553)</data>
+      <data key="speed_kph">34.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="3" target="9">
+      <data key="osmid">7492217</data>
+      <data key="name">Laan van der Kroft</data>
+      <data key="highway">living_street</data>
+      <data key="maxspeed">15</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">17</data>
+      <data key="speed_kph">15.0</data>
+      <data key="travel_time">4</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="3" target="12">
+      <data key="osmid">[384747981, 129481692, 7491941]</data>
+      <data key="name">Laan van Vredestein</data>
+      <data key="highway">residential</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">[False, True]</data>
+      <data key="length">51</data>
+      <data key="geometry">LINESTRING (4.2515343 52.0564927, 4.2513563 52.0563979, 4.2513103 52.0563566, 4.2512424 52.0562581, 4.2512044 52.0561833, 4.2511523 52.0561112)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">3</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="3" target="13">
+      <data key="osmid">[1004285241, 7491941, 7492198]</data>
+      <data key="name">Laan van Vredestein</data>
+      <data key="highway">['residential', 'living_street']</data>
+      <data key="maxspeed">['50', '15', '30']</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">152</data>
+      <data key="geometry">LINESTRING (4.2515343 52.0564927, 4.2516947 52.056532, 4.2517457 52.0564805, 4.2518188 52.0564317, 4.2519096 52.05643, 4.253005 52.0566891, 4.253581 52.056774)</data>
+      <data key="speed_kph">31.0</data>
+      <data key="travel_time">17</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="4" target="5">
+      <data key="osmid">1004285242</data>
+      <data key="name">Architect Berlagelaan</data>
+      <data key="highway">residential</data>
+      <data key="maxspeed">30</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">62</data>
+      <data key="speed_kph">30.0</data>
+      <data key="travel_time">7</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="4" target="14">
+      <data key="osmid">1004285242</data>
+      <data key="name">Architect Berlagelaan</data>
+      <data key="highway">residential</data>
+      <data key="maxspeed">30</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">51</data>
+      <data key="geometry">LINESTRING (4.2553284 52.055835, 4.2551347 52.0556441, 4.2549088 52.055447)</data>
+      <data key="speed_kph">30.0</data>
+      <data key="travel_time">6</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="5" target="4">
+      <data key="osmid">1004285242</data>
+      <data key="name">Architect Berlagelaan</data>
+      <data key="highway">residential</data>
+      <data key="maxspeed">30</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">62</data>
+      <data key="speed_kph">30.0</data>
+      <data key="travel_time">7</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="5" target="15">
+      <data key="osmid">7492200</data>
+      <data key="name">Architect Berlagelaan</data>
+      <data key="highway">residential</data>
+      <data key="maxspeed">30</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">46</data>
+      <data key="geometry">LINESTRING (4.2557973 52.0563157, 4.2559998 52.0565445, 4.2560245 52.0565856, 4.2560194 52.0566296, 4.2560174 52.0566471, 4.2559944 52.0566971)</data>
+      <data key="speed_kph">30.0</data>
+      <data key="travel_time">5</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="5" target="20">
+      <data key="osmid">7491909</data>
+      <data key="name">Architect Duikerstraat</data>
+      <data key="highway">residential</data>
+      <data key="maxspeed">30</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">108</data>
+      <data key="geometry">LINESTRING (4.2557973 52.0563157, 4.2561668 52.0561729, 4.256375 52.0560926, 4.2565422 52.0558334, 4.2565823 52.0557712, 4.2567086 52.0555755)</data>
+      <data key="speed_kph">30.0</data>
+      <data key="travel_time">13</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="6" target="1">
+      <data key="osmid">7492189</data>
+      <data key="name">Architect Berlagelaan</data>
+      <data key="highway">residential</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">13</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="6" target="24">
+      <data key="osmid">[938601573, 129481527]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">['4', '2']</data>
+      <data key="ref">S104</data>
+      <data key="name">Houtwijklaan</data>
+      <data key="highway">secondary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">187</data>
+      <data key="geometry">LINESTRING (4.2545882 52.0550965, 4.2546398 52.0550727, 4.2546774 52.0550554, 4.2550039 52.0549219, 4.2552752 52.054789, 4.2557444 52.0545312, 4.2562311 52.0542617, 4.2564524 52.0541478, 4.2565285 52.0541133, 4.2565798 52.0540944, 4.2567263 52.0540422)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">13</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="7" target="10">
+      <data key="osmid">7492162</data>
+      <data key="oneway">True</data>
+      <data key="name">Hildo Kroplaan</data>
+      <data key="highway">residential</data>
+      <data key="maxspeed">30</data>
+      <data key="reversed">False</data>
+      <data key="length">20</data>
+      <data key="geometry">LINESTRING (4.2509886 52.0560338, 4.2508975 52.0559661, 4.2508756 52.0559359, 4.2508273 52.0558756)</data>
+      <data key="speed_kph">30.0</data>
+      <data key="travel_time">2</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="7" target="22">
+      <data key="osmid">129481527</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="ref">S104</data>
+      <data key="name">Houtwijklaan</data>
+      <data key="highway">secondary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">15</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="8" target="15">
+      <data key="osmid">7492197</data>
+      <data key="name">Architect Berlagelaan</data>
+      <data key="highway">residential</data>
+      <data key="maxspeed">30</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">25</data>
+      <data key="geometry">LINESTRING (4.2558521 52.0569054, 4.2559629 52.0567432, 4.2559944 52.0566971)</data>
+      <data key="speed_kph">30.0</data>
+      <data key="travel_time">3</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="9" target="3">
+      <data key="osmid">7492217</data>
+      <data key="name">Laan van der Kroft</data>
+      <data key="highway">living_street</data>
+      <data key="maxspeed">15</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">17</data>
+      <data key="speed_kph">15.0</data>
+      <data key="travel_time">4</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="10" target="2">
+      <data key="osmid">7492162</data>
+      <data key="oneway">True</data>
+      <data key="name">Hildo Kroplaan</data>
+      <data key="highway">residential</data>
+      <data key="maxspeed">30</data>
+      <data key="reversed">False</data>
+      <data key="length">61</data>
+      <data key="speed_kph">30.0</data>
+      <data key="travel_time">7</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="11" target="17">
+      <data key="osmid">101253605</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="ref">S104</data>
+      <data key="name">Houtwijklaan</data>
+      <data key="highway">secondary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">20</data>
+      <data key="geometry">LINESTRING (4.2491487 52.0576404, 4.2492019 52.0575715, 4.2492292 52.057536, 4.2492752 52.0574764)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="12" target="3">
+      <data key="osmid">[129481692, 384747981, 7491941]</data>
+      <data key="name">Laan van Vredestein</data>
+      <data key="highway">residential</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">[False, True]</data>
+      <data key="length">51</data>
+      <data key="geometry">LINESTRING (4.2511523 52.0561112, 4.2512044 52.0561833, 4.2512424 52.0562581, 4.2513103 52.0563566, 4.2513563 52.0563979, 4.2515343 52.0564927)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">3</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="12" target="7">
+      <data key="osmid">7492176</data>
+      <data key="oneway">True</data>
+      <data key="name">Hildo Kroplaan</data>
+      <data key="highway">residential</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">14</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="12" target="18">
+      <data key="osmid">32136653</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="ref">S104</data>
+      <data key="name">Houtwijklaan</data>
+      <data key="highway">secondary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">200</data>
+      <data key="geometry">LINESTRING (4.2511523 52.0561112, 4.2509615 52.0561956, 4.2507219 52.0563172, 4.2505246 52.0564352, 4.2503213 52.0565731, 4.250107 52.0567361, 4.2499351 52.0568913, 4.2495681 52.0573396, 4.2495033 52.0574226, 4.2494774 52.0574578, 4.2494203 52.0575289)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">14</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="13" target="3">
+      <data key="osmid">[1004285241, 7491941, 7492198]</data>
+      <data key="name">Laan van Vredestein</data>
+      <data key="highway">['residential', 'living_street']</data>
+      <data key="maxspeed">['30', '15', '50']</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">152</data>
+      <data key="geometry">LINESTRING (4.253581 52.056774, 4.253005 52.0566891, 4.2519096 52.05643, 4.2518188 52.0564317, 4.2517457 52.0564805, 4.2516947 52.056532, 4.2515343 52.0564927)</data>
+      <data key="speed_kph">31.0</data>
+      <data key="travel_time">17</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="13" target="21">
+      <data key="osmid">7492222</data>
+      <data key="name">Laan van Vredestein</data>
+      <data key="highway">living_street</data>
+      <data key="maxspeed">15</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">86</data>
+      <data key="geometry">LINESTRING (4.253581 52.056774, 4.2532877 52.0572176, 4.2537435 52.0573311)</data>
+      <data key="speed_kph">15.0</data>
+      <data key="travel_time">20</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="14" target="4">
+      <data key="osmid">1004285242</data>
+      <data key="name">Architect Berlagelaan</data>
+      <data key="highway">residential</data>
+      <data key="maxspeed">30</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">51</data>
+      <data key="geometry">LINESTRING (4.2549088 52.055447, 4.2551347 52.0556441, 4.2553284 52.055835)</data>
+      <data key="speed_kph">30.0</data>
+      <data key="travel_time">6</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="14" target="20">
+      <data key="osmid">7492168</data>
+      <data key="name">Architect Margadanterf</data>
+      <data key="highway">living_street</data>
+      <data key="maxspeed">15</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">132</data>
+      <data key="geometry">LINESTRING (4.2549088 52.055447, 4.2553577 52.0553013, 4.2555444 52.0553208, 4.2556178 52.0553369, 4.2566224 52.0555566, 4.2567086 52.0555755)</data>
+      <data key="speed_kph">15.0</data>
+      <data key="travel_time">31</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="14" target="26">
+      <data key="osmid">1004285242</data>
+      <data key="name">Architect Berlagelaan</data>
+      <data key="highway">residential</data>
+      <data key="maxspeed">30</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">5</data>
+      <data key="speed_kph">30.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="15" target="5">
+      <data key="osmid">7492200</data>
+      <data key="name">Architect Berlagelaan</data>
+      <data key="highway">residential</data>
+      <data key="maxspeed">30</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">46</data>
+      <data key="geometry">LINESTRING (4.2559944 52.0566971, 4.2560174 52.0566471, 4.2560194 52.0566296, 4.2560245 52.0565856, 4.2559998 52.0565445, 4.2557973 52.0563157)</data>
+      <data key="speed_kph">30.0</data>
+      <data key="travel_time">5</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="15" target="8">
+      <data key="osmid">7492197</data>
+      <data key="name">Architect Berlagelaan</data>
+      <data key="highway">residential</data>
+      <data key="maxspeed">30</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">25</data>
+      <data key="geometry">LINESTRING (4.2559944 52.0566971, 4.2559629 52.0567432, 4.2558521 52.0569054)</data>
+      <data key="speed_kph">30.0</data>
+      <data key="travel_time">3</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="15" target="20">
+      <data key="osmid">[7492209, 7492211, 7492167]</data>
+      <data key="name">['Architect Luthmannpark', 'Architect Luthmannstraat', 'Architect Margadanterf']</data>
+      <data key="highway">living_street</data>
+      <data key="maxspeed">15</data>
+      <data key="oneway">False</data>
+      <data key="reversed">[False, True]</data>
+      <data key="length">281</data>
+      <data key="geometry">LINESTRING (4.2559944 52.0566971, 4.2567636 52.0568793, 4.2569593 52.0566878, 4.2577237 52.0559398, 4.2577387 52.0559251, 4.2578215 52.0557407, 4.2577222 52.0557259, 4.2567906 52.0555879, 4.2567086 52.0555755)</data>
+      <data key="speed_kph">15.0</data>
+      <data key="travel_time">67</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="16" target="2">
+      <data key="osmid">[7492184, 384764530, 7492174]</data>
+      <data key="name">['Toon Dupuisstraat', 'Jan Bronnerstraat']</data>
+      <data key="highway">residential</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">17</data>
+      <data key="bridge">yes</data>
+      <data key="geometry">LINESTRING (4.2507 52.0553, 4.2506547 52.0553137, 4.2506447 52.0553168, 4.2505421 52.0553493, 4.2505331 52.055352, 4.2504738 52.0553698)</data>
+      <data key="speed_kph">34.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="16" target="22">
+      <data key="osmid">[943294618, 7492164, 943294621]</data>
+      <data key="oneway">True</data>
+      <data key="name">Hildo Kroplaan</data>
+      <data key="highway">residential</data>
+      <data key="maxspeed">30</data>
+      <data key="reversed">False</data>
+      <data key="length">79</data>
+      <data key="geometry">LINESTRING (4.2507 52.0553, 4.2510607 52.0558046, 4.2510757 52.055826, 4.2510884 52.0558427, 4.2511303 52.0558868, 4.2511711 52.0559566)</data>
+      <data key="speed_kph">30.0</data>
+      <data key="travel_time">9</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="17" target="7">
+      <data key="osmid">129481527</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="ref">S104</data>
+      <data key="name">Houtwijklaan</data>
+      <data key="highway">secondary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">201</data>
+      <data key="geometry">LINESTRING (4.2492752 52.0574764, 4.2493324 52.0574036, 4.2493563 52.0573713, 4.2497722 52.0568356, 4.2499495 52.0566689, 4.2503943 52.0563397, 4.2506245 52.0562075, 4.2508065 52.056108, 4.2508397 52.0560916, 4.2509886 52.0560338)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">14</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="17" target="18">
+      <data key="osmid">7499555</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="name">Oude Haagweg</data>
+      <data key="highway">tertiary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">11</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="18" target="19">
+      <data key="osmid">129481511</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="name">Groen van Prinstererlaan</data>
+      <data key="highway">tertiary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">20</data>
+      <data key="geometry">LINESTRING (4.2494203 52.0575289, 4.2493731 52.0575894, 4.2493457 52.0576245, 4.2492884 52.0576979)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="19" target="11">
+      <data key="osmid">7500064</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">S104</data>
+      <data key="name">Oude Haagweg</data>
+      <data key="highway">secondary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">11</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="20" target="5">
+      <data key="osmid">7491909</data>
+      <data key="name">Architect Duikerstraat</data>
+      <data key="highway">residential</data>
+      <data key="maxspeed">30</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">108</data>
+      <data key="geometry">LINESTRING (4.2567086 52.0555755, 4.2565823 52.0557712, 4.2565422 52.0558334, 4.256375 52.0560926, 4.2561668 52.0561729, 4.2557973 52.0563157)</data>
+      <data key="speed_kph">30.0</data>
+      <data key="travel_time">13</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="20" target="14">
+      <data key="osmid">7492168</data>
+      <data key="name">Architect Margadanterf</data>
+      <data key="highway">living_street</data>
+      <data key="maxspeed">15</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">132</data>
+      <data key="geometry">LINESTRING (4.2567086 52.0555755, 4.2566224 52.0555566, 4.2556178 52.0553369, 4.2555444 52.0553208, 4.2553577 52.0553013, 4.2549088 52.055447)</data>
+      <data key="speed_kph">15.0</data>
+      <data key="travel_time">31</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="20" target="15">
+      <data key="osmid">[7492209, 7492211, 7492167]</data>
+      <data key="name">['Architect Luthmannpark', 'Architect Margadanterf', 'Architect Luthmannstraat']</data>
+      <data key="highway">living_street</data>
+      <data key="maxspeed">15</data>
+      <data key="oneway">False</data>
+      <data key="reversed">[False, True]</data>
+      <data key="length">281</data>
+      <data key="geometry">LINESTRING (4.2567086 52.0555755, 4.2567906 52.0555879, 4.2577222 52.0557259, 4.2578215 52.0557407, 4.2577387 52.0559251, 4.2577237 52.0559398, 4.2569593 52.0566878, 4.2567636 52.0568793, 4.2559944 52.0566971)</data>
+      <data key="speed_kph">15.0</data>
+      <data key="travel_time">67</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="21" target="13">
+      <data key="osmid">7492222</data>
+      <data key="name">Laan van Vredestein</data>
+      <data key="highway">living_street</data>
+      <data key="maxspeed">15</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">86</data>
+      <data key="geometry">LINESTRING (4.2537435 52.0573311, 4.2532877 52.0572176, 4.253581 52.056774)</data>
+      <data key="speed_kph">15.0</data>
+      <data key="travel_time">20</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="22" target="6">
+      <data key="osmid">129481527</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="ref">S104</data>
+      <data key="name">Houtwijklaan</data>
+      <data key="highway">secondary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">253</data>
+      <data key="geometry">LINESTRING (4.2511711 52.0559566, 4.2512436 52.0559265, 4.251318 52.0558992, 4.2515347 52.0558256, 4.2517671 52.0557559, 4.2521742 52.0556601, 4.2534106 52.0554462, 4.253931 52.055321, 4.2544443 52.0551628, 4.2544795 52.0551466, 4.2545322 52.0551223, 4.2545882 52.0550965)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">18</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="22" target="12">
+      <data key="osmid">7492179</data>
+      <data key="oneway">True</data>
+      <data key="name">Hildo Kroplaan</data>
+      <data key="highway">residential</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">17</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="23" target="25">
+      <data key="osmid">7492249</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="ref">S104</data>
+      <data key="name">Escamplaan</data>
+      <data key="highway">secondary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">10</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="24" target="23">
+      <data key="osmid">129481526</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="name">Houtwijklaan</data>
+      <data key="highway">secondary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">12</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="25" target="27">
+      <data key="osmid">7492253</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">S104</data>
+      <data key="name">Houtwijklaan</data>
+      <data key="highway">secondary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">12</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="26" target="1">
+      <data key="osmid">7492189</data>
+      <data key="name">Architect Berlagelaan</data>
+      <data key="highway">residential</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">25</data>
+      <data key="geometry">LINESTRING (4.2548668 52.055407, 4.2547943 52.0553384, 4.254774 52.0553075, 4.2547498 52.0552706, 4.2546863 52.0552024)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="26" target="14">
+      <data key="osmid">1004285242</data>
+      <data key="name">Architect Berlagelaan</data>
+      <data key="highway">residential</data>
+      <data key="maxspeed">30</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">5</data>
+      <data key="speed_kph">30.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="27" target="1">
+      <data key="osmid">32136653</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="ref">S104</data>
+      <data key="name">Houtwijklaan</data>
+      <data key="highway">secondary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">191</data>
+      <data key="geometry">LINESTRING (4.2568429 52.0541141, 4.2567051 52.0541721, 4.2566597 52.0541919, 4.2564965 52.0542665, 4.256345 52.0543358, 4.2553945 52.0548823, 4.2551415 52.0550099, 4.2548414 52.0551499, 4.2547987 52.0551643, 4.2547547 52.0551791, 4.2546863 52.0552024)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">13</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="27" target="24">
+      <data key="osmid">7492250</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="name">Escamplaan</data>
+      <data key="highway">secondary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">11</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <data key="created_date">2023-06-19 13:40:41</data>
+    <data key="created_with">OSMnx 1.3.1.post0</data>
+    <data key="crs">epsg:4326</data>
+    <data key="simplified">True</data>
+    <data key="city">The Hague</data>
+    <data key="country">Netherlands</data>
+    <data key="iso2">NL</data>
+    <data key="iso3">NLD</data>
+    <data key="split_seed">2</data>
+    <data key="distance_coef">1.5</data>
+    <data key="node_distance_range_from">60</data>
+    <data key="node_distance_range_to">120</data>
+    <data key="start_node">5</data>
+    <data key="finish_node">21</data>
+  </graph>
+</graphml>

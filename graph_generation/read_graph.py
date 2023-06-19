@@ -249,7 +249,7 @@ def pick_random_tasks_for_tcsp(graph, source, target, considered_nodes, num_task
     for task, nodes in enumerate(select_subset):
         for node in nodes:
             graph.nodes[node]["task"] = task
-        
+    
     graph.graph["num_tasks"] = num_tasks
     graph.graph["num_of_nodes_per_task"] = num_of_nodes_per_task
     return graph
@@ -350,7 +350,7 @@ def generate_constraints_for_sp(graph, source, target, name):
     create_data_file_sp(graph, name)
     nx.write_graphml(graph, f"./graphs/sp/{name}.graphml", named_key_ids=True)
     display_graph_for_sp(graph, source, target, name)
-    plt.savefig(f"./graphs/sp/{name}.png")
+    plt.savefig(f"./images/sp/{name}.png")
 
 def generate_constraints_for_ncsp(graph, source, target, name):
     # pick the nodes
@@ -395,12 +395,19 @@ def generate_constraints_for_ncsp(graph, source, target, name):
 def generate_constraints_for_tcsp(graph, source, target, name):
     try:
         # generated number of nodes
-        mean_num_nodes = len(graph.nodes()) ** 0.5 / 2
+        if len(graph.nodes()) < 20:
+            mean_num_nodes = 3
+        elif len(graph.nodes()) < 50:
+            mean_num_nodes = 5
+        elif len(graph.nodes()) < 100:
+            mean_num_nodes = 10
+        else:
+            mean_num_nodes = min(25,len(graph.nodes()) ** 0.5)
         print(mean_num_nodes)
-        num_tasks =  max(1,int(random.uniform(1,mean_num_nodes)))
-        mean_num_of_nodes_per_task = len(graph.nodes()) // num_tasks // 4
+        num_tasks =  max(2,int(random.uniform(1,mean_num_nodes)))
+        mean_num_of_nodes_per_task = min(25,len(graph.nodes()) // num_tasks)
         print(mean_num_of_nodes_per_task)
-        num_of_nodes_per_task = max(1,int(np.random.normal(mean_num_of_nodes_per_task, mean_num_of_nodes_per_task / 2)))
+        num_of_nodes_per_task = max(1,int(random.uniform(1,mean_num_nodes)))
         select_random = random.sample(graph.nodes() ,num_tasks * num_of_nodes_per_task)
         select_random = np.resize(select_random, (num_tasks, num_of_nodes_per_task))
 
@@ -608,12 +615,12 @@ def relable_nodes(graph, custom = None):
     
 folder_hexagons = ".\graphs\input\\"
 hexagons = sorted(glob.glob(f"{folder_hexagons}*.graphml"))
-folder_cities = ".\cities\output-subsamples\\"
+folder_cities = ".\cities\output-subsamples\\nl\\"
 cities = sorted(glob.glob(f"{folder_cities}*.graphml"))
-files = hexagons + cities
+files =  hexagons + cities
 # files.sort(key=os.path.getmtime)
 parser = GraphMLParser()
-for fname in files[:5]:
+for fname in files:
     graph = nx.read_graphml(fname)
     name = fname.split("\\")[-1].split(".")[0]
     print(f"----------------------------------------------------\nProcessing {name}...")
