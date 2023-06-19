@@ -178,13 +178,14 @@ def generate_graph(N = 10, scale = 10, var = 9, p = 0.1, draw_edge_labels = Fals
         fig2.savefig(f"./images/input/{name}.png")
 
 def main():
+    generate_graph(N = 3, p = 0.10, draw_edge_labels= True, draw_node_labels = True, save = False)
     # generate_graph(N = 1, p = 0, draw_edge_labels= True, draw_node_labels = True, save = False)
     # for N in range(2,5):
     #     generate_graph(N = N, p = 0.10, draw_edge_labels= True, draw_node_labels = True, save = False)
     # for N in range(5, 10):
     #     generate_graph(N = N, p = 0.20, draw_node_labels = True, save = True)
-    for N in range(10, 21):
-            generate_graph(N = N, p = 0.15, save = True)
+    # for N in range(10, 21):
+    #         generate_graph(N = N, p = 0.15, save = True)
     # for N in range(20, 30):
     #         generate_graph(N = N, p = 0.10, save = True)
 if __name__ == "__main__":
