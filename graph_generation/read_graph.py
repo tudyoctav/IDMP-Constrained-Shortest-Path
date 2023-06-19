@@ -223,7 +223,7 @@ def create_data_file_ncsp(graph, filename):
         f.write(f'start = {Start};\n')
         f.write(f'end= {End};\n')
         # f.write(f'tasks = {num_tasks};\n')
-        f.write(f'p = {penalties});\n')
+        f.write(f'p = {penalties};\n')
     # Write the extracted information to text file for SAT solver
     filename2 = "./data/sat/ncsp/" + filename + ".txt"
     with open(filename2, 'w') as f:
@@ -591,9 +591,9 @@ for fname in files[:2]:
 
    
     graph = make_weights_int(graph)
-    create_data_file_sp(graph, name)
-    generate_constraints_for_tcsp(graph, source, target, name)       
-    generate_constraints_for_rcsp(graph, source, target, name)
+    # create_data_file_sp(graph, name)
+    # generate_constraints_for_tcsp(graph, source, target, name)       
+    # generate_constraints_for_rcsp(graph, source, target, name)
     generate_constraints_for_ncsp(graph, source, target, name)
     plt.show(block=False)
     plt.pause(0.1)
