@@ -5,8 +5,6 @@ int: edges;
 int: start;
 int: end;
 
-int: tasks;
-
 array[1..edges] of int: starts;
 array[1..edges] of int: ends;
 array[1..edges] of int: weights;
