@@ -27,7 +27,6 @@
     <node id="4">
       <data key="x">0.0</data>
       <data key="y">2.598076211353316</data>
-      <data key="penalty">1</data>
     </node>
     <node id="5">
       <data key="x">0.5</data>
@@ -36,7 +35,6 @@
     <node id="6">
       <data key="x">1.5</data>
       <data key="y">0.0</data>
-      <data key="penalty">1</data>
     </node>
     <node id="7">
       <data key="x">2.0</data>
@@ -61,7 +59,6 @@
     <node id="12">
       <data key="x">3.0</data>
       <data key="y">0.8660254037844386</data>
-      <data key="penalty">1</data>
     </node>
     <node id="13">
       <data key="x">3.5</data>
@@ -154,7 +151,7 @@
     <data key="start_node">1</data>
     <data key="finish_node">16</data>
     <data key="name">hexagonal_lattice_N_2</data>
-    <data key="num_nodes">4</data>
+    <data key="num_nodes">1</data>
     <data key="type">ncsp</data>
   </graph>
 </graphml>

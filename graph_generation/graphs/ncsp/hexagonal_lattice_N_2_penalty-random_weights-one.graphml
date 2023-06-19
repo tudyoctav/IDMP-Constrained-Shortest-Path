@@ -18,6 +18,7 @@
     <node id="2">
       <data key="x">0.0</data>
       <data key="y">0.8660254037844386</data>
+      <data key="penalty">10</data>
     </node>
     <node id="3">
       <data key="x">0.5</data>
@@ -26,7 +27,6 @@
     <node id="4">
       <data key="x">0.0</data>
       <data key="y">2.598076211353316</data>
-      <data key="penalty">16</data>
     </node>
     <node id="5">
       <data key="x">0.5</data>
@@ -39,15 +39,16 @@
     <node id="7">
       <data key="x">2.0</data>
       <data key="y">0.8660254037844386</data>
+      <data key="penalty">8</data>
     </node>
     <node id="8">
       <data key="x">1.5</data>
       <data key="y">1.7320508075688772</data>
-      <data key="penalty">14</data>
     </node>
     <node id="9">
       <data key="x">2.0</data>
       <data key="y">2.598076211353316</data>
+      <data key="penalty">12</data>
     </node>
     <node id="10">
       <data key="x">1.5</data>
@@ -68,7 +69,6 @@
     <node id="14">
       <data key="x">3.0</data>
       <data key="y">2.598076211353316</data>
-      <data key="penalty">13</data>
     </node>
     <node id="15">
       <data key="x">3.5</data>

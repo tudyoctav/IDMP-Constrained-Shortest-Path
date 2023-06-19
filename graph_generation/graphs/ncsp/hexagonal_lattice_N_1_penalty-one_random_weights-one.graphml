@@ -38,27 +38,27 @@
     </node>
     <edge source="1" target="2">
       <data key="length">11</data>
-      <data key="travel_time">11</data>
+      <data key="travel_time">19</data>
     </edge>
     <edge source="1" target="4">
       <data key="length">12</data>
-      <data key="travel_time">17</data>
+      <data key="travel_time">11</data>
     </edge>
     <edge source="2" target="3">
       <data key="length">6</data>
-      <data key="travel_time">9</data>
+      <data key="travel_time">10</data>
     </edge>
     <edge source="3" target="6">
       <data key="length">6</data>
-      <data key="travel_time">14</data>
+      <data key="travel_time">11</data>
     </edge>
     <edge source="4" target="5">
       <data key="length">10</data>
-      <data key="travel_time">8</data>
+      <data key="travel_time">17</data>
     </edge>
     <edge source="5" target="6">
       <data key="length">14</data>
-      <data key="travel_time">7</data>
+      <data key="travel_time">9</data>
     </edge>
     <data key="start_node">1</data>
     <data key="finish_node">6</data>

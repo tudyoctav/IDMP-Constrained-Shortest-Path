@@ -222,7 +222,7 @@ def create_data_file_ncsp(graph, filename):
         f.write(f'weights = {lenghts};\n') # double the weights since undirected
         f.write(f'start = {Start};\n')
         f.write(f'end= {End};\n')
-        # f.write(f'tasks = {num_tasks};\n')
+        f.write(f'tasks = {num_tasks};\n')
         f.write(f'p = {penalties};\n')
     # Write the extracted information to text file for SAT solver
     filename2 = "./data/sat/ncsp/" + filename + ".txt"
