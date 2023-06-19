@@ -41,7 +41,8 @@ def parse_gen_method(content, props):
     if gen_method == "hexagonal_lattice":
         gen_method = "hexagonal lattice"
     else:
-        gen_method = gen_method
+        props["city"] = gen_method.split("_")[1]
+        gen_method = "open maps"
     props["generation method"] = gen_method
 
 
