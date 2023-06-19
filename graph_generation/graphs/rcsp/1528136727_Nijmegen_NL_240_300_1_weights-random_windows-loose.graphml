@@ -43,70 +43,70 @@
       <data key="x">5.8278272</data>
       <data key="street_count">3</data>
       <data key="lower_bound">324</data>
-      <data key="upper_bound">328</data>
+      <data key="upper_bound">327</data>
     </node>
     <node id="2">
       <data key="y">51.8210436</data>
       <data key="x">5.8199736</data>
       <data key="street_count">4</data>
       <data key="lower_bound">276</data>
-      <data key="upper_bound">279</data>
+      <data key="upper_bound">280</data>
     </node>
     <node id="3">
       <data key="y">51.840361</data>
       <data key="x">5.7864576</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">116</data>
-      <data key="upper_bound">128</data>
+      <data key="lower_bound">115</data>
+      <data key="upper_bound">120</data>
     </node>
     <node id="4">
       <data key="y">51.8310138</data>
       <data key="x">5.8164116</data>
       <data key="street_count">3</data>
       <data key="lower_bound">275</data>
-      <data key="upper_bound">276</data>
+      <data key="upper_bound">280</data>
     </node>
     <node id="5">
       <data key="y">51.820828</data>
       <data key="x">5.8203573</data>
       <data key="street_count">3</data>
       <data key="lower_bound">278</data>
-      <data key="upper_bound">282</data>
+      <data key="upper_bound">281</data>
     </node>
     <node id="6">
       <data key="y">51.8318788</data>
       <data key="x">5.8259772</data>
       <data key="street_count">3</data>
       <data key="lower_bound">335</data>
-      <data key="upper_bound">338</data>
+      <data key="upper_bound">340</data>
     </node>
     <node id="7">
       <data key="y">51.823029</data>
       <data key="x">5.7926935</data>
       <data key="street_count">4</data>
       <data key="lower_bound">109</data>
-      <data key="upper_bound">111</data>
+      <data key="upper_bound">113</data>
     </node>
     <node id="8">
       <data key="y">51.83186</data>
       <data key="x">5.7953</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">195</data>
-      <data key="upper_bound">198</data>
+      <data key="lower_bound">194</data>
+      <data key="upper_bound">197</data>
     </node>
     <node id="9">
       <data key="y">51.8288092</data>
       <data key="x">5.787539</data>
       <data key="street_count">3</data>
       <data key="lower_bound">149</data>
-      <data key="upper_bound">155</data>
+      <data key="upper_bound">152</data>
     </node>
     <node id="10">
       <data key="y">51.8301821</data>
       <data key="x">5.7997153</data>
       <data key="street_count">3</data>
       <data key="lower_bound">185</data>
-      <data key="upper_bound">188</data>
+      <data key="upper_bound">189</data>
     </node>
     <node id="11">
       <data key="y">51.8348581</data>
@@ -120,20 +120,20 @@
       <data key="x">5.8256474</data>
       <data key="street_count">3</data>
       <data key="lower_bound">319</data>
-      <data key="upper_bound">328</data>
+      <data key="upper_bound">321</data>
     </node>
     <node id="13">
       <data key="y">51.8314801</data>
       <data key="x">5.8264011</data>
       <data key="street_count">1</data>
       <data key="lower_bound">340</data>
-      <data key="upper_bound">346</data>
+      <data key="upper_bound">344</data>
     </node>
     <node id="14">
       <data key="y">51.8310341</data>
       <data key="x">5.8187749</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">271</data>
+      <data key="lower_bound">269</data>
       <data key="upper_bound">273</data>
     </node>
     <node id="15">
@@ -141,7 +141,7 @@
       <data key="x">5.820156</data>
       <data key="street_count">3</data>
       <data key="lower_bound">277</data>
-      <data key="upper_bound">295</data>
+      <data key="upper_bound">279</data>
     </node>
     <node id="16">
       <data key="y">51.8288184</data>
@@ -154,8 +154,8 @@
       <data key="y">51.83144</data>
       <data key="x">5.8159599</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">282</data>
-      <data key="upper_bound">287</data>
+      <data key="lower_bound">281</data>
+      <data key="upper_bound">286</data>
     </node>
     <node id="18">
       <data key="y">51.8330987</data>
@@ -176,202 +176,202 @@
       <data key="x">5.7943855</data>
       <data key="street_count">4</data>
       <data key="lower_bound">151</data>
-      <data key="upper_bound">154</data>
+      <data key="upper_bound">156</data>
     </node>
     <node id="21">
       <data key="y">51.8356919</data>
       <data key="x">5.8320471</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">329</data>
-      <data key="upper_bound">342</data>
+      <data key="lower_bound">328</data>
+      <data key="upper_bound">331</data>
     </node>
     <node id="22">
       <data key="y">51.8263177</data>
       <data key="x">5.8049773</data>
       <data key="street_count">1</data>
-      <data key="lower_bound">204</data>
-      <data key="upper_bound">208</data>
+      <data key="lower_bound">201</data>
+      <data key="upper_bound">205</data>
     </node>
     <node id="23">
       <data key="y">51.8315128</data>
       <data key="x">5.8182548</data>
       <data key="street_count">3</data>
       <data key="lower_bound">263</data>
-      <data key="upper_bound">271</data>
+      <data key="upper_bound">266</data>
     </node>
     <node id="24">
       <data key="y">51.8349159</data>
       <data key="x">5.8004398</data>
       <data key="street_count">3</data>
       <data key="lower_bound">194</data>
-      <data key="upper_bound">195</data>
+      <data key="upper_bound">198</data>
     </node>
     <node id="25">
       <data key="y">51.8334922</data>
       <data key="x">5.7991478</data>
       <data key="street_count">3</data>
       <data key="lower_bound">217</data>
-      <data key="upper_bound">223</data>
+      <data key="upper_bound">220</data>
     </node>
     <node id="26">
       <data key="y">51.834374</data>
       <data key="x">5.8005857</data>
       <data key="street_count">3</data>
       <data key="lower_bound">201</data>
-      <data key="upper_bound">202</data>
+      <data key="upper_bound">204</data>
     </node>
     <node id="27">
       <data key="y">51.8246969</data>
       <data key="x">5.7954379</data>
       <data key="street_count">3</data>
       <data key="lower_bound">121</data>
-      <data key="upper_bound">132</data>
+      <data key="upper_bound">123</data>
     </node>
     <node id="28">
       <data key="y">51.8246514</data>
       <data key="x">5.7950342</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">122</data>
-      <data key="upper_bound">124</data>
+      <data key="lower_bound">121</data>
+      <data key="upper_bound">125</data>
     </node>
     <node id="29">
       <data key="y">51.8297962</data>
       <data key="x">5.8177406</data>
       <data key="street_count">4</data>
-      <data key="lower_bound">290</data>
-      <data key="upper_bound">292</data>
+      <data key="lower_bound">288</data>
+      <data key="upper_bound">291</data>
     </node>
     <node id="30">
       <data key="y">51.82981</data>
       <data key="x">5.82087</data>
       <data key="street_count">1</data>
       <data key="lower_bound">295</data>
-      <data key="upper_bound">298</data>
+      <data key="upper_bound">299</data>
     </node>
     <node id="31">
       <data key="y">51.8233075</data>
       <data key="x">5.7825872</data>
       <data key="street_count">1</data>
       <data key="lower_bound">68</data>
-      <data key="upper_bound">77</data>
+      <data key="upper_bound">72</data>
     </node>
     <node id="32">
       <data key="y">51.8346024</data>
       <data key="x">5.8218431</data>
       <data key="street_count">3</data>
       <data key="lower_bound">294</data>
-      <data key="upper_bound">308</data>
+      <data key="upper_bound">297</data>
     </node>
     <node id="33">
       <data key="y">51.8335457</data>
       <data key="x">5.8193034</data>
       <data key="street_count">3</data>
       <data key="lower_bound">320</data>
-      <data key="upper_bound">342</data>
+      <data key="upper_bound">323</data>
     </node>
     <node id="34">
       <data key="y">51.8291446</data>
       <data key="x">5.8016343</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">188</data>
-      <data key="upper_bound">196</data>
+      <data key="lower_bound">187</data>
+      <data key="upper_bound">192</data>
     </node>
     <node id="35">
       <data key="y">51.8343962</data>
       <data key="x">5.8299146</data>
       <data key="street_count">4</data>
       <data key="lower_bound">322</data>
-      <data key="upper_bound">324</data>
+      <data key="upper_bound">326</data>
     </node>
     <node id="36">
       <data key="y">51.8339689</data>
       <data key="x">5.8199067</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">314</data>
-      <data key="upper_bound">315</data>
+      <data key="lower_bound">312</data>
+      <data key="upper_bound">316</data>
     </node>
     <node id="37">
       <data key="y">51.834004</data>
       <data key="x">5.8182068</data>
       <data key="street_count">1</data>
       <data key="lower_bound">331</data>
-      <data key="upper_bound">337</data>
+      <data key="upper_bound">333</data>
     </node>
     <node id="38">
       <data key="y">51.8275427</data>
       <data key="x">5.7962227</data>
       <data key="street_count">3</data>
       <data key="lower_bound">175</data>
-      <data key="upper_bound">177</data>
+      <data key="upper_bound">179</data>
     </node>
     <node id="39">
       <data key="y">51.83357</data>
       <data key="x">5.8005</data>
       <data key="street_count">1</data>
       <data key="lower_bound">216</data>
-      <data key="upper_bound">221</data>
+      <data key="upper_bound">220</data>
     </node>
     <node id="40">
       <data key="y">51.8342405</data>
       <data key="x">5.8192429</data>
       <data key="street_count">3</data>
       <data key="lower_bound">318</data>
-      <data key="upper_bound">322</data>
+      <data key="upper_bound">321</data>
     </node>
     <node id="41">
       <data key="y">51.8264033</data>
       <data key="x">5.7924081</data>
       <data key="street_count">1</data>
       <data key="lower_bound">117</data>
-      <data key="upper_bound">118</data>
+      <data key="upper_bound">119</data>
     </node>
     <node id="42">
       <data key="y">51.8342397</data>
       <data key="x">5.8195641</data>
       <data key="street_count">3</data>
       <data key="lower_bound">316</data>
-      <data key="upper_bound">317</data>
+      <data key="upper_bound">321</data>
     </node>
     <node id="43">
       <data key="y">51.8298542</data>
       <data key="x">5.8008236</data>
       <data key="street_count">3</data>
       <data key="lower_bound">176</data>
-      <data key="upper_bound">182</data>
+      <data key="upper_bound">179</data>
     </node>
     <node id="44">
       <data key="y">51.8252747</data>
       <data key="x">5.79302</data>
       <data key="street_count">4</data>
       <data key="lower_bound">105</data>
-      <data key="upper_bound">120</data>
+      <data key="upper_bound">107</data>
     </node>
     <node id="45">
       <data key="y">51.8212089</data>
       <data key="x">5.8198499</data>
       <data key="street_count">4</data>
-      <data key="lower_bound">278</data>
-      <data key="upper_bound">289</data>
+      <data key="lower_bound">277</data>
+      <data key="upper_bound">282</data>
     </node>
     <node id="46">
       <data key="y">51.8281319</data>
       <data key="x">5.7973793</data>
       <data key="street_count">3</data>
       <data key="lower_bound">164</data>
-      <data key="upper_bound">166</data>
+      <data key="upper_bound">167</data>
     </node>
     <node id="47">
       <data key="y">51.83577</data>
       <data key="x">5.79624</data>
       <data key="street_count">3</data>
       <data key="lower_bound">206</data>
-      <data key="upper_bound">207</data>
+      <data key="upper_bound">208</data>
     </node>
     <node id="48">
       <data key="y">51.8343973</data>
       <data key="x">5.8191331</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">321</data>
+      <data key="lower_bound">320</data>
       <data key="upper_bound">324</data>
     </node>
     <node id="49">
@@ -379,13 +379,13 @@
       <data key="x">5.8307607</data>
       <data key="street_count">3</data>
       <data key="lower_bound">318</data>
-      <data key="upper_bound">319</data>
+      <data key="upper_bound">323</data>
     </node>
     <node id="50">
       <data key="y">51.8342781</data>
       <data key="x">5.8182333</data>
       <data key="street_count">4</data>
-      <data key="lower_bound">329</data>
+      <data key="lower_bound">328</data>
       <data key="upper_bound">330</data>
     </node>
     <node id="51">
@@ -393,70 +393,70 @@
       <data key="x">5.8182508</data>
       <data key="street_count">3</data>
       <data key="lower_bound">327</data>
-      <data key="upper_bound">328</data>
+      <data key="upper_bound">333</data>
     </node>
     <node id="52">
       <data key="y">51.8344704</data>
       <data key="x">5.8179835</data>
       <data key="street_count">3</data>
       <data key="lower_bound">329</data>
-      <data key="upper_bound">330</data>
+      <data key="upper_bound">332</data>
     </node>
     <node id="53">
       <data key="y">51.8277034</data>
       <data key="x">5.7924119</data>
       <data key="street_count">4</data>
       <data key="lower_bound">124</data>
-      <data key="upper_bound">135</data>
+      <data key="upper_bound">127</data>
     </node>
     <node id="54">
       <data key="y">51.8254531</data>
       <data key="x">5.7963684</data>
       <data key="street_count">3</data>
       <data key="lower_bound">120</data>
-      <data key="upper_bound">124</data>
+      <data key="upper_bound">125</data>
     </node>
     <node id="55">
       <data key="y">51.834506</data>
       <data key="x">5.8180539</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">330</data>
-      <data key="upper_bound">334</data>
+      <data key="lower_bound">329</data>
+      <data key="upper_bound">332</data>
     </node>
     <node id="56">
       <data key="y">51.8298796</data>
       <data key="x">5.8270988</data>
       <data key="street_count">3</data>
       <data key="lower_bound">274</data>
-      <data key="upper_bound">275</data>
+      <data key="upper_bound">279</data>
     </node>
     <node id="57">
       <data key="y">51.8412857</data>
       <data key="x">5.8060653</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">198</data>
-      <data key="upper_bound">207</data>
+      <data key="lower_bound">197</data>
+      <data key="upper_bound">200</data>
     </node>
     <node id="58">
       <data key="y">51.8306127</data>
       <data key="x">5.7949064</data>
       <data key="street_count">1</data>
       <data key="lower_bound">202</data>
-      <data key="upper_bound">205</data>
+      <data key="upper_bound">206</data>
     </node>
     <node id="59">
       <data key="y">51.8347117</data>
       <data key="x">5.8174668</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">337</data>
-      <data key="upper_bound">342</data>
+      <data key="lower_bound">336</data>
+      <data key="upper_bound">340</data>
     </node>
     <node id="60">
       <data key="y">51.8251393</data>
       <data key="x">5.7934665</data>
       <data key="street_count">3</data>
       <data key="lower_bound">106</data>
-      <data key="upper_bound">108</data>
+      <data key="upper_bound">110</data>
     </node>
     <node id="61">
       <data key="y">51.8346811</data>
@@ -469,21 +469,21 @@
       <data key="y">51.8252551</data>
       <data key="x">5.795041</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">115</data>
-      <data key="upper_bound">119</data>
+      <data key="lower_bound">114</data>
+      <data key="upper_bound">117</data>
     </node>
     <node id="63">
       <data key="y">51.8348492</data>
       <data key="x">5.8177215</data>
       <data key="street_count">3</data>
       <data key="lower_bound">334</data>
-      <data key="upper_bound">340</data>
+      <data key="upper_bound">337</data>
     </node>
     <node id="64">
       <data key="y">51.8348091</data>
       <data key="x">5.8175057</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">336</data>
+      <data key="lower_bound">335</data>
       <data key="upper_bound">338</data>
     </node>
     <node id="65">
@@ -491,21 +491,21 @@
       <data key="x">5.8154384</data>
       <data key="street_count">3</data>
       <data key="lower_bound">310</data>
-      <data key="upper_bound">312</data>
+      <data key="upper_bound">313</data>
     </node>
     <node id="66">
       <data key="y">51.8251776</data>
       <data key="x">5.7930519</data>
       <data key="street_count">3</data>
       <data key="lower_bound">105</data>
-      <data key="upper_bound">106</data>
+      <data key="upper_bound">108</data>
     </node>
     <node id="67">
       <data key="y">51.8345267</data>
       <data key="x">5.8272935</data>
       <data key="street_count">3</data>
       <data key="lower_bound">303</data>
-      <data key="upper_bound">304</data>
+      <data key="upper_bound">306</data>
     </node>
     <node id="68">
       <data key="y">51.8371081</data>
@@ -519,147 +519,147 @@
       <data key="x">5.8156452</data>
       <data key="street_count">3</data>
       <data key="lower_bound">224</data>
-      <data key="upper_bound">235</data>
+      <data key="upper_bound">228</data>
     </node>
     <node id="70">
       <data key="y">51.8355161</data>
       <data key="x">5.8157908</data>
       <data key="street_count">3</data>
       <data key="lower_bound">224</data>
-      <data key="upper_bound">227</data>
+      <data key="upper_bound">228</data>
     </node>
     <node id="71">
       <data key="y">51.8308093</data>
       <data key="x">5.7949712</data>
       <data key="street_count">1</data>
-      <data key="lower_bound">204</data>
-      <data key="upper_bound">205</data>
+      <data key="lower_bound">202</data>
+      <data key="upper_bound">204</data>
     </node>
     <node id="72">
       <data key="y">51.82299</data>
       <data key="x">5.7922842</data>
       <data key="street_count">4</data>
       <data key="lower_bound">109</data>
-      <data key="upper_bound">110</data>
+      <data key="upper_bound">114</data>
     </node>
     <node id="73">
       <data key="y">51.8195132</data>
       <data key="x">5.8175522</data>
       <data key="street_count">3</data>
       <data key="lower_bound">260</data>
-      <data key="upper_bound">272</data>
+      <data key="upper_bound">263</data>
     </node>
     <node id="74">
       <data key="y">51.8230307</data>
       <data key="x">5.7925043</data>
       <data key="street_count">6</data>
       <data key="lower_bound">109</data>
-      <data key="upper_bound">110</data>
+      <data key="upper_bound">114</data>
     </node>
     <node id="75">
       <data key="y">51.8323474</data>
       <data key="x">5.8049335</data>
       <data key="street_count">3</data>
       <data key="lower_bound">212</data>
-      <data key="upper_bound">214</data>
+      <data key="upper_bound">216</data>
     </node>
     <node id="76">
       <data key="y">51.8250925</data>
       <data key="x">5.79308</data>
       <data key="street_count">4</data>
       <data key="lower_bound">105</data>
-      <data key="upper_bound">110</data>
+      <data key="upper_bound">109</data>
     </node>
     <node id="77">
       <data key="y">51.8205685</data>
       <data key="x">5.7943123</data>
       <data key="street_count">4</data>
       <data key="lower_bound">132</data>
-      <data key="upper_bound">133</data>
+      <data key="upper_bound">134</data>
     </node>
     <node id="78">
       <data key="y">51.8364134</data>
       <data key="x">5.8146722</data>
       <data key="street_count">3</data>
       <data key="lower_bound">216</data>
-      <data key="upper_bound">219</data>
+      <data key="upper_bound">220</data>
     </node>
     <node id="79">
       <data key="y">51.83922</data>
       <data key="x">5.81908</data>
       <data key="street_count">3</data>
       <data key="lower_bound">283</data>
-      <data key="upper_bound">288</data>
+      <data key="upper_bound">287</data>
     </node>
     <node id="80">
       <data key="y">51.8257044</data>
       <data key="x">5.8266993</data>
       <data key="street_count">3</data>
       <data key="lower_bound">295</data>
-      <data key="upper_bound">302</data>
+      <data key="upper_bound">297</data>
     </node>
     <node id="81">
       <data key="y">51.8352779</data>
       <data key="x">5.800053</data>
       <data key="street_count">4</data>
-      <data key="lower_bound">192</data>
-      <data key="upper_bound">201</data>
+      <data key="lower_bound">191</data>
+      <data key="upper_bound">193</data>
     </node>
     <node id="82">
       <data key="y">51.8330864</data>
       <data key="x">5.799478</data>
       <data key="street_count">3</data>
       <data key="lower_bound">222</data>
-      <data key="upper_bound">223</data>
+      <data key="upper_bound">224</data>
     </node>
     <node id="83">
       <data key="y">51.8284819</data>
       <data key="x">5.8237621</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">324</data>
-      <data key="upper_bound">325</data>
+      <data key="lower_bound">321</data>
+      <data key="upper_bound">322</data>
     </node>
     <node id="84">
       <data key="y">51.8323348</data>
       <data key="x">5.8340025</data>
       <data key="street_count">3</data>
       <data key="lower_bound">313</data>
-      <data key="upper_bound">317</data>
+      <data key="upper_bound">316</data>
     </node>
     <node id="85">
       <data key="y">51.8413908</data>
       <data key="x">5.8050856</data>
       <data key="street_count">4</data>
       <data key="lower_bound">193</data>
-      <data key="upper_bound">209</data>
+      <data key="upper_bound">197</data>
     </node>
     <node id="86">
       <data key="y">51.8376294</data>
       <data key="x">5.8160738</data>
       <data key="street_count">3</data>
       <data key="lower_bound">248</data>
-      <data key="upper_bound">251</data>
+      <data key="upper_bound">252</data>
     </node>
     <node id="87">
       <data key="y">51.8321591</data>
       <data key="x">5.7961191</data>
       <data key="street_count">4</data>
       <data key="lower_bound">168</data>
-      <data key="upper_bound">177</data>
+      <data key="upper_bound">172</data>
     </node>
     <node id="88">
       <data key="y">51.8322019</data>
       <data key="x">5.795312</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">173</data>
-      <data key="upper_bound">177</data>
+      <data key="lower_bound">172</data>
+      <data key="upper_bound">176</data>
     </node>
     <node id="89">
       <data key="y">51.83404</data>
       <data key="x">5.7944</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">212</data>
-      <data key="upper_bound">217</data>
+      <data key="lower_bound">209</data>
+      <data key="upper_bound">214</data>
     </node>
     <node id="90">
       <data key="y">51.8296435</data>
@@ -673,196 +673,196 @@
       <data key="x">5.7945074</data>
       <data key="street_count">1</data>
       <data key="lower_bound">187</data>
-      <data key="upper_bound">204</data>
+      <data key="upper_bound">190</data>
     </node>
     <node id="92">
       <data key="y">51.83531</data>
       <data key="x">5.8028</data>
       <data key="street_count">3</data>
       <data key="lower_bound">218</data>
-      <data key="upper_bound">223</data>
+      <data key="upper_bound">220</data>
     </node>
     <node id="93">
       <data key="y">51.8327227</data>
       <data key="x">5.8213293</data>
       <data key="street_count">4</data>
       <data key="lower_bound">268</data>
-      <data key="upper_bound">270</data>
+      <data key="upper_bound">271</data>
     </node>
     <node id="94">
       <data key="y">51.8353582</data>
       <data key="x">5.8017267</data>
       <data key="street_count">3</data>
       <data key="lower_bound">219</data>
-      <data key="upper_bound">234</data>
+      <data key="upper_bound">225</data>
     </node>
     <node id="95">
       <data key="y">51.8285617</data>
       <data key="x">5.7991675</data>
       <data key="street_count">3</data>
       <data key="lower_bound">169</data>
-      <data key="upper_bound">170</data>
+      <data key="upper_bound">171</data>
     </node>
     <node id="96">
       <data key="y">51.8266297</data>
       <data key="x">5.8286255</data>
       <data key="street_count">3</data>
       <data key="lower_bound">310</data>
-      <data key="upper_bound">312</data>
+      <data key="upper_bound">314</data>
     </node>
     <node id="97">
       <data key="y">51.8257657</data>
       <data key="x">5.8046348</data>
       <data key="street_count">5</data>
-      <data key="lower_bound">161</data>
-      <data key="upper_bound">164</data>
+      <data key="lower_bound">160</data>
+      <data key="upper_bound">165</data>
     </node>
     <node id="98">
       <data key="y">51.8266853</data>
       <data key="x">5.7869336</data>
       <data key="street_count">3</data>
       <data key="lower_bound">160</data>
-      <data key="upper_bound">164</data>
+      <data key="upper_bound">163</data>
     </node>
     <node id="99">
       <data key="y">51.8331706</data>
       <data key="x">5.8027702</data>
       <data key="street_count">3</data>
       <data key="lower_bound">210</data>
-      <data key="upper_bound">213</data>
+      <data key="upper_bound">215</data>
     </node>
     <node id="100">
       <data key="y">51.82956</data>
       <data key="x">5.82028</data>
       <data key="street_count">3</data>
       <data key="lower_bound">290</data>
-      <data key="upper_bound">292</data>
+      <data key="upper_bound">293</data>
     </node>
     <node id="101">
       <data key="y">51.8340489</data>
       <data key="x">5.8010054</data>
       <data key="street_count">3</data>
       <data key="lower_bound">212</data>
-      <data key="upper_bound">218</data>
+      <data key="upper_bound">215</data>
     </node>
     <node id="102">
       <data key="y">51.8319</data>
       <data key="x">5.82685</data>
       <data key="street_count">1</data>
       <data key="lower_bound">344</data>
-      <data key="upper_bound">351</data>
+      <data key="upper_bound">348</data>
     </node>
     <node id="103">
       <data key="y">51.823995</data>
       <data key="x">5.7838933</data>
       <data key="street_count">3</data>
       <data key="lower_bound">59</data>
-      <data key="upper_bound">63</data>
+      <data key="upper_bound">62</data>
     </node>
     <node id="104">
       <data key="y">51.8353465</data>
       <data key="x">5.7998801</data>
       <data key="street_count">4</data>
       <data key="lower_bound">190</data>
-      <data key="upper_bound">199</data>
+      <data key="upper_bound">193</data>
     </node>
     <node id="105">
       <data key="y">51.8334647</data>
       <data key="x">5.8231637</data>
       <data key="street_count">4</data>
       <data key="lower_bound">277</data>
-      <data key="upper_bound">297</data>
+      <data key="upper_bound">279</data>
     </node>
     <node id="106">
       <data key="y">51.8334357</data>
       <data key="x">5.8230917</data>
       <data key="street_count">4</data>
-      <data key="lower_bound">278</data>
-      <data key="upper_bound">286</data>
+      <data key="lower_bound">277</data>
+      <data key="upper_bound">279</data>
     </node>
     <node id="107">
       <data key="y">51.8333881</data>
       <data key="x">5.8231454</data>
       <data key="street_count">4</data>
       <data key="lower_bound">277</data>
-      <data key="upper_bound">280</data>
+      <data key="upper_bound">282</data>
     </node>
     <node id="108">
       <data key="y">51.833417</data>
       <data key="x">5.8232187</data>
       <data key="street_count">4</data>
       <data key="lower_bound">277</data>
-      <data key="upper_bound">284</data>
+      <data key="upper_bound">279</data>
     </node>
     <node id="109">
       <data key="y">51.8336195</data>
       <data key="x">5.8229437</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">280</data>
-      <data key="upper_bound">292</data>
+      <data key="lower_bound">279</data>
+      <data key="upper_bound">282</data>
     </node>
     <node id="110">
       <data key="y">51.8245956</data>
       <data key="x">5.7902087</data>
       <data key="street_count">2</data>
       <data key="lower_bound">97</data>
-      <data key="upper_bound">101</data>
+      <data key="upper_bound">100</data>
     </node>
     <node id="111">
       <data key="y">51.8332493</data>
       <data key="x">5.8233501</data>
       <data key="street_count">3</data>
       <data key="lower_bound">279</data>
-      <data key="upper_bound">285</data>
+      <data key="upper_bound">282</data>
     </node>
     <node id="112">
       <data key="y">51.8336095</data>
       <data key="x">5.823592</data>
       <data key="street_count">3</data>
       <data key="lower_bound">279</data>
-      <data key="upper_bound">282</data>
+      <data key="upper_bound">283</data>
     </node>
     <node id="113">
       <data key="y">51.8332064</data>
       <data key="x">5.8287996</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">324</data>
-      <data key="upper_bound">330</data>
+      <data key="lower_bound">323</data>
+      <data key="upper_bound">327</data>
     </node>
     <node id="114">
       <data key="y">51.8332717</data>
       <data key="x">5.8227628</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">277</data>
-      <data key="upper_bound">278</data>
+      <data key="lower_bound">275</data>
+      <data key="upper_bound">277</data>
     </node>
     <node id="115">
       <data key="y">51.8327774</data>
       <data key="x">5.8128762</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">320</data>
+      <data key="lower_bound">319</data>
       <data key="upper_bound">322</data>
     </node>
     <node id="116">
       <data key="y">51.8353775</data>
       <data key="x">5.7954576</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">202</data>
-      <data key="upper_bound">207</data>
+      <data key="lower_bound">201</data>
+      <data key="upper_bound">203</data>
     </node>
     <node id="117">
       <data key="y">51.823432</data>
       <data key="x">5.795015</data>
       <data key="street_count">3</data>
       <data key="lower_bound">129</data>
-      <data key="upper_bound">131</data>
+      <data key="upper_bound">133</data>
     </node>
     <node id="118">
       <data key="y">51.8353254</data>
       <data key="x">5.8012007</data>
       <data key="street_count">1</data>
       <data key="lower_bound">222</data>
-      <data key="upper_bound">224</data>
+      <data key="upper_bound">226</data>
     </node>
     <node id="119">
       <data key="y">51.8349009</data>
@@ -876,49 +876,49 @@
       <data key="x">5.7982415</data>
       <data key="street_count">3</data>
       <data key="lower_bound">214</data>
-      <data key="upper_bound">217</data>
+      <data key="upper_bound">219</data>
     </node>
     <node id="121">
       <data key="y">51.8248754</data>
       <data key="x">5.8274667</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">290</data>
-      <data key="upper_bound">302</data>
+      <data key="lower_bound">289</data>
+      <data key="upper_bound">293</data>
     </node>
     <node id="122">
       <data key="y">51.8341247</data>
       <data key="x">5.8277566</data>
       <data key="street_count">3</data>
       <data key="lower_bound">309</data>
-      <data key="upper_bound">310</data>
+      <data key="upper_bound">311</data>
     </node>
     <node id="123">
       <data key="y">51.8349574</data>
       <data key="x">5.8221279</data>
       <data key="street_count">1</data>
       <data key="lower_bound">304</data>
-      <data key="upper_bound">306</data>
+      <data key="upper_bound">307</data>
     </node>
     <node id="124">
       <data key="y">51.8302796</data>
       <data key="x">5.8001416</data>
       <data key="street_count">1</data>
       <data key="lower_bound">189</data>
-      <data key="upper_bound">195</data>
+      <data key="upper_bound">194</data>
     </node>
     <node id="125">
       <data key="y">51.834966</data>
       <data key="x">5.8267874</data>
       <data key="street_count">3</data>
       <data key="lower_bound">296</data>
-      <data key="upper_bound">324</data>
+      <data key="upper_bound">300</data>
     </node>
     <node id="126">
       <data key="y">51.8320138</data>
       <data key="x">5.8193224</data>
       <data key="street_count">4</data>
       <data key="lower_bound">257</data>
-      <data key="upper_bound">258</data>
+      <data key="upper_bound">259</data>
     </node>
     <node id="127">
       <data key="y">51.8232431</data>
@@ -931,126 +931,126 @@
       <data key="y">51.823596</data>
       <data key="x">5.7764944</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">26</data>
-      <data key="upper_bound">29</data>
+      <data key="lower_bound">25</data>
+      <data key="upper_bound">28</data>
     </node>
     <node id="129">
       <data key="y">51.8367891</data>
       <data key="x">5.8285087</data>
       <data key="street_count">3</data>
       <data key="lower_bound">325</data>
-      <data key="upper_bound">326</data>
+      <data key="upper_bound">328</data>
     </node>
     <node id="130">
       <data key="y">51.8258579</data>
       <data key="x">5.8046329</data>
       <data key="street_count">4</data>
       <data key="lower_bound">160</data>
-      <data key="upper_bound">167</data>
+      <data key="upper_bound">165</data>
     </node>
     <node id="131">
       <data key="y">51.834966</data>
       <data key="x">5.7968109</data>
       <data key="street_count">3</data>
       <data key="lower_bound">194</data>
-      <data key="upper_bound">202</data>
+      <data key="upper_bound">198</data>
     </node>
     <node id="132">
       <data key="y">51.8302343</data>
       <data key="x">5.7996513</data>
       <data key="street_count">1</data>
       <data key="lower_bound">185</data>
-      <data key="upper_bound">187</data>
+      <data key="upper_bound">188</data>
     </node>
     <node id="133">
       <data key="y">51.8248046</data>
       <data key="x">5.7908539</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">97</data>
-      <data key="upper_bound">101</data>
+      <data key="lower_bound">93</data>
+      <data key="upper_bound">97</data>
     </node>
     <node id="134">
       <data key="y">51.8247603</data>
       <data key="x">5.7911215</data>
       <data key="street_count">3</data>
       <data key="lower_bound">94</data>
-      <data key="upper_bound">102</data>
+      <data key="upper_bound">99</data>
     </node>
     <node id="135">
       <data key="y">51.8336091</data>
       <data key="x">5.8169854</data>
       <data key="street_count">3</data>
       <data key="lower_bound">321</data>
-      <data key="upper_bound">323</data>
+      <data key="upper_bound">325</data>
     </node>
     <node id="136">
       <data key="y">51.8347923</data>
       <data key="x">5.8178965</data>
       <data key="street_count">3</data>
       <data key="lower_bound">333</data>
-      <data key="upper_bound">336</data>
+      <data key="upper_bound">338</data>
     </node>
     <node id="137">
       <data key="y">51.83583</data>
       <data key="x">5.79683</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">219</data>
-      <data key="upper_bound">222</data>
+      <data key="lower_bound">216</data>
+      <data key="upper_bound">221</data>
     </node>
     <node id="138">
       <data key="y">51.8248317</data>
       <data key="x">5.796761</data>
       <data key="street_count">1</data>
-      <data key="lower_bound">132</data>
-      <data key="upper_bound">141</data>
+      <data key="lower_bound">131</data>
+      <data key="upper_bound">132</data>
     </node>
     <node id="139">
       <data key="y">51.8293013</data>
       <data key="x">5.7966472</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">151</data>
+      <data key="lower_bound">150</data>
       <data key="upper_bound">154</data>
     </node>
     <node id="140">
       <data key="y">51.8315385</data>
       <data key="x">5.7953868</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">191</data>
-      <data key="upper_bound">194</data>
+      <data key="lower_bound">190</data>
+      <data key="upper_bound">193</data>
     </node>
     <node id="141">
       <data key="y">51.83156</data>
       <data key="x">5.82522</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">298</data>
-      <data key="upper_bound">301</data>
+      <data key="lower_bound">297</data>
+      <data key="upper_bound">303</data>
     </node>
     <node id="142">
       <data key="y">51.83586</data>
       <data key="x">5.79379</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">217</data>
-      <data key="upper_bound">219</data>
+      <data key="lower_bound">216</data>
+      <data key="upper_bound">220</data>
     </node>
     <node id="143">
       <data key="y">51.8336499</data>
       <data key="x">5.8150591</data>
       <data key="street_count">1</data>
       <data key="lower_bound">318</data>
-      <data key="upper_bound">320</data>
+      <data key="upper_bound">321</data>
     </node>
     <node id="144">
       <data key="y">51.8310735</data>
       <data key="x">5.7977173</data>
       <data key="street_count">3</data>
       <data key="lower_bound">201</data>
-      <data key="upper_bound">209</data>
+      <data key="upper_bound">204</data>
     </node>
     <node id="145">
       <data key="y">51.8263037</data>
       <data key="x">5.7913688</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">115</data>
+      <data key="lower_bound">114</data>
       <data key="upper_bound">118</data>
     </node>
     <node id="146">
@@ -1058,70 +1058,70 @@
       <data key="x">5.7928658</data>
       <data key="street_count">3</data>
       <data key="lower_bound">113</data>
-      <data key="upper_bound">121</data>
+      <data key="upper_bound">115</data>
     </node>
     <node id="147">
       <data key="y">51.8270103</data>
       <data key="x">5.7924879</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">120</data>
-      <data key="upper_bound">122</data>
+      <data key="lower_bound">119</data>
+      <data key="upper_bound">123</data>
     </node>
     <node id="148">
       <data key="y">51.8345566</data>
       <data key="x">5.8000787</data>
       <data key="street_count">1</data>
       <data key="lower_bound">216</data>
-      <data key="upper_bound">218</data>
+      <data key="upper_bound">220</data>
     </node>
     <node id="149">
       <data key="y">51.8344978</data>
       <data key="x">5.8029823</data>
       <data key="street_count">3</data>
       <data key="lower_bound">218</data>
-      <data key="upper_bound">219</data>
+      <data key="upper_bound">222</data>
     </node>
     <node id="150">
       <data key="y">51.8405692</data>
       <data key="x">5.8147601</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">263</data>
-      <data key="upper_bound">264</data>
+      <data key="lower_bound">262</data>
+      <data key="upper_bound">267</data>
     </node>
     <node id="151">
       <data key="y">51.8253794</data>
       <data key="x">5.7969687</data>
       <data key="street_count">3</data>
       <data key="lower_bound">122</data>
-      <data key="upper_bound">127</data>
+      <data key="upper_bound">126</data>
     </node>
     <node id="152">
       <data key="y">51.8204835</data>
       <data key="x">5.7944619</data>
       <data key="street_count">4</data>
-      <data key="lower_bound">132</data>
-      <data key="upper_bound">136</data>
+      <data key="lower_bound">131</data>
+      <data key="upper_bound">134</data>
     </node>
     <node id="153">
       <data key="y">51.8255932</data>
       <data key="x">5.7971769</data>
       <data key="street_count">4</data>
-      <data key="lower_bound">125</data>
-      <data key="upper_bound">134</data>
+      <data key="lower_bound">124</data>
+      <data key="upper_bound">128</data>
     </node>
     <node id="154">
       <data key="y">51.8307108</data>
       <data key="x">5.8261539</data>
       <data key="street_count">4</data>
       <data key="lower_bound">287</data>
-      <data key="upper_bound">289</data>
+      <data key="upper_bound">290</data>
     </node>
     <node id="155">
       <data key="y">51.8188227</data>
       <data key="x">5.7980655</data>
       <data key="street_count">4</data>
       <data key="lower_bound">152</data>
-      <data key="upper_bound">156</data>
+      <data key="upper_bound">155</data>
     </node>
     <node id="156">
       <data key="y">51.8336696</data>
@@ -1142,7 +1142,7 @@
       <data key="x">5.8238068</data>
       <data key="street_count">3</data>
       <data key="lower_bound">256</data>
-      <data key="upper_bound">258</data>
+      <data key="upper_bound">259</data>
     </node>
     <node id="159">
       <data key="y">51.8345326</data>
@@ -1156,14 +1156,14 @@
       <data key="x">5.7947321</data>
       <data key="street_count">3</data>
       <data key="lower_bound">200</data>
-      <data key="upper_bound">207</data>
+      <data key="upper_bound">205</data>
     </node>
     <node id="161">
       <data key="y">51.8185068</data>
       <data key="x">5.7945022</data>
       <data key="street_count">3</data>
       <data key="lower_bound">152</data>
-      <data key="upper_bound">157</data>
+      <data key="upper_bound">155</data>
     </node>
     <node id="162">
       <data key="y">51.8311644</data>
@@ -1177,35 +1177,35 @@
       <data key="x">5.81715</data>
       <data key="street_count">3</data>
       <data key="lower_bound">303</data>
-      <data key="upper_bound">305</data>
+      <data key="upper_bound">308</data>
     </node>
     <node id="164">
       <data key="y">51.8337795</data>
       <data key="x">5.798336</data>
       <data key="street_count">1</data>
-      <data key="lower_bound">221</data>
-      <data key="upper_bound">228</data>
+      <data key="lower_bound">220</data>
+      <data key="upper_bound">224</data>
     </node>
     <node id="165">
       <data key="y">51.8299075</data>
       <data key="x">5.8135651</data>
       <data key="street_count">3</data>
       <data key="lower_bound">291</data>
-      <data key="upper_bound">292</data>
+      <data key="upper_bound">295</data>
     </node>
     <node id="166">
       <data key="y">51.8298866</data>
       <data key="x">5.8159926</data>
       <data key="street_count">3</data>
       <data key="lower_bound">289</data>
-      <data key="upper_bound">307</data>
+      <data key="upper_bound">294</data>
     </node>
     <node id="167">
       <data key="y">51.8403072</data>
       <data key="x">5.8088296</data>
       <data key="street_count">1</data>
-      <data key="lower_bound">212</data>
-      <data key="upper_bound">214</data>
+      <data key="lower_bound">211</data>
+      <data key="upper_bound">216</data>
     </node>
     <node id="168">
       <data key="y">51.8253059</data>
@@ -1219,133 +1219,133 @@
       <data key="x">5.7957769</data>
       <data key="street_count">1</data>
       <data key="lower_bound">180</data>
-      <data key="upper_bound">181</data>
+      <data key="upper_bound">186</data>
     </node>
     <node id="170">
       <data key="y">51.8328059</data>
       <data key="x">5.8129563</data>
       <data key="street_count">3</data>
       <data key="lower_bound">319</data>
-      <data key="upper_bound">325</data>
+      <data key="upper_bound">322</data>
     </node>
     <node id="171">
       <data key="y">51.8292146</data>
       <data key="x">5.8119002</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">308</data>
-      <data key="upper_bound">316</data>
+      <data key="lower_bound">307</data>
+      <data key="upper_bound">310</data>
     </node>
     <node id="172">
       <data key="y">51.8289552</data>
       <data key="x">5.8121991</data>
       <data key="street_count">3</data>
       <data key="lower_bound">303</data>
-      <data key="upper_bound">304</data>
+      <data key="upper_bound">306</data>
     </node>
     <node id="173">
       <data key="y">51.838227</data>
       <data key="x">5.8024111</data>
       <data key="street_count">4</data>
       <data key="lower_bound">164</data>
-      <data key="upper_bound">165</data>
+      <data key="upper_bound">166</data>
     </node>
     <node id="174">
       <data key="y">51.8307999</data>
       <data key="x">5.8166381</data>
       <data key="street_count">4</data>
-      <data key="lower_bound">273</data>
-      <data key="upper_bound">279</data>
+      <data key="lower_bound">272</data>
+      <data key="upper_bound">276</data>
     </node>
     <node id="175">
       <data key="y">51.8283367</data>
       <data key="x">5.8225598</data>
       <data key="street_count">3</data>
       <data key="lower_bound">250</data>
-      <data key="upper_bound">252</data>
+      <data key="upper_bound">254</data>
     </node>
     <node id="176">
       <data key="y">51.8284454</data>
       <data key="x">5.822093</data>
       <data key="street_count">3</data>
       <data key="lower_bound">270</data>
-      <data key="upper_bound">298</data>
+      <data key="upper_bound">275</data>
     </node>
     <node id="177">
       <data key="y">51.8282111</data>
       <data key="x">5.8222537</data>
       <data key="street_count">4</data>
       <data key="lower_bound">249</data>
-      <data key="upper_bound">257</data>
+      <data key="upper_bound">251</data>
     </node>
     <node id="178">
       <data key="y">51.8295594</data>
       <data key="x">5.8229946</data>
       <data key="street_count">3</data>
       <data key="lower_bound">305</data>
-      <data key="upper_bound">309</data>
+      <data key="upper_bound">310</data>
     </node>
     <node id="179">
       <data key="y">51.8387044</data>
       <data key="x">5.8171743</data>
       <data key="street_count">3</data>
       <data key="lower_bound">242</data>
-      <data key="upper_bound">243</data>
+      <data key="upper_bound">245</data>
     </node>
     <node id="180">
       <data key="y">51.8345771</data>
       <data key="x">5.8009497</data>
       <data key="street_count">3</data>
       <data key="lower_bound">197</data>
-      <data key="upper_bound">204</data>
+      <data key="upper_bound">201</data>
     </node>
     <node id="181">
       <data key="y">51.8340795</data>
       <data key="x">5.8139883</data>
       <data key="street_count">3</data>
       <data key="lower_bound">323</data>
-      <data key="upper_bound">324</data>
+      <data key="upper_bound">327</data>
     </node>
     <node id="182">
       <data key="y">51.83079</data>
       <data key="x">5.81904</data>
       <data key="street_count">3</data>
       <data key="lower_bound">272</data>
-      <data key="upper_bound">273</data>
+      <data key="upper_bound">277</data>
     </node>
     <node id="183">
       <data key="y">51.8338386</data>
       <data key="x">5.7991848</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">214</data>
+      <data key="lower_bound">213</data>
       <data key="upper_bound">217</data>
     </node>
     <node id="184">
       <data key="y">51.8292506</data>
       <data key="x">5.8142761</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">294</data>
-      <data key="upper_bound">299</data>
+      <data key="lower_bound">293</data>
+      <data key="upper_bound">297</data>
     </node>
     <node id="185">
       <data key="y">51.8341049</data>
       <data key="x">5.799717</data>
       <data key="street_count">3</data>
       <data key="lower_bound">208</data>
-      <data key="upper_bound">210</data>
+      <data key="upper_bound">213</data>
     </node>
     <node id="186">
       <data key="y">51.8341114</data>
       <data key="x">5.7998247</data>
       <data key="street_count">3</data>
       <data key="lower_bound">208</data>
-      <data key="upper_bound">211</data>
+      <data key="upper_bound">213</data>
     </node>
     <node id="187">
       <data key="y">51.8299481</data>
       <data key="x">5.7992415</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">181</data>
-      <data key="upper_bound">183</data>
+      <data key="lower_bound">180</data>
+      <data key="upper_bound">184</data>
     </node>
     <node id="188">
       <data key="y">51.8253115</data>
@@ -1353,14 +1353,14 @@
       <data key="highway">traffic_signals</data>
       <data key="street_count">4</data>
       <data key="lower_bound">292</data>
-      <data key="upper_bound">294</data>
+      <data key="upper_bound">295</data>
     </node>
     <node id="189">
       <data key="y">51.8279249</data>
       <data key="x">5.7969466</data>
       <data key="street_count">3</data>
       <data key="lower_bound">168</data>
-      <data key="upper_bound">172</data>
+      <data key="upper_bound">170</data>
     </node>
     <node id="190">
       <data key="y">51.8236061</data>
@@ -1368,63 +1368,63 @@
       <data key="highway">traffic_signals</data>
       <data key="street_count">3</data>
       <data key="lower_bound">93</data>
-      <data key="upper_bound">95</data>
+      <data key="upper_bound">96</data>
     </node>
     <node id="191">
       <data key="y">51.8324135</data>
       <data key="x">5.8036451</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">205</data>
-      <data key="upper_bound">213</data>
+      <data key="lower_bound">204</data>
+      <data key="upper_bound">206</data>
     </node>
     <node id="192">
       <data key="y">51.8324334</data>
       <data key="x">5.8182624</data>
       <data key="street_count">3</data>
       <data key="lower_bound">305</data>
-      <data key="upper_bound">306</data>
+      <data key="upper_bound">309</data>
     </node>
     <node id="193">
       <data key="y">51.8323033</data>
       <data key="x">5.8269684</data>
       <data key="street_count">3</data>
       <data key="lower_bound">326</data>
-      <data key="upper_bound">331</data>
+      <data key="upper_bound">329</data>
     </node>
     <node id="194">
       <data key="y">51.8295968</data>
       <data key="x">5.8153122</data>
       <data key="street_count">3</data>
       <data key="lower_bound">289</data>
-      <data key="upper_bound">309</data>
+      <data key="upper_bound">292</data>
     </node>
     <node id="195">
       <data key="y">51.8421103</data>
       <data key="x">5.8046438</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">203</data>
-      <data key="upper_bound">205</data>
+      <data key="lower_bound">199</data>
+      <data key="upper_bound">204</data>
     </node>
     <node id="196">
       <data key="y">51.8289826</data>
       <data key="x">5.7874989</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">155</data>
-      <data key="upper_bound">156</data>
+      <data key="lower_bound">151</data>
+      <data key="upper_bound">155</data>
     </node>
     <node id="197">
       <data key="y">51.8331678</data>
       <data key="x">5.8036863</data>
       <data key="street_count">1</data>
-      <data key="lower_bound">223</data>
-      <data key="upper_bound">239</data>
+      <data key="lower_bound">221</data>
+      <data key="upper_bound">225</data>
     </node>
     <node id="198">
       <data key="y">51.8354341</data>
       <data key="x">5.795572</data>
       <data key="street_count">4</data>
       <data key="lower_bound">201</data>
-      <data key="upper_bound">208</data>
+      <data key="upper_bound">205</data>
     </node>
     <node id="199">
       <data key="y">51.835483</data>
@@ -1438,35 +1438,35 @@
       <data key="x">5.8144084</data>
       <data key="street_count">3</data>
       <data key="lower_bound">215</data>
-      <data key="upper_bound">218</data>
+      <data key="upper_bound">216</data>
     </node>
     <node id="201">
       <data key="y">51.8295647</data>
       <data key="x">5.7960542</data>
       <data key="street_count">4</data>
-      <data key="lower_bound">148</data>
-      <data key="upper_bound">152</data>
+      <data key="lower_bound">147</data>
+      <data key="upper_bound">151</data>
     </node>
     <node id="202">
       <data key="y">51.8328176</data>
       <data key="x">5.8031286</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">209</data>
-      <data key="upper_bound">214</data>
+      <data key="lower_bound">208</data>
+      <data key="upper_bound">212</data>
     </node>
     <node id="203">
       <data key="y">51.8296349</data>
       <data key="x">5.8138666</data>
       <data key="street_count">4</data>
       <data key="lower_bound">287</data>
-      <data key="upper_bound">294</data>
+      <data key="upper_bound">290</data>
     </node>
     <node id="204">
       <data key="y">51.8319684</data>
       <data key="x">5.8027809</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">223</data>
-      <data key="upper_bound">224</data>
+      <data key="lower_bound">222</data>
+      <data key="upper_bound">226</data>
     </node>
     <node id="205">
       <data key="y">51.8354507</data>
@@ -1480,14 +1480,14 @@
       <data key="x">5.7858682</data>
       <data key="street_count">3</data>
       <data key="lower_bound">158</data>
-      <data key="upper_bound">161</data>
+      <data key="upper_bound">163</data>
     </node>
     <node id="207">
       <data key="y">51.8354743</data>
       <data key="x">5.803218</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">227</data>
-      <data key="upper_bound">233</data>
+      <data key="lower_bound">226</data>
+      <data key="upper_bound">229</data>
     </node>
     <node id="208">
       <data key="y">51.8296626</data>
@@ -1501,70 +1501,70 @@
       <data key="x">5.79683</data>
       <data key="street_count">3</data>
       <data key="lower_bound">212</data>
-      <data key="upper_bound">214</data>
+      <data key="upper_bound">217</data>
     </node>
     <node id="210">
       <data key="y">51.8285971</data>
       <data key="x">5.8163898</data>
       <data key="street_count">3</data>
       <data key="lower_bound">305</data>
-      <data key="upper_bound">318</data>
+      <data key="upper_bound">309</data>
     </node>
     <node id="211">
       <data key="y">51.8285904</data>
       <data key="x">5.8201887</data>
       <data key="street_count">3</data>
       <data key="lower_bound">306</data>
-      <data key="upper_bound">308</data>
+      <data key="upper_bound">310</data>
     </node>
     <node id="212">
       <data key="y">51.8296427</data>
       <data key="x">5.8114449</data>
       <data key="street_count">4</data>
       <data key="lower_bound">313</data>
-      <data key="upper_bound">330</data>
+      <data key="upper_bound">316</data>
     </node>
     <node id="213">
       <data key="y">51.8342004</data>
       <data key="x">5.7978838</data>
       <data key="street_count">4</data>
-      <data key="lower_bound">187</data>
-      <data key="upper_bound">189</data>
+      <data key="lower_bound">186</data>
+      <data key="upper_bound">190</data>
     </node>
     <node id="214">
       <data key="y">51.83326</data>
       <data key="x">5.814</data>
       <data key="street_count">4</data>
       <data key="lower_bound">309</data>
-      <data key="upper_bound">320</data>
+      <data key="upper_bound">312</data>
     </node>
     <node id="215">
       <data key="y">51.8328266</data>
       <data key="x">5.8212363</data>
       <data key="street_count">3</data>
       <data key="lower_bound">269</data>
-      <data key="upper_bound">270</data>
+      <data key="upper_bound">272</data>
     </node>
     <node id="216">
       <data key="y">51.8394452</data>
       <data key="x">5.7774729</data>
       <data key="highway">motorway_junction</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">90</data>
-      <data key="upper_bound">92</data>
+      <data key="lower_bound">89</data>
+      <data key="upper_bound">93</data>
     </node>
     <node id="217">
       <data key="y">51.8296451</data>
       <data key="x">5.787619</data>
       <data key="street_count">3</data>
       <data key="lower_bound">158</data>
-      <data key="upper_bound">161</data>
+      <data key="upper_bound">163</data>
     </node>
     <node id="218">
       <data key="y">51.8327952</data>
       <data key="x">5.7935145</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">189</data>
+      <data key="lower_bound">188</data>
       <data key="upper_bound">190</data>
     </node>
     <node id="219">
@@ -1572,21 +1572,21 @@
       <data key="x">5.8246743</data>
       <data key="street_count">3</data>
       <data key="lower_bound">298</data>
-      <data key="upper_bound">303</data>
+      <data key="upper_bound">301</data>
     </node>
     <node id="220">
       <data key="y">51.8328289</data>
       <data key="x">5.8210185</data>
       <data key="street_count">3</data>
       <data key="lower_bound">270</data>
-      <data key="upper_bound">273</data>
+      <data key="upper_bound">275</data>
     </node>
     <node id="221">
       <data key="y">51.8296602</data>
       <data key="x">5.7987703</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">190</data>
-      <data key="upper_bound">193</data>
+      <data key="lower_bound">189</data>
+      <data key="upper_bound">191</data>
     </node>
     <node id="222">
       <data key="y">51.8332937</data>
@@ -1600,21 +1600,21 @@
       <data key="x">5.7945</data>
       <data key="street_count">3</data>
       <data key="lower_bound">183</data>
-      <data key="upper_bound">185</data>
+      <data key="upper_bound">186</data>
     </node>
     <node id="224">
       <data key="y">51.8328312</data>
       <data key="x">5.8151297</data>
       <data key="street_count">3</data>
       <data key="lower_bound">304</data>
-      <data key="upper_bound">306</data>
+      <data key="upper_bound">308</data>
     </node>
     <node id="225">
       <data key="y">51.8286005</data>
       <data key="x">5.7894204</data>
       <data key="street_count">4</data>
-      <data key="lower_bound">142</data>
-      <data key="upper_bound">145</data>
+      <data key="lower_bound">141</data>
+      <data key="upper_bound">143</data>
     </node>
     <node id="226">
       <data key="y">51.8327322</data>
@@ -1622,34 +1622,34 @@
       <data key="highway">turning_circle</data>
       <data key="street_count">1</data>
       <data key="lower_bound">188</data>
-      <data key="upper_bound">190</data>
+      <data key="upper_bound">191</data>
     </node>
     <node id="227">
       <data key="y">51.8320981</data>
       <data key="x">5.795292</data>
       <data key="street_count">1</data>
       <data key="lower_bound">197</data>
-      <data key="upper_bound">198</data>
+      <data key="upper_bound">201</data>
     </node>
     <node id="228">
       <data key="y">51.8320559</data>
       <data key="x">5.8051936</data>
       <data key="street_count">1</data>
       <data key="lower_bound">202</data>
-      <data key="upper_bound">221</data>
+      <data key="upper_bound">207</data>
     </node>
     <node id="229">
       <data key="y">51.8286245</data>
       <data key="x">5.8104902</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">322</data>
-      <data key="upper_bound">326</data>
+      <data key="lower_bound">321</data>
+      <data key="upper_bound">324</data>
     </node>
     <node id="230">
       <data key="y">51.8245717</data>
       <data key="x">5.8263612</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">283</data>
+      <data key="lower_bound">282</data>
       <data key="upper_bound">285</data>
     </node>
     <node id="231">
@@ -1657,14 +1657,14 @@
       <data key="x">5.8265257</data>
       <data key="street_count">3</data>
       <data key="lower_bound">282</data>
-      <data key="upper_bound">287</data>
+      <data key="upper_bound">285</data>
     </node>
     <node id="232">
       <data key="y">51.8328732</data>
       <data key="x">5.8217564</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">271</data>
-      <data key="upper_bound">273</data>
+      <data key="lower_bound">270</data>
+      <data key="upper_bound">277</data>
     </node>
     <node id="233">
       <data key="y">51.8321165</data>
@@ -1677,22 +1677,22 @@
       <data key="y">51.8249373</data>
       <data key="x">5.7925252</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">103</data>
-      <data key="upper_bound">108</data>
+      <data key="lower_bound">102</data>
+      <data key="upper_bound">107</data>
     </node>
     <node id="235">
       <data key="y">51.8303523</data>
       <data key="x">5.8171281</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">280</data>
-      <data key="upper_bound">287</data>
+      <data key="lower_bound">279</data>
+      <data key="upper_bound">283</data>
     </node>
     <node id="236">
       <data key="y">51.8212095</data>
       <data key="x">5.7934251</data>
       <data key="street_count">3</data>
       <data key="lower_bound">138</data>
-      <data key="upper_bound">139</data>
+      <data key="upper_bound">141</data>
     </node>
     <node id="237">
       <data key="y">51.8164058</data>
@@ -1706,84 +1706,84 @@
       <data key="x">5.7942571</data>
       <data key="street_count">4</data>
       <data key="lower_bound">130</data>
-      <data key="upper_bound">148</data>
+      <data key="upper_bound">133</data>
     </node>
     <node id="239">
       <data key="y">51.8232484</data>
       <data key="x">5.8288743</data>
       <data key="street_count">3</data>
       <data key="lower_bound">299</data>
-      <data key="upper_bound">301</data>
+      <data key="upper_bound">303</data>
     </node>
     <node id="240">
       <data key="y">51.8263011</data>
       <data key="x">5.7915688</data>
       <data key="street_count">4</data>
       <data key="lower_bound">113</data>
-      <data key="upper_bound">114</data>
+      <data key="upper_bound">116</data>
     </node>
     <node id="241">
       <data key="y">51.8351014</data>
       <data key="x">5.8224771</data>
       <data key="street_count">3</data>
       <data key="lower_bound">301</data>
-      <data key="upper_bound">308</data>
+      <data key="upper_bound">304</data>
     </node>
     <node id="242">
       <data key="y">51.8372183</data>
       <data key="x">5.8139271</data>
       <data key="street_count">2</data>
       <data key="lower_bound">224</data>
-      <data key="upper_bound">225</data>
+      <data key="upper_bound">227</data>
     </node>
     <node id="243">
       <data key="y">51.831644</data>
       <data key="x">5.8262269</data>
       <data key="street_count">3</data>
       <data key="lower_bound">338</data>
-      <data key="upper_bound">339</data>
+      <data key="upper_bound">343</data>
     </node>
     <node id="244">
       <data key="y">51.8287102</data>
       <data key="x">5.7895226</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">141</data>
-      <data key="upper_bound">145</data>
+      <data key="lower_bound">140</data>
+      <data key="upper_bound">143</data>
     </node>
     <node id="245">
       <data key="y">51.8286627</data>
       <data key="x">5.7993792</data>
       <data key="street_count">1</data>
-      <data key="lower_bound">173</data>
-      <data key="upper_bound">178</data>
+      <data key="lower_bound">171</data>
+      <data key="upper_bound">175</data>
     </node>
     <node id="246">
       <data key="y">51.8400275</data>
       <data key="x">5.8154648</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">258</data>
-      <data key="upper_bound">263</data>
+      <data key="lower_bound">256</data>
+      <data key="upper_bound">260</data>
     </node>
     <node id="247">
       <data key="y">51.8248714</data>
       <data key="x">5.8260493</data>
       <data key="street_count">3</data>
       <data key="lower_bound">280</data>
-      <data key="upper_bound">284</data>
+      <data key="upper_bound">286</data>
     </node>
     <node id="248">
       <data key="y">51.8233219</data>
       <data key="x">5.7717512</data>
       <data key="street_count">4</data>
       <data key="lower_bound">0</data>
-      <data key="upper_bound">6</data>
+      <data key="upper_bound">3</data>
     </node>
     <node id="249">
       <data key="y">51.8351058</data>
       <data key="x">5.8240712</data>
       <data key="street_count">3</data>
       <data key="lower_bound">319</data>
-      <data key="upper_bound">322</data>
+      <data key="upper_bound">324</data>
     </node>
     <node id="250">
       <data key="y">51.8232326</data>
@@ -1797,7 +1797,7 @@
       <data key="x">5.7986165</data>
       <data key="street_count">3</data>
       <data key="lower_bound">218</data>
-      <data key="upper_bound">219</data>
+      <data key="upper_bound">221</data>
     </node>
     <node id="252">
       <data key="y">51.833705</data>
@@ -1811,196 +1811,196 @@
       <data key="x">5.8132638</data>
       <data key="street_count">3</data>
       <data key="lower_bound">223</data>
-      <data key="upper_bound">239</data>
+      <data key="upper_bound">226</data>
     </node>
     <node id="254">
       <data key="y">51.8348972</data>
       <data key="x">5.8251847</data>
       <data key="street_count">3</data>
       <data key="lower_bound">297</data>
-      <data key="upper_bound">301</data>
+      <data key="upper_bound">300</data>
     </node>
     <node id="255">
       <data key="y">51.8359482</data>
       <data key="x">5.8317674</data>
       <data key="street_count">3</data>
       <data key="lower_bound">324</data>
-      <data key="upper_bound">332</data>
+      <data key="upper_bound">328</data>
     </node>
     <node id="256">
       <data key="y">51.8233653</data>
       <data key="x">5.8234179</data>
       <data key="street_count">4</data>
-      <data key="lower_bound">302</data>
-      <data key="upper_bound">305</data>
+      <data key="lower_bound">300</data>
+      <data key="upper_bound">303</data>
     </node>
     <node id="257">
       <data key="y">51.8316102</data>
       <data key="x">5.7947282</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">185</data>
-      <data key="upper_bound">194</data>
+      <data key="lower_bound">183</data>
+      <data key="upper_bound">186</data>
     </node>
     <node id="258">
       <data key="y">51.8367592</data>
       <data key="x">5.8194317</data>
       <data key="street_count">4</data>
       <data key="lower_bound">327</data>
-      <data key="upper_bound">328</data>
+      <data key="upper_bound">330</data>
     </node>
     <node id="259">
       <data key="y">51.8196084</data>
       <data key="x">5.8173988</data>
       <data key="street_count">4</data>
-      <data key="lower_bound">263</data>
-      <data key="upper_bound">269</data>
+      <data key="lower_bound">261</data>
+      <data key="upper_bound">265</data>
     </node>
     <node id="260">
       <data key="y">51.8382306</data>
       <data key="x">5.8172568</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">246</data>
-      <data key="upper_bound">247</data>
+      <data key="lower_bound">241</data>
+      <data key="upper_bound">246</data>
     </node>
     <node id="261">
       <data key="y">51.8337357</data>
       <data key="x">5.7929215</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">205</data>
-      <data key="upper_bound">210</data>
+      <data key="lower_bound">202</data>
+      <data key="upper_bound">206</data>
     </node>
     <node id="262">
       <data key="y">51.8382006</data>
       <data key="x">5.817467</data>
       <data key="street_count">3</data>
       <data key="lower_bound">236</data>
-      <data key="upper_bound">244</data>
+      <data key="upper_bound">240</data>
     </node>
     <node id="263">
       <data key="y">51.8361986</data>
       <data key="x">5.8017625</data>
       <data key="street_count">3</data>
       <data key="lower_bound">180</data>
-      <data key="upper_bound">182</data>
+      <data key="upper_bound">184</data>
     </node>
     <node id="264">
       <data key="y">51.83377</data>
       <data key="x">5.82396</data>
       <data key="street_count">3</data>
       <data key="lower_bound">281</data>
-      <data key="upper_bound">289</data>
+      <data key="upper_bound">283</data>
     </node>
     <node id="265">
       <data key="y">51.8363002</data>
       <data key="x">5.8015023</data>
       <data key="street_count">4</data>
       <data key="lower_bound">179</data>
-      <data key="upper_bound">189</data>
+      <data key="upper_bound">183</data>
     </node>
     <node id="266">
       <data key="y">51.8316185</data>
       <data key="x">5.7982321</data>
       <data key="street_count">3</data>
       <data key="lower_bound">211</data>
-      <data key="upper_bound">212</data>
+      <data key="upper_bound">214</data>
     </node>
     <node id="267">
       <data key="y">51.8175081</data>
       <data key="x">5.8011867</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">171</data>
-      <data key="upper_bound">177</data>
+      <data key="lower_bound">170</data>
+      <data key="upper_bound">173</data>
     </node>
     <node id="268">
       <data key="y">51.8173377</data>
       <data key="x">5.8010188</data>
       <data key="street_count">4</data>
       <data key="lower_bound">169</data>
-      <data key="upper_bound">170</data>
+      <data key="upper_bound">172</data>
     </node>
     <node id="269">
       <data key="y">51.8346226</data>
       <data key="x">5.8230125</data>
       <data key="street_count">3</data>
       <data key="lower_bound">294</data>
-      <data key="upper_bound">307</data>
+      <data key="upper_bound">298</data>
     </node>
     <node id="270">
       <data key="y">51.8201327</data>
       <data key="x">5.8185326</data>
       <data key="street_count">4</data>
       <data key="lower_bound">266</data>
-      <data key="upper_bound">267</data>
+      <data key="upper_bound">268</data>
     </node>
     <node id="271">
       <data key="y">51.8275393</data>
       <data key="x">5.7924717</data>
       <data key="street_count">4</data>
-      <data key="lower_bound">124</data>
-      <data key="upper_bound">131</data>
+      <data key="lower_bound">123</data>
+      <data key="upper_bound">126</data>
     </node>
     <node id="272">
       <data key="y">51.8244506</data>
       <data key="x">5.79361</data>
       <data key="street_count">1</data>
-      <data key="lower_bound">133</data>
-      <data key="upper_bound">144</data>
+      <data key="lower_bound">132</data>
+      <data key="upper_bound">135</data>
     </node>
     <node id="273">
       <data key="y">51.8196321</data>
       <data key="x">5.7959681</data>
       <data key="street_count">4</data>
-      <data key="lower_bound">140</data>
-      <data key="upper_bound">154</data>
+      <data key="lower_bound">139</data>
+      <data key="upper_bound">143</data>
     </node>
     <node id="274">
       <data key="y">51.8311683</data>
       <data key="x">5.828722</data>
       <data key="street_count">2</data>
       <data key="lower_bound">302</data>
-      <data key="upper_bound">303</data>
+      <data key="upper_bound">304</data>
     </node>
     <node id="275">
       <data key="y">51.8316846</data>
       <data key="x">5.8193074</data>
       <data key="street_count">1</data>
-      <data key="lower_bound">289</data>
-      <data key="upper_bound">295</data>
+      <data key="lower_bound">288</data>
+      <data key="upper_bound">292</data>
     </node>
     <node id="276">
       <data key="y">51.8275601</data>
       <data key="x">5.8203883</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">241</data>
-      <data key="upper_bound">242</data>
+      <data key="lower_bound">239</data>
+      <data key="upper_bound">244</data>
     </node>
     <node id="277">
       <data key="y">51.8221345</data>
       <data key="x">5.7927661</data>
       <data key="street_count">4</data>
       <data key="lower_bound">115</data>
-      <data key="upper_bound">119</data>
+      <data key="upper_bound">118</data>
     </node>
     <node id="278">
       <data key="y">51.8220924</data>
       <data key="x">5.7925621</data>
       <data key="street_count">4</data>
       <data key="lower_bound">114</data>
-      <data key="upper_bound">116</data>
+      <data key="upper_bound">119</data>
     </node>
     <node id="279">
       <data key="y">51.8259999</data>
       <data key="x">5.827557</data>
       <data key="street_count">4</data>
       <data key="lower_bound">299</data>
-      <data key="upper_bound">320</data>
+      <data key="upper_bound">302</data>
     </node>
     <node id="280">
       <data key="y">51.8308</data>
       <data key="x">5.81991</data>
       <data key="street_count">3</data>
       <data key="lower_bound">280</data>
-      <data key="upper_bound">284</data>
+      <data key="upper_bound">285</data>
     </node>
     <node id="281">
       <data key="y">51.838401</data>
@@ -2013,21 +2013,21 @@
       <data key="y">51.83467</data>
       <data key="x">5.8032765</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">217</data>
-      <data key="upper_bound">218</data>
+      <data key="lower_bound">215</data>
+      <data key="upper_bound">220</data>
     </node>
     <node id="283">
       <data key="y">51.81871</data>
       <data key="x">5.79802</data>
       <data key="street_count">4</data>
       <data key="lower_bound">151</data>
-      <data key="upper_bound">156</data>
+      <data key="upper_bound">153</data>
     </node>
     <node id="284">
       <data key="y">51.8253918</data>
       <data key="x">5.7966808</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">122</data>
+      <data key="lower_bound">121</data>
       <data key="upper_bound">124</data>
     </node>
     <node id="285">
@@ -2035,63 +2035,63 @@
       <data key="x">5.7769577</data>
       <data key="street_count">3</data>
       <data key="lower_bound">25</data>
-      <data key="upper_bound">30</data>
+      <data key="upper_bound">29</data>
     </node>
     <node id="286">
       <data key="y">51.8245481</data>
       <data key="x">5.7916432</data>
       <data key="street_count">3</data>
       <data key="lower_bound">97</data>
-      <data key="upper_bound">103</data>
+      <data key="upper_bound">102</data>
     </node>
     <node id="287">
       <data key="y">51.8237298</data>
       <data key="x">5.7763188</data>
       <data key="street_count">3</data>
       <data key="lower_bound">22</data>
-      <data key="upper_bound">24</data>
+      <data key="upper_bound">23</data>
     </node>
     <node id="288">
       <data key="y">51.8254245</data>
       <data key="x">5.7913759</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">110</data>
-      <data key="upper_bound">129</data>
+      <data key="lower_bound">109</data>
+      <data key="upper_bound">112</data>
     </node>
     <node id="289">
       <data key="y">51.8364113</data>
       <data key="x">5.8326434</data>
       <data key="street_count">3</data>
       <data key="lower_bound">332</data>
-      <data key="upper_bound">336</data>
+      <data key="upper_bound">335</data>
     </node>
     <node id="290">
       <data key="y">51.83083</data>
       <data key="x">5.79446</data>
       <data key="street_count">3</data>
       <data key="lower_bound">198</data>
-      <data key="upper_bound">200</data>
+      <data key="upper_bound">204</data>
     </node>
     <node id="291">
       <data key="y">51.8246121</data>
       <data key="x">5.7921703</data>
       <data key="street_count">3</data>
       <data key="lower_bound">99</data>
-      <data key="upper_bound">108</data>
+      <data key="upper_bound">103</data>
     </node>
     <node id="292">
       <data key="y">51.8275975</data>
       <data key="x">5.7923113</data>
       <data key="street_count">4</data>
       <data key="lower_bound">125</data>
-      <data key="upper_bound">126</data>
+      <data key="upper_bound">129</data>
     </node>
     <node id="293">
       <data key="y">51.83423</data>
       <data key="x">5.7947757</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">215</data>
-      <data key="upper_bound">218</data>
+      <data key="lower_bound">213</data>
+      <data key="upper_bound">217</data>
     </node>
     <node id="294">
       <data key="y">51.8342309</data>
@@ -2104,92 +2104,92 @@
       <data key="y">51.8342343</data>
       <data key="x">5.8022122</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">205</data>
+      <data key="lower_bound">204</data>
       <data key="upper_bound">207</data>
     </node>
     <node id="296">
       <data key="y">51.8324727</data>
       <data key="x">5.7944392</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">180</data>
-      <data key="upper_bound">192</data>
+      <data key="lower_bound">179</data>
+      <data key="upper_bound">182</data>
     </node>
     <node id="297">
       <data key="y">51.83086</data>
       <data key="x">5.82006</data>
       <data key="street_count">1</data>
-      <data key="lower_bound">282</data>
-      <data key="upper_bound">283</data>
+      <data key="lower_bound">281</data>
+      <data key="upper_bound">286</data>
     </node>
     <node id="298">
       <data key="y">51.836715</data>
       <data key="x">5.8147454</data>
       <data key="street_count">3</data>
       <data key="lower_bound">218</data>
-      <data key="upper_bound">224</data>
+      <data key="upper_bound">221</data>
     </node>
     <node id="299">
       <data key="y">51.8215563</data>
       <data key="x">5.8208154</data>
       <data key="street_count">3</data>
       <data key="lower_bound">281</data>
-      <data key="upper_bound">283</data>
+      <data key="upper_bound">286</data>
     </node>
     <node id="300">
       <data key="y">51.8289567</data>
       <data key="x">5.8217437</data>
       <data key="street_count">4</data>
       <data key="lower_bound">266</data>
-      <data key="upper_bound">271</data>
+      <data key="upper_bound">268</data>
     </node>
     <node id="301">
       <data key="y">51.8325214</data>
       <data key="x">5.8257678</data>
       <data key="street_count">3</data>
       <data key="lower_bound">303</data>
-      <data key="upper_bound">306</data>
+      <data key="upper_bound">308</data>
     </node>
     <node id="302">
       <data key="y">51.8282954</data>
       <data key="x">5.7903088</data>
       <data key="street_count">3</data>
       <data key="lower_bound">136</data>
-      <data key="upper_bound">147</data>
+      <data key="upper_bound">139</data>
     </node>
     <node id="303">
       <data key="y">51.8333038</data>
       <data key="x">5.8162726</data>
       <data key="street_count">3</data>
       <data key="lower_bound">314</data>
-      <data key="upper_bound">332</data>
+      <data key="upper_bound">318</data>
     </node>
     <node id="304">
       <data key="y">51.8342541</data>
       <data key="x">5.7976876</data>
       <data key="street_count">4</data>
       <data key="lower_bound">187</data>
-      <data key="upper_bound">188</data>
+      <data key="upper_bound">191</data>
     </node>
     <node id="305">
       <data key="y">51.8355898</data>
       <data key="x">5.8234284</data>
       <data key="street_count">3</data>
       <data key="lower_bound">311</data>
-      <data key="upper_bound">322</data>
+      <data key="upper_bound">313</data>
     </node>
     <node id="306">
       <data key="y">51.8235848</data>
       <data key="x">5.7840306</data>
       <data key="street_count">3</data>
       <data key="lower_bound">61</data>
-      <data key="upper_bound">63</data>
+      <data key="upper_bound">64</data>
     </node>
     <node id="307">
       <data key="y">51.8300401</data>
       <data key="x">5.8148343</data>
       <data key="street_count">3</data>
       <data key="lower_bound">282</data>
-      <data key="upper_bound">287</data>
+      <data key="upper_bound">284</data>
     </node>
     <node id="308">
       <data key="y">51.8325549</data>
@@ -2202,22 +2202,22 @@
       <data key="y">51.8356104</data>
       <data key="x">5.794646</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">208</data>
-      <data key="upper_bound">217</data>
+      <data key="lower_bound">207</data>
+      <data key="upper_bound">212</data>
     </node>
     <node id="310">
       <data key="y">51.8293635</data>
       <data key="x">5.7874299</data>
       <data key="street_count">3</data>
       <data key="lower_bound">155</data>
-      <data key="upper_bound">163</data>
+      <data key="upper_bound">158</data>
     </node>
     <node id="311">
       <data key="y">51.8187659</data>
       <data key="x">5.7981922</data>
       <data key="street_count">4</data>
       <data key="lower_bound">152</data>
-      <data key="upper_bound">158</data>
+      <data key="upper_bound">156</data>
     </node>
     <node id="312">
       <data key="y">51.8321367</data>
@@ -2231,28 +2231,28 @@
       <data key="x">5.8015736</data>
       <data key="street_count">1</data>
       <data key="lower_bound">222</data>
-      <data key="upper_bound">231</data>
+      <data key="upper_bound">225</data>
     </node>
     <node id="314">
       <data key="y">51.8355592</data>
       <data key="x">5.8267799</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">305</data>
-      <data key="upper_bound">306</data>
+      <data key="lower_bound">304</data>
+      <data key="upper_bound">309</data>
     </node>
     <node id="315">
       <data key="y">51.8331111</data>
       <data key="x">5.8223556</data>
       <data key="street_count">3</data>
       <data key="lower_bound">273</data>
-      <data key="upper_bound">275</data>
+      <data key="upper_bound">276</data>
     </node>
     <node id="316">
       <data key="y">51.8325584</data>
       <data key="x">5.8275088</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">323</data>
-      <data key="upper_bound">326</data>
+      <data key="lower_bound">321</data>
+      <data key="upper_bound">325</data>
     </node>
     <node id="317">
       <data key="y">51.8222073</data>
@@ -2265,15 +2265,15 @@
       <data key="y">51.83005</data>
       <data key="x">5.82055</data>
       <data key="street_count">1</data>
-      <data key="lower_bound">291</data>
-      <data key="upper_bound">305</data>
+      <data key="lower_bound">290</data>
+      <data key="upper_bound">294</data>
     </node>
     <node id="319">
       <data key="y">51.8165037</data>
       <data key="x">5.8021097</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">180</data>
-      <data key="upper_bound">183</data>
+      <data key="lower_bound">177</data>
+      <data key="upper_bound">180</data>
     </node>
     <node id="320">
       <data key="y">51.8284196</data>
@@ -2287,70 +2287,70 @@
       <data key="x">5.7926491</data>
       <data key="street_count">3</data>
       <data key="lower_bound">109</data>
-      <data key="upper_bound">113</data>
+      <data key="upper_bound">112</data>
     </node>
     <node id="322">
       <data key="y">51.82937</data>
       <data key="x">5.81821</data>
       <data key="street_count">3</data>
       <data key="lower_bound">294</data>
-      <data key="upper_bound">301</data>
+      <data key="upper_bound">297</data>
     </node>
     <node id="323">
       <data key="y">51.823222</data>
       <data key="x">5.7926364</data>
       <data key="street_count">3</data>
       <data key="lower_bound">109</data>
-      <data key="upper_bound">113</data>
+      <data key="upper_bound">114</data>
     </node>
     <node id="324">
       <data key="y">51.8300538</data>
       <data key="x">5.7991586</data>
       <data key="street_count">3</data>
       <data key="lower_bound">181</data>
-      <data key="upper_bound">182</data>
+      <data key="upper_bound">185</data>
     </node>
     <node id="325">
       <data key="y">51.8233177</data>
       <data key="x">5.8278153</data>
       <data key="street_count">3</data>
       <data key="lower_bound">294</data>
-      <data key="upper_bound">299</data>
+      <data key="upper_bound">298</data>
     </node>
     <node id="326">
       <data key="y">51.8258453</data>
       <data key="x">5.8044239</data>
       <data key="street_count">3</data>
       <data key="lower_bound">159</data>
-      <data key="upper_bound">168</data>
+      <data key="upper_bound">164</data>
     </node>
     <node id="327">
       <data key="y">51.8300495</data>
       <data key="x">5.8198289</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">284</data>
-      <data key="upper_bound">286</data>
+      <data key="lower_bound">283</data>
+      <data key="upper_bound">289</data>
     </node>
     <node id="328">
       <data key="y">51.8350995</data>
       <data key="x">5.7936237</data>
       <data key="street_count">3</data>
       <data key="lower_bound">213</data>
-      <data key="upper_bound">219</data>
+      <data key="upper_bound">217</data>
     </node>
     <node id="329">
       <data key="y">51.8257242</data>
       <data key="x">5.7966232</data>
       <data key="street_count">3</data>
       <data key="lower_bound">126</data>
-      <data key="upper_bound">128</data>
+      <data key="upper_bound">131</data>
     </node>
     <node id="330">
       <data key="y">51.8326154</data>
       <data key="x">5.7998618</data>
       <data key="street_count">1</data>
-      <data key="lower_bound">230</data>
-      <data key="upper_bound">237</data>
+      <data key="lower_bound">229</data>
+      <data key="upper_bound">233</data>
     </node>
     <node id="331">
       <data key="y">51.8350726</data>
@@ -2363,8 +2363,8 @@
       <data key="y">51.8259537</data>
       <data key="x">5.8046317</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">162</data>
-      <data key="upper_bound">169</data>
+      <data key="lower_bound">160</data>
+      <data key="upper_bound">164</data>
     </node>
     <node id="333">
       <data key="y">51.8257627</data>
@@ -2377,50 +2377,50 @@
       <data key="y">51.8232699</data>
       <data key="x">5.7926222</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">111</data>
-      <data key="upper_bound">120</data>
+      <data key="lower_bound">109</data>
+      <data key="upper_bound">114</data>
     </node>
     <node id="335">
       <data key="y">51.8322073</data>
       <data key="x">5.7947329</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">178</data>
-      <data key="upper_bound">180</data>
+      <data key="lower_bound">175</data>
+      <data key="upper_bound">179</data>
     </node>
     <node id="336">
       <data key="y">51.830462</data>
       <data key="x">5.8267013</data>
       <data key="street_count">2</data>
-      <data key="lower_bound">284</data>
-      <data key="upper_bound">290</data>
+      <data key="lower_bound">283</data>
+      <data key="upper_bound">286</data>
     </node>
     <node id="337">
       <data key="y">51.8232939</data>
       <data key="x">5.7933118</data>
       <data key="street_count">3</data>
       <data key="lower_bound">112</data>
-      <data key="upper_bound">114</data>
+      <data key="upper_bound">115</data>
     </node>
     <node id="338">
       <data key="y">51.8304802</data>
       <data key="x">5.7986085</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">189</data>
-      <data key="upper_bound">209</data>
+      <data key="lower_bound">188</data>
+      <data key="upper_bound">193</data>
     </node>
     <node id="339">
       <data key="y">51.83511</data>
       <data key="x">5.80201</data>
       <data key="street_count">3</data>
       <data key="lower_bound">215</data>
-      <data key="upper_bound">218</data>
+      <data key="upper_bound">220</data>
     </node>
     <node id="340">
       <data key="y">51.8351083</data>
       <data key="x">5.8212695</data>
       <data key="street_count">3</data>
       <data key="lower_bound">301</data>
-      <data key="upper_bound">303</data>
+      <data key="upper_bound">304</data>
     </node>
     <node id="341">
       <data key="y">51.8233683</data>
@@ -2441,105 +2441,105 @@
       <data key="x">5.7987485</data>
       <data key="street_count">1</data>
       <data key="lower_bound">172</data>
-      <data key="upper_bound">175</data>
+      <data key="upper_bound">176</data>
     </node>
     <node id="344">
       <data key="y">51.8382429</data>
       <data key="x">5.8021661</data>
       <data key="street_count">4</data>
       <data key="lower_bound">164</data>
-      <data key="upper_bound">165</data>
+      <data key="upper_bound">166</data>
     </node>
     <node id="345">
       <data key="y">51.8329442</data>
       <data key="x">5.8039575</data>
       <data key="street_count">1</data>
       <data key="lower_bound">218</data>
-      <data key="upper_bound">231</data>
+      <data key="upper_bound">220</data>
     </node>
     <node id="346">
       <data key="y">51.8302431</data>
       <data key="x">5.8045367</data>
       <data key="street_count">1</data>
       <data key="lower_bound">206</data>
-      <data key="upper_bound">210</data>
+      <data key="upper_bound">212</data>
     </node>
     <node id="347">
       <data key="y">51.8233424</data>
       <data key="x">5.7932965</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">113</data>
-      <data key="upper_bound">114</data>
+      <data key="lower_bound">112</data>
+      <data key="upper_bound">117</data>
     </node>
     <node id="348">
       <data key="y">51.8368912</data>
       <data key="x">5.801899</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">176</data>
-      <data key="upper_bound">178</data>
+      <data key="lower_bound">174</data>
+      <data key="upper_bound">177</data>
     </node>
     <node id="349">
       <data key="y">51.8250561</data>
       <data key="x">5.7910028</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">115</data>
-      <data key="upper_bound">118</data>
+      <data key="lower_bound">112</data>
+      <data key="upper_bound">117</data>
     </node>
     <node id="350">
       <data key="y">51.8384217</data>
       <data key="x">5.8022094</data>
       <data key="street_count">4</data>
       <data key="lower_bound">165</data>
-      <data key="upper_bound">168</data>
+      <data key="upper_bound">169</data>
     </node>
     <node id="351">
       <data key="y">51.8325866</data>
       <data key="x">5.7980014</data>
       <data key="street_count">3</data>
       <data key="lower_bound">222</data>
-      <data key="upper_bound">228</data>
+      <data key="upper_bound">225</data>
     </node>
     <node id="352">
       <data key="y">51.8404023</data>
       <data key="x">5.8089134</data>
       <data key="street_count">3</data>
       <data key="lower_bound">211</data>
-      <data key="upper_bound">222</data>
+      <data key="upper_bound">214</data>
     </node>
     <node id="353">
       <data key="y">51.8233672</data>
       <data key="x">5.7925935</data>
       <data key="street_count">3</data>
       <data key="lower_bound">109</data>
-      <data key="upper_bound">121</data>
+      <data key="upper_bound">113</data>
     </node>
     <node id="354">
       <data key="y">51.8329806</data>
       <data key="x">5.8029155</data>
       <data key="street_count">3</data>
       <data key="lower_bound">209</data>
-      <data key="upper_bound">210</data>
+      <data key="upper_bound">211</data>
     </node>
     <node id="355">
       <data key="y">51.8393925</data>
       <data key="x">5.8051475</data>
       <data key="street_count">1</data>
       <data key="lower_bound">214</data>
-      <data key="upper_bound">215</data>
+      <data key="upper_bound">217</data>
     </node>
     <node id="356">
       <data key="y">51.8411314</data>
       <data key="x">5.8066003</data>
       <data key="street_count">3</data>
       <data key="lower_bound">199</data>
-      <data key="upper_bound">203</data>
+      <data key="upper_bound">201</data>
     </node>
     <node id="357">
       <data key="y">51.8329975</data>
       <data key="x">5.8252315</data>
       <data key="street_count">3</data>
       <data key="lower_bound">296</data>
-      <data key="upper_bound">302</data>
+      <data key="upper_bound">300</data>
     </node>
     <node id="358">
       <data key="y">51.8233954</data>
@@ -2553,14 +2553,14 @@
       <data key="x">5.8271862</data>
       <data key="street_count">3</data>
       <data key="lower_bound">303</data>
-      <data key="upper_bound">309</data>
+      <data key="upper_bound">305</data>
     </node>
     <node id="360">
       <data key="y">51.8382026</data>
       <data key="x">5.8178155</data>
       <data key="street_count">3</data>
       <data key="lower_bound">237</data>
-      <data key="upper_bound">240</data>
+      <data key="upper_bound">242</data>
     </node>
     <node id="361">
       <data key="y">51.8321796</data>
@@ -2574,20 +2574,20 @@
       <data key="x">5.7958334</data>
       <data key="street_count">4</data>
       <data key="lower_bound">139</data>
-      <data key="upper_bound">140</data>
+      <data key="upper_bound">143</data>
     </node>
     <node id="363">
       <data key="y">51.8234201</data>
       <data key="x">5.7925771</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">110</data>
-      <data key="upper_bound">111</data>
+      <data key="lower_bound">109</data>
+      <data key="upper_bound">113</data>
     </node>
     <node id="364">
       <data key="y">51.8287176</data>
       <data key="x">5.8234899</data>
       <data key="street_count">4</data>
-      <data key="lower_bound">256</data>
+      <data key="lower_bound">255</data>
       <data key="upper_bound">257</data>
     </node>
     <node id="365">
@@ -2595,119 +2595,119 @@
       <data key="x">5.8181012</data>
       <data key="street_count">1</data>
       <data key="lower_bound">239</data>
-      <data key="upper_bound">242</data>
+      <data key="upper_bound">243</data>
     </node>
     <node id="366">
       <data key="y">51.8385084</data>
       <data key="x">5.8175191</data>
       <data key="street_count">3</data>
       <data key="lower_bound">240</data>
-      <data key="upper_bound">250</data>
+      <data key="upper_bound">244</data>
     </node>
     <node id="367">
       <data key="y">51.8342866</data>
       <data key="x">5.803336</data>
       <data key="street_count">3</data>
       <data key="lower_bound">220</data>
-      <data key="upper_bound">231</data>
+      <data key="upper_bound">223</data>
     </node>
     <node id="368">
       <data key="y">51.8369417</data>
       <data key="x">5.8335387</data>
       <data key="street_count">3</data>
       <data key="lower_bound">335</data>
-      <data key="upper_bound">337</data>
+      <data key="upper_bound">339</data>
     </node>
     <node id="369">
       <data key="y">51.8234395</data>
       <data key="x">5.793266</data>
       <data key="street_count">3</data>
       <data key="lower_bound">112</data>
-      <data key="upper_bound">127</data>
+      <data key="upper_bound">115</data>
     </node>
     <node id="370">
       <data key="y">51.8351481</data>
       <data key="x">5.8272179</data>
       <data key="street_count">3</data>
       <data key="lower_bound">298</data>
-      <data key="upper_bound">299</data>
+      <data key="upper_bound">301</data>
     </node>
     <node id="371">
       <data key="y">51.8384378</data>
       <data key="x">5.8173907</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">241</data>
-      <data key="upper_bound">248</data>
+      <data key="lower_bound">240</data>
+      <data key="upper_bound">244</data>
     </node>
     <node id="372">
       <data key="y">51.8316879</data>
       <data key="x">5.7982334</data>
       <data key="street_count">3</data>
       <data key="lower_bound">211</data>
-      <data key="upper_bound">212</data>
+      <data key="upper_bound">215</data>
     </node>
     <node id="373">
       <data key="y">51.8234688</data>
       <data key="x">5.7925634</data>
       <data key="street_count">3</data>
       <data key="lower_bound">109</data>
-      <data key="upper_bound">112</data>
+      <data key="upper_bound">113</data>
     </node>
     <node id="374">
       <data key="y">51.83516</data>
       <data key="x">5.79778</data>
       <data key="street_count">3</data>
       <data key="lower_bound">221</data>
-      <data key="upper_bound">248</data>
+      <data key="upper_bound">225</data>
     </node>
     <node id="375">
       <data key="y">51.8234924</data>
       <data key="x">5.7932493</data>
       <data key="street_count">3</data>
       <data key="lower_bound">112</data>
-      <data key="upper_bound">114</data>
+      <data key="upper_bound">115</data>
     </node>
     <node id="376">
       <data key="y">51.8365001</data>
       <data key="x">5.8137766</data>
       <data key="street_count">3</data>
       <data key="lower_bound">212</data>
-      <data key="upper_bound">214</data>
+      <data key="upper_bound">216</data>
     </node>
     <node id="377">
       <data key="y">51.8235174</data>
       <data key="x">5.792549</data>
       <data key="street_count">2</data>
       <data key="lower_bound">109</data>
-      <data key="upper_bound">115</data>
+      <data key="upper_bound">112</data>
     </node>
     <node id="378">
       <data key="y">51.8351642</data>
       <data key="x">5.8291475</data>
       <data key="street_count">3</data>
       <data key="lower_bound">310</data>
-      <data key="upper_bound">315</data>
+      <data key="upper_bound">313</data>
     </node>
     <node id="379">
       <data key="y">51.8359833</data>
       <data key="x">5.8263276</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">311</data>
-      <data key="upper_bound">313</data>
+      <data key="lower_bound">310</data>
+      <data key="upper_bound">312</data>
     </node>
     <node id="380">
       <data key="y">51.8368456</data>
       <data key="x">5.8139246</data>
       <data key="street_count">3</data>
       <data key="lower_bound">221</data>
-      <data key="upper_bound">232</data>
+      <data key="upper_bound">224</data>
     </node>
     <node id="381">
       <data key="y">51.8235409</data>
       <data key="x">5.793234</data>
       <data key="street_count">3</data>
       <data key="lower_bound">112</data>
-      <data key="upper_bound">114</data>
+      <data key="upper_bound">116</data>
     </node>
     <node id="382">
       <data key="y">51.83692</data>
@@ -2721,42 +2721,42 @@
       <data key="x">5.8246647</data>
       <data key="street_count">1</data>
       <data key="lower_bound">303</data>
-      <data key="upper_bound">305</data>
+      <data key="upper_bound">307</data>
     </node>
     <node id="384">
       <data key="y">51.8338918</data>
       <data key="x">5.824248</data>
       <data key="street_count">3</data>
       <data key="lower_bound">282</data>
-      <data key="upper_bound">298</data>
+      <data key="upper_bound">288</data>
     </node>
     <node id="385">
       <data key="y">51.8317157</data>
       <data key="x">5.8044351</data>
       <data key="street_count">3</data>
       <data key="lower_bound">198</data>
-      <data key="upper_bound">208</data>
+      <data key="upper_bound">203</data>
     </node>
     <node id="386">
       <data key="y">51.8338815</data>
       <data key="x">5.8156094</data>
       <data key="street_count">1</data>
       <data key="lower_bound">323</data>
-      <data key="upper_bound">324</data>
+      <data key="upper_bound">326</data>
     </node>
     <node id="387">
       <data key="y">51.8236179</data>
       <data key="x">5.7921179</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">105</data>
-      <data key="upper_bound">110</data>
+      <data key="lower_bound">104</data>
+      <data key="upper_bound">106</data>
     </node>
     <node id="388">
       <data key="y">51.8359738</data>
       <data key="x">5.7953743</data>
       <data key="street_count">1</data>
       <data key="lower_bound">216</data>
-      <data key="upper_bound">217</data>
+      <data key="upper_bound">220</data>
     </node>
     <node id="389">
       <data key="y">51.8197616</data>
@@ -2770,48 +2770,48 @@
       <data key="x">5.7932217</data>
       <data key="street_count">3</data>
       <data key="lower_bound">112</data>
-      <data key="upper_bound">117</data>
+      <data key="upper_bound">115</data>
     </node>
     <node id="391">
       <data key="y">51.8287817</data>
       <data key="x">5.7871043</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">152</data>
-      <data key="upper_bound">157</data>
+      <data key="lower_bound">151</data>
+      <data key="upper_bound">155</data>
     </node>
     <node id="392">
       <data key="y">51.8382848</data>
       <data key="x">5.817366</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">242</data>
-      <data key="upper_bound">245</data>
+      <data key="lower_bound">241</data>
+      <data key="upper_bound">244</data>
     </node>
     <node id="393">
       <data key="y">51.8384256</data>
       <data key="x">5.8178989</data>
       <data key="street_count">3</data>
       <data key="lower_bound">239</data>
-      <data key="upper_bound">241</data>
+      <data key="upper_bound">243</data>
     </node>
     <node id="394">
       <data key="y">51.8385035</data>
       <data key="x">5.817776</data>
       <data key="street_count">3</data>
       <data key="lower_bound">239</data>
-      <data key="upper_bound">240</data>
+      <data key="upper_bound">241</data>
     </node>
     <node id="395">
       <data key="y">51.8259546</data>
       <data key="x">5.8276331</data>
       <data key="street_count">3</data>
       <data key="lower_bound">299</data>
-      <data key="upper_bound">302</data>
+      <data key="upper_bound">304</data>
     </node>
     <node id="396">
       <data key="y">51.8201901</data>
       <data key="x">5.8182782</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">270</data>
+      <data key="lower_bound">267</data>
       <data key="upper_bound">271</data>
     </node>
     <node id="397">
@@ -2819,7 +2819,7 @@
       <data key="x">5.7987285</data>
       <data key="street_count">3</data>
       <data key="lower_bound">164</data>
-      <data key="upper_bound">172</data>
+      <data key="upper_bound">167</data>
     </node>
     <node id="398">
       <data key="y">51.8170386</data>
@@ -2833,195 +2833,195 @@
       <data key="x">5.8262127</data>
       <data key="street_count">3</data>
       <data key="lower_bound">311</data>
-      <data key="upper_bound">322</data>
+      <data key="upper_bound">314</data>
     </node>
     <node id="400">
       <data key="y">51.8234509</data>
       <data key="x">5.7717372</data>
       <data key="street_count">4</data>
       <data key="lower_bound">0</data>
-      <data key="upper_bound">4</data>
+      <data key="upper_bound">3</data>
     </node>
     <node id="401">
       <data key="y">51.8275244</data>
       <data key="x">5.824745</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">314</data>
-      <data key="upper_bound">328</data>
+      <data key="lower_bound">312</data>
+      <data key="upper_bound">316</data>
     </node>
     <node id="402">
       <data key="y">51.823473</data>
       <data key="x">5.7766484</data>
       <data key="street_count">4</data>
       <data key="lower_bound">24</data>
-      <data key="upper_bound">28</data>
+      <data key="upper_bound">27</data>
     </node>
     <node id="403">
       <data key="y">51.8348828</data>
       <data key="x">5.8286076</data>
       <data key="street_count">1</data>
-      <data key="lower_bound">317</data>
-      <data key="upper_bound">326</data>
+      <data key="lower_bound">316</data>
+      <data key="upper_bound">321</data>
     </node>
     <node id="404">
       <data key="y">51.8254857</data>
       <data key="x">5.7918821</data>
       <data key="street_count">3</data>
       <data key="lower_bound">107</data>
-      <data key="upper_bound">108</data>
+      <data key="upper_bound">111</data>
     </node>
     <node id="405">
       <data key="y">51.8238903</data>
       <data key="x">5.7839709</data>
       <data key="street_count">4</data>
-      <data key="lower_bound">61</data>
-      <data key="upper_bound">65</data>
+      <data key="lower_bound">59</data>
+      <data key="upper_bound">62</data>
     </node>
     <node id="406">
       <data key="y">51.8235798</data>
       <data key="x">5.827813</data>
       <data key="street_count">3</data>
       <data key="lower_bound">296</data>
-      <data key="upper_bound">302</data>
+      <data key="upper_bound">300</data>
     </node>
     <node id="407">
       <data key="y">51.8165235</data>
       <data key="x">5.8033241</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">185</data>
-      <data key="upper_bound">187</data>
+      <data key="lower_bound">184</data>
+      <data key="upper_bound">186</data>
     </node>
     <node id="408">
       <data key="y">51.8200779</data>
       <data key="x">5.8184459</data>
       <data key="street_count">4</data>
-      <data key="lower_bound">267</data>
-      <data key="upper_bound">277</data>
+      <data key="lower_bound">266</data>
+      <data key="upper_bound">271</data>
     </node>
     <node id="409">
       <data key="y">51.8232836</data>
       <data key="x">5.8281392</data>
       <data key="street_count">3</data>
       <data key="lower_bound">302</data>
-      <data key="upper_bound">307</data>
+      <data key="upper_bound">304</data>
     </node>
     <node id="410">
       <data key="y">51.8202492</data>
       <data key="x">5.8183671</data>
       <data key="street_count">3</data>
       <data key="lower_bound">267</data>
-      <data key="upper_bound">278</data>
+      <data key="upper_bound">269</data>
     </node>
     <node id="411">
       <data key="y">51.825526</data>
       <data key="x">5.8269042</data>
       <data key="street_count">4</data>
-      <data key="lower_bound">295</data>
-      <data key="upper_bound">298</data>
+      <data key="lower_bound">294</data>
+      <data key="upper_bound">299</data>
     </node>
     <node id="412">
       <data key="y">51.83135</data>
       <data key="x">5.79504</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">190</data>
-      <data key="upper_bound">193</data>
+      <data key="lower_bound">187</data>
+      <data key="upper_bound">190</data>
     </node>
     <node id="413">
       <data key="y">51.8222675</data>
       <data key="x">5.7925109</data>
       <data key="street_count">4</data>
       <data key="lower_bound">114</data>
-      <data key="upper_bound">122</data>
+      <data key="upper_bound">117</data>
     </node>
     <node id="414">
       <data key="y">51.8325516</data>
       <data key="x">5.7980033</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">223</data>
-      <data key="upper_bound">230</data>
+      <data key="lower_bound">222</data>
+      <data key="upper_bound">225</data>
     </node>
     <node id="415">
       <data key="y">51.8347889</data>
       <data key="x">5.8026019</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">210</data>
-      <data key="upper_bound">214</data>
+      <data key="lower_bound">209</data>
+      <data key="upper_bound">211</data>
     </node>
     <node id="416">
       <data key="y">51.8347648</data>
       <data key="x">5.8216595</data>
       <data key="street_count">3</data>
       <data key="lower_bound">296</data>
-      <data key="upper_bound">306</data>
+      <data key="upper_bound">300</data>
     </node>
     <node id="417">
       <data key="y">51.8334292</data>
       <data key="x">5.8247567</data>
       <data key="street_count">3</data>
       <data key="lower_bound">289</data>
-      <data key="upper_bound">291</data>
+      <data key="upper_bound">294</data>
     </node>
     <node id="418">
       <data key="y">51.8234417</data>
       <data key="x">5.7755771</data>
       <data key="street_count">3</data>
       <data key="lower_bound">19</data>
-      <data key="upper_bound">28</data>
+      <data key="upper_bound">22</data>
     </node>
     <node id="419">
       <data key="y">51.8347066</data>
       <data key="x">5.7941447</data>
       <data key="street_count">3</data>
       <data key="lower_bound">219</data>
-      <data key="upper_bound">224</data>
+      <data key="upper_bound">221</data>
     </node>
     <node id="420">
       <data key="y">51.8314004</data>
       <data key="x">5.8119466</data>
       <data key="street_count">3</data>
       <data key="lower_bound">315</data>
-      <data key="upper_bound">319</data>
+      <data key="upper_bound">318</data>
     </node>
     <node id="421">
       <data key="y">51.8235887</data>
       <data key="x">5.7762637</data>
       <data key="street_count">4</data>
       <data key="lower_bound">22</data>
-      <data key="upper_bound">23</data>
+      <data key="upper_bound">26</data>
     </node>
     <node id="422">
       <data key="y">51.8365216</data>
       <data key="x">5.8276845</data>
       <data key="street_count">4</data>
-      <data key="lower_bound">319</data>
-      <data key="upper_bound">322</data>
+      <data key="lower_bound">318</data>
+      <data key="upper_bound">321</data>
     </node>
     <node id="423">
       <data key="y">51.82168</data>
       <data key="x">5.82061</data>
       <data key="street_count">4</data>
       <data key="lower_bound">282</data>
-      <data key="upper_bound">284</data>
+      <data key="upper_bound">285</data>
     </node>
     <node id="424">
       <data key="y">51.824846</data>
       <data key="x">5.7951713</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">120</data>
-      <data key="upper_bound">121</data>
+      <data key="lower_bound">119</data>
+      <data key="upper_bound">122</data>
     </node>
     <node id="425">
       <data key="y">51.8165696</data>
       <data key="x">5.8020529</data>
       <data key="street_count">3</data>
       <data key="lower_bound">177</data>
-      <data key="upper_bound">180</data>
+      <data key="upper_bound">178</data>
     </node>
     <node id="426">
       <data key="y">51.83342</data>
       <data key="x">5.80475</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">223</data>
+      <data key="lower_bound">221</data>
       <data key="upper_bound">224</data>
     </node>
     <node id="427">
@@ -3029,77 +3029,77 @@
       <data key="x">5.8144995</data>
       <data key="street_count">1</data>
       <data key="lower_bound">313</data>
-      <data key="upper_bound">317</data>
+      <data key="upper_bound">315</data>
     </node>
     <node id="428">
       <data key="y">51.83563</data>
       <data key="x">5.79644</data>
       <data key="street_count">3</data>
       <data key="lower_bound">208</data>
-      <data key="upper_bound">214</data>
+      <data key="upper_bound">211</data>
     </node>
     <node id="429">
       <data key="y">51.8365195</data>
       <data key="x">5.8189351</data>
       <data key="street_count">3</data>
       <data key="lower_bound">331</data>
-      <data key="upper_bound">339</data>
+      <data key="upper_bound">335</data>
     </node>
     <node id="430">
       <data key="y">51.83563</data>
       <data key="x">5.82851</data>
       <data key="street_count">3</data>
       <data key="lower_bound">305</data>
-      <data key="upper_bound">308</data>
+      <data key="upper_bound">310</data>
     </node>
     <node id="431">
       <data key="y">51.8334297</data>
       <data key="x">5.799096</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">219</data>
-      <data key="upper_bound">221</data>
+      <data key="lower_bound">217</data>
+      <data key="upper_bound">220</data>
     </node>
     <node id="432">
       <data key="y">51.8334382</data>
       <data key="x">5.8028164</data>
       <data key="street_count">3</data>
       <data key="lower_bound">211</data>
-      <data key="upper_bound">215</data>
+      <data key="upper_bound">214</data>
     </node>
     <node id="433">
       <data key="y">51.8356218</data>
       <data key="x">5.8267131</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">306</data>
-      <data key="upper_bound">316</data>
+      <data key="lower_bound">305</data>
+      <data key="upper_bound">309</data>
     </node>
     <node id="434">
       <data key="y">51.8368869</data>
       <data key="x">5.8140134</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">225</data>
-      <data key="upper_bound">235</data>
+      <data key="lower_bound">221</data>
+      <data key="upper_bound">224</data>
     </node>
     <node id="435">
       <data key="y">51.8276131</data>
       <data key="x">5.7883494</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">152</data>
-      <data key="upper_bound">161</data>
+      <data key="lower_bound">150</data>
+      <data key="upper_bound">154</data>
     </node>
     <node id="436">
       <data key="y">51.8370991</data>
       <data key="x">5.8139995</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">224</data>
-      <data key="upper_bound">230</data>
+      <data key="lower_bound">222</data>
+      <data key="upper_bound">226</data>
     </node>
     <node id="437">
       <data key="y">51.83344</data>
       <data key="x">5.79331</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">199</data>
-      <data key="upper_bound">203</data>
+      <data key="lower_bound">197</data>
+      <data key="upper_bound">199</data>
     </node>
     <node id="438">
       <data key="y">51.8279315</data>
@@ -3113,140 +3113,140 @@
       <data key="x">5.8200735</data>
       <data key="street_count">4</data>
       <data key="lower_bound">276</data>
-      <data key="upper_bound">277</data>
+      <data key="upper_bound">280</data>
     </node>
     <node id="440">
       <data key="y">51.8369116</data>
       <data key="x">5.8144023</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">224</data>
-      <data key="upper_bound">228</data>
+      <data key="lower_bound">220</data>
+      <data key="upper_bound">224</data>
     </node>
     <node id="441">
       <data key="y">51.8334407</data>
       <data key="x">5.8036879</data>
       <data key="street_count">3</data>
       <data key="lower_bound">218</data>
-      <data key="upper_bound">222</data>
+      <data key="upper_bound">224</data>
     </node>
     <node id="442">
       <data key="y">51.8366039</data>
       <data key="x">5.8325606</data>
       <data key="street_count">3</data>
       <data key="lower_bound">328</data>
-      <data key="upper_bound">331</data>
+      <data key="upper_bound">332</data>
     </node>
     <node id="443">
       <data key="y">51.8305264</data>
       <data key="x">5.8263802</data>
       <data key="street_count">3</data>
       <data key="lower_bound">284</data>
-      <data key="upper_bound">285</data>
+      <data key="upper_bound">287</data>
     </node>
     <node id="444">
       <data key="y">51.8276452</data>
       <data key="x">5.7925723</data>
       <data key="street_count">4</data>
       <data key="lower_bound">124</data>
-      <data key="upper_bound">130</data>
+      <data key="upper_bound">127</data>
     </node>
     <node id="445">
       <data key="y">51.8343242</data>
       <data key="x">5.7978264</data>
       <data key="street_count">4</data>
-      <data key="lower_bound">188</data>
-      <data key="upper_bound">189</data>
+      <data key="lower_bound">187</data>
+      <data key="upper_bound">191</data>
     </node>
     <node id="446">
       <data key="y">51.8342827</data>
       <data key="x">5.8041828</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">229</data>
-      <data key="upper_bound">234</data>
+      <data key="lower_bound">227</data>
+      <data key="upper_bound">231</data>
     </node>
     <node id="447">
       <data key="y">51.83569</data>
       <data key="x">5.8028</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">230</data>
-      <data key="upper_bound">234</data>
+      <data key="lower_bound">228</data>
+      <data key="upper_bound">231</data>
     </node>
     <node id="448">
       <data key="y">51.8280792</data>
       <data key="x">5.7856909</data>
       <data key="street_count">3</data>
       <data key="lower_bound">159</data>
-      <data key="upper_bound">160</data>
+      <data key="upper_bound">161</data>
     </node>
     <node id="449">
       <data key="y">51.83055</data>
       <data key="x">5.8193</data>
       <data key="street_count">3</data>
       <data key="lower_bound">275</data>
-      <data key="upper_bound">285</data>
+      <data key="upper_bound">281</data>
     </node>
     <node id="450">
       <data key="y">51.828397</data>
       <data key="x">5.7904024</data>
       <data key="street_count">4</data>
       <data key="lower_bound">135</data>
-      <data key="upper_bound">141</data>
+      <data key="upper_bound">139</data>
     </node>
     <node id="451">
       <data key="y">51.8232043</data>
       <data key="x">5.823537</data>
       <data key="street_count">4</data>
-      <data key="lower_bound">300</data>
-      <data key="upper_bound">302</data>
+      <data key="lower_bound">299</data>
+      <data key="upper_bound">303</data>
     </node>
     <node id="452">
       <data key="y">51.8233214</data>
       <data key="x">5.8233301</data>
       <data key="street_count">4</data>
-      <data key="lower_bound">301</data>
-      <data key="upper_bound">306</data>
+      <data key="lower_bound">300</data>
+      <data key="upper_bound">305</data>
     </node>
     <node id="453">
       <data key="y">51.83056</data>
       <data key="x">5.79393</data>
       <data key="street_count">3</data>
       <data key="lower_bound">203</data>
-      <data key="upper_bound">204</data>
+      <data key="upper_bound">205</data>
     </node>
     <node id="454">
       <data key="y">51.8343862</data>
       <data key="x">5.8274553</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">306</data>
-      <data key="upper_bound">314</data>
+      <data key="lower_bound">305</data>
+      <data key="upper_bound">310</data>
     </node>
     <node id="455">
       <data key="y">51.8221637</data>
       <data key="x">5.7925413</data>
       <data key="street_count">5</data>
       <data key="lower_bound">114</data>
-      <data key="upper_bound">119</data>
+      <data key="upper_bound">118</data>
     </node>
     <node id="456">
       <data key="y">51.8276724</data>
       <data key="x">5.8135957</data>
       <data key="street_count">3</data>
       <data key="lower_bound">323</data>
-      <data key="upper_bound">325</data>
+      <data key="upper_bound">326</data>
     </node>
     <node id="457">
       <data key="y">51.8322476</data>
       <data key="x">5.7961184</data>
       <data key="street_count">4</data>
       <data key="lower_bound">168</data>
-      <data key="upper_bound">171</data>
+      <data key="upper_bound">170</data>
     </node>
     <node id="458">
       <data key="y">51.8321931</data>
       <data key="x">5.7963001</data>
       <data key="street_count">4</data>
       <data key="lower_bound">167</data>
-      <data key="upper_bound">171</data>
+      <data key="upper_bound">170</data>
     </node>
     <node id="459">
       <data key="y">51.8325876</data>
@@ -3261,42 +3261,42 @@
       <data key="highway">crossing</data>
       <data key="street_count">4</data>
       <data key="lower_bound">308</data>
-      <data key="upper_bound">310</data>
+      <data key="upper_bound">311</data>
     </node>
     <node id="461">
       <data key="y">51.8294057</data>
       <data key="x">5.7999279</data>
       <data key="street_count">3</data>
       <data key="lower_bound">171</data>
-      <data key="upper_bound">175</data>
+      <data key="upper_bound">174</data>
     </node>
     <node id="462">
       <data key="y">51.8212688</data>
       <data key="x">5.7943552</data>
       <data key="street_count">3</data>
       <data key="lower_bound">142</data>
-      <data key="upper_bound">148</data>
+      <data key="upper_bound">145</data>
     </node>
     <node id="463">
       <data key="y">51.8221875</data>
       <data key="x">5.7927603</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">116</data>
+      <data key="lower_bound">115</data>
       <data key="upper_bound">119</data>
     </node>
     <node id="464">
       <data key="y">51.8344141</data>
       <data key="x">5.8019391</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">203</data>
-      <data key="upper_bound">212</data>
+      <data key="lower_bound">202</data>
+      <data key="upper_bound">206</data>
     </node>
     <node id="465">
       <data key="y">51.8343633</data>
       <data key="x">5.8027574</data>
       <data key="street_count">1</data>
       <data key="lower_bound">220</data>
-      <data key="upper_bound">221</data>
+      <data key="upper_bound">223</data>
     </node>
     <node id="466">
       <data key="y">51.8305552</data>
@@ -3309,36 +3309,36 @@
       <data key="y">51.8304764</data>
       <data key="x">5.8042423</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">204</data>
-      <data key="upper_bound">209</data>
+      <data key="lower_bound">203</data>
+      <data key="upper_bound">205</data>
     </node>
     <node id="468">
       <data key="y">51.8339315</data>
       <data key="x">5.8304549</data>
       <data key="street_count">4</data>
       <data key="lower_bound">329</data>
-      <data key="upper_bound">336</data>
+      <data key="upper_bound">332</data>
     </node>
     <node id="469">
       <data key="y">51.8294187</data>
       <data key="x">5.8226778</data>
       <data key="street_count">4</data>
       <data key="lower_bound">261</data>
-      <data key="upper_bound">281</data>
+      <data key="upper_bound">264</data>
     </node>
     <node id="470">
       <data key="y">51.8352107</data>
       <data key="x">5.8013573</data>
       <data key="street_count">3</data>
       <data key="lower_bound">220</data>
-      <data key="upper_bound">221</data>
+      <data key="upper_bound">223</data>
     </node>
     <node id="471">
       <data key="y">51.824378</data>
       <data key="x">5.8270221</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">286</data>
-      <data key="upper_bound">287</data>
+      <data key="lower_bound">285</data>
+      <data key="upper_bound">289</data>
     </node>
     <node id="472">
       <data key="y">51.8284168</data>
@@ -3352,21 +3352,21 @@
       <data key="x">5.826475</data>
       <data key="street_count">3</data>
       <data key="lower_bound">282</data>
-      <data key="upper_bound">283</data>
+      <data key="upper_bound">285</data>
     </node>
     <node id="474">
       <data key="y">51.8253069</data>
       <data key="x">5.826577</data>
       <data key="street_count">3</data>
       <data key="lower_bound">294</data>
-      <data key="upper_bound">304</data>
+      <data key="upper_bound">300</data>
     </node>
     <node id="475">
       <data key="y">51.8326839</data>
       <data key="x">5.8213679</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">269</data>
-      <data key="upper_bound">271</data>
+      <data key="lower_bound">268</data>
+      <data key="upper_bound">273</data>
     </node>
     <node id="476">
       <data key="y">51.8234872</data>
@@ -3380,7 +3380,7 @@
       <data key="x">5.8048521</data>
       <data key="street_count">3</data>
       <data key="lower_bound">211</data>
-      <data key="upper_bound">227</data>
+      <data key="upper_bound">216</data>
     </node>
     <node id="478">
       <data key="y">51.8370703</data>
@@ -3394,42 +3394,42 @@
       <data key="x">5.8177737</data>
       <data key="street_count">3</data>
       <data key="lower_bound">266</data>
-      <data key="upper_bound">277</data>
+      <data key="upper_bound">270</data>
     </node>
     <node id="480">
       <data key="y">51.831464</data>
       <data key="x">5.8183079</data>
       <data key="street_count">4</data>
       <data key="lower_bound">263</data>
-      <data key="upper_bound">271</data>
+      <data key="upper_bound">267</data>
     </node>
     <node id="481">
       <data key="y">51.8319313</data>
       <data key="x">5.8194077</data>
       <data key="street_count">4</data>
       <data key="lower_bound">257</data>
-      <data key="upper_bound">259</data>
+      <data key="upper_bound">260</data>
     </node>
     <node id="482">
       <data key="y">51.8320414</data>
       <data key="x">5.8196468</data>
       <data key="street_count">4</data>
-      <data key="lower_bound">259</data>
-      <data key="upper_bound">261</data>
+      <data key="lower_bound">258</data>
+      <data key="upper_bound">263</data>
     </node>
     <node id="483">
       <data key="y">51.82945</data>
       <data key="x">5.81477</data>
       <data key="street_count">1</data>
-      <data key="lower_bound">298</data>
-      <data key="upper_bound">301</data>
+      <data key="lower_bound">297</data>
+      <data key="upper_bound">299</data>
     </node>
     <node id="484">
       <data key="y">51.83304</data>
       <data key="x">5.80212</data>
       <data key="street_count">3</data>
       <data key="lower_bound">222</data>
-      <data key="upper_bound">227</data>
+      <data key="upper_bound">226</data>
     </node>
     <node id="485">
       <data key="y">51.8330303</data>
@@ -3443,20 +3443,20 @@
       <data key="x">5.8315686</data>
       <data key="street_count">4</data>
       <data key="lower_bound">322</data>
-      <data key="upper_bound">327</data>
+      <data key="upper_bound">323</data>
     </node>
     <node id="487">
       <data key="y">51.8264939</data>
       <data key="x">5.82839</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">309</data>
-      <data key="upper_bound">310</data>
+      <data key="lower_bound">308</data>
+      <data key="upper_bound">312</data>
     </node>
     <node id="488">
       <data key="y">51.8352262</data>
       <data key="x">5.7999534</data>
       <data key="street_count">4</data>
-      <data key="lower_bound">192</data>
+      <data key="lower_bound">191</data>
       <data key="upper_bound">194</data>
     </node>
     <node id="489">
@@ -3464,83 +3464,83 @@
       <data key="x">5.8333508</data>
       <data key="street_count">3</data>
       <data key="lower_bound">333</data>
-      <data key="upper_bound">334</data>
+      <data key="upper_bound">336</data>
     </node>
     <node id="490">
       <data key="y">51.8440393</data>
       <data key="x">5.8021476</data>
       <data key="street_count">3</data>
       <data key="lower_bound">218</data>
-      <data key="upper_bound">220</data>
+      <data key="upper_bound">222</data>
     </node>
     <node id="491">
       <data key="y">51.8330768</data>
       <data key="x">5.7984043</data>
       <data key="street_count">3</data>
       <data key="lower_bound">224</data>
-      <data key="upper_bound">226</data>
+      <data key="upper_bound">228</data>
     </node>
     <node id="492">
       <data key="y">51.8255681</data>
       <data key="x">5.7965124</data>
       <data key="street_count">4</data>
       <data key="lower_bound">122</data>
-      <data key="upper_bound">127</data>
+      <data key="upper_bound">124</data>
     </node>
     <node id="493">
       <data key="y">51.8330701</data>
       <data key="x">5.8157075</data>
       <data key="street_count">3</data>
       <data key="lower_bound">309</data>
-      <data key="upper_bound">313</data>
+      <data key="upper_bound">312</data>
     </node>
     <node id="494">
       <data key="y">51.8361388</data>
       <data key="x">5.8280069</data>
       <data key="street_count">3</data>
       <data key="lower_bound">313</data>
-      <data key="upper_bound">328</data>
+      <data key="upper_bound">316</data>
     </node>
     <node id="495">
       <data key="y">51.8373784</data>
       <data key="x">5.7973426</data>
       <data key="street_count">1</data>
       <data key="lower_bound">211</data>
-      <data key="upper_bound">216</data>
+      <data key="upper_bound">213</data>
     </node>
     <node id="496">
       <data key="y">51.83615</data>
       <data key="x">5.7957634</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">213</data>
-      <data key="upper_bound">220</data>
+      <data key="lower_bound">212</data>
+      <data key="upper_bound">217</data>
     </node>
     <node id="497">
       <data key="y">51.8222875</data>
       <data key="x">5.792731</data>
       <data key="street_count">5</data>
       <data key="lower_bound">114</data>
-      <data key="upper_bound">118</data>
+      <data key="upper_bound">117</data>
     </node>
     <node id="498">
       <data key="y">51.8295222</data>
       <data key="x">5.822553</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">263</data>
-      <data key="upper_bound">264</data>
+      <data key="lower_bound">262</data>
+      <data key="upper_bound">265</data>
     </node>
     <node id="499">
       <data key="y">51.8230956</data>
       <data key="x">5.7926738</data>
       <data key="street_count">4</data>
       <data key="lower_bound">109</data>
-      <data key="upper_bound">121</data>
+      <data key="upper_bound">111</data>
     </node>
     <node id="500">
       <data key="y">51.8284893</data>
       <data key="x">5.8127032</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">311</data>
+      <data key="lower_bound">310</data>
       <data key="upper_bound">313</data>
     </node>
     <node id="501">
@@ -3548,70 +3548,70 @@
       <data key="x">5.8049205</data>
       <data key="street_count">4</data>
       <data key="lower_bound">193</data>
-      <data key="upper_bound">203</data>
+      <data key="upper_bound">197</data>
     </node>
     <node id="502">
       <data key="y">51.8272641</data>
       <data key="x">5.772778</data>
       <data key="street_count">3</data>
       <data key="lower_bound">35</data>
-      <data key="upper_bound">38</data>
+      <data key="upper_bound">39</data>
     </node>
     <node id="503">
       <data key="y">51.8326351</data>
       <data key="x">5.8146554</data>
       <data key="street_count">3</data>
       <data key="lower_bound">300</data>
-      <data key="upper_bound">308</data>
+      <data key="upper_bound">304</data>
     </node>
     <node id="504">
       <data key="y">51.8361795</data>
       <data key="x">5.8322046</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">329</data>
+      <data key="lower_bound">328</data>
       <data key="upper_bound">331</data>
     </node>
     <node id="505">
       <data key="y">51.8318256</data>
       <data key="x">5.8275042</data>
       <data key="street_count">1</data>
-      <data key="lower_bound">334</data>
-      <data key="upper_bound">346</data>
+      <data key="lower_bound">333</data>
+      <data key="upper_bound">336</data>
     </node>
     <node id="506">
       <data key="y">51.8413127</data>
       <data key="x">5.8050745</data>
       <data key="street_count">4</data>
       <data key="lower_bound">193</data>
-      <data key="upper_bound">200</data>
+      <data key="upper_bound">195</data>
     </node>
     <node id="507">
       <data key="y">51.8284981</data>
       <data key="x">5.7990406</data>
       <data key="street_count">3</data>
       <data key="lower_bound">169</data>
-      <data key="upper_bound">174</data>
+      <data key="upper_bound">173</data>
     </node>
     <node id="508">
       <data key="y">51.8285701</data>
       <data key="x">5.7990284</data>
       <data key="street_count">3</data>
       <data key="lower_bound">168</data>
-      <data key="upper_bound">178</data>
+      <data key="upper_bound">171</data>
     </node>
     <node id="509">
       <data key="y">51.8318275</data>
       <data key="x">5.8114819</data>
       <data key="street_count">3</data>
-      <data key="lower_bound">323</data>
-      <data key="upper_bound">324</data>
+      <data key="lower_bound">321</data>
+      <data key="upper_bound">326</data>
     </node>
     <node id="510">
       <data key="y">51.824241</data>
       <data key="x">5.8266867</data>
       <data key="street_count">4</data>
-      <data key="lower_bound">286</data>
-      <data key="upper_bound">288</data>
+      <data key="lower_bound">284</data>
+      <data key="upper_bound">286</data>
     </node>
     <edge source="1" target="113">
       <data key="osmid">6886524</data>

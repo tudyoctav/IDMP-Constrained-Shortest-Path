@@ -275,23 +275,27 @@ def rcsp_add_tight_bounds(graph, source, target):
     graph = graph.copy()
     # shortest_path = nx.shortest_path(graph, source, target, weight='time')
     time_shortest_paths = nx.single_source_dijkstra_path(graph, source, weight='travel_time')
-    time_shortest_lengts = nx.single_source_dijkstra_path_length(graph, source, weight='travel_time')
+    time_shortest_lengths = nx.single_source_dijkstra_path_length(graph, source, weight='travel_time')
     for n in graph.nodes():
-        graph.nodes[n]['lower_bound'] = time_shortest_lengts[n]
-        graph.nodes[n]['upper_bound'] = time_shortest_lengts[n]
+        graph.nodes[n]['lower_bound'] = time_shortest_lengths[n]
+        graph.nodes[n]['upper_bound'] = time_shortest_lengths[n]
     return graph
 
 def rcsp_add_loose_bounds(graph, source, target):
     graph = graph.copy()
     # shortest_path = nx.shortest_path(graph, source, target, weight='time')
     time_shortest_paths = nx.single_source_dijkstra_path(graph, source, weight='travel_time')
-    time_shortest_lengts = nx.single_source_dijkstra_path_length(graph, source, weight='travel_time')
-
+    time_shortest_lengths = nx.single_source_dijkstra_path_length(graph, source, weight='travel_time')
+    weights = [graph[u][v]['travel_time'] for (u, v) in graph.edges()]
+    avg_weight = np.mean(weights)
+    interval = max(1,int(np.random.normal(avg_weight, avg_weight / 2)))
+    # var = np.random.geometric(0.5) - 1
+    print(interval)
     for n in graph.nodes():
-        interval = np.random.geometric(0.2) 
-        var = np.random.geometric(0.7) - 1
-        graph.nodes[n]['lower_bound'] = var + time_shortest_lengts[n]
-        graph.nodes[n]['upper_bound'] = var + time_shortest_lengts[n] + interval
+        window = int(np.random.normal(interval, interval / 4))
+        start = 0
+        graph.nodes[n]['lower_bound'] = start + time_shortest_lengths[n]
+        graph.nodes[n]['upper_bound'] = start +  time_shortest_lengths[n] + window
     return graph
 
 def add_weights_random(graph , scale = 1, var = 5):
@@ -403,10 +407,8 @@ def generate_constraints_for_tcsp(graph, source, target, name):
             mean_num_nodes = 10
         else:
             mean_num_nodes = min(25,len(graph.nodes()) ** 0.5)
-        print(mean_num_nodes)
         num_tasks =  max(2,int(random.uniform(1,mean_num_nodes)))
         mean_num_of_nodes_per_task = min(25,len(graph.nodes()) // num_tasks)
-        print(mean_num_of_nodes_per_task)
         num_of_nodes_per_task = max(1,int(random.uniform(1,mean_num_nodes)))
         select_random = random.sample(graph.nodes() ,num_tasks * num_of_nodes_per_task)
         select_random = np.resize(select_random, (num_tasks, num_of_nodes_per_task))
@@ -632,10 +634,10 @@ for fname in files:
 
    
     graph = make_weights_int(graph)
-    generate_constraints_for_sp(graph, source, target, name)
-    generate_constraints_for_tcsp(graph, source, target, name)       
+    # generate_constraints_for_sp(graph, source, target, name)
+    # generate_constraints_for_tcsp(graph, source, target, name)       
     generate_constraints_for_rcsp(graph, source, target, name)
-    generate_constraints_for_ncsp(graph, source, target, name)
+    # generate_constraints_for_ncsp(graph, source, target, name)
     plt.show(block=False)
     plt.pause(0.1)
     plt.close()

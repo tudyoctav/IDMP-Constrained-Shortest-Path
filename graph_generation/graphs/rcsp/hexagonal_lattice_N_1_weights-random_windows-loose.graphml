@@ -14,61 +14,61 @@
       <data key="x">0.5</data>
       <data key="y">0.0</data>
       <data key="lower_bound">0</data>
-      <data key="upper_bound">8</data>
+      <data key="upper_bound">3</data>
     </node>
     <node id="2">
       <data key="x">0.0</data>
       <data key="y">0.8660254037844386</data>
-      <data key="lower_bound">18</data>
-      <data key="upper_bound">20</data>
+      <data key="lower_bound">6</data>
+      <data key="upper_bound">12</data>
     </node>
     <node id="3">
       <data key="x">0.5</data>
       <data key="y">1.7320508075688772</data>
-      <data key="lower_bound">29</data>
-      <data key="upper_bound">34</data>
+      <data key="lower_bound">16</data>
+      <data key="upper_bound">19</data>
     </node>
     <node id="4">
       <data key="x">1.5</data>
       <data key="y">0.0</data>
-      <data key="lower_bound">15</data>
-      <data key="upper_bound">16</data>
+      <data key="lower_bound">8</data>
+      <data key="upper_bound">14</data>
     </node>
     <node id="5">
       <data key="x">2.0</data>
       <data key="y">0.8660254037844386</data>
-      <data key="lower_bound">29</data>
-      <data key="upper_bound">37</data>
+      <data key="lower_bound">13</data>
+      <data key="upper_bound">18</data>
     </node>
     <node id="6">
       <data key="x">1.5</data>
       <data key="y">1.7320508075688772</data>
-      <data key="lower_bound">39</data>
-      <data key="upper_bound">41</data>
+      <data key="lower_bound">20</data>
+      <data key="upper_bound">25</data>
     </node>
     <edge source="1" target="2">
       <data key="length">11</data>
-      <data key="travel_time">16</data>
+      <data key="travel_time">6</data>
     </edge>
     <edge source="1" target="4">
       <data key="length">12</data>
-      <data key="travel_time">15</data>
+      <data key="travel_time">8</data>
     </edge>
     <edge source="2" target="3">
       <data key="length">6</data>
-      <data key="travel_time">13</data>
+      <data key="travel_time">10</data>
     </edge>
     <edge source="3" target="6">
       <data key="length">6</data>
-      <data key="travel_time">13</data>
+      <data key="travel_time">7</data>
     </edge>
     <edge source="4" target="5">
       <data key="length">10</data>
-      <data key="travel_time">13</data>
+      <data key="travel_time">5</data>
     </edge>
     <edge source="5" target="6">
       <data key="length">14</data>
-      <data key="travel_time">11</data>
+      <data key="travel_time">7</data>
     </edge>
     <data key="start_node">1</data>
     <data key="finish_node">6</data>

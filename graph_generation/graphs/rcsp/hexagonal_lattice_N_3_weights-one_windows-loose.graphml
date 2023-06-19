@@ -14,31 +14,31 @@
       <data key="x">0.5</data>
       <data key="y">0.0</data>
       <data key="lower_bound">0</data>
-      <data key="upper_bound">2</data>
+      <data key="upper_bound">1</data>
     </node>
     <node id="2">
       <data key="x">0.0</data>
       <data key="y">0.8660254037844386</data>
-      <data key="lower_bound">3</data>
-      <data key="upper_bound">4</data>
+      <data key="lower_bound">1</data>
+      <data key="upper_bound">1</data>
     </node>
     <node id="3">
       <data key="x">0.5</data>
       <data key="y">1.7320508075688772</data>
       <data key="lower_bound">2</data>
-      <data key="upper_bound">12</data>
+      <data key="upper_bound">2</data>
     </node>
     <node id="4">
       <data key="x">0.0</data>
       <data key="y">2.598076211353316</data>
       <data key="lower_bound">3</data>
-      <data key="upper_bound">5</data>
+      <data key="upper_bound">3</data>
     </node>
     <node id="5">
       <data key="x">0.5</data>
       <data key="y">3.4641016151377544</data>
       <data key="lower_bound">4</data>
-      <data key="upper_bound">7</data>
+      <data key="upper_bound">5</data>
     </node>
     <node id="6">
       <data key="x">0.0</data>
@@ -50,25 +50,25 @@
       <data key="x">0.5</data>
       <data key="y">5.196152422706632</data>
       <data key="lower_bound">6</data>
-      <data key="upper_bound">14</data>
+      <data key="upper_bound">6</data>
     </node>
     <node id="8">
       <data key="x">1.5</data>
       <data key="y">0.0</data>
-      <data key="lower_bound">2</data>
-      <data key="upper_bound">3</data>
+      <data key="lower_bound">1</data>
+      <data key="upper_bound">1</data>
     </node>
     <node id="9">
       <data key="x">2.0</data>
       <data key="y">0.8660254037844386</data>
       <data key="lower_bound">2</data>
-      <data key="upper_bound">11</data>
+      <data key="upper_bound">3</data>
     </node>
     <node id="10">
       <data key="x">1.5</data>
       <data key="y">1.7320508075688772</data>
-      <data key="lower_bound">4</data>
-      <data key="upper_bound">6</data>
+      <data key="lower_bound">3</data>
+      <data key="upper_bound">3</data>
     </node>
     <node id="11">
       <data key="x">2.0</data>
@@ -79,14 +79,14 @@
     <node id="12">
       <data key="x">1.5</data>
       <data key="y">3.4641016151377544</data>
-      <data key="lower_bound">8</data>
-      <data key="upper_bound">10</data>
+      <data key="lower_bound">5</data>
+      <data key="upper_bound">5</data>
     </node>
     <node id="13">
       <data key="x">2.0</data>
       <data key="y">4.330127018922193</data>
       <data key="lower_bound">6</data>
-      <data key="upper_bound">9</data>
+      <data key="upper_bound">7</data>
     </node>
     <node id="14">
       <data key="x">1.5</data>
@@ -98,43 +98,43 @@
       <data key="x">2.0</data>
       <data key="y">6.06217782649107</data>
       <data key="lower_bound">8</data>
-      <data key="upper_bound">12</data>
+      <data key="upper_bound">8</data>
     </node>
     <node id="16">
       <data key="x">3.5</data>
       <data key="y">0.0</data>
       <data key="lower_bound">4</data>
-      <data key="upper_bound">6</data>
+      <data key="upper_bound">5</data>
     </node>
     <node id="17">
       <data key="x">3.0</data>
       <data key="y">0.8660254037844386</data>
       <data key="lower_bound">3</data>
-      <data key="upper_bound">7</data>
+      <data key="upper_bound">4</data>
     </node>
     <node id="18">
       <data key="x">3.5</data>
       <data key="y">1.7320508075688772</data>
       <data key="lower_bound">4</data>
-      <data key="upper_bound">12</data>
+      <data key="upper_bound">4</data>
     </node>
     <node id="19">
       <data key="x">3.0</data>
       <data key="y">2.598076211353316</data>
       <data key="lower_bound">5</data>
-      <data key="upper_bound">7</data>
+      <data key="upper_bound">6</data>
     </node>
     <node id="20">
       <data key="x">3.5</data>
       <data key="y">3.4641016151377544</data>
       <data key="lower_bound">6</data>
-      <data key="upper_bound">12</data>
+      <data key="upper_bound">6</data>
     </node>
     <node id="21">
       <data key="x">3.0</data>
       <data key="y">4.330127018922193</data>
       <data key="lower_bound">7</data>
-      <data key="upper_bound">10</data>
+      <data key="upper_bound">8</data>
     </node>
     <node id="22">
       <data key="x">3.5</data>
@@ -146,31 +146,31 @@
       <data key="x">3.0</data>
       <data key="y">6.06217782649107</data>
       <data key="lower_bound">9</data>
-      <data key="upper_bound">11</data>
+      <data key="upper_bound">9</data>
     </node>
     <node id="24">
       <data key="x">4.5</data>
       <data key="y">0.0</data>
       <data key="lower_bound">5</data>
-      <data key="upper_bound">8</data>
+      <data key="upper_bound">6</data>
     </node>
     <node id="25">
       <data key="x">5.0</data>
       <data key="y">0.8660254037844386</data>
       <data key="lower_bound">6</data>
-      <data key="upper_bound">10</data>
+      <data key="upper_bound">7</data>
     </node>
     <node id="26">
       <data key="x">4.5</data>
       <data key="y">1.7320508075688772</data>
       <data key="lower_bound">5</data>
-      <data key="upper_bound">11</data>
+      <data key="upper_bound">5</data>
     </node>
     <node id="27">
       <data key="x">5.0</data>
       <data key="y">2.598076211353316</data>
-      <data key="lower_bound">7</data>
-      <data key="upper_bound">13</data>
+      <data key="lower_bound">6</data>
+      <data key="upper_bound">7</data>
     </node>
     <node id="28">
       <data key="x">4.5</data>
@@ -182,13 +182,13 @@
       <data key="x">5.0</data>
       <data key="y">4.330127018922193</data>
       <data key="lower_bound">8</data>
-      <data key="upper_bound">9</data>
+      <data key="upper_bound">8</data>
     </node>
     <node id="30">
       <data key="x">4.5</data>
       <data key="y">5.196152422706632</data>
       <data key="lower_bound">9</data>
-      <data key="upper_bound">29</data>
+      <data key="upper_bound">9</data>
     </node>
     <edge source="1" target="2">
       <data key="length">1</data>
