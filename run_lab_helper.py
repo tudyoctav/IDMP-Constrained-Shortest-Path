@@ -44,7 +44,7 @@ def make_cp_runs(exp: Experiment, problem: Path, problem_type: str, time_limit: 
                     
 
                     run.add_resource("model", model.absolute())
-                    run.add_command("solve", ["minizinc", "--output-time", "-s", "--solver", solver, "{model}", "{problem}"], time_limit, memory_limit)
+                    run.add_command("solve", ["minizinc", "--time-limit", time_limit, "--output-time", "-s", "--solver", solver, "{model}", "{problem}"], 2*time_limit, memory_limit)
 
                     run.set_property("solver", solver)
                     run.set_property("id", BASE_ID + [model.stem, solver, f"run_{run_i}"])
@@ -56,7 +56,7 @@ def make_cp_runs(exp: Experiment, problem: Path, problem_type: str, time_limit: 
                     run = exp.add_run()
                     
                     run.add_resource("model", model.absolute())
-                    run.add_command("solve", ["minizinc", "--output-time", "-s", "--solver", solver, "{model}", "{problem}"], time_limit, memory_limit)
+                    run.add_command("solve", ["minizinc", "--time-limit", time_limit, "--output-time", "-s", "--solver", solver, "{model}", "{problem}"], 2*time_limit, memory_limit)
 
                     run.set_property("solver", solver)
                     run.set_property("id", BASE_ID + [model.stem, solver, f"run_{run_i}"])
@@ -68,7 +68,7 @@ def make_cp_runs(exp: Experiment, problem: Path, problem_type: str, time_limit: 
                     run = exp.add_run()
                     
                     run.add_resource("model", model.absolute())
-                    run.add_command("solve", ["minizinc", "--output-time", "-s", "--solver", solver, "{model}", "{problem}"], time_limit, memory_limit)
+                    run.add_command("solve", ["minizinc", "--time-limit", time_limit, "--output-time", "-s", "--solver", solver, "{model}", "{problem}"], 2*time_limit, memory_limit)
 
                     run.set_property("solver", solver)
                     run.set_property("id", BASE_ID + [model.stem, solver, f"run_{run_i}"])
@@ -83,7 +83,7 @@ def make_cp_runs(exp: Experiment, problem: Path, problem_type: str, time_limit: 
                     run = exp.add_run()
                     
                     run.add_resource("model", model.absolute())
-                    run.add_command("solve", ["minizinc", "--output-time", "-s", "--solver", solver, "{model}", "{problem}"], time_limit, memory_limit)
+                    run.add_command("solve", ["minizinc", "--time-limit", time_limit, "--output-time", "-s", "--solver", solver, "{model}", "{problem}"], 2*time_limit, memory_limit)
 
                     run.set_property("solver", solver)
                     run.set_property("id", BASE_ID + [model.stem, solver, f"run_{run_i}"])

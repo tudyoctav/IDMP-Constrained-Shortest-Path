@@ -40,7 +40,7 @@ TWCSP_INSTANCES = sorted(BENCHMARKS_DIR.glob("**/rcsp/*"))
 TCSP_INSTANCES = sorted(BENCHMARKS_DIR.glob("**/tcsp/*"))
 NCSP_INSTANCES = sorted(BENCHMARKS_DIR.glob("**/ncsp/*"))
 SEED = 42
-MEMORY_LIMIT = None  # MiB
+MEMORY_LIMIT = 4000  # MiB
 EMAIL = os.environ.get('email', None)
 NUM_RUNS = 1
 
