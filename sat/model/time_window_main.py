@@ -34,13 +34,12 @@ def parse_file(file_name: Union[Path,str]):
     file_name = Path(file_name)
     with open(file_name) as file:
         inp = file.read()
-    match file_name.suffix:
-        case ".txt":
-            return parse_graph_with_time(inp)
-        case ".dzn":
-            return parse_dzn(inp)
-        case _:
-            raise AssertionError("unkown file type")
+    if file_name.suffix == ".txt":
+        return parse_graph_with_time(inp)
+    elif file_name.suffix == ".dzn":
+        return parse_dzn(inp)
+    else:
+        raise AssertionError("unkown file type")
 
 def run(graph: TimeGraph, solver:str):
     id_pool = IDPool()
