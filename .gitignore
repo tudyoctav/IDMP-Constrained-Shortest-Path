@@ -15,6 +15,7 @@ downloads/
 eggs/
 .eggs/
 lib/
+!RCSP-MIP/lib/
 lib64/
 parts/
 sdist/
@@ -159,3 +160,9 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 .idea/
 data/run_lab
+#.idea/
+
+# Visual studio
+.vs/
+Debug/
+x64/
