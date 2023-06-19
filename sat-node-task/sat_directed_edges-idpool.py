@@ -24,20 +24,16 @@ def read_problem(type, file) -> (int, int, int):
 
         # first line num of vertices and edges and ...
         first_line = line.split(' ')
+        if len(first_line) != 5:
+            print("You are missing a argument in the first line")
+            print("First line: #vertices #edges source destination #task sets/#nodes with penalties")
+            return
         num_vertices = int(first_line[0])
         num_edges = int(first_line[1])
         source = int(first_line[2])
         destination = int(first_line[3])
-
-        # if the problem is task CSP
-        if (type == 'unordered_task') | (type == 'ordered_task'):
-            counter_task_sets = 0
-            try:
-                num_task_sets = int(first_line[4])  # check that there is an element
-            except Exception as err:
-                num_task_sets = 0
-                print("You are running task problem, but you have " +
-                      "not specified the number of task sets on the first line, zero will be used!")
+        num_tasks_or_nodes = int(first_line[4])  # depending whether task or node with penalties is run
+        counter_tasks_nodes = 0
 
         # create empty list of lists for the neighbouring edges and neighbours for each node
         for i in range(0, int(num_vertices) + 1):  # first list will be empty
@@ -76,19 +72,21 @@ def read_problem(type, file) -> (int, int, int):
 
             else:
                 # we have read all edges
-                id_int_elements = [vpool.id(element) for element in int_elements]  # convert nodes to their node ids
                 if type == 'node':
-                    # Add the mandatory nodes
-                    wcnf.extend(PBEnc.equals(lits=id_int_elements, bound=len(int_elements)))
+                    # Add a soft clause for each node and its penalty
+                    wcnf.append([-vpool.id(int_elements[0])], weight=int_elements[1])
+                    counter_tasks_nodes += 1
                     break
                 else:
-                    if counter_task_sets < num_task_sets:
+                    id_int_elements = [vpool.id(element) for element in int_elements]  # convert nodes to their node ids
+                    if counter_tasks_nodes < num_tasks_or_nodes:
                         # it is a task constraint
                         wcnf.append(id_int_elements)  # pass through at least one of those nodes
                         task_sets.append(id_int_elements)
-                        counter_task_sets += 1
-                    if counter_task_sets == num_task_sets:
-                        break
+                        counter_tasks_nodes += 1
+
+                if counter_tasks_nodes == num_tasks_or_nodes:
+                    break
             line = file.readline()
 
         return num_vertices, source, destination
@@ -197,7 +195,7 @@ def run(file, type, solver):
     try:
         num_vertices, source, destination = read_problem(type, file)
     except Exception as err:
-        return "Checked, whether you have specified the number of task sets on the first line! " + str(err)
+        return "Input arguments on first line are incorrect " + str(err)
 
     # print("Task sets are " + str(task_sets))
     add_constraints(num_vertices, source, destination)
@@ -205,15 +203,14 @@ def run(file, type, solver):
     # solve the model
     fm = FM(wcnf, solver=solver, verbose=0)
 
-
     start_time = time()
     if fm.compute():  # set of hard clauses should be satisfiable
         print("The variables are assigned the following values " + str(fm.model))
         print("The length of the CSP is " + str(fm.cost))
-        # print(f"Solving time: {time() - start_time}")
-        print(f"solveTime={time() - start_time}")
     else:
         print("The instance is unsatisfiable")
+
+    print(f"solveTime={time() - start_time}")
 
 
 if __name__ == '__main__':
