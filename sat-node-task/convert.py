@@ -78,14 +78,14 @@ if __name__ == '__main__':
         file_to_be_translated = str(args[1])
 
         # Files with larger numbers have spaces between the values in the lists
-        if int(file_to_be_translated[len("data/FRCSP_instance_"): len(file_to_be_translated) - 4]) > 7:
-            large_file = True
-        else:
-            large_file = False
+        # if int(file_to_be_translated[len("data/FRCSP_instance_"): len(file_to_be_translated) - 4]) > 7:
+        large_file = True
+        # else:
+        #     large_file = False
 
         starting_points_for_edges, ending_points_for_edges, weights = parse_file(file_to_be_translated, large_file)
 
         # Specify the path and name of the new file
-        new_file = file_to_be_translated[len("data/FRC"): len(file_to_be_translated) - 4] + "-sat.txt"
-        new_file = "data-txt/" + new_file
+        new_file = file_to_be_translated[0: len(file_to_be_translated) - 4] + "-sat.txt"
+        # new_file = "data-txt/" + new_file
         compose_new_file(new_file)

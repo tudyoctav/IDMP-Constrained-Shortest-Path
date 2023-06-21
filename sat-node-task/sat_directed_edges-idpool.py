@@ -15,8 +15,8 @@ vpool = IDPool()
 
 
 def read_problem(type, file) -> (int, int, int):
-    if (type != 'node') & (type != 'ordered_task') & (type != 'unordered_task'):
-        print("The following program tackles only node CSP and unordered and ordered task CSP!")
+    if (type != 'node') & (type != 'ordered_task') & (type != 'unordered_task') & (type != 'SP'):
+        print("The following program tackles only node CSP and unordered/ordered task CSP, and SP!")
         return
 
     with open(file, 'r') as file:
@@ -24,16 +24,23 @@ def read_problem(type, file) -> (int, int, int):
 
         # first line num of vertices and edges and ...
         first_line = line.split(' ')
-        if len(first_line) != 5:
-            print("You are missing a argument in the first line")
-            print("First line: #vertices #edges source destination #task sets/#nodes with penalties")
-            return
+        counter_tasks_nodes = 0
+        if type != "SP":
+            if len(first_line) != 5:
+                print("The number of arguments on the first line is not correct")
+                print("First line: #vertices #edges source destination #task sets/#nodes with penalties")
+                return
+            num_tasks_or_nodes = int(first_line[4])  # depending whether task or node with penalties is run
+        else:
+            if len(first_line) != 4:
+                print("The number of arguments on the first line is not correct")
+                print("First line: #vertices #edges source destination")
+                return
+
         num_vertices = int(first_line[0])
         num_edges = int(first_line[1])
         source = int(first_line[2])
         destination = int(first_line[3])
-        num_tasks_or_nodes = int(first_line[4])  # depending whether task or node with penalties is run
-        counter_tasks_nodes = 0
 
         # create empty list of lists for the neighbouring edges and neighbours for each node
         for i in range(0, int(num_vertices) + 1):  # first list will be empty
@@ -72,12 +79,16 @@ def read_problem(type, file) -> (int, int, int):
 
             else:
                 # we have read all edges
-                if type == 'node':
+                if type == "SP":
+                    print(f"The file has more edges than specified on the first line,"
+                          f" the first {num_edges} edges will be read")
+                elif type == 'node':
                     # Add a soft clause for each node and its penalty
                     wcnf.append([-vpool.id(int_elements[0])], weight=int_elements[1])
                     counter_tasks_nodes += 1
                     break
                 else:
+                    # (un)ordered task
                     id_int_elements = [vpool.id(element) for element in int_elements]  # convert nodes to their node ids
                     if counter_tasks_nodes < num_tasks_or_nodes:
                         # it is a task constraint
