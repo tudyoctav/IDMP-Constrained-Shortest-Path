@@ -8,8 +8,8 @@ BUILD_DIR = build/
 #
 #------------------------------------------------------------
 
-CPLEXDIR      = /mnt/Windows/temp/cplex
-CONCERTDIR    = /mnt/Windows/temp/concert
+CPLEXDIR      = /opt/ibm/ILOG/CPLEX_Studio2211/cplex
+CONCERTDIR    = /opt/ibm/ILOG/CPLEX_Studio2211/concert
 
 # ---------------------------------------------------------------------
 # Compiler selection 

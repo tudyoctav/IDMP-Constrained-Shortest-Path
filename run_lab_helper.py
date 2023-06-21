@@ -32,6 +32,7 @@ def make_cp_runs(exp: Experiment, problem: Path, problem_type: str, time_limit: 
         return []
     res = []
     BASE_ID = ["cp", problem_type, str(problem)]
+    OZN_FILE = "solve.ozn"
 
     for solver in ["Gecode"]:
         if problem.suffix != ".dzn":
@@ -43,7 +44,7 @@ def make_cp_runs(exp: Experiment, problem: Path, problem_type: str, time_limit: 
 
 
                 run.add_resource("model", model.absolute())
-                run.add_command("solve", ["minizinc", "--time-limit", time_limit, "--output-time", "-s", "--solver", solver, "{model}", "{problem}"], 2*time_limit, memory_limit)
+                run.add_command("compile", ["minizinc", "-c", "-s", "--solver", solver, "{model}", "{problem}", "-o", OZN_FILE], memory_limit)
 
                 run.set_property("solver", solver)
                 run.set_property("id", BASE_ID + [model.stem, solver, f"run_{run_i}"])
@@ -55,7 +56,7 @@ def make_cp_runs(exp: Experiment, problem: Path, problem_type: str, time_limit: 
                 run = exp.add_run()
 
                 run.add_resource("model", model.absolute())
-                run.add_command("solve", ["minizinc", "--time-limit", time_limit, "--output-time", "-s", "--solver", solver, "{model}", "{problem}"], 2*time_limit, memory_limit)
+                run.add_command("compile", ["minizinc", "-c", "-s", "--solver", solver, "{model}", "{problem}", "-o", OZN_FILE], memory_limit)
 
                 run.set_property("solver", solver)
                 run.set_property("id", BASE_ID + [model.stem, solver, f"run_{run_i}"])
@@ -67,7 +68,7 @@ def make_cp_runs(exp: Experiment, problem: Path, problem_type: str, time_limit: 
                 run = exp.add_run()
 
                 run.add_resource("model", model.absolute())
-                run.add_command("solve", ["minizinc", "--time-limit", time_limit, "--output-time", "-s", "--solver", solver, "{model}", "{problem}"], 2*time_limit, memory_limit)
+                run.add_command("compile", ["minizinc", "-c", "-s", "--solver", solver, "{model}", "{problem}", "-o", OZN_FILE], memory_limit)
 
                 run.set_property("solver", solver)
                 run.set_property("id", BASE_ID + [model.stem, solver, f"run_{run_i}"])
@@ -82,7 +83,7 @@ def make_cp_runs(exp: Experiment, problem: Path, problem_type: str, time_limit: 
                 run = exp.add_run()
 
                 run.add_resource("model", model.absolute())
-                run.add_command("solve", ["minizinc", "--time-limit", time_limit, "--output-time", "-s", "--solver", solver, "{model}", "{problem}"], 2*time_limit, memory_limit)
+                run.add_command("compile", ["minizinc", "-c", "-s", "--solver", solver, "{model}", "{problem}", "-o", OZN_FILE], memory_limit)
 
                 run.set_property("solver", solver)
                 run.set_property("id", BASE_ID + [model.stem, solver, f"run_{run_i}"])
@@ -93,6 +94,9 @@ def make_cp_runs(exp: Experiment, problem: Path, problem_type: str, time_limit: 
         else:
             raise NotImplementedError()
     for run in res:
+        run.add_command("solve", ["minizinc" "--time-limit", time_limit * 1000, "--output-time", "-s" "solve.ozn", time_limit, memory_limit])
+        run.add_command("clean", ["rm", OZN_FILE])
+        run.set_property("technology", "cp")
         run.set_property("run_index", str(run_i))
     return res
 
@@ -108,7 +112,7 @@ def make_sat_runs(exp: Experiment, problem: Path, problem_type: str, time_limit:
         # Every run should have a unique id
         run.set_property("id", BASE_ID + [solver, f"run_{run_i}"])
         run.set_property("algorithm", "sat")
-
+        run.set_property("technology", "sat")
         if (problem_type == "time_window") | (problem_type =="resource_constrained"):
             # resources that are needed for running should be added
             if problem.suffix != ".dzn":
@@ -159,6 +163,8 @@ def make_mip_runs(exp: Experiment, problem: Path, problem_type: str, time_limit:
     run.set_property("id", ["cp", problem_type, str(problem), "cplex", f"run_{run_i}"])
     run.set_property("algorithm", "mip")
     run.add_resource("model", model.absolute(), symlink=True)
+    run.set_property("run_index", str(run_i))
+    run.set_property("technology", "mip")
     if problem_type == "resource_constrained":
         run.add_command("solve", ["./{model}", "ifile", "{problem}", "prob", "RCSP"], time_limit, memory_limit)
     elif problem_type == "node":
