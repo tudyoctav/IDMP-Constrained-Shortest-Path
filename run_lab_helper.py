@@ -94,7 +94,7 @@ def make_cp_runs(exp: Experiment, problem: Path, problem_type: str, time_limit: 
         else:
             raise NotImplementedError()
     for run in res:
-        run.add_command("solve", ["minizinc" "--time-limit", time_limit * 1000, "--output-time", "-s" "solve.ozn", time_limit, memory_limit])
+        run.add_command("solve", ["minizinc", "--time-limit", time_limit * 1000, "--output-time", "-s" "solve.ozn", time_limit, memory_limit])
         run.add_command("clean", ["rm", OZN_FILE])
         run.set_property("technology", "cp")
         run.set_property("run_index", str(run_i))
