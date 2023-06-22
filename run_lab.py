@@ -13,6 +13,8 @@ from lab.experiment import Experiment
 from lab.reports import Attribute, arithmetic_mean
 import matplotlib.pyplot as plt
 
+from table_gen import rcsp_report, tcsp_report, ncsp_report
+
 # Create custom report class with suitable info and error attributes.
 
 
@@ -42,7 +44,7 @@ NCSP_INSTANCES = sorted(BENCHMARKS_DIR.glob("**/ncsp/*"))
 SEED = 42
 MEMORY_LIMIT = 4000  # MiB
 EMAIL = os.environ.get('email', None)
-NUM_RUNS = 1
+NUM_RUNS = 3
 
 if REMOTE:
     ENV = BaselSlurmEnvironment(email=EMAIL)
@@ -73,9 +75,14 @@ for i in range(NUM_RUNS):
     for problem in FRCSP_INSTANCES:
         runs.extend(run_lab_helper.make_runs(
             exp, problem, "time_window", TIME_LIMIT, MEMORY_LIMIT, i))
-    for problem in FRCSP_INSTANCES:
-        runs.extend(run_lab_helper.make_runs(
-            exp, problem, "resource_constrained", TIME_LIMIT, MEMORY_LIMIT, i))
+    for problem in TWCSP_INSTANCES:
+        temp = run_lab_helper.make_runs(
+            exp, problem, "resource_constrained", TIME_LIMIT, MEMORY_LIMIT, i)
+        # Fix mip being in wrong catagory
+        for run in temp:
+            if run.properties["technology"] == "mip":
+                run.set_property("problem_type", "time_window")    
+        runs.extend(temp)
     for problem in NCSP_INSTANCES:
         runs.extend(run_lab_helper.make_runs(
             exp, problem, "node", TIME_LIMIT, MEMORY_LIMIT, i))
@@ -160,5 +167,11 @@ exp.add_report(FunctionReport(plot_times, ATTRIBUTES, filter_problem_type="unord
 exp.add_report(FunctionReport(plot_times, ATTRIBUTES, filter_problem_type="node", filter_algorithm=[
                "NCSP", "NCSP_bounded_search_restart", "sat", "mip"]), name="plot_node", outfile="node_plot.png")
 
+exp.add_report(FunctionReport(rcsp_report, ATTRIBUTES, filter_problem_type="resource_constrained", filter_technology="cp"), name="cp_rcsp_table", outfile="cp_rcsp_table.tex")
+exp.add_report(FunctionReport(rcsp_report, ATTRIBUTES, filter_problem_type="resource_constrained", filter_technology="sat"), name="sat_rcsp_table", outfile="sat_rcsp_table.tex")
+for technology in ["cp", "sat", "mip"]:
+    exp.add_report(FunctionReport(rcsp_report, ATTRIBUTES, filter_problem_type="time_window", filter_technology=technology), name=f"{technology}_tw_table",outfile=f"{technology}_twsp_table.tex")
+    exp.add_report(FunctionReport(tcsp_report, ATTRIBUTES, filter_problem_type="unordered_task", filter_technology=technology), name=f"{technology}_tcsp_table",outfile=f"{technology}_tcsp_table.tex")
+    exp.add_report(FunctionReport(ncsp_report, ATTRIBUTES, filter_problem_type="node", filter_technology=technology), name=f"{technology}_ncsp_table",outfile=f"{technology}_ncsp_table.tex")
 # Parse the commandline and run the given steps.
 exp.run_steps()
