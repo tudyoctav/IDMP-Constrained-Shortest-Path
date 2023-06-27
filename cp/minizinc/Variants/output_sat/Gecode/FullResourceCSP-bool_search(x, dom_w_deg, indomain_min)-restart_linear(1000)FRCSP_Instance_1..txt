@@ -1,0 +1,21 @@
+Length: 2
+Start : 1
+End   : 4
+
+1..M in shortest path:
+1 -> 4
+% time elapsed: 0.17 s
+----------
+==========
+% time elapsed: 0.17 s
+Length: 2
+Start : 1
+End   : 4
+
+1..M in shortest path:
+1 -> 4
+% time elapsed: 0.25 s
+----------
+==========
+% time elapsed: 0.25 s
+Average time: 0.21000000000000002

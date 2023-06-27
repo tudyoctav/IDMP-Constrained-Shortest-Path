@@ -1,0 +1,25 @@
+Length: 16
+Start : 1
+End   : 6
+
+1..M in shortest path:
+1 -> 2
+5 -> 6
+2 -> 5
+% time elapsed: 0.25 s
+----------
+==========
+% time elapsed: 0.25 s
+Length: 16
+Start : 1
+End   : 6
+
+1..M in shortest path:
+1 -> 2
+5 -> 6
+2 -> 5
+% time elapsed: 0.22 s
+----------
+==========
+% time elapsed: 0.22 s
+Average time: 0.235

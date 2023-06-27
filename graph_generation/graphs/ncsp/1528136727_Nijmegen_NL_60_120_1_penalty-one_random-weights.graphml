@@ -1,0 +1,2203 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="access" for="edge" attr.name="access" attr.type="string" />
+  <key id="junction" for="edge" attr.name="junction" attr.type="string" />
+  <key id="ref" for="edge" attr.name="ref" attr.type="string" />
+  <key id="lanes" for="edge" attr.name="lanes" attr.type="string" />
+  <key id="geometry" for="edge" attr.name="geometry" attr.type="string" />
+  <key id="id" for="edge" attr.name="id" attr.type="string" />
+  <key id="travel_time" for="edge" attr.name="travel_time" attr.type="long" />
+  <key id="speed_kph" for="edge" attr.name="speed_kph" attr.type="string" />
+  <key id="length" for="edge" attr.name="length" attr.type="long" />
+  <key id="reversed" for="edge" attr.name="reversed" attr.type="string" />
+  <key id="maxspeed" for="edge" attr.name="maxspeed" attr.type="string" />
+  <key id="highway" for="edge" attr.name="highway" attr.type="string" />
+  <key id="name" for="edge" attr.name="name" attr.type="string" />
+  <key id="oneway" for="edge" attr.name="oneway" attr.type="string" />
+  <key id="osmid" for="edge" attr.name="osmid" attr.type="string" />
+  <key id="penalty" for="node" attr.name="penalty" attr.type="long" />
+  <key id="street_count" for="node" attr.name="street_count" attr.type="string" />
+  <key id="x" for="node" attr.name="x" attr.type="string" />
+  <key id="y" for="node" attr.name="y" attr.type="string" />
+  <key id="type" for="graph" attr.name="type" attr.type="string" />
+  <key id="num_nodes" for="graph" attr.name="num_nodes" attr.type="long" />
+  <key id="finish_node" for="graph" attr.name="finish_node" attr.type="string" />
+  <key id="start_node" for="graph" attr.name="start_node" attr.type="string" />
+  <key id="node_distance_range_to" for="graph" attr.name="node_distance_range_to" attr.type="string" />
+  <key id="node_distance_range_from" for="graph" attr.name="node_distance_range_from" attr.type="string" />
+  <key id="distance_coef" for="graph" attr.name="distance_coef" attr.type="string" />
+  <key id="split_seed" for="graph" attr.name="split_seed" attr.type="string" />
+  <key id="iso3" for="graph" attr.name="iso3" attr.type="string" />
+  <key id="iso2" for="graph" attr.name="iso2" attr.type="string" />
+  <key id="country" for="graph" attr.name="country" attr.type="string" />
+  <key id="city" for="graph" attr.name="city" attr.type="string" />
+  <key id="simplified" for="graph" attr.name="simplified" attr.type="string" />
+  <key id="crs" for="graph" attr.name="crs" attr.type="string" />
+  <key id="created_with" for="graph" attr.name="created_with" attr.type="string" />
+  <key id="created_date" for="graph" attr.name="created_date" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="1">
+      <data key="y">51.8276452</data>
+      <data key="x">5.7925723</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="2">
+      <data key="y">51.8233229</data>
+      <data key="x">5.7926065</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="3">
+      <data key="y">51.8253794</data>
+      <data key="x">5.7969687</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="4">
+      <data key="y">51.8235906</data>
+      <data key="x">5.7932217</data>
+      <data key="street_count">3</data>
+      <data key="penalty">1</data>
+    </node>
+    <node id="5">
+      <data key="y">51.8204835</data>
+      <data key="x">5.7944619</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="6">
+      <data key="y">51.8255932</data>
+      <data key="x">5.7971769</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="7">
+      <data key="y">51.8222675</data>
+      <data key="x">5.7925109</data>
+      <data key="street_count">4</data>
+      <data key="penalty">1</data>
+    </node>
+    <node id="8">
+      <data key="y">51.8233075</data>
+      <data key="x">5.7825872</data>
+      <data key="street_count">1</data>
+    </node>
+    <node id="9">
+      <data key="y">51.8233424</data>
+      <data key="x">5.7932965</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="10">
+      <data key="y">51.8233219</data>
+      <data key="x">5.7717512</data>
+      <data key="street_count">4</data>
+      <data key="penalty">1</data>
+    </node>
+    <node id="11">
+      <data key="y">51.8234417</data>
+      <data key="x">5.7755771</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="12">
+      <data key="y">51.8250561</data>
+      <data key="x">5.7910028</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="13">
+      <data key="y">51.823029</data>
+      <data key="x">5.7926935</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="14">
+      <data key="y">51.8235887</data>
+      <data key="x">5.7762637</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="15">
+      <data key="y">51.8221345</data>
+      <data key="x">5.7927661</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="16">
+      <data key="y">51.8220924</data>
+      <data key="x">5.7925621</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="17">
+      <data key="y">51.823995</data>
+      <data key="x">5.7838933</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="18">
+      <data key="y">51.8233672</data>
+      <data key="x">5.7925935</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="19">
+      <data key="y">51.823596</data>
+      <data key="x">5.7764944</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="20">
+      <data key="y">51.8233954</data>
+      <data key="x">5.7932799</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="21">
+      <data key="y">51.8235848</data>
+      <data key="x">5.7840306</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="22">
+      <data key="y">51.8221637</data>
+      <data key="x">5.7925413</data>
+      <data key="street_count">5</data>
+      <data key="penalty">1</data>
+    </node>
+    <node id="23">
+      <data key="y">51.8255681</data>
+      <data key="x">5.7965124</data>
+      <data key="street_count">4</data>
+      <data key="penalty">1</data>
+    </node>
+    <node id="24">
+      <data key="y">51.8245956</data>
+      <data key="x">5.7902087</data>
+      <data key="street_count">2</data>
+    </node>
+    <node id="25">
+      <data key="y">51.82299</data>
+      <data key="x">5.7922842</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="26">
+      <data key="y">51.8221875</data>
+      <data key="x">5.7927603</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="27">
+      <data key="y">51.8248046</data>
+      <data key="x">5.7908539</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="28">
+      <data key="y">51.8247603</data>
+      <data key="x">5.7911215</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="29">
+      <data key="y">51.8234201</data>
+      <data key="x">5.7925771</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="30">
+      <data key="y">51.8264033</data>
+      <data key="x">5.7924081</data>
+      <data key="street_count">1</data>
+      <data key="penalty">1</data>
+    </node>
+    <node id="31">
+      <data key="y">51.8230307</data>
+      <data key="x">5.7925043</data>
+      <data key="street_count">6</data>
+    </node>
+    <node id="32">
+      <data key="y">51.8234509</data>
+      <data key="x">5.7717372</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="33">
+      <data key="y">51.8252747</data>
+      <data key="x">5.79302</data>
+      <data key="street_count">4</data>
+      <data key="penalty">1</data>
+    </node>
+    <node id="34">
+      <data key="y">51.8222875</data>
+      <data key="x">5.792731</data>
+      <data key="street_count">5</data>
+    </node>
+    <node id="35">
+      <data key="y">51.823473</data>
+      <data key="x">5.7766484</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="36">
+      <data key="y">51.823432</data>
+      <data key="x">5.795015</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="37">
+      <data key="y">51.8230956</data>
+      <data key="x">5.7926738</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="38">
+      <data key="y">51.8253918</data>
+      <data key="x">5.7966808</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="39">
+      <data key="y">51.8250925</data>
+      <data key="x">5.79308</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="40">
+      <data key="y">51.8254857</data>
+      <data key="x">5.7918821</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="41">
+      <data key="y">51.8205685</data>
+      <data key="x">5.7943123</data>
+      <data key="street_count">4</data>
+      <data key="penalty">1</data>
+    </node>
+    <node id="42">
+      <data key="y">51.8234395</data>
+      <data key="x">5.793266</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="43">
+      <data key="y">51.8245481</data>
+      <data key="x">5.7916432</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="44">
+      <data key="y">51.8234804</data>
+      <data key="x">5.7769577</data>
+      <data key="street_count">3</data>
+      <data key="penalty">1</data>
+    </node>
+    <node id="45">
+      <data key="y">51.8238903</data>
+      <data key="x">5.7839709</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="46">
+      <data key="y">51.8249373</data>
+      <data key="x">5.7925252</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="47">
+      <data key="y">51.8277034</data>
+      <data key="x">5.7924119</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="48">
+      <data key="y">51.8254245</data>
+      <data key="x">5.7913759</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="49">
+      <data key="y">51.8212095</data>
+      <data key="x">5.7934251</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="50">
+      <data key="y">51.8222073</data>
+      <data key="x">5.7929305</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="51">
+      <data key="y">51.8234688</data>
+      <data key="x">5.7925634</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="52">
+      <data key="y">51.8204238</data>
+      <data key="x">5.7942571</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="53">
+      <data key="y">51.8234924</data>
+      <data key="x">5.7932493</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="54">
+      <data key="y">51.8254531</data>
+      <data key="x">5.7963684</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="55">
+      <data key="y">51.8246121</data>
+      <data key="x">5.7921703</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="56">
+      <data key="y">51.8275975</data>
+      <data key="x">5.7923113</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="57">
+      <data key="y">51.8231793</data>
+      <data key="x">5.7926491</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="58">
+      <data key="y">51.8253059</data>
+      <data key="x">5.7923765</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="59">
+      <data key="y">51.823222</data>
+      <data key="x">5.7926364</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="60">
+      <data key="y">51.8235174</data>
+      <data key="x">5.792549</data>
+      <data key="street_count">2</data>
+    </node>
+    <node id="61">
+      <data key="y">51.8251393</data>
+      <data key="x">5.7934665</data>
+      <data key="street_count">3</data>
+      <data key="penalty">1</data>
+    </node>
+    <node id="62">
+      <data key="y">51.8263011</data>
+      <data key="x">5.7915688</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="63">
+      <data key="y">51.8252551</data>
+      <data key="x">5.795041</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="64">
+      <data key="y">51.8235409</data>
+      <data key="x">5.793234</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="65">
+      <data key="y">51.8257242</data>
+      <data key="x">5.7966232</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="66">
+      <data key="y">51.8263037</data>
+      <data key="x">5.7913688</data>
+      <data key="street_count">3</data>
+      <data key="penalty">1</data>
+    </node>
+    <node id="67">
+      <data key="y">51.8224882</data>
+      <data key="x">5.7928658</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="68">
+      <data key="y">51.8234872</data>
+      <data key="x">5.7921474</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="69">
+      <data key="y">51.8270103</data>
+      <data key="x">5.7924879</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="70">
+      <data key="y">51.8232699</data>
+      <data key="x">5.7926222</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="71">
+      <data key="y">51.8257627</data>
+      <data key="x">5.7969668</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="72">
+      <data key="y">51.8251776</data>
+      <data key="x">5.7930519</data>
+      <data key="street_count">3</data>
+    </node>
+    <node id="73">
+      <data key="y">51.8275393</data>
+      <data key="x">5.7924717</data>
+      <data key="street_count">4</data>
+    </node>
+    <node id="74">
+      <data key="y">51.8232939</data>
+      <data key="x">5.7933118</data>
+      <data key="street_count">3</data>
+      <data key="penalty">1</data>
+    </node>
+    <node id="75">
+      <data key="y">51.8236179</data>
+      <data key="x">5.7921179</data>
+      <data key="street_count">3</data>
+    </node>
+    <edge source="1" target="47">
+      <data key="osmid">145042380</data>
+      <data key="oneway">True</data>
+      <data key="name">Weijbroekweg</data>
+      <data key="highway">tertiary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">12</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="2" target="18">
+      <data key="osmid">160915866</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">5</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="2" target="20">
+      <data key="osmid">160915862</data>
+      <data key="oneway">True</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">46</data>
+      <data key="geometry">LINESTRING (5.7926065 51.8233229, 5.7931057 51.8233761, 5.7932038 51.823387, 5.7932799 51.8233954)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">3</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="2" target="70">
+      <data key="osmid">557392730</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">5</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="3" target="6">
+      <data key="osmid">386623371</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="ref">N326</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="junction">circular</data>
+      <data key="reversed">False</data>
+      <data key="length">29</data>
+      <data key="geometry">LINESTRING (5.7969687 51.8253794, 5.7970612 51.8254138, 5.7971311 51.8254646, 5.7971711 51.8255266, 5.7971769 51.8255932)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">2</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="4" target="39">
+      <data key="osmid">160915865</data>
+      <data key="name">Spijkerhofweg</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">179</data>
+      <data key="geometry">LINESTRING (5.7932217 51.8235906, 5.793369 51.8236246, 5.7934411 51.8236774, 5.7934879 51.8237169, 5.7935075 51.8237673, 5.793424 51.8240165, 5.7932942 51.824409, 5.7932789 51.8244552, 5.7931315 51.8249328, 5.7931151 51.8249863, 5.79308 51.8250925)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">13</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="4" target="60">
+      <data key="osmid">160915853</data>
+      <data key="oneway">True</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">46</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">3</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="5" target="41">
+      <data key="osmid">1055534216</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="name">Van Schuylenburgweg</data>
+      <data key="highway">secondary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">13</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="6" target="23">
+      <data key="osmid">329723116</data>
+      <data key="lanes">2</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">45</data>
+      <data key="geometry">LINESTRING (5.7971769 51.8255932, 5.7966459 51.8255734, 5.7965124 51.8255681)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">3</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="6" target="71">
+      <data key="osmid">386623371</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="ref">N326</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="junction">circular</data>
+      <data key="reversed">False</data>
+      <data key="length">24</data>
+      <data key="geometry">LINESTRING (5.7971769 51.8255932, 5.797155 51.8256475, 5.7971102 51.8256961, 5.7970459 51.8257355, 5.7969668 51.8257627)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="7" target="22">
+      <data key="osmid">112790589</data>
+      <data key="oneway">True</data>
+      <data key="name">Van Schuylenburgweg</data>
+      <data key="highway">primary_link</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">11</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="8" target="21">
+      <data key="osmid">338409435</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">unclassified</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">107</data>
+      <data key="geometry">LINESTRING (5.7825872 51.8233075, 5.7827298 51.8233652, 5.7830517 51.8234182, 5.783864 51.823474, 5.7839664 51.8235356, 5.7840306 51.8235848)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">7</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="9" target="20">
+      <data key="osmid">557392736</data>
+      <data key="oneway">True</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">6</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="10" target="11">
+      <data key="osmid">[6889892, 574843975, 6889847]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">['3', '2']</data>
+      <data key="ref">N326</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">trunk</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">263</data>
+      <data key="geometry">LINESTRING (5.7717512 51.8233219, 5.7722151 51.8233364, 5.7737072 51.8233858, 5.7744773 51.8234051, 5.7755771 51.8234417)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">19</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="11" target="14">
+      <data key="osmid">207573579</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="highway">motorway_link</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">50</data>
+      <data key="geometry">LINESTRING (5.7755771 51.8234417, 5.7759536 51.8234914, 5.7760375 51.8235046, 5.7761205 51.8235205, 5.7761874 51.8235429, 5.7762296 51.823565, 5.7762637 51.8235887)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">3</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="11" target="35">
+      <data key="osmid">6889867</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="ref">N326</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">73</data>
+      <data key="geometry">LINESTRING (5.7755771 51.8234417, 5.7763794 51.8234644, 5.7766484 51.823473)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">5</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="12" target="17">
+      <data key="osmid">[6888265, 6889858, 574843963, 6888036]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">['3', '2']</data>
+      <data key="ref">N326</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">504</data>
+      <data key="geometry">LINESTRING (5.7910028 51.8250561, 5.7908815 51.824993, 5.7907977 51.8249583, 5.7907059 51.8249322, 5.790086 51.8248446, 5.7877807 51.8245189, 5.7866429 51.8243581, 5.786125 51.8242818, 5.7853652 51.824183, 5.7840416 51.8240106, 5.7838933 51.823995)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">36</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="12" target="28">
+      <data key="osmid">436054183</data>
+      <data key="oneway">True</data>
+      <data key="ref">N326</data>
+      <data key="name">Takenhofplein</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="junction">circular</data>
+      <data key="reversed">False</data>
+      <data key="length">34</data>
+      <data key="geometry">LINESTRING (5.7910028 51.8250561, 5.7910025 51.8249791, 5.7910104 51.8249389, 5.7910233 51.8249005, 5.7910416 51.8248625, 5.7910642 51.8248265, 5.7911215 51.8247603)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">2</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="13" target="36">
+      <data key="osmid">[467193798, 467193799]</data>
+      <data key="oneway">True</data>
+      <data key="name">['Spijkerhofplein', 'Zwanenveld']</data>
+      <data key="highway">unclassified</data>
+      <data key="maxspeed">30</data>
+      <data key="reversed">False</data>
+      <data key="length">173</data>
+      <data key="geometry">LINESTRING (5.7926935 51.823029, 5.7936933 51.8231451, 5.7937656 51.8231537, 5.7939797 51.8231793, 5.7941599 51.8232009, 5.7948226 51.8232806, 5.7949751 51.8233235, 5.7950127 51.8233609, 5.7950199 51.823415, 5.795015 51.823432)</data>
+      <data key="speed_kph">30.0</data>
+      <data key="travel_time">20</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="13" target="37">
+      <data key="osmid">160915856</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">7</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="13" target="67">
+      <data key="osmid">45394661</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">61</data>
+      <data key="geometry">LINESTRING (5.7926935 51.823029, 5.7927142 51.8229619, 5.7927363 51.8228904, 5.7928658 51.8224882)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">4</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="14" target="32">
+      <data key="osmid">[6889864, 6889865, 207573580]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">['3', '2']</data>
+      <data key="ref">N326</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">trunk</data>
+      <data key="maxspeed">70</data>
+      <data key="reversed">False</data>
+      <data key="length">311</data>
+      <data key="geometry">LINESTRING (5.7762637 51.8235887, 5.7744674 51.8235364, 5.773677 51.8235138, 5.7722064 51.8234668, 5.7717372 51.8234509)</data>
+      <data key="speed_kph">70.0</data>
+      <data key="travel_time">16</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="15" target="26">
+      <data key="osmid">45391793</data>
+      <data key="oneway">True</data>
+      <data key="lanes">4</data>
+      <data key="name">Van Schuylenburgweg</data>
+      <data key="highway">secondary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">5</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="15" target="50">
+      <data key="osmid">160915861</data>
+      <data key="oneway">True</data>
+      <data key="name">Van Rosenburgweg</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">14</data>
+      <data key="geometry">LINESTRING (5.7927661 51.8221345, 5.792843 51.8221573, 5.7928867 51.8221795, 5.7929305 51.8222073)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="16" target="15">
+      <data key="osmid">160915861</data>
+      <data key="oneway">True</data>
+      <data key="name">Van Rosenburgweg</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">14</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="16" target="52">
+      <data key="osmid">[750252829, 6888246]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">['3', '2']</data>
+      <data key="name">Van Schuylenburgweg</data>
+      <data key="highway">secondary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">222</data>
+      <data key="geometry">LINESTRING (5.7925621 51.8220924, 5.7925907 51.8220074, 5.7926837 51.8218145, 5.7927979 51.8216305, 5.7930195 51.8213703, 5.7932727 51.8211135, 5.7935213 51.8208954, 5.7937568 51.8207235, 5.7940313 51.820549, 5.7942571 51.8204238)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">16</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="17" target="45">
+      <data key="osmid">143017955</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">unclassified</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">12</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="18" target="2">
+      <data key="osmid">160915866</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">5</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="18" target="29">
+      <data key="osmid">557392722</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">5</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="18" target="42">
+      <data key="osmid">160915857</data>
+      <data key="oneway">True</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">46</data>
+      <data key="geometry">LINESTRING (5.7925935 51.8233672, 5.7930839 51.8234194, 5.7931925 51.8234314, 5.793266 51.8234395)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">3</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="19" target="14">
+      <data key="osmid">6889862</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="ref">N326</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">trunk</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">15</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="20" target="42">
+      <data key="osmid">557392729</data>
+      <data key="oneway">True</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">4</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="21" target="8">
+      <data key="osmid">338409435</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">unclassified</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">107</data>
+      <data key="geometry">LINESTRING (5.7840306 51.8235848, 5.7839664 51.8235356, 5.783864 51.823474, 5.7830517 51.8234182, 5.7827298 51.8233652, 5.7825872 51.8233075)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">7</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="21" target="24">
+      <data key="osmid">161176758</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">unclassified</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">455</data>
+      <data key="geometry">LINESTRING (5.7840306 51.8235848, 5.7841229 51.8235231, 5.7842049 51.8235028, 5.7842978 51.8234918, 5.7843624 51.8234955, 5.7844292 51.8235127, 5.7844981 51.8235497, 5.7847392 51.8237395, 5.7848189 51.8238022, 5.7848662 51.8238352, 5.7849251 51.8238568, 5.7850373 51.8238748, 5.7857692 51.8239743, 5.7868121 51.8241263, 5.7876706 51.8242484, 5.7899473 51.8245604, 5.7902087 51.8245956)</data>
+      <data key="speed_kph">45.5</data>
+      <data key="travel_time">36</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="21" target="45">
+      <data key="osmid">338409435</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">unclassified</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">34</data>
+      <data key="geometry">LINESTRING (5.7840306 51.8235848, 5.7840481 51.8236557, 5.7840115 51.8237668, 5.7839709 51.8238903)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">2</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="22" target="16">
+      <data key="osmid">6888246</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="name">Van Schuylenburgweg</data>
+      <data key="highway">secondary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">8</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="22" target="26">
+      <data key="osmid">6888253</data>
+      <data key="oneway">True</data>
+      <data key="lanes">4</data>
+      <data key="ref">N324</data>
+      <data key="name">Van Rosenburgweg</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">15</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="23" target="6">
+      <data key="osmid">329723116</data>
+      <data key="lanes">2</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">45</data>
+      <data key="geometry">LINESTRING (5.7965124 51.8255681, 5.7966459 51.8255734, 5.7971769 51.8255932)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">3</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="23" target="38">
+      <data key="osmid">971205498</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="ref">N326</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="junction">circular</data>
+      <data key="reversed">False</data>
+      <data key="length">23</data>
+      <data key="geometry">LINESTRING (5.7965124 51.8255681, 5.7965337 51.8254983, 5.7965922 51.8254371, 5.7966808 51.8253918)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="23" target="72">
+      <data key="osmid">329723116</data>
+      <data key="lanes">2</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">241</data>
+      <data key="geometry">LINESTRING (5.7965124 51.8255681, 5.7964774 51.8255664, 5.7963794 51.8255603, 5.7961635 51.8255457, 5.7959244 51.8255239, 5.7933284 51.8252103, 5.7932018 51.8251954, 5.7930519 51.8251776)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">17</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="24" target="21">
+      <data key="osmid">161176758</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">unclassified</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">455</data>
+      <data key="geometry">LINESTRING (5.7902087 51.8245956, 5.7899473 51.8245604, 5.7876706 51.8242484, 5.7868121 51.8241263, 5.7857692 51.8239743, 5.7850373 51.8238748, 5.7849251 51.8238568, 5.7848662 51.8238352, 5.7848189 51.8238022, 5.7847392 51.8237395, 5.7844981 51.8235497, 5.7844292 51.8235127, 5.7843624 51.8234955, 5.7842978 51.8234918, 5.7842049 51.8235028, 5.7841229 51.8235231, 5.7840306 51.8235848)</data>
+      <data key="speed_kph">45.5</data>
+      <data key="travel_time">36</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="24" target="27">
+      <data key="osmid">1082653194</data>
+      <data key="oneway">True</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">unclassified</data>
+      <data key="reversed">False</data>
+      <data key="length">50</data>
+      <data key="geometry">LINESTRING (5.7902087 51.8245956, 5.7903365 51.8246348, 5.7904572 51.8246774, 5.7906078 51.8246974, 5.7906445 51.8247136, 5.7907359 51.8247723, 5.7908539 51.8248046)</data>
+      <data key="speed_kph">45.5</data>
+      <data key="travel_time">4</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="25" target="7">
+      <data key="osmid">700657456</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="name">Van Schuylenburgweg</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">81</data>
+      <data key="geometry">LINESTRING (5.7922842 51.82299, 5.7923042 51.8229131, 5.7924893 51.8223363, 5.7925109 51.8222675)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">5</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="26" target="34">
+      <data key="osmid">750252827</data>
+      <data key="oneway">True</data>
+      <data key="name">Van Schuylenburgweg</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">11</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="27" target="28">
+      <data key="osmid">6888037</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">N326</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">19</data>
+      <data key="geometry">LINESTRING (5.7908539 51.8248046, 5.790984 51.8247916, 5.7911215 51.8247603)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="28" target="43">
+      <data key="osmid">436054185</data>
+      <data key="oneway">True</data>
+      <data key="ref">N326</data>
+      <data key="name">Takenhofplein</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="junction">circular</data>
+      <data key="reversed">False</data>
+      <data key="length">44</data>
+      <data key="geometry">LINESTRING (5.7911215 51.8247603, 5.7911664 51.8247214, 5.7912197 51.8246841, 5.7912798 51.82465, 5.7913453 51.8246201, 5.7914146 51.824595, 5.7914902 51.8245739, 5.7915652 51.8245586, 5.7916432 51.8245481)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">3</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="29" target="18">
+      <data key="osmid">557392722</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">5</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="29" target="51">
+      <data key="osmid">557392742</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">5</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="29" target="53">
+      <data key="osmid">160915860</data>
+      <data key="oneway">True</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">46</data>
+      <data key="geometry">LINESTRING (5.7925771 51.8234201, 5.7930576 51.8234715, 5.793179 51.8234847, 5.7932493 51.8234924)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">3</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="30" target="62">
+      <data key="osmid">6888174</data>
+      <data key="name">IJpenbroekweg</data>
+      <data key="highway">unclassified</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">58</data>
+      <data key="geometry">LINESTRING (5.7924081 51.8264033, 5.7923764 51.8263994, 5.7921876 51.8263764, 5.7918406 51.8263342, 5.7915688 51.8263011)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">4</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="31" target="13">
+      <data key="osmid">204921716</data>
+      <data key="oneway">True</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">unclassified</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">13</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="31" target="25">
+      <data key="osmid">204921717</data>
+      <data key="oneway">True</data>
+      <data key="highway">primary_link</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">15</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="31" target="55">
+      <data key="osmid">[721155597, 994985475, 236639549, 721155598]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">['3', '2']</data>
+      <data key="name">Van Schuylenburgweg</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">181</data>
+      <data key="geometry">LINESTRING (5.7925043 51.8230307, 5.7924172 51.8232938, 5.7923111 51.8235564, 5.7922402 51.8237801, 5.7921938 51.8239122, 5.7920568 51.8243583, 5.7920366 51.8244465, 5.792066 51.824497, 5.7921703 51.8246121)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">13</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="32" target="10">
+      <data key="osmid">6889846</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="highway">motorway_link</data>
+      <data key="maxspeed">80</data>
+      <data key="reversed">False</data>
+      <data key="length">14</data>
+      <data key="speed_kph">80.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="33" target="58">
+      <data key="osmid">45394662</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">N326</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">45</data>
+      <data key="geometry">LINESTRING (5.79302 51.8252747, 5.7928314 51.8252554, 5.7926423 51.8252547, 5.7923765 51.8253059)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">3</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="33" target="69">
+      <data key="osmid">45391794</data>
+      <data key="name">Spijkerhofweg</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">196</data>
+      <data key="geometry">LINESTRING (5.79302 51.8252747, 5.7929831 51.8253871, 5.7929595 51.8254591, 5.7929369 51.8255281, 5.7926405 51.8264314, 5.7926083 51.8265429, 5.7925238 51.8268286, 5.7925012 51.8269137, 5.7924879 51.8270103)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">14</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="33" target="72">
+      <data key="osmid">45400746</data>
+      <data key="name">Spijkerhofweg</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">11</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="34" target="7">
+      <data key="osmid">45391789</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="ref">N324</data>
+      <data key="name">Van Rosenburgweg</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">15</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="34" target="22">
+      <data key="osmid">45391792</data>
+      <data key="oneway">True</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="access">no</data>
+      <data key="reversed">False</data>
+      <data key="length">18</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="34" target="31">
+      <data key="osmid">143017948</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="name">Van Schuylenburgweg</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">84</data>
+      <data key="geometry">LINESTRING (5.792731 51.8222875, 5.7925555 51.822865, 5.7925323 51.8229402, 5.7925043 51.8230307)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">6</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="35" target="19">
+      <data key="osmid">6889860</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="highway">motorway_link</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">18</data>
+      <data key="geometry">LINESTRING (5.7766484 51.823473, 5.7766376 51.8235052, 5.7766119 51.8235341, 5.7765835 51.8235571, 5.776547 51.8235759, 5.7764944 51.823596)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="35" target="44">
+      <data key="osmid">574843972</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="ref">N326</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">21</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="36" target="37">
+      <data key="osmid">[700657457, 700657458]</data>
+      <data key="oneway">True</data>
+      <data key="name">['Spijkerhofplein', 'Zwanenveld']</data>
+      <data key="highway">unclassified</data>
+      <data key="maxspeed">30</data>
+      <data key="reversed">False</data>
+      <data key="length">167</data>
+      <data key="geometry">LINESTRING (5.795015 51.823432, 5.7949741 51.8234082, 5.79491 51.8233686, 5.7948559 51.8233488, 5.7948048 51.8233364, 5.7941432 51.8232578, 5.7939792 51.8232387, 5.7937501 51.8232121, 5.7936781 51.8232038, 5.7928453 51.8231149, 5.7926738 51.8230956)</data>
+      <data key="speed_kph">30.0</data>
+      <data key="travel_time">20</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="37" target="13">
+      <data key="osmid">160915856</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">7</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="37" target="31">
+      <data key="osmid">700657457</data>
+      <data key="oneway">True</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">unclassified</data>
+      <data key="maxspeed">30</data>
+      <data key="reversed">False</data>
+      <data key="length">13</data>
+      <data key="speed_kph">30.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="37" target="57">
+      <data key="osmid">160915856</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">9</data>
+      <data key="geometry">LINESTRING (5.7926738 51.8230956, 5.7926543 51.8231615, 5.7926491 51.8231793)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="38" target="3">
+      <data key="osmid">971205497</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">N326</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="junction">circular</data>
+      <data key="reversed">False</data>
+      <data key="length">20</data>
+      <data key="geometry">LINESTRING (5.7966808 51.8253918, 5.7967733 51.8253698, 5.7968721 51.8253655, 5.7969687 51.8253794)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="39" target="4">
+      <data key="osmid">160915865</data>
+      <data key="name">Spijkerhofweg</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">179</data>
+      <data key="geometry">LINESTRING (5.79308 51.8250925, 5.7931151 51.8249863, 5.7931315 51.8249328, 5.7932789 51.8244552, 5.7932942 51.824409, 5.793424 51.8240165, 5.7935075 51.8237673, 5.7934879 51.8237169, 5.7934411 51.8236774, 5.793369 51.8236246, 5.7932217 51.8235906)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">13</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="39" target="61">
+      <data key="osmid">45394660</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="ref">N326</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">27</data>
+      <data key="geometry">LINESTRING (5.79308 51.8250925, 5.7932284 51.8251105, 5.7934665 51.8251393)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="39" target="72">
+      <data key="osmid">236440819</data>
+      <data key="name">Spijkerhofweg</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">9</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="40" target="48">
+      <data key="osmid">386623368</data>
+      <data key="oneway">True</data>
+      <data key="ref">N326</data>
+      <data key="name">Takenhofplein</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="junction">circular</data>
+      <data key="reversed">False</data>
+      <data key="length">36</data>
+      <data key="geometry">LINESTRING (5.7918821 51.8254857, 5.7917829 51.8254909, 5.7916833 51.8254881, 5.7916094 51.8254808, 5.7915379 51.8254692, 5.7914545 51.8254497, 5.7913759 51.8254245)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">2</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="40" target="62">
+      <data key="osmid">6888236</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="name">IJpenbroekweg</data>
+      <data key="highway">secondary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">95</data>
+      <data key="geometry">LINESTRING (5.7918821 51.8254857, 5.7917722 51.8255724, 5.7917156 51.8256275, 5.7916783 51.8256807, 5.7915876 51.8259677, 5.7915686 51.8260453, 5.7915621 51.8261231, 5.7915613 51.8262105, 5.7915688 51.8263011)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">6</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="41" target="49">
+      <data key="osmid">45394655</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="name">Van Schuylenburgweg</data>
+      <data key="highway">secondary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">94</data>
+      <data key="geometry">LINESTRING (5.7943123 51.8205685, 5.7941131 51.8206846, 5.7937596 51.8209234, 5.7934251 51.8212095)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">6</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="41" target="52">
+      <data key="osmid">750252832</data>
+      <data key="oneway">True</data>
+      <data key="name">Zwanenveld</data>
+      <data key="highway">unclassified</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">16</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="42" target="53">
+      <data key="osmid">557392739</data>
+      <data key="oneway">True</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">5</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="43" target="55">
+      <data key="osmid">436054184</data>
+      <data key="oneway">True</data>
+      <data key="ref">N326</data>
+      <data key="name">Takenhofplein</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="junction">circular</data>
+      <data key="reversed">False</data>
+      <data key="length">37</data>
+      <data key="geometry">LINESTRING (5.7916432 51.8245481, 5.791728 51.8245424, 5.7918146 51.8245426, 5.7918942 51.8245482, 5.791972 51.8245588, 5.7920696 51.8245799, 5.7921703 51.8246121)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">2</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="43" target="75">
+      <data key="osmid">[45391784, 994985474, 721155599]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">['3', '2']</data>
+      <data key="name">Van Schuylenburgweg</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">110</data>
+      <data key="geometry">LINESTRING (5.7916432 51.8245481, 5.7917771 51.8244601, 5.7918085 51.8244227, 5.7919087 51.8242048, 5.7920465 51.8238474, 5.792072 51.8237656, 5.7921179 51.8236179)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">7</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="44" target="45">
+      <data key="osmid">[574843960, 574843971, 574843972]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">['3', '2']</data>
+      <data key="ref">N326</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">484</data>
+      <data key="geometry">LINESTRING (5.7769577 51.8234804, 5.779801 51.8235703, 5.7810389 51.8236256, 5.7817829 51.8236713, 5.7821866 51.8237063, 5.782633 51.8237439, 5.7835897 51.8238447, 5.7837004 51.8238564, 5.7839709 51.8238903)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">34</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="45" target="17">
+      <data key="osmid">143017955</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">unclassified</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">12</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="45" target="21">
+      <data key="osmid">338409435</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">unclassified</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">34</data>
+      <data key="geometry">LINESTRING (5.7839709 51.8238903, 5.7840115 51.8237668, 5.7840481 51.8236557, 5.7840306 51.8235848)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">2</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="45" target="27">
+      <data key="osmid">[574843960, 6888037, 574843958, 574843959]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">['3', '2']</data>
+      <data key="ref">N326</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">484</data>
+      <data key="geometry">LINESTRING (5.7839709 51.8238903, 5.7849554 51.8240136, 5.7860043 51.8241454, 5.7891617 51.8245994, 5.7907255 51.824809, 5.7908539 51.8248046)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">34</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="46" target="39">
+      <data key="osmid">45394660</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="ref">N326</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">42</data>
+      <data key="geometry">LINESTRING (5.7925252 51.8249373, 5.7926773 51.8250076, 5.7927517 51.8250366, 5.7928416 51.8250594, 5.7929046 51.8250712, 5.79308 51.8250925)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">3</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="46" target="58">
+      <data key="osmid">986238812</data>
+      <data key="oneway">True</data>
+      <data key="ref">N326</data>
+      <data key="name">Takenhofplein</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="junction">circular</data>
+      <data key="reversed">False</data>
+      <data key="length">43</data>
+      <data key="geometry">LINESTRING (5.7925252 51.8249373, 5.792534 51.8249829, 5.7925357 51.8250275, 5.7925294 51.8250779, 5.7925151 51.8251262, 5.7924906 51.825177, 5.7924592 51.8252232, 5.7924195 51.8252676, 5.7923765 51.8253059)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">3</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="47" target="56">
+      <data key="osmid">6888020</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="name">IJpenbroekweg</data>
+      <data key="highway">secondary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">13</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="48" target="12">
+      <data key="osmid">386623368</data>
+      <data key="oneway">True</data>
+      <data key="ref">N326</data>
+      <data key="name">Takenhofplein</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="junction">circular</data>
+      <data key="reversed">False</data>
+      <data key="length">50</data>
+      <data key="geometry">LINESTRING (5.7913759 51.8254245, 5.7913081 51.8253965, 5.7912449 51.8253639, 5.7911831 51.8253239, 5.7911265 51.8252773, 5.7910817 51.8252293, 5.7910462 51.8251783, 5.7910177 51.8251174, 5.7910028 51.8250561)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">3</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="49" target="15">
+      <data key="osmid">45391793</data>
+      <data key="oneway">True</data>
+      <data key="lanes">4</data>
+      <data key="name">Van Schuylenburgweg</data>
+      <data key="highway">secondary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">114</data>
+      <data key="geometry">LINESTRING (5.7934251 51.8212095, 5.7931901 51.8214105, 5.79302 51.8216, 5.7929054 51.8217656, 5.7928075 51.8219699, 5.7927749 51.8220384, 5.7927661 51.8221345)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">8</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="49" target="50">
+      <data key="osmid">45391783</data>
+      <data key="oneway">True</data>
+      <data key="name">Van Schuylenburgweg</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">117</data>
+      <data key="geometry">LINESTRING (5.7934251 51.8212095, 5.7934308 51.8212695, 5.793215 51.8215583, 5.7931113 51.8217287, 5.7930285 51.8218951, 5.7929956 51.8220004, 5.7929724 51.8220717, 5.7929305 51.8222073)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">8</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="50" target="67">
+      <data key="osmid">160915864</data>
+      <data key="oneway">True</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">32</data>
+      <data key="geometry">LINESTRING (5.7929305 51.8222073, 5.7929541 51.8222636, 5.7929348 51.8223624, 5.7929075 51.8224249, 5.7928658 51.8224882)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">2</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="51" target="29">
+      <data key="osmid">557392742</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">5</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="51" target="60">
+      <data key="osmid">557392742</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">5</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="51" target="64">
+      <data key="osmid">160915858</data>
+      <data key="oneway">True</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">46</data>
+      <data key="geometry">LINESTRING (5.7925634 51.8234688, 5.7930518 51.8235208, 5.7931666 51.8235334, 5.793234 51.8235409)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">3</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="52" target="5">
+      <data key="osmid">750252834</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="name">Zwanenveld</data>
+      <data key="highway">unclassified</data>
+      <data key="maxspeed">30</data>
+      <data key="reversed">False</data>
+      <data key="length">15</data>
+      <data key="speed_kph">30.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="53" target="64">
+      <data key="osmid">557392745</data>
+      <data key="oneway">True</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">5</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="54" target="38">
+      <data key="osmid">45394660</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="ref">N326</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">22</data>
+      <data key="geometry">LINESTRING (5.7963684 51.8254531, 5.7963804 51.8254514, 5.7964901 51.8254289, 5.7966808 51.8253918)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="55" target="46">
+      <data key="osmid">436054184</data>
+      <data key="oneway">True</data>
+      <data key="ref">N326</data>
+      <data key="name">Takenhofplein</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="junction">circular</data>
+      <data key="reversed">False</data>
+      <data key="length">44</data>
+      <data key="geometry">LINESTRING (5.7921703 51.8246121, 5.792234 51.8246391, 5.7922933 51.8246702, 5.7923507 51.8247073, 5.7923994 51.8247463, 5.792445 51.8247924, 5.7924672 51.8248218, 5.7924805 51.8248394, 5.7925072 51.8248878, 5.7925252 51.8249373)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">3</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="56" target="66">
+      <data key="osmid">971239626</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="name">IJpenbroekweg</data>
+      <data key="highway">secondary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">159</data>
+      <data key="geometry">LINESTRING (5.7923113 51.8275975, 5.7921665 51.8274389, 5.7916317 51.826839, 5.7915219 51.8266902, 5.79144 51.82655, 5.7913935 51.8264308, 5.7913688 51.8263037)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">11</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="56" target="73">
+      <data key="osmid">145042376</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="name">Weijbroekweg</data>
+      <data key="highway">tertiary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">12</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="57" target="37">
+      <data key="osmid">160915856</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">9</data>
+      <data key="geometry">LINESTRING (5.7926491 51.8231793, 5.7926543 51.8231615, 5.7926738 51.8230956)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="57" target="59">
+      <data key="osmid">557392733</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">4</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="57" target="74">
+      <data key="osmid">[160915868, 436054222]</data>
+      <data key="oneway">True</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">52</data>
+      <data key="geometry">LINESTRING (5.7926491 51.8231793, 5.7931979 51.8232357, 5.7932405 51.8232404, 5.7933257 51.8232498, 5.7933118 51.8232939)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">3</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="58" target="40">
+      <data key="osmid">386623368</data>
+      <data key="oneway">True</data>
+      <data key="ref">N326</data>
+      <data key="name">Takenhofplein</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="junction">circular</data>
+      <data key="reversed">False</data>
+      <data key="length">40</data>
+      <data key="geometry">LINESTRING (5.7923765 51.8253059, 5.7923261 51.8253424, 5.7922717 51.8253746, 5.7922105 51.8254043, 5.7921468 51.8254293, 5.7920831 51.8254492, 5.792019 51.8254649, 5.7919501 51.8254775, 5.7918821 51.8254857)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">2</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="59" target="57">
+      <data key="osmid">557392733</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">4</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="59" target="70">
+      <data key="osmid">557392728</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">5</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="59" target="74">
+      <data key="osmid">[557392725, 160915863]</data>
+      <data key="oneway">True</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">47</data>
+      <data key="geometry">LINESTRING (5.7926364 51.823222, 5.79317 51.8232783, 5.7932298 51.8232848, 5.7933118 51.8232939)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">3</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="60" target="51">
+      <data key="osmid">557392742</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">5</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="61" target="54">
+      <data key="osmid">45394660</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="ref">N326</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">202</data>
+      <data key="geometry">LINESTRING (5.7934665 51.8251393, 5.7959657 51.8254373, 5.7961925 51.8254568, 5.7962994 51.8254591, 5.7963684 51.8254531)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">14</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="61" target="63">
+      <data key="osmid">239652607</data>
+      <data key="oneway">True</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">unclassified</data>
+      <data key="reversed">False</data>
+      <data key="length">110</data>
+      <data key="geometry">LINESTRING (5.7934665 51.8251393, 5.793719 51.8250988, 5.7941234 51.8251466, 5.795041 51.8252551)</data>
+      <data key="speed_kph">45.5</data>
+      <data key="travel_time">8</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="62" target="30">
+      <data key="osmid">6888174</data>
+      <data key="name">IJpenbroekweg</data>
+      <data key="highway">unclassified</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">58</data>
+      <data key="geometry">LINESTRING (5.7915688 51.8263011, 5.7918406 51.8263342, 5.7921876 51.8263764, 5.7923764 51.8263994, 5.7924081 51.8264033)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">4</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="62" target="66">
+      <data key="osmid">6888174</data>
+      <data key="name">IJpenbroekweg</data>
+      <data key="highway">unclassified</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">13</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="62" target="73">
+      <data key="osmid">[682637748, 6888236]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">['3', '2']</data>
+      <data key="name">IJpenbroekweg</data>
+      <data key="highway">secondary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">152</data>
+      <data key="geometry">LINESTRING (5.7915688 51.8263011, 5.7916046 51.8264367, 5.7916755 51.8265847, 5.7918287 51.8268155, 5.7919441 51.8269484, 5.7920568 51.8270685, 5.7922849 51.8273199, 5.7923372 51.8273775, 5.7924717 51.8275393)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">10</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="63" target="54">
+      <data key="osmid">239652607</data>
+      <data key="oneway">True</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">unclassified</data>
+      <data key="reversed">False</data>
+      <data key="length">95</data>
+      <data key="geometry">LINESTRING (5.795041 51.8252551, 5.7958805 51.8253543, 5.796282 51.8254018, 5.7963684 51.8254531)</data>
+      <data key="speed_kph">45.5</data>
+      <data key="travel_time">7</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="64" target="4">
+      <data key="osmid">557392745</data>
+      <data key="oneway">True</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">5</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="65" target="23">
+      <data key="osmid">971205498</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="ref">N326</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="junction">circular</data>
+      <data key="reversed">False</data>
+      <data key="length">19</data>
+      <data key="geometry">LINESTRING (5.7966232 51.8257242, 5.7965757 51.8256916, 5.7965404 51.8256536, 5.796519 51.8256118, 5.7965124 51.8255681)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="65" target="33">
+      <data key="osmid">[971205496, 6888274]</data>
+      <data key="oneway">True</data>
+      <data key="lanes">['3', '2']</data>
+      <data key="ref">N326</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">252</data>
+      <data key="geometry">LINESTRING (5.7966232 51.8257242, 5.7965157 51.8257019, 5.796466 51.8256905, 5.7962899 51.825661, 5.7947517 51.8254769, 5.7932933 51.8253067, 5.7931715 51.8252922, 5.79302 51.8252747)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">18</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="66" target="48">
+      <data key="osmid">6887767</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="name">IJpenbroekweg</data>
+      <data key="highway">secondary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">99</data>
+      <data key="geometry">LINESTRING (5.7913688 51.8263037, 5.7913619 51.826217, 5.7913627 51.8261301, 5.7913772 51.8260358, 5.7913991 51.825954, 5.7914841 51.8256775, 5.7914848 51.8256176, 5.7914496 51.8255187, 5.7913759 51.8254245)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">7</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="66" target="62">
+      <data key="osmid">6888174</data>
+      <data key="name">IJpenbroekweg</data>
+      <data key="highway">unclassified</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">13</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="67" target="13">
+      <data key="osmid">45394661</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">61</data>
+      <data key="geometry">LINESTRING (5.7928658 51.8224882, 5.7927363 51.8228904, 5.7927142 51.8229619, 5.7926935 51.823029)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">4</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="67" target="34">
+      <data key="osmid">111812768</data>
+      <data key="oneway">True</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">25</data>
+      <data key="geometry">LINESTRING (5.7928658 51.8224882, 5.7928485 51.8223977, 5.7928315 51.8223569, 5.7927962 51.8223218, 5.792731 51.8222875)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="68" target="25">
+      <data key="osmid">236639550</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="name">Van Schuylenburgweg</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">56</data>
+      <data key="geometry">LINESTRING (5.7921474 51.8234872, 5.7921941 51.8232815, 5.7922485 51.8230931, 5.7922842 51.82299)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">4</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="69" target="1">
+      <data key="osmid">45391799</data>
+      <data key="oneway">True</data>
+      <data key="name">Spijkerhofweg</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="access">no</data>
+      <data key="reversed">False</data>
+      <data key="length">71</data>
+      <data key="geometry">LINESTRING (5.7924879 51.8270103, 5.7925113 51.8271034, 5.7925374 51.8271912, 5.7925576 51.8272913, 5.7925657 51.8273366, 5.7926023 51.8275769, 5.7925723 51.8276452)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">5</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="69" target="33">
+      <data key="osmid">45391794</data>
+      <data key="name">Spijkerhofweg</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">196</data>
+      <data key="geometry">LINESTRING (5.7924879 51.8270103, 5.7925012 51.8269137, 5.7925238 51.8268286, 5.7926083 51.8265429, 5.7926405 51.8264314, 5.7929369 51.8255281, 5.7929595 51.8254591, 5.7929831 51.8253871, 5.79302 51.8252747)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">14</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="70" target="2">
+      <data key="osmid">557392730</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">5</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="70" target="9">
+      <data key="osmid">160915854</data>
+      <data key="oneway">True</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">47</data>
+      <data key="geometry">LINESTRING (5.7926222 51.8232699, 5.7931392 51.8233251, 5.7932174 51.8233337, 5.7932965 51.8233424)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">3</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="70" target="59">
+      <data key="osmid">557392728</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">5</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="71" target="65">
+      <data key="osmid">971205499</data>
+      <data key="oneway">True</data>
+      <data key="lanes">3</data>
+      <data key="ref">N326</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="junction">circular</data>
+      <data key="reversed">False</data>
+      <data key="length">25</data>
+      <data key="geometry">LINESTRING (5.7969668 51.8257627, 5.7968601 51.8257766, 5.7967746 51.8257721, 5.7966939 51.8257542, 5.7966232 51.8257242)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="72" target="23">
+      <data key="osmid">329723116</data>
+      <data key="lanes">2</data>
+      <data key="name">Wijchenseweg</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">241</data>
+      <data key="geometry">LINESTRING (5.7930519 51.8251776, 5.7932018 51.8251954, 5.7933284 51.8252103, 5.7959244 51.8255239, 5.7961635 51.8255457, 5.7963794 51.8255603, 5.7964774 51.8255664, 5.7965124 51.8255681)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">17</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="72" target="33">
+      <data key="osmid">45400746</data>
+      <data key="name">Spijkerhofweg</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">True</data>
+      <data key="length">11</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="72" target="39">
+      <data key="osmid">236440819</data>
+      <data key="name">Spijkerhofweg</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="oneway">False</data>
+      <data key="reversed">False</data>
+      <data key="length">9</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="73" target="1">
+      <data key="osmid">145042379</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="name">IJpenbroekweg</data>
+      <data key="highway">secondary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">13</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="73" target="69">
+      <data key="osmid">45391798</data>
+      <data key="oneway">True</data>
+      <data key="name">Spijkerhofweg</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="access">no</data>
+      <data key="reversed">False</data>
+      <data key="length">59</data>
+      <data key="geometry">LINESTRING (5.7924717 51.8275393, 5.7924945 51.8274634, 5.7924945 51.8274069, 5.792489 51.8273437, 5.7924717 51.8271926, 5.7924713 51.8271054, 5.7924879 51.8270103)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">4</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="74" target="9">
+      <data key="osmid">557392727</data>
+      <data key="oneway">True</data>
+      <data key="name">Spijkerhofplein</data>
+      <data key="highway">busway</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">5</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">0</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="75" target="31">
+      <data key="osmid">110309641</data>
+      <data key="oneway">True</data>
+      <data key="lanes">1</data>
+      <data key="highway">primary_link</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">72</data>
+      <data key="geometry">LINESTRING (5.7921179 51.8236179, 5.7921931 51.8235266, 5.7922359 51.8233873, 5.7923549 51.8231098, 5.7924111 51.8230635, 5.7925043 51.8230307)</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">5</data>
+      <data key="id">0</data>
+    </edge>
+    <edge source="75" target="68">
+      <data key="osmid">700546372</data>
+      <data key="oneway">True</data>
+      <data key="lanes">2</data>
+      <data key="name">Van Schuylenburgweg</data>
+      <data key="highway">primary</data>
+      <data key="maxspeed">50</data>
+      <data key="reversed">False</data>
+      <data key="length">14</data>
+      <data key="speed_kph">50.0</data>
+      <data key="travel_time">1</data>
+      <data key="id">0</data>
+    </edge>
+    <data key="created_date">2023-06-19 13:43:32</data>
+    <data key="created_with">OSMnx 1.3.1.post0</data>
+    <data key="crs">epsg:4326</data>
+    <data key="simplified">True</data>
+    <data key="city">Nijmegen</data>
+    <data key="country">Netherlands</data>
+    <data key="iso2">NL</data>
+    <data key="iso3">NLD</data>
+    <data key="split_seed">1</data>
+    <data key="distance_coef">1.5</data>
+    <data key="node_distance_range_from">60</data>
+    <data key="node_distance_range_to">120</data>
+    <data key="start_node">32</data>
+    <data key="finish_node">9</data>
+    <data key="num_nodes">12</data>
+    <data key="type">ncsp</data>
+  </graph>
+</graphml>

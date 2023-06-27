@@ -1,0 +1,3578 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d33" for="edge" attr.name="tunnel" attr.type="string" />
+  <key id="d32" for="edge" attr.name="access" attr.type="string" />
+  <key id="d31" for="edge" attr.name="bridge" attr.type="string" />
+  <key id="d30" for="edge" attr.name="geometry" attr.type="string" />
+  <key id="d29" for="edge" attr.name="width" attr.type="string" />
+  <key id="d28" for="edge" attr.name="maxspeed" attr.type="string" />
+  <key id="d27" for="edge" attr.name="name" attr.type="string" />
+  <key id="d26" for="edge" attr.name="ref" attr.type="string" />
+  <key id="d25" for="edge" attr.name="lanes" attr.type="string" />
+  <key id="d24" for="edge" attr.name="travel_time" attr.type="string" />
+  <key id="d23" for="edge" attr.name="speed_kph" attr.type="string" />
+  <key id="d22" for="edge" attr.name="length" attr.type="string" />
+  <key id="d21" for="edge" attr.name="reversed" attr.type="string" />
+  <key id="d20" for="edge" attr.name="oneway" attr.type="string" />
+  <key id="d19" for="edge" attr.name="highway" attr.type="string" />
+  <key id="d18" for="edge" attr.name="osmid" attr.type="string" />
+  <key id="d17" for="node" attr.name="highway" attr.type="string" />
+  <key id="d16" for="node" attr.name="street_count" attr.type="string" />
+  <key id="d15" for="node" attr.name="x" attr.type="string" />
+  <key id="d14" for="node" attr.name="y" attr.type="string" />
+  <key id="d13" for="graph" attr.name="finish_node" attr.type="string" />
+  <key id="d12" for="graph" attr.name="start_node" attr.type="string" />
+  <key id="d11" for="graph" attr.name="node_distance_range_to" attr.type="string" />
+  <key id="d10" for="graph" attr.name="node_distance_range_from" attr.type="string" />
+  <key id="d9" for="graph" attr.name="distance_coef" attr.type="string" />
+  <key id="d8" for="graph" attr.name="split_seed" attr.type="string" />
+  <key id="d7" for="graph" attr.name="iso3" attr.type="string" />
+  <key id="d6" for="graph" attr.name="iso2" attr.type="string" />
+  <key id="d5" for="graph" attr.name="country" attr.type="string" />
+  <key id="d4" for="graph" attr.name="city" attr.type="string" />
+  <key id="d3" for="graph" attr.name="simplified" attr.type="string" />
+  <key id="d2" for="graph" attr.name="crs" attr.type="string" />
+  <key id="d1" for="graph" attr.name="created_with" attr.type="string" />
+  <key id="d0" for="graph" attr.name="created_date" attr.type="string" />
+  <graph edgedefault="directed">
+    <node id="818848261">
+      <data key="d14">52.3448082</data>
+      <data key="d15">4.9125999</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="1525016077">
+      <data key="d14">52.3478626</data>
+      <data key="d15">4.9183256</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46329362">
+      <data key="d14">52.3586041</data>
+      <data key="d15">4.9094269</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="4336924181">
+      <data key="d14">52.3588454</data>
+      <data key="d15">4.9105155</data>
+      <data key="d16">1</data>
+    </node>
+    <node id="46301722">
+      <data key="d14">52.352428</data>
+      <data key="d15">4.917792</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="1545015322">
+      <data key="d14">52.3485045</data>
+      <data key="d15">4.9181969</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="6301238814">
+      <data key="d14">52.3472136</data>
+      <data key="d15">4.9192343</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="7014218792">
+      <data key="d14">52.358264</data>
+      <data key="d15">4.9132798</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46282288">
+      <data key="d14">52.347768</data>
+      <data key="d15">4.9104766</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46301759">
+      <data key="d14">52.3524213</data>
+      <data key="d15">4.9083394</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46326847">
+      <data key="d14">52.3580987</data>
+      <data key="d15">4.9099572</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46323267">
+      <data key="d14">52.3573064</data>
+      <data key="d15">4.9044167</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46329414">
+      <data key="d14">52.3586508</data>
+      <data key="d15">4.9096369</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="46280775">
+      <data key="d14">52.3473627</data>
+      <data key="d15">4.9110857</data>
+      <data key="d16">1</data>
+    </node>
+    <node id="46299720">
+      <data key="d14">52.3519667</data>
+      <data key="d15">4.9111697</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46299721">
+      <data key="d14">52.351908</data>
+      <data key="d15">4.9134397</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="6654004808">
+      <data key="d14">52.3475758</data>
+      <data key="d15">4.9190132</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="6654004812">
+      <data key="d14">52.3479145</data>
+      <data key="d15">4.9187098</data>
+      <data key="d17">crossing</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="46269009">
+      <data key="d14">52.344801</data>
+      <data key="d15">4.9125073</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="6278909943">
+      <data key="d14">52.3470644</data>
+      <data key="d15">4.9192241</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="5924478039">
+      <data key="d14">52.3477121</data>
+      <data key="d15">4.9158376</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="6654004827">
+      <data key="d14">52.3481271</data>
+      <data key="d15">4.9178123</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="6654004829">
+      <data key="d14">52.3479884</data>
+      <data key="d15">4.9169366</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="6654004836">
+      <data key="d14">52.3479821</data>
+      <data key="d15">4.9172299</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="9204235876">
+      <data key="d14">52.355011</data>
+      <data key="d15">4.9058536</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46284393">
+      <data key="d14">52.3484069</data>
+      <data key="d15">4.9193279</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="6654004841">
+      <data key="d14">52.3458587</data>
+      <data key="d15">4.9198024</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46274667">
+      <data key="d14">52.3457748</data>
+      <data key="d15">4.9200987</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="46317676">
+      <data key="d14">52.3560359</data>
+      <data key="d15">4.9050105</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="46321773">
+      <data key="d14">52.3568751</data>
+      <data key="d15">4.9104631</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="6654004842">
+      <data key="d14">52.3459327</data>
+      <data key="d15">4.9200186</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="6654004845">
+      <data key="d14">52.3460483</data>
+      <data key="d15">4.9198366</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46313091">
+      <data key="d14">52.3549836</data>
+      <data key="d15">4.9040388</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46281351">
+      <data key="d14">52.3474723</data>
+      <data key="d15">4.9140885</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46285451">
+      <data key="d14">52.3485543</data>
+      <data key="d15">4.9187653</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46294165">
+      <data key="d14">52.3506224</data>
+      <data key="d15">4.9154015</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="1326358685">
+      <data key="d14">52.3464432</data>
+      <data key="d15">4.9119624</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="46283935">
+      <data key="d14">52.3482155</data>
+      <data key="d15">4.9193481</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="46320807">
+      <data key="d14">52.3567007</data>
+      <data key="d15">4.9047225</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46312620">
+      <data key="d14">52.3548603</data>
+      <data key="d15">4.914597</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46316724">
+      <data key="d14">52.3557751</data>
+      <data key="d15">4.9120473</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46298812">
+      <data key="d14">52.3516708</data>
+      <data key="d15">4.9165574</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="2691138239">
+      <data key="d14">52.3562872</data>
+      <data key="d15">4.9049305</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46281920">
+      <data key="d14">52.3477005</data>
+      <data key="d15">4.9148006</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46283971">
+      <data key="d14">52.3483344</data>
+      <data key="d15">4.917886</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46295754">
+      <data key="d14">52.3509934</data>
+      <data key="d15">4.9158842</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="46281430">
+      <data key="d14">52.3475081</data>
+      <data key="d15">4.913659</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="1525016288">
+      <data key="d14">52.3480031</data>
+      <data key="d15">4.919116</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46298852">
+      <data key="d14">52.3517044</data>
+      <data key="d15">4.9147759</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46297841">
+      <data key="d14">52.3514698</data>
+      <data key="d15">4.9163277</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="46309621">
+      <data key="d14">52.3542088</data>
+      <data key="d15">4.9065636</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="6933063413">
+      <data key="d14">52.355989</data>
+      <data key="d15">4.9050407</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="6933063414">
+      <data key="d14">52.3560087</data>
+      <data key="d15">4.905161</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="6933063422">
+      <data key="d14">52.3559626</data>
+      <data key="d15">4.9051937</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="1548111106">
+      <data key="d14">52.3485496</data>
+      <data key="d15">4.918334</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="46279939">
+      <data key="d14">52.3471259</data>
+      <data key="d15">4.911642</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="6933063429">
+      <data key="d14">52.3560528</data>
+      <data key="d15">4.905126</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="46291719">
+      <data key="d14">52.3500938</data>
+      <data key="d15">4.9096667</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="6933063433">
+      <data key="d14">52.3556755</data>
+      <data key="d15">4.905344</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46294283">
+      <data key="d14">52.3506915</data>
+      <data key="d15">4.9175211</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="461133583">
+      <data key="d14">52.3511561</data>
+      <data key="d15">4.9084825</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46273309">
+      <data key="d14">52.3457281</data>
+      <data key="d15">4.9198764</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="46274335">
+      <data key="d14">52.3456782</data>
+      <data key="d15">4.9200208</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="46275359">
+      <data key="d14">52.3460874</data>
+      <data key="d15">4.9143899</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46318367">
+      <data key="d14">52.3561393</data>
+      <data key="d15">4.9098655</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="295661860">
+      <data key="d14">52.3469749</data>
+      <data key="d15">4.9101282</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="943819560">
+      <data key="d14">52.3488182</data>
+      <data key="d15">4.9180586</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46311730">
+      <data key="d14">52.3546097</data>
+      <data key="d15">4.906201</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46321971">
+      <data key="d14">52.3569527</data>
+      <data key="d15">4.9106647</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46313781">
+      <data key="d14">52.3551122</data>
+      <data key="d15">4.9143524</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46293814">
+      <data key="d14">52.3505867</data>
+      <data key="d15">4.9140422</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="3298957627">
+      <data key="d14">52.3559343</data>
+      <data key="d15">4.9050821</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="746542397">
+      <data key="d14">52.3478293</data>
+      <data key="d15">4.9109104</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46324030">
+      <data key="d14">52.3575152</data>
+      <data key="d15">4.9100819</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="46303039">
+      <data key="d14">52.3527198</data>
+      <data key="d15">4.9183415</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="943819581">
+      <data key="d14">52.3519602</data>
+      <data key="d15">4.91365</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46285636">
+      <data key="d14">52.34856</data>
+      <data key="d15">4.9103491</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46316356">
+      <data key="d14">52.3556441</data>
+      <data key="d15">4.91144</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46306636">
+      <data key="d14">52.353559</data>
+      <data key="d15">4.9124693</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="46319439">
+      <data key="d14">52.3563572</data>
+      <data key="d15">4.9107662</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="46314836">
+      <data key="d14">52.3553577</data>
+      <data key="d15">4.9130485</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46290263">
+      <data key="d14">52.3498131</data>
+      <data key="d15">4.9191717</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="46294360">
+      <data key="d14">52.3506913</data>
+      <data key="d15">4.915501</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="46296920">
+      <data key="d14">52.351273</data>
+      <data key="d15">4.9116566</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46298455">
+      <data key="d14">52.3515662</data>
+      <data key="d15">4.9137372</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="295681883">
+      <data key="d14">52.3472385</data>
+      <data key="d15">4.9116069</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="6654041439">
+      <data key="d14">52.3474576</data>
+      <data key="d15">4.9135442</data>
+      <data key="d17">crossing</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46311266">
+      <data key="d14">52.3545495</data>
+      <data key="d15">4.9043501</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="295681891">
+      <data key="d14">52.3496295</data>
+      <data key="d15">4.9098565</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="6654041448">
+      <data key="d14">52.3472101</data>
+      <data key="d15">4.9118164</data>
+      <data key="d16">6</data>
+    </node>
+    <node id="6654041449">
+      <data key="d14">52.347184</data>
+      <data key="d15">4.9116277</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="295681899">
+      <data key="d14">52.3484186</data>
+      <data key="d15">4.9105395</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="6927485803">
+      <data key="d14">52.3482102</data>
+      <data key="d15">4.9132991</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="1831046514">
+      <data key="d14">52.3545252</data>
+      <data key="d15">4.9118681</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46282615">
+      <data key="d14">52.3478727</data>
+      <data key="d15">4.9180156</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46282616">
+      <data key="d14">52.347967</data>
+      <data key="d15">4.9189483</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46322042">
+      <data key="d14">52.3570077</data>
+      <data key="d15">4.9081521</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46298490">
+      <data key="d14">52.3516111</data>
+      <data key="d15">4.9154539</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="3132809601">
+      <data key="d14">52.3497335</data>
+      <data key="d15">4.9168184</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46281091">
+      <data key="d14">52.3474447</data>
+      <data key="d15">4.9136899</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="46303627">
+      <data key="d14">52.3528251</data>
+      <data key="d15">4.9184729</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="7014189965">
+      <data key="d14">52.3566225</data>
+      <data key="d15">4.9069832</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="46327182">
+      <data key="d14">52.3581743</data>
+      <data key="d15">4.9074481</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="1584122766">
+      <data key="d14">52.3465118</data>
+      <data key="d15">4.9068306</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="46296981">
+      <data key="d14">52.3512494</data>
+      <data key="d15">4.9090809</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46302615">
+      <data key="d14">52.3525757</data>
+      <data key="d15">4.9130479</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="7014189976">
+      <data key="d14">52.3574603</data>
+      <data key="d15">4.9101124</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="7014189977">
+      <data key="d14">52.3575179</data>
+      <data key="d15">4.9103297</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="6653983646">
+      <data key="d14">52.3476657</data>
+      <data key="d15">4.9154552</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="6653983649">
+      <data key="d14">52.3478428</data>
+      <data key="d15">4.9159198</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="7216455075">
+      <data key="d14">52.3471953</data>
+      <data key="d15">4.9190139</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="6653983653">
+      <data key="d14">52.3478642</data>
+      <data key="d15">4.9168989</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46319528">
+      <data key="d14">52.3564166</data>
+      <data key="d15">4.910972</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="46290349">
+      <data key="d14">52.349793</data>
+      <data key="d15">4.9169472</data>
+      <data key="d17">crossing</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="46305209">
+      <data key="d14">52.3531796</data>
+      <data key="d15">4.9076794</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46327743">
+      <data key="d14">52.3583</data>
+      <data key="d15">4.913254</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="46285251">
+      <data key="d14">52.348432</data>
+      <data key="d15">4.9180397</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46314956">
+      <data key="d14">52.3554095</data>
+      <data key="d15">4.9055267</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46287311">
+      <data key="d14">52.3491444</data>
+      <data key="d15">4.9176114</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46315476">
+      <data key="d14">52.3554728</data>
+      <data key="d15">4.9102636</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46326231">
+      <data key="d14">52.3579247</data>
+      <data key="d15">4.9041403</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46306779">
+      <data key="d14">52.3536075</data>
+      <data key="d15">4.9126703</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="1548411362">
+      <data key="d14">52.3479251</data>
+      <data key="d15">4.9111233</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46320611">
+      <data key="d14">52.3566773</data>
+      <data key="d15">4.9069699</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="46324209">
+      <data key="d14">52.3575564</data>
+      <data key="d15">4.9077965</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="46324210">
+      <data key="d14">52.3575699</data>
+      <data key="d15">4.9102889</data>
+      <data key="d16">4</data>
+    </node>
+    <node id="46315508">
+      <data key="d14">52.3554237</data>
+      <data key="d15">4.911325</data>
+      <data key="d16">3</data>
+    </node>
+    <node id="818848247">
+      <data key="d14">52.3464685</data>
+      <data key="d15">4.9121176</data>
+      <data key="d16">3</data>
+    </node>
+    <edge source="818848261" target="46269009" id="0">
+      <data key="d18">67821952</data>
+      <data key="d19">unclassified</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">6.341</data>
+      <data key="d23">34.8</data>
+      <data key="d24">0</data>
+    </edge>
+    <edge source="818848261" target="818848247" id="0">
+      <data key="d18">[321487066, 321487068, 48508794]</data>
+      <data key="d20">True</data>
+      <data key="d25">['3', '2']</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d29">5</data>
+      <data key="d21">False</data>
+      <data key="d22">187.866</data>
+      <data key="d30">LINESTRING (4.9125999 52.3448082, 4.9125551 52.3450085, 4.9124973 52.345301, 4.9124469 52.3456027, 4.9123926 52.3457902, 4.9123236 52.3459866, 4.9122105 52.3462716, 4.9121176 52.3464685)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">13</data>
+    </edge>
+    <edge source="1525016077" target="7216455075" id="0">
+      <data key="d18">573731247</data>
+      <data key="d20">True</data>
+      <data key="d25">1</data>
+      <data key="d26">S111</data>
+      <data key="d27">Julianaplein</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">92.068</data>
+      <data key="d30">LINESTRING (4.9183256 52.3478626, 4.918487 52.3478013, 4.9186278 52.3477653, 4.9186794 52.3477213, 4.9187345 52.3476493, 4.9189892 52.3472397, 4.9190139 52.3471953)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">6</data>
+    </edge>
+    <edge source="1525016077" target="6654004812" id="0">
+      <data key="d18">673083734</data>
+      <data key="d20">True</data>
+      <data key="d25">4</data>
+      <data key="d27">Prins Bernhardplein</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">26.759</data>
+      <data key="d30">LINESTRING (4.9183256 52.3478626, 4.9184909 52.347879, 4.9187098 52.3479145)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="46329362" target="46329414" id="0">
+      <data key="d18">7370563</data>
+      <data key="d19">unclassified</data>
+      <data key="d28">30</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">15.177</data>
+      <data key="d23">30.0</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="46329362" target="46324030" id="0">
+      <data key="d18">612237840</data>
+      <data key="d20">True</data>
+      <data key="d26">S112</data>
+      <data key="d27">Wibautstraat</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">128.995</data>
+      <data key="d30">LINESTRING (4.9094269 52.3586041, 4.9094834 52.3585134, 4.910019 52.3576238, 4.910041 52.3575869, 4.9100819 52.3575152)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">9</data>
+    </edge>
+    <edge source="4336924181" target="46329414" id="0">
+      <data key="d18">[7370204, 749251054]</data>
+      <data key="d27">Tweede Boerhaavestraat</data>
+      <data key="d19">unclassified</data>
+      <data key="d28">30</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">63.468999999999994</data>
+      <data key="d30">LINESTRING (4.9105155 52.3588454, 4.9104157 52.3588234, 4.9099622 52.3587208, 4.9098852 52.3587034, 4.9097737 52.3586797, 4.9096369 52.3586508)</data>
+      <data key="d23">30.0</data>
+      <data key="d24">7</data>
+    </edge>
+    <edge source="46301722" target="46303039" id="0">
+      <data key="d18">8653132</data>
+      <data key="d27">Krugerstraat</data>
+      <data key="d19">tertiary</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">49.453</data>
+      <data key="d23">47.6</data>
+      <data key="d24">3</data>
+    </edge>
+    <edge source="46301722" target="46298812" id="0">
+      <data key="d18">10906183</data>
+      <data key="d27">Afrikanerplein</data>
+      <data key="d19">tertiary</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">118.867</data>
+      <data key="d30">LINESTRING (4.917792 52.352428, 4.9176818 52.3523685, 4.9176179 52.3523341, 4.9165574 52.3516708)</data>
+      <data key="d23">47.6</data>
+      <data key="d24">9</data>
+    </edge>
+    <edge source="1545015322" target="46285251" id="0">
+      <data key="d18">328208265</data>
+      <data key="d20">True</data>
+      <data key="d25">4</data>
+      <data key="d27">Prins Bernhardplein</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">13.379</data>
+      <data key="d23">50.0</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="6301238814" target="6278909943" id="0">
+      <data key="d18">1178740731</data>
+      <data key="d25">2</data>
+      <data key="d27">Julianaplein</data>
+      <data key="d19">busway</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">16.605</data>
+      <data key="d23">50.0</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="6301238814" target="6654004808" id="0">
+      <data key="d18">[790578750, 708135638]</data>
+      <data key="d20">True</data>
+      <data key="d25">4</data>
+      <data key="d26">S111</data>
+      <data key="d27">Julianaplein</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">42.998000000000005</data>
+      <data key="d30">LINESTRING (4.9192343 52.3472136, 4.9190454 52.3475325, 4.9190132 52.3475758)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">3</data>
+    </edge>
+    <edge source="7014218792" target="46327743" id="0">
+      <data key="d18">7370227</data>
+      <data key="d20">True</data>
+      <data key="d27">Camperstraat</data>
+      <data key="d19">unclassified</data>
+      <data key="d28">30</data>
+      <data key="d21">False</data>
+      <data key="d22">4.37</data>
+      <data key="d30">LINESTRING (4.9132798 52.358264, 4.9132714 52.3582758, 4.913254 52.3583)</data>
+      <data key="d23">30.0</data>
+      <data key="d24">0</data>
+    </edge>
+    <edge source="46282288" target="746542397" id="0">
+      <data key="d18">7369119</data>
+      <data key="d20">True</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">unclassified</data>
+      <data key="d28">30</data>
+      <data key="d21">False</data>
+      <data key="d22">30.244</data>
+      <data key="d23">30.0</data>
+      <data key="d24">3</data>
+    </edge>
+    <edge source="46301759" target="46305209" id="0">
+      <data key="d18">26977199</data>
+      <data key="d25">2</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">95.522</data>
+      <data key="d30">LINESTRING (4.9083394 52.3524213, 4.9079505 52.3528878, 4.9077999 52.3530555, 4.9076794 52.3531796)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">6</data>
+    </edge>
+    <edge source="46301759" target="46296981" id="0">
+      <data key="d18">26977199</data>
+      <data key="d25">2</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">139.72</data>
+      <data key="d30">LINESTRING (4.9083394 52.3524213, 4.9086526 52.3518994, 4.9090809 52.3512494)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">10</data>
+    </edge>
+    <edge source="46326847" target="46329414" id="0">
+      <data key="d18">612237839</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d26">S112</data>
+      <data key="d27">Wibautstraat</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">65.136</data>
+      <data key="d30">LINESTRING (4.9099572 52.3580987, 4.9097215 52.3585132, 4.9096939 52.3585609, 4.9096369 52.3586508)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">4</data>
+    </edge>
+    <edge source="46323267" target="46326231" id="0">
+      <data key="d18">7370511</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">71.268</data>
+      <data key="d23">50.0</data>
+      <data key="d24">5</data>
+    </edge>
+    <edge source="46323267" target="46320807" id="0">
+      <data key="d18">7370511</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">70.48</data>
+      <data key="d23">50.0</data>
+      <data key="d24">5</data>
+    </edge>
+    <edge source="46329414" target="46329362" id="0">
+      <data key="d18">7370563</data>
+      <data key="d19">unclassified</data>
+      <data key="d28">30</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">15.177</data>
+      <data key="d23">30.0</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="46329414" target="4336924181" id="0">
+      <data key="d18">[7370204, 749251054]</data>
+      <data key="d27">Tweede Boerhaavestraat</data>
+      <data key="d19">unclassified</data>
+      <data key="d28">30</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">63.468999999999994</data>
+      <data key="d30">LINESTRING (4.9096369 52.3586508, 4.9097737 52.3586797, 4.9098852 52.3587034, 4.9099622 52.3587208, 4.9104157 52.3588234, 4.9105155 52.3588454)</data>
+      <data key="d23">30.0</data>
+      <data key="d24">7</data>
+    </edge>
+    <edge source="46280775" target="746542397" id="0">
+      <data key="d18">7369116</data>
+      <data key="d20">False</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">residential</data>
+      <data key="d28">30</data>
+      <data key="d21">True</data>
+      <data key="d22">53.232</data>
+      <data key="d23">30.0</data>
+      <data key="d24">6</data>
+    </edge>
+    <edge source="46299720" target="46296920" id="0">
+      <data key="d18">7369179</data>
+      <data key="d27">Weesperzijde</data>
+      <data key="d19">residential</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">84.319</data>
+      <data key="d30">LINESTRING (4.9111697 52.3519667, 4.9114343 52.3516809, 4.9115632 52.3514561, 4.9116566 52.351273)</data>
+      <data key="d23">31.3</data>
+      <data key="d24">9</data>
+    </edge>
+    <edge source="46299720" target="46302615" id="0">
+      <data key="d18">[7370226, 1071731962]</data>
+      <data key="d20">True</data>
+      <data key="d27">Graaf Florisstraat</data>
+      <data key="d19">residential</data>
+      <data key="d21">False</data>
+      <data key="d22">145.35899999999998</data>
+      <data key="d30">LINESTRING (4.9111697 52.3519667, 4.9128536 52.3525548, 4.9129376 52.3525748, 4.9130479 52.3525757)</data>
+      <data key="d23">31.3</data>
+      <data key="d24">16</data>
+    </edge>
+    <edge source="46299721" target="46296920" id="0">
+      <data key="d18">[1071731961, 7369062]</data>
+      <data key="d20">True</data>
+      <data key="d27">Marcusstraat</data>
+      <data key="d19">residential</data>
+      <data key="d21">False</data>
+      <data key="d22">140.51999999999998</data>
+      <data key="d30">LINESTRING (4.9134397 52.351908, 4.91337 52.3518819, 4.9133349 52.3518688, 4.9131556 52.3517974, 4.9118098 52.3513012, 4.9116566 52.351273)</data>
+      <data key="d23">31.3</data>
+      <data key="d24">16</data>
+    </edge>
+    <edge source="46299721" target="46298455" id="0">
+      <data key="d18">443943232</data>
+      <data key="d20">True</data>
+      <data key="d26">S112</data>
+      <data key="d27">Wibautstraat</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">43.252</data>
+      <data key="d30">LINESTRING (4.9134397 52.351908, 4.9135071 52.3518025, 4.9136054 52.3516812, 4.9137372 52.3515662)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">3</data>
+    </edge>
+    <edge source="6654004808" target="6654004812" id="0">
+      <data key="d18">708135639</data>
+      <data key="d25">2</data>
+      <data key="d27">Julianaplein</data>
+      <data key="d19">busway</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">43.887</data>
+      <data key="d30">LINESTRING (4.9190132 52.3475758, 4.9189093 52.3476329, 4.9188688 52.34766, 4.9188278 52.347713, 4.9188029 52.3477552, 4.9187759 52.3478009, 4.9187098 52.3479145)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">3</data>
+    </edge>
+    <edge source="6654004808" target="46282616" id="0">
+      <data key="d18">708135647</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d26">S111</data>
+      <data key="d27">Julianaplein</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">43.795</data>
+      <data key="d30">LINESTRING (4.9190132 52.3475758, 4.9189673 52.3477467, 4.9189672 52.3477913, 4.9189623 52.3478469, 4.9189483 52.347967)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">3</data>
+    </edge>
+    <edge source="6654004812" target="46282616" id="0">
+      <data key="d18">673083734</data>
+      <data key="d20">True</data>
+      <data key="d25">4</data>
+      <data key="d27">Prins Bernhardplein</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">17.221</data>
+      <data key="d30">LINESTRING (4.9187098 52.3479145, 4.9187343 52.3479192, 4.9189483 52.347967)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="6654004812" target="6654004808" id="0">
+      <data key="d18">708135639</data>
+      <data key="d25">2</data>
+      <data key="d27">Julianaplein</data>
+      <data key="d19">busway</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">43.887</data>
+      <data key="d30">LINESTRING (4.9187098 52.3479145, 4.9187759 52.3478009, 4.9188029 52.3477552, 4.9188278 52.347713, 4.9188688 52.34766, 4.9189093 52.3476329, 4.9190132 52.3475758)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">3</data>
+    </edge>
+    <edge source="6654004812" target="6654004827" id="0">
+      <data key="d18">708135642</data>
+      <data key="d25">2</data>
+      <data key="d27">Prins Bernhardplein</data>
+      <data key="d19">busway</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">76.96499999999999</data>
+      <data key="d30">LINESTRING (4.9187098 52.3479145, 4.9186915 52.34794, 4.9186542 52.3480005, 4.918567 52.3480846, 4.9185057 52.3481186, 4.9184142 52.3481555, 4.9183255 52.3481797, 4.9182076 52.3481889, 4.918101 52.348182, 4.9179723 52.3481641, 4.9178123 52.3481271)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">5</data>
+    </edge>
+    <edge source="46269009" target="818848261" id="0">
+      <data key="d18">67821952</data>
+      <data key="d19">unclassified</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">6.341</data>
+      <data key="d23">34.8</data>
+      <data key="d24">0</data>
+    </edge>
+    <edge source="6278909943" target="6301238814" id="0">
+      <data key="d18">1178740731</data>
+      <data key="d25">2</data>
+      <data key="d27">Julianaplein</data>
+      <data key="d19">busway</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">16.605</data>
+      <data key="d23">50.0</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="6278909943" target="6654004845" id="0">
+      <data key="d18">422954811</data>
+      <data key="d25">2</data>
+      <data key="d27">Julianaplein</data>
+      <data key="d19">busway</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">120.404</data>
+      <data key="d30">LINESTRING (4.9192241 52.3470644, 4.9192553 52.3470111, 4.919286 52.3469585, 4.9193174 52.3469095, 4.9193691 52.3468262, 4.9193827 52.3468042, 4.9194545 52.3466842, 4.9198366 52.3460483)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">8</data>
+    </edge>
+    <edge source="5924478039" target="6653983653" id="0">
+      <data key="d18">708138757</data>
+      <data key="d20">True</data>
+      <data key="d25">3</data>
+      <data key="d27">Meester Treublaan</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">74.051</data>
+      <data key="d30">LINESTRING (4.9158376 52.3477121, 4.916315 52.3477766, 4.9168989 52.3478642)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">5</data>
+    </edge>
+    <edge source="6654004827" target="46282615" id="0">
+      <data key="d18">325879961</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d27">Prins Bernhardplein</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">32.233</data>
+      <data key="d30">LINESTRING (4.9178123 52.3481271, 4.917899 52.3479621, 4.9179474 52.3479066, 4.9180156 52.3478727)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">2</data>
+    </edge>
+    <edge source="6654004827" target="6654004812" id="0">
+      <data key="d18">708135642</data>
+      <data key="d25">2</data>
+      <data key="d27">Prins Bernhardplein</data>
+      <data key="d19">busway</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">76.965</data>
+      <data key="d30">LINESTRING (4.9178123 52.3481271, 4.9179723 52.3481641, 4.918101 52.348182, 4.9182076 52.3481889, 4.9183255 52.3481797, 4.9184142 52.3481555, 4.9185057 52.3481186, 4.918567 52.3480846, 4.9186542 52.3480005, 4.9186915 52.34794, 4.9187098 52.3479145)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">5</data>
+    </edge>
+    <edge source="6654004827" target="6654004836" id="0">
+      <data key="d18">708135645</data>
+      <data key="d25">2</data>
+      <data key="d27">Meester Treublaan</data>
+      <data key="d19">busway</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">42.724999999999994</data>
+      <data key="d30">LINESTRING (4.9178123 52.3481271, 4.9177314 52.3481055, 4.9177 52.3480985, 4.9176169 52.3480792, 4.9175572 52.3480636, 4.9172299 52.3479821)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">3</data>
+    </edge>
+    <edge source="6654004829" target="6653983649" id="0">
+      <data key="d18">708138749</data>
+      <data key="d20">True</data>
+      <data key="d25">3</data>
+      <data key="d27">Meester Treublaan</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">70.939</data>
+      <data key="d30">LINESTRING (4.9169366 52.3479884, 4.9162942 52.3478973, 4.9159198 52.3478428)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">5</data>
+    </edge>
+    <edge source="6654004836" target="6654004827" id="0">
+      <data key="d18">708135645</data>
+      <data key="d25">2</data>
+      <data key="d27">Meester Treublaan</data>
+      <data key="d19">busway</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">42.725</data>
+      <data key="d30">LINESTRING (4.9172299 52.3479821, 4.9175572 52.3480636, 4.9176169 52.3480792, 4.9177 52.3480985, 4.9177314 52.3481055, 4.9178123 52.3481271)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">3</data>
+    </edge>
+    <edge source="6654004836" target="6654004829" id="0">
+      <data key="d18">708135646</data>
+      <data key="d20">True</data>
+      <data key="d25">1</data>
+      <data key="d27">Meester Treublaan</data>
+      <data key="d19">busway</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">19.966</data>
+      <data key="d30">LINESTRING (4.9172299 52.3479821, 4.9171256 52.3479795, 4.9169366 52.3479884)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="9204235876" target="46311730" id="0">
+      <data key="d18">26977199</data>
+      <data key="d25">2</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">50.476</data>
+      <data key="d23">50.0</data>
+      <data key="d24">3</data>
+    </edge>
+    <edge source="9204235876" target="46314956" id="0">
+      <data key="d18">26977199</data>
+      <data key="d25">2</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">49.565</data>
+      <data key="d30">LINESTRING (4.9058536 52.355011, 4.9058364 52.3550307, 4.9058254 52.3550437, 4.9056481 52.3552559, 4.9055267 52.3554095)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">3</data>
+    </edge>
+    <edge source="9204235876" target="46311266" id="0">
+      <data key="d18">328144004</data>
+      <data key="d20">True</data>
+      <data key="d27">Van Ostadestraat</data>
+      <data key="d19">residential</data>
+      <data key="d28">30</data>
+      <data key="d21">False</data>
+      <data key="d22">114.279</data>
+      <data key="d30">LINESTRING (4.9058536 52.355011, 4.9057503 52.3549792, 4.9043501 52.3545495)</data>
+      <data key="d23">30.0</data>
+      <data key="d24">13</data>
+    </edge>
+    <edge source="46284393" target="46285451" id="0">
+      <data key="d18">139156081</data>
+      <data key="d20">True</data>
+      <data key="d25">4</data>
+      <data key="d26">S112</data>
+      <data key="d27">Prins Bernhardplein</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">41.581</data>
+      <data key="d23">50.0</data>
+      <data key="d24">3</data>
+    </edge>
+    <edge source="6654004841" target="46273309" id="0">
+      <data key="d18">328208260</data>
+      <data key="d20">True</data>
+      <data key="d25">3</data>
+      <data key="d26">S111</data>
+      <data key="d27">Julianaplein</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">15.369</data>
+      <data key="d30">LINESTRING (4.9198024 52.3458587, 4.9198222 52.3458256, 4.9198764 52.3457281)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="46274667" target="46273309" id="0">
+      <data key="d18">673083740</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d27">Julianaplein</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">15.968</data>
+      <data key="d23">50.0</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="46274667" target="6654004842" id="0">
+      <data key="d18">708135650</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d26">S111</data>
+      <data key="d27">Julianaplein</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">18.395</data>
+      <data key="d30">LINESTRING (4.9200987 52.3457748, 4.9200517 52.3458779, 4.9200186 52.3459327)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="46317676" target="6933063413" id="0">
+      <data key="d18">7370509</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">5.603999999999999</data>
+      <data key="d30">LINESTRING (4.9050105 52.3560359, 4.9050335 52.3559997, 4.9050407 52.355989)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">0</data>
+    </edge>
+    <edge source="46321773" target="46319439" id="0">
+      <data key="d18">443943232</data>
+      <data key="d20">True</data>
+      <data key="d26">S112</data>
+      <data key="d27">Wibautstraat</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">61.166</data>
+      <data key="d30">LINESTRING (4.9104631 52.3568751, 4.9106695 52.3565129, 4.9106883 52.3564782, 4.9107132 52.3564384, 4.9107662 52.3563572)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">4</data>
+    </edge>
+    <edge source="6654004842" target="6654004845" id="0">
+      <data key="d18">708135651</data>
+      <data key="d20">True</data>
+      <data key="d25">1</data>
+      <data key="d27">Julianaplein</data>
+      <data key="d19">busway</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">17.835</data>
+      <data key="d23">50.0</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="6654004842" target="6301238814" id="0">
+      <data key="d18">7047625</data>
+      <data key="d20">True</data>
+      <data key="d25">1</data>
+      <data key="d26">S111</data>
+      <data key="d27">Julianaplein</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">152.193</data>
+      <data key="d30">LINESTRING (4.9200186 52.3459327, 4.9198969 52.3461768, 4.919484 52.3468524, 4.9194322 52.3469373, 4.919405 52.3469839, 4.9193517 52.3470607, 4.9193281 52.3470914, 4.9192343 52.3472136)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">11</data>
+    </edge>
+    <edge source="6654004845" target="6654004841" id="0">
+      <data key="d18">708135648</data>
+      <data key="d20">True</data>
+      <data key="d25">1</data>
+      <data key="d27">Julianaplein</data>
+      <data key="d19">busway</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">21.21</data>
+      <data key="d23">50.0</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="6654004845" target="6278909943" id="0">
+      <data key="d18">422954811</data>
+      <data key="d25">2</data>
+      <data key="d27">Julianaplein</data>
+      <data key="d19">busway</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">120.404</data>
+      <data key="d30">LINESTRING (4.9198366 52.3460483, 4.9194545 52.3466842, 4.9193827 52.3468042, 4.9193691 52.3468262, 4.9193174 52.3469095, 4.919286 52.3469585, 4.9192553 52.3470111, 4.9192241 52.3470644)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">8</data>
+    </edge>
+    <edge source="46313091" target="46314956" id="0">
+      <data key="d18">7370248</data>
+      <data key="d20">True</data>
+      <data key="d27">Sint Willibrordusstraat</data>
+      <data key="d19">unclassified</data>
+      <data key="d28">30</data>
+      <data key="d21">False</data>
+      <data key="d22">111.597</data>
+      <data key="d30">LINESTRING (4.9040388 52.3549836, 4.9044959 52.3551159, 4.9054401 52.3553847, 4.9055267 52.3554095)</data>
+      <data key="d23">30.0</data>
+      <data key="d24">13</data>
+    </edge>
+    <edge source="46281351" target="6653983646" id="0">
+      <data key="d18">7047685</data>
+      <data key="d20">True</data>
+      <data key="d25">4</data>
+      <data key="d27">Meester Treublaan</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">95.295</data>
+      <data key="d30">LINESTRING (4.9140885 52.3474723, 4.9147189 52.3475586, 4.9154552 52.3476657)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">6</data>
+    </edge>
+    <edge source="46281351" target="5924478039" id="0">
+      <data key="d18">[1071840656, 21123252, 75513437]</data>
+      <data key="d20">True</data>
+      <data key="d27">Meester Treublaan</data>
+      <data key="d19">residential</data>
+      <data key="d21">False</data>
+      <data key="d22">128.064</data>
+      <data key="d30">LINESTRING (4.9140885 52.3474723, 4.9141704 52.3474211, 4.9147295 52.3475015, 4.9147729 52.3475075, 4.9157664 52.3476453, 4.9158376 52.3477121)</data>
+      <data key="d23">31.3</data>
+      <data key="d24">14</data>
+    </edge>
+    <edge source="46285451" target="1548111106" id="0">
+      <data key="d18">141138878</data>
+      <data key="d20">True</data>
+      <data key="d27">Prins Bernhardplein</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">29.575</data>
+      <data key="d30">LINESTRING (4.9187653 52.3485543, 4.918585 52.3485648, 4.9184909 52.3485687, 4.918334 52.3485496)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">2</data>
+    </edge>
+    <edge source="46285451" target="46290349" id="0">
+      <data key="d18">308003141</data>
+      <data key="d20">True</data>
+      <data key="d26">S112</data>
+      <data key="d27">Wibautstraat</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">186.37100000000004</data>
+      <data key="d30">LINESTRING (4.9187653 52.3485543, 4.9185893 52.3486406, 4.9184393 52.3486835, 4.9183603 52.3487246, 4.9179818 52.3490169, 4.9177207 52.3492185, 4.9171161 52.3496705, 4.9170968 52.3496865, 4.9169472 52.349793)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">13</data>
+    </edge>
+    <edge source="46294165" target="46294360" id="0">
+      <data key="d18">7047705</data>
+      <data key="d27">President Steynstraat</data>
+      <data key="d19">tertiary</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">10.216</data>
+      <data key="d23">47.6</data>
+      <data key="d24">0</data>
+    </edge>
+    <edge source="46294165" target="3132809601" id="0">
+      <data key="d18">[174300945, 7047723, 7047700]</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d26">S112</data>
+      <data key="d27">Wibautstraat</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">138.081</data>
+      <data key="d31">yes</data>
+      <data key="d30">LINESTRING (4.9154015 52.3506224, 4.9155211 52.3505484, 4.9155608 52.3505253, 4.9164016 52.3500285, 4.9164807 52.3499728, 4.9165412 52.3499313, 4.9165762 52.3499082, 4.9166474 52.34986, 4.9168184 52.3497335)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">9</data>
+    </edge>
+    <edge source="1326358685" target="46269009" id="0">
+      <data key="d18">139347117</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d29">5</data>
+      <data key="d21">False</data>
+      <data key="d22">186.43200000000002</data>
+      <data key="d30">LINESTRING (4.9119624 52.3464432, 4.9121653 52.3459454, 4.912217 52.3458089, 4.9122321 52.3457657, 4.9122846 52.3456109, 4.9123199 52.3454896, 4.9124105 52.34515, 4.9125073 52.344801)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">13</data>
+    </edge>
+    <edge source="46283935" target="46284393" id="0">
+      <data key="d18">7047708</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d27">Prins Bernhardplein</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">21.448999999999998</data>
+      <data key="d30">LINESTRING (4.9193481 52.3482155, 4.919356 52.3482989, 4.9193279 52.3484069)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="46320807" target="46323267" id="0">
+      <data key="d18">7370511</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">70.48</data>
+      <data key="d23">50.0</data>
+      <data key="d24">5</data>
+    </edge>
+    <edge source="46320807" target="2691138239" id="0">
+      <data key="d18">7370511</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">48.1</data>
+      <data key="d23">50.0</data>
+      <data key="d24">3</data>
+    </edge>
+    <edge source="46312620" target="46313781" id="0">
+      <data key="d18">7370251</data>
+      <data key="d27">Olmenweg</data>
+      <data key="d19">unclassified</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">32.566</data>
+      <data key="d23">34.8</data>
+      <data key="d24">3</data>
+    </edge>
+    <edge source="46312620" target="46306779" id="0">
+      <data key="d18">[7370266, 844795453, 7370246]</data>
+      <data key="d27">Platanenweg</data>
+      <data key="d19">unclassified</data>
+      <data key="d28">30</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">214.66799999999998</data>
+      <data key="d30">LINESTRING (4.914597 52.3548603, 4.91417 52.3545326, 4.9135938 52.3538454, 4.9134273 52.3536755, 4.9133176 52.3535774, 4.9132031 52.3535699, 4.9130716 52.3536069, 4.9129456 52.3536396, 4.9129047 52.3536502, 4.9128518 52.3536551, 4.9127959 52.3536403, 4.9126703 52.3536075)</data>
+      <data key="d23">30.0</data>
+      <data key="d24">25</data>
+    </edge>
+    <edge source="46316724" target="46314836" id="0">
+      <data key="d18">7370274</data>
+      <data key="d27">Vrolikstraat</data>
+      <data key="d19">unclassified</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">83.098</data>
+      <data key="d30">LINESTRING (4.9120473 52.3557751, 4.9122868 52.3556198, 4.9130485 52.3553577)</data>
+      <data key="d23">34.8</data>
+      <data key="d24">8</data>
+    </edge>
+    <edge source="46316724" target="46316356" id="0">
+      <data key="d18">[1071731019, 7370189]</data>
+      <data key="d27">Tweede Oosterparkstraat</data>
+      <data key="d19">unclassified</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">43.754000000000005</data>
+      <data key="d30">LINESTRING (4.9120473 52.3557751, 4.9115841 52.3556708, 4.91144 52.3556441)</data>
+      <data key="d23">34.8</data>
+      <data key="d24">4</data>
+    </edge>
+    <edge source="46298812" target="46301722" id="0">
+      <data key="d18">10906183</data>
+      <data key="d27">Afrikanerplein</data>
+      <data key="d19">tertiary</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">118.86699999999999</data>
+      <data key="d30">LINESTRING (4.9165574 52.3516708, 4.9176179 52.3523341, 4.9176818 52.3523685, 4.917792 52.352428)</data>
+      <data key="d23">47.6</data>
+      <data key="d24">9</data>
+    </edge>
+    <edge source="46298812" target="46297841" id="0">
+      <data key="d18">10906184</data>
+      <data key="d27">President Steynstraat</data>
+      <data key="d19">tertiary</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">27.257</data>
+      <data key="d30">LINESTRING (4.9165574 52.3516708, 4.9164446 52.3515732, 4.9163277 52.3514698)</data>
+      <data key="d23">47.6</data>
+      <data key="d24">2</data>
+    </edge>
+    <edge source="2691138239" target="46320807" id="0">
+      <data key="d18">7370511</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">48.1</data>
+      <data key="d23">50.0</data>
+      <data key="d24">3</data>
+    </edge>
+    <edge source="2691138239" target="46317676" id="0">
+      <data key="d18">740521257</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">28.883</data>
+      <data key="d30">LINESTRING (4.9049305 52.3562872, 4.904926 52.3561908, 4.9049714 52.3561024, 4.9050105 52.3560359)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">2</data>
+    </edge>
+    <edge source="46281920" target="46281430" id="0">
+      <data key="d18">708138748</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d27">Meester Treublaan</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">81.06899999999999</data>
+      <data key="d30">LINESTRING (4.9148006 52.3477005, 4.9139036 52.3475793, 4.9138597 52.3475709, 4.913751 52.3475502, 4.913659 52.3475081)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">5</data>
+    </edge>
+    <edge source="46281920" target="6927485803" id="0">
+      <data key="d18">[1071842469, 31192655, 1070236431, 1073996793, 7369307]</data>
+      <data key="d27">['Ringdijk', 'Rocketstraat']</data>
+      <data key="d19">unclassified</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">190.00100000000003</data>
+      <data key="d25">2</data>
+      <data key="d30">LINESTRING (4.9148006 52.3477005, 4.9146704 52.3477655, 4.9146358 52.347816, 4.9145714 52.3479532, 4.9144521 52.3480718, 4.9142117 52.3485467, 4.9141831 52.3486291, 4.9133727 52.348277, 4.9132991 52.3482102)</data>
+      <data key="d23">34.8</data>
+      <data key="d24">19</data>
+    </edge>
+    <edge source="46283971" target="6654004829" id="0">
+      <data key="d18">7047689</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d27">Meester Treublaan</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">76.028</data>
+      <data key="d30">LINESTRING (4.917886 52.3483344, 4.9177081 52.3482666, 4.917626 52.3482198, 4.9175498 52.3481814, 4.9174428 52.3481248, 4.9173826 52.3480946, 4.9171545 52.3480339, 4.9169366 52.3479884)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">5</data>
+    </edge>
+    <edge source="46283971" target="6654004827" id="0">
+      <data key="d18">139156103</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d27">Prins Bernhardplein</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">23.855999999999998</data>
+      <data key="d30">LINESTRING (4.917886 52.3483344, 4.9178179 52.3482058, 4.917807 52.3481486, 4.9178077 52.3481408, 4.9178123 52.3481271)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="46295754" target="46297841" id="0">
+      <data key="d18">10906184</data>
+      <data key="d27">President Steynstraat</data>
+      <data key="d19">tertiary</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">60.939</data>
+      <data key="d23">47.6</data>
+      <data key="d24">4</data>
+    </edge>
+    <edge source="46295754" target="46294360" id="0">
+      <data key="d18">10906184</data>
+      <data key="d27">President Steynstraat</data>
+      <data key="d19">tertiary</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">42.516999999999996</data>
+      <data key="d30">LINESTRING (4.9158842 52.3509934, 4.915668 52.350814, 4.9156352 52.3507891, 4.9155701 52.3507397, 4.915501 52.3506913)</data>
+      <data key="d23">47.6</data>
+      <data key="d24">3</data>
+    </edge>
+    <edge source="46281430" target="6654041439" id="0">
+      <data key="d18">708138748</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d27">Meester Treublaan</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">9.618</data>
+      <data key="d30">LINESTRING (4.913659 52.3475081, 4.9135833 52.3474726, 4.9135442 52.3474576)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">0</data>
+    </edge>
+    <edge source="46281430" target="46281091" id="0">
+      <data key="d18">846015908</data>
+      <data key="d27">Meester Treublaan</data>
+      <data key="d19">unclassified</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">7.356</data>
+      <data key="d30">LINESTRING (4.913659 52.3475081, 4.9136692 52.3474868, 4.9136831 52.3474586, 4.9136899 52.3474447)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">0</data>
+    </edge>
+    <edge source="1525016288" target="46283935" id="0">
+      <data key="d18">614277354</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d27">Prins Bernhardplein</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">28.477</data>
+      <data key="d30">LINESTRING (4.919116 52.3480031, 4.9192231 52.3481184, 4.9193481 52.3482155)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">2</data>
+    </edge>
+    <edge source="46298852" target="46295754" id="0">
+      <data key="d18">[7369019, 7047301]</data>
+      <data key="d20">True</data>
+      <data key="d27">['President Steynplantsoen', 'Tugelaweg']</data>
+      <data key="d19">residential</data>
+      <data key="d21">False</data>
+      <data key="d22">130.542</data>
+      <data key="d30">LINESTRING (4.9147759 52.3517044, 4.9148653 52.3512794, 4.9148876 52.3511732, 4.91526 52.35112, 4.91556 52.35106, 4.9157823 52.3509971, 4.9158842 52.3509934)</data>
+      <data key="d23">31.3</data>
+      <data key="d24">15</data>
+    </edge>
+    <edge source="46297841" target="46295754" id="0">
+      <data key="d18">10906184</data>
+      <data key="d27">President Steynstraat</data>
+      <data key="d19">tertiary</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">60.939</data>
+      <data key="d23">47.6</data>
+      <data key="d24">4</data>
+    </edge>
+    <edge source="46297841" target="46294283" id="0">
+      <data key="d18">7047351</data>
+      <data key="d20">True</data>
+      <data key="d27">Hofmeyrstraat</data>
+      <data key="d19">residential</data>
+      <data key="d21">False</data>
+      <data key="d22">119.165</data>
+      <data key="d30">LINESTRING (4.9163277 52.3514698, 4.9164311 52.3514313, 4.9165082 52.351402, 4.9168929 52.351121, 4.9175211 52.3506915)</data>
+      <data key="d23">31.3</data>
+      <data key="d24">13</data>
+    </edge>
+    <edge source="46297841" target="46298490" id="0">
+      <data key="d18">7047419</data>
+      <data key="d27">Hofmeyrstraat</data>
+      <data key="d19">residential</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">61.828</data>
+      <data key="d30">LINESTRING (4.9163277 52.3514698, 4.9162372 52.3515046, 4.9161698 52.3515206, 4.9154539 52.3516111)</data>
+      <data key="d23">31.3</data>
+      <data key="d24">7</data>
+    </edge>
+    <edge source="46297841" target="46298812" id="0">
+      <data key="d18">10906184</data>
+      <data key="d27">President Steynstraat</data>
+      <data key="d19">tertiary</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">27.257</data>
+      <data key="d30">LINESTRING (4.9163277 52.3514698, 4.9164446 52.3515732, 4.9165574 52.3516708)</data>
+      <data key="d23">47.6</data>
+      <data key="d24">2</data>
+    </edge>
+    <edge source="46309621" target="46311730" id="0">
+      <data key="d18">26977199</data>
+      <data key="d25">2</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">50.931</data>
+      <data key="d30">LINESTRING (4.9065636 52.3542088, 4.9065267 52.3542466, 4.906201 52.3546097)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">3</data>
+    </edge>
+    <edge source="46309621" target="46305209" id="0">
+      <data key="d18">26977199</data>
+      <data key="d25">2</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">137.32399999999998</data>
+      <data key="d30">LINESTRING (4.9065636 52.3542088, 4.9067224 52.354038, 4.9074402 52.3534009, 4.9075995 52.3532533, 4.9076794 52.3531796)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">9</data>
+    </edge>
+    <edge source="6933063413" target="6933063414" id="0">
+      <data key="d18">740504788</data>
+      <data key="d25">2</data>
+      <data key="d27">Ceintuurbaan</data>
+      <data key="d19">busway</data>
+      <data key="d28">50</data>
+      <data key="d32">no</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">8.458</data>
+      <data key="d23">50.0</data>
+      <data key="d24">0</data>
+    </edge>
+    <edge source="6933063413" target="3298957627" id="0">
+      <data key="d18">7370509</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">6.7010000000000005</data>
+      <data key="d30">LINESTRING (4.9050407 52.355989, 4.9050503 52.3559761, 4.9050821 52.3559343)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">0</data>
+    </edge>
+    <edge source="6933063414" target="6933063413" id="0">
+      <data key="d18">740504788</data>
+      <data key="d25">2</data>
+      <data key="d27">Ceintuurbaan</data>
+      <data key="d19">busway</data>
+      <data key="d28">50</data>
+      <data key="d32">no</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">8.458</data>
+      <data key="d23">50.0</data>
+      <data key="d24">0</data>
+    </edge>
+    <edge source="6933063414" target="7014189965" id="0">
+      <data key="d18">[750105563, 740504788, 750105565, 740521254]</data>
+      <data key="d25">2</data>
+      <data key="d27">['Nieuwe Amstelbrug', 'Weesperzijde', 'Ceintuurbaan']</data>
+      <data key="d19">busway</data>
+      <data key="d28">50</data>
+      <data key="d32">no</data>
+      <data key="d20">False</data>
+      <data key="d21">[False, True]</data>
+      <data key="d22">155.16400000000002</data>
+      <data key="d31">yes</data>
+      <data key="d30">LINESTRING (4.905161 52.3560087, 4.9052702 52.3560285, 4.9053931 52.3560477, 4.9055928 52.3560813, 4.9067181 52.3562696, 4.9067728 52.3562861, 4.9068292 52.3563133, 4.9068627 52.3563403, 4.9068759 52.3563543, 4.9068962 52.3563759, 4.9069068 52.3563921, 4.9069144 52.3564086, 4.9069247 52.3564483, 4.9069431 52.3565387, 4.9069832 52.3566225)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">11</data>
+    </edge>
+    <edge source="6933063414" target="6933063429" id="0">
+      <data key="d18">740521258</data>
+      <data key="d20">True</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">5.454</data>
+      <data key="d30">LINESTRING (4.905161 52.3560087, 4.9051533 52.3560202, 4.905126 52.3560528)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">0</data>
+    </edge>
+    <edge source="6933063422" target="6933063414" id="0">
+      <data key="d18">740521258</data>
+      <data key="d20">True</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">5.586</data>
+      <data key="d30">LINESTRING (4.9051937 52.3559626, 4.9051692 52.3559965, 4.905161 52.3560087)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">0</data>
+    </edge>
+    <edge source="1548111106" target="1545015322" id="0">
+      <data key="d18">141435855</data>
+      <data key="d20">True</data>
+      <data key="d27">Prins Bernhardplein</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">10.577</data>
+      <data key="d23">50.0</data>
+      <data key="d24">0</data>
+    </edge>
+    <edge source="1548111106" target="46283935" id="0">
+      <data key="d18">139156104</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d26">S112</data>
+      <data key="d27">Prins Bernhardplein</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">86.89200000000001</data>
+      <data key="d30">LINESTRING (4.918334 52.3485496, 4.9184693 52.3483963, 4.918588 52.3483019, 4.9186471 52.348269, 4.9187434 52.3482381, 4.9189 52.3482121, 4.9190521 52.3482104, 4.9191602 52.3482123, 4.9193481 52.3482155)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">6</data>
+    </edge>
+    <edge source="46279939" target="6654041448" id="0">
+      <data key="d18">708139831</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d27">Vrijheidslaan</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">15.099</data>
+      <data key="d23">50.0</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="46279939" target="1326358685" id="0">
+      <data key="d18">139155935</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">79.107</data>
+      <data key="d30">LINESTRING (4.911642 52.3471259, 4.9116567 52.3470758, 4.9116649 52.3470437, 4.9116859 52.3469918, 4.9116992 52.3469567, 4.9117295 52.3468833, 4.9117531 52.3468251, 4.9117832 52.346764, 4.9118163 52.3466937, 4.9118851 52.3465761, 4.9119624 52.3464432)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">5</data>
+    </edge>
+    <edge source="6933063429" target="46317676" id="0">
+      <data key="d18">7370284</data>
+      <data key="d20">True</data>
+      <data key="d25">1</data>
+      <data key="d27">Ceintuurbaan</data>
+      <data key="d19">tertiary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">8.066</data>
+      <data key="d23">50.0</data>
+      <data key="d24">0</data>
+    </edge>
+    <edge source="6933063429" target="2691138239" id="0">
+      <data key="d18">740521258</data>
+      <data key="d20">True</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">29.412</data>
+      <data key="d30">LINESTRING (4.905126 52.3560528, 4.9050769 52.3561181, 4.9050222 52.3562058, 4.9049305 52.3562872)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">2</data>
+    </edge>
+    <edge source="46291719" target="46296981" id="0">
+      <data key="d18">26977199</data>
+      <data key="d25">2</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">134.51999999999998</data>
+      <data key="d30">LINESTRING (4.9096667 52.3500938, 4.9093753 52.3506529, 4.9090809 52.3512494)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">9</data>
+    </edge>
+    <edge source="46291719" target="295681891" id="0">
+      <data key="d18">[26977202, 26977203, 26977199]</data>
+      <data key="d25">2</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">[False, True]</data>
+      <data key="d22">53.214</data>
+      <data key="d31">yes</data>
+      <data key="d30">LINESTRING (4.9096667 52.3500938, 4.9097213 52.3499653, 4.909818 52.3497286, 4.9098565 52.3496295)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">3</data>
+    </edge>
+    <edge source="6933063433" target="46314956" id="0">
+      <data key="d18">26977199</data>
+      <data key="d25">2</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">32.075</data>
+      <data key="d23">50.0</data>
+      <data key="d24">2</data>
+    </edge>
+    <edge source="6933063433" target="6933063422" id="0">
+      <data key="d18">740521258</data>
+      <data key="d20">True</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">33.918</data>
+      <data key="d30">LINESTRING (4.905344 52.3556755, 4.9053452 52.3557324, 4.9052934 52.3558151, 4.9052359 52.3559002, 4.9051937 52.3559626)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">2</data>
+    </edge>
+    <edge source="46294283" target="46295754" id="0">
+      <data key="d18">[7047256, 7047553]</data>
+      <data key="d20">True</data>
+      <data key="d27">['President Steynplantsoen', 'Transvaalkade']</data>
+      <data key="d19">residential</data>
+      <data key="d21">False</data>
+      <data key="d22">163.14199999999997</data>
+      <data key="d30">LINESTRING (4.9175211 52.3506915, 4.9174115 52.3506382, 4.917354 52.3505858, 4.9167795 52.3503294, 4.9166862 52.3503334, 4.9165352 52.3504486, 4.9164287 52.3505552, 4.916274 52.3507229, 4.9160712 52.3508738, 4.9159631 52.3509569, 4.9158842 52.3509934)</data>
+      <data key="d23">31.3</data>
+      <data key="d24">18</data>
+    </edge>
+    <edge source="461133583" target="46296981" id="0">
+      <data key="d18">38839847</data>
+      <data key="d27">Smaragdstraat</data>
+      <data key="d19">living_street</data>
+      <data key="d28">15</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">41.947</data>
+      <data key="d30">LINESTRING (4.9084825 52.3511561, 4.908963 52.3512309, 4.9090809 52.3512494)</data>
+      <data key="d23">15.0</data>
+      <data key="d24">10</data>
+    </edge>
+    <edge source="46273309" target="46274335" id="0">
+      <data key="d18">669671767</data>
+      <data key="d20">True</data>
+      <data key="d25">1</data>
+      <data key="d27">Julianaplein</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">11.27</data>
+      <data key="d23">50.0</data>
+      <data key="d24">0</data>
+    </edge>
+    <edge source="46274335" target="46274667" id="0">
+      <data key="d18">673083739</data>
+      <data key="d20">True</data>
+      <data key="d25">1</data>
+      <data key="d26">S111</data>
+      <data key="d27">Julianaplein</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">11.974</data>
+      <data key="d23">50.0</data>
+      <data key="d24">0</data>
+    </edge>
+    <edge source="46275359" target="46281091" id="0">
+      <data key="d18">7369243</data>
+      <data key="d27">Weesperzijde</data>
+      <data key="d19">unclassified</data>
+      <data key="d28">30</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">158.23999999999998</data>
+      <data key="d30">LINESTRING (4.9143899 52.3460874, 4.9137845 52.3472536, 4.9137733 52.3472762, 4.9137454 52.3473326, 4.9136899 52.3474447)</data>
+      <data key="d23">30.0</data>
+      <data key="d24">19</data>
+    </edge>
+    <edge source="46318367" target="46315476" id="0">
+      <data key="d18">7370241</data>
+      <data key="d27">Oetgensdwarsstraat</data>
+      <data key="d19">unclassified</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">79.025</data>
+      <data key="d30">LINESTRING (4.9098655 52.3561393, 4.9099084 52.3560976, 4.9099685 52.356001, 4.9102636 52.3554728)</data>
+      <data key="d23">34.8</data>
+      <data key="d24">8</data>
+    </edge>
+    <edge source="46318367" target="46319439" id="0">
+      <data key="d18">[977596102, 7370191]</data>
+      <data key="d20">True</data>
+      <data key="d27">Eerste Oosterparkstraat</data>
+      <data key="d19">unclassified</data>
+      <data key="d21">False</data>
+      <data key="d22">65.801</data>
+      <data key="d30">LINESTRING (4.9098655 52.3561393, 4.9102912 52.3562399, 4.9105436 52.3563, 4.910591 52.3563112, 4.9106435 52.3563244, 4.9107662 52.3563572)</data>
+      <data key="d23">34.8</data>
+      <data key="d24">6</data>
+    </edge>
+    <edge source="295661860" target="6654041449" id="0">
+      <data key="d18">708139836</data>
+      <data key="d25">2</data>
+      <data key="d27">Vrijheidslaan</data>
+      <data key="d19">busway</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">104.479</data>
+      <data key="d30">LINESTRING (4.9101282 52.3469749, 4.9105118 52.3470285, 4.9105423 52.3470329, 4.9110032 52.3470988, 4.9111503 52.3471195, 4.9113279 52.3471444, 4.9114151 52.3471564, 4.9116277 52.347184)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">7</data>
+    </edge>
+    <edge source="295661860" target="1584122766" id="0">
+      <data key="d18">708664380</data>
+      <data key="d25">4</data>
+      <data key="d27">Vrijheidslaan</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">229.839</data>
+      <data key="d30">LINESTRING (4.9101282 52.3469749, 4.9082263 52.3467072, 4.9068306 52.3465118)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">16</data>
+    </edge>
+    <edge source="295661860" target="46279939" id="0">
+      <data key="d18">[708139829, 708664381]</data>
+      <data key="d20">True</data>
+      <data key="d25">['1', '2']</data>
+      <data key="d27">Vrijheidslaan</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">105.34100000000001</data>
+      <data key="d30">LINESTRING (4.9101282 52.3469749, 4.9102156 52.3469709, 4.9105347 52.3469538, 4.9113206 52.3470697, 4.9113504 52.3470746, 4.9114388 52.3470899, 4.9115682 52.3471114, 4.911642 52.3471259)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">7</data>
+    </edge>
+    <edge source="943819560" target="1548111106" id="0">
+      <data key="d18">328208270</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d26">S112</data>
+      <data key="d27">Wibautstraat</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">35.264</data>
+      <data key="d30">LINESTRING (4.9180586 52.3488182, 4.9181931 52.3486974, 4.9182169 52.3486719, 4.9182622 52.3486259, 4.918334 52.3485496)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">2</data>
+    </edge>
+    <edge source="943819560" target="1545015322" id="0">
+      <data key="d18">328208291</data>
+      <data key="d20">True</data>
+      <data key="d25">1</data>
+      <data key="d27">Wibautstraat</data>
+      <data key="d19">busway</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">36.29</data>
+      <data key="d30">LINESTRING (4.9180586 52.3488182, 4.9180956 52.3486757, 4.9181214 52.3486356, 4.918153 52.3485847, 4.9181969 52.3485045)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">2</data>
+    </edge>
+    <edge source="46311730" target="9204235876" id="0">
+      <data key="d18">26977199</data>
+      <data key="d25">2</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">50.476</data>
+      <data key="d23">50.0</data>
+      <data key="d24">3</data>
+    </edge>
+    <edge source="46311730" target="46309621" id="0">
+      <data key="d18">26977199</data>
+      <data key="d25">2</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">50.931</data>
+      <data key="d30">LINESTRING (4.906201 52.3546097, 4.9065267 52.3542466, 4.9065636 52.3542088)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">3</data>
+    </edge>
+    <edge source="46321971" target="7014189977" id="0">
+      <data key="d18">612237839</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d26">S112</data>
+      <data key="d27">Wibautstraat</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">66.861</data>
+      <data key="d30">LINESTRING (4.9106647 52.3569527, 4.9104353 52.3573497, 4.9104147 52.3573844, 4.9103886 52.3574324, 4.9103391 52.3575069, 4.9103297 52.3575179)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">4</data>
+    </edge>
+    <edge source="46313781" target="46312620" id="0">
+      <data key="d18">7370251</data>
+      <data key="d27">Olmenweg</data>
+      <data key="d19">unclassified</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">32.566</data>
+      <data key="d23">34.8</data>
+      <data key="d24">3</data>
+    </edge>
+    <edge source="46313781" target="46314836" id="0">
+      <data key="d18">7370274</data>
+      <data key="d27">Vrolikstraat</data>
+      <data key="d19">unclassified</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">92.999</data>
+      <data key="d30">LINESTRING (4.9143524 52.3551122, 4.9138317 52.3551742, 4.9130485 52.3553577)</data>
+      <data key="d23">34.8</data>
+      <data key="d24">9</data>
+    </edge>
+    <edge source="46293814" target="46298455" id="0">
+      <data key="d18">[7369064, 793890097]</data>
+      <data key="d27">Schollenbrugpad</data>
+      <data key="d19">residential</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">122.88200000000002</data>
+      <data key="d30">LINESTRING (4.9140422 52.3505867, 4.9138585 52.3508935, 4.9135469 52.3514145, 4.9135401 52.3514578, 4.9135526 52.3514956, 4.9136207 52.3515504, 4.9137372 52.3515662)</data>
+      <data key="d23">31.3</data>
+      <data key="d24">14</data>
+    </edge>
+    <edge source="3298957627" target="6933063422" id="0">
+      <data key="d18">740521256</data>
+      <data key="d20">True</data>
+      <data key="d25">1</data>
+      <data key="d27">Ceintuurbaan</data>
+      <data key="d19">tertiary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">8.206</data>
+      <data key="d23">50.0</data>
+      <data key="d24">0</data>
+    </edge>
+    <edge source="3298957627" target="6933063433" id="0">
+      <data key="d18">7370509</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">34.043000000000006</data>
+      <data key="d30">LINESTRING (4.9050821 52.3559343, 4.9051302 52.3558721, 4.9052799 52.3557151, 4.905344 52.3556755)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">2</data>
+    </edge>
+    <edge source="746542397" target="46280775" id="0">
+      <data key="d18">7369116</data>
+      <data key="d20">False</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">residential</data>
+      <data key="d28">30</data>
+      <data key="d21">False</data>
+      <data key="d22">53.232</data>
+      <data key="d23">30.0</data>
+      <data key="d24">6</data>
+    </edge>
+    <edge source="746542397" target="1548411362" id="0">
+      <data key="d18">[1071855443, 7369052]</data>
+      <data key="d20">True</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">unclassified</data>
+      <data key="d28">30</data>
+      <data key="d21">False</data>
+      <data key="d22">18.155</data>
+      <data key="d30">LINESTRING (4.9109104 52.3478293, 4.9110053 52.3478868, 4.9111233 52.3479251)</data>
+      <data key="d23">30.0</data>
+      <data key="d24">2</data>
+    </edge>
+    <edge source="46324030" target="46322042" id="0">
+      <data key="d18">[614269297, 749251060]</data>
+      <data key="d20">True</data>
+      <data key="d27">Ruyschstraat</data>
+      <data key="d19">tertiary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">142.697</data>
+      <data key="d25">1</data>
+      <data key="d30">LINESTRING (4.9100819 52.3575152, 4.9099501 52.3574807, 4.9096392 52.357405, 4.9081521 52.3570077)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">10</data>
+    </edge>
+    <edge source="46324030" target="7014189976" id="0">
+      <data key="d18">614269298</data>
+      <data key="d20">True</data>
+      <data key="d26">S112</data>
+      <data key="d27">Wibautstraat</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">6.447</data>
+      <data key="d30">LINESTRING (4.9100819 52.3575152, 4.9101053 52.3574721, 4.9101124 52.3574603)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">0</data>
+    </edge>
+    <edge source="46303039" target="46301722" id="0">
+      <data key="d18">8653132</data>
+      <data key="d27">Krugerstraat</data>
+      <data key="d19">tertiary</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">49.453</data>
+      <data key="d23">47.6</data>
+      <data key="d24">3</data>
+    </edge>
+    <edge source="46303039" target="46303627" id="0">
+      <data key="d18">8653132</data>
+      <data key="d27">Krugerstraat</data>
+      <data key="d19">tertiary</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">14.760000000000002</data>
+      <data key="d30">LINESTRING (4.9183415 52.3527198, 4.9184123 52.3527687, 4.9184729 52.3528251)</data>
+      <data key="d23">47.6</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="943819581" target="46299721" id="0">
+      <data key="d18">7369062</data>
+      <data key="d20">True</data>
+      <data key="d27">Marcusstraat</data>
+      <data key="d19">residential</data>
+      <data key="d21">False</data>
+      <data key="d22">15.418</data>
+      <data key="d23">31.3</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="943819581" target="46306779" id="0">
+      <data key="d18">612237839</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d26">S112</data>
+      <data key="d27">Wibautstraat</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">194.91800000000003</data>
+      <data key="d30">LINESTRING (4.91365 52.3519602, 4.9132465 52.3526419, 4.9130059 52.3530334, 4.9127515 52.3534471, 4.9127331 52.3534771, 4.9127138 52.3535171, 4.9126703 52.3536075)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">14</data>
+    </edge>
+    <edge source="46285636" target="46282288" id="0">
+      <data key="d18">[7369129, 1071855442]</data>
+      <data key="d20">True</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">unclassified</data>
+      <data key="d28">30</data>
+      <data key="d21">False</data>
+      <data key="d22">91.288</data>
+      <data key="d30">LINESTRING (4.9103491 52.34856, 4.9102953 52.3484795, 4.9102417 52.3483993, 4.9104766 52.347768)</data>
+      <data key="d23">30.0</data>
+      <data key="d24">11</data>
+    </edge>
+    <edge source="46285636" target="295681899" id="0">
+      <data key="d18">26977203</data>
+      <data key="d25">2</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">20.392</data>
+      <data key="d30">LINESTRING (4.9103491 52.34856, 4.910451 52.3484761, 4.9105395 52.3484186)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="46285636" target="295681891" id="0">
+      <data key="d18">26977203</data>
+      <data key="d25">2</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">124.03</data>
+      <data key="d30">LINESTRING (4.9103491 52.34856, 4.9102591 52.3486674, 4.9101866 52.3487667, 4.9098565 52.3496295)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">8</data>
+    </edge>
+    <edge source="46316356" target="46316724" id="0">
+      <data key="d18">[1071731019, 7370189]</data>
+      <data key="d27">Tweede Oosterparkstraat</data>
+      <data key="d19">unclassified</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">43.754000000000005</data>
+      <data key="d30">LINESTRING (4.91144 52.3556441, 4.9115841 52.3556708, 4.9120473 52.3557751)</data>
+      <data key="d23">34.8</data>
+      <data key="d24">4</data>
+    </edge>
+    <edge source="46316356" target="46319528" id="0">
+      <data key="d18">612237839</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d26">S112</data>
+      <data key="d27">Wibautstraat</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">91.589</data>
+      <data key="d30">LINESTRING (4.91144 52.3556441, 4.9110707 52.3562553, 4.9110538 52.356283, 4.9110257 52.3563289, 4.910972 52.3564166)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">6</data>
+    </edge>
+    <edge source="46306636" target="46306779" id="0">
+      <data key="d18">7370586</data>
+      <data key="d19">unclassified</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">14.678</data>
+      <data key="d23">34.8</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="46306636" target="46302615" id="0">
+      <data key="d18">443943232</data>
+      <data key="d20">True</data>
+      <data key="d26">S112</data>
+      <data key="d27">Wibautstraat</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">116.18599999999999</data>
+      <data key="d30">LINESTRING (4.9124693 52.353559, 4.91252 52.3534721, 4.9125396 52.3534386, 4.9130479 52.3525757)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">8</data>
+    </edge>
+    <edge source="46319439" target="46319528" id="0">
+      <data key="d18">7370595</data>
+      <data key="d27">Eerste Oosterparkstraat</data>
+      <data key="d19">tertiary</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">15.458</data>
+      <data key="d23">47.6</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="46319439" target="46315508" id="0">
+      <data key="d18">443943232</data>
+      <data key="d20">True</data>
+      <data key="d26">S112</data>
+      <data key="d27">Wibautstraat</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">110.53600000000002</data>
+      <data key="d30">LINESTRING (4.9107662 52.3563572, 4.9108216 52.3562769, 4.9108464 52.3562355, 4.9111912 52.3556601, 4.911325 52.3554237)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">8</data>
+    </edge>
+    <edge source="46314836" target="46316724" id="0">
+      <data key="d18">7370274</data>
+      <data key="d27">Vrolikstraat</data>
+      <data key="d19">unclassified</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">83.098</data>
+      <data key="d30">LINESTRING (4.9130485 52.3553577, 4.9122868 52.3556198, 4.9120473 52.3557751)</data>
+      <data key="d23">34.8</data>
+      <data key="d24">8</data>
+    </edge>
+    <edge source="46314836" target="46313781" id="0">
+      <data key="d18">7370274</data>
+      <data key="d27">Vrolikstraat</data>
+      <data key="d19">unclassified</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">92.999</data>
+      <data key="d30">LINESTRING (4.9130485 52.3553577, 4.9138317 52.3551742, 4.9143524 52.3551122)</data>
+      <data key="d23">34.8</data>
+      <data key="d24">9</data>
+    </edge>
+    <edge source="46290263" target="46290349" id="0">
+      <data key="d18">[307990237, 308003142]</data>
+      <data key="d27">['Ringdijk', 'Eerste Ringdijkstraat']</data>
+      <data key="d19">residential</data>
+      <data key="d20">False</data>
+      <data key="d21">[False, True]</data>
+      <data key="d22">197.91600000000005</data>
+      <data key="d30">LINESTRING (4.9191717 52.3498131, 4.918335 52.350339, 4.9183081 52.3503516, 4.9182748 52.35036, 4.918236 52.3503639, 4.9181928 52.350362, 4.9181441 52.3503549, 4.9181015 52.3503413, 4.9175354 52.3500594, 4.9171363 52.3498804, 4.9170912 52.3498595, 4.9170152 52.349825, 4.9169472 52.349793)</data>
+      <data key="d23">31.3</data>
+      <data key="d24">22</data>
+    </edge>
+    <edge source="46294360" target="46294165" id="0">
+      <data key="d18">7047705</data>
+      <data key="d27">President Steynstraat</data>
+      <data key="d19">tertiary</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">10.216</data>
+      <data key="d23">47.6</data>
+      <data key="d24">0</data>
+    </edge>
+    <edge source="46294360" target="46295754" id="0">
+      <data key="d18">10906184</data>
+      <data key="d27">President Steynstraat</data>
+      <data key="d19">tertiary</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">42.516999999999996</data>
+      <data key="d30">LINESTRING (4.915501 52.3506913, 4.9155701 52.3507397, 4.9156352 52.3507891, 4.915668 52.350814, 4.9158842 52.3509934)</data>
+      <data key="d23">47.6</data>
+      <data key="d24">3</data>
+    </edge>
+    <edge source="46294360" target="943819581" id="0">
+      <data key="d18">[174300946, 139145315, 612237839]</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d26">S112</data>
+      <data key="d27">Wibautstraat</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">191.69500000000002</data>
+      <data key="d33">yes</data>
+      <data key="d30">LINESTRING (4.915501 52.3506913, 4.9153413 52.3507831, 4.9148572 52.35105, 4.9138893 52.3516193, 4.91365 52.3519602)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">13</data>
+    </edge>
+    <edge source="46296920" target="46299720" id="0">
+      <data key="d18">7369179</data>
+      <data key="d27">Weesperzijde</data>
+      <data key="d19">residential</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">84.319</data>
+      <data key="d30">LINESTRING (4.9116566 52.351273, 4.9115632 52.3514561, 4.9114343 52.3516809, 4.9111697 52.3519667)</data>
+      <data key="d23">31.3</data>
+      <data key="d24">9</data>
+    </edge>
+    <edge source="46298455" target="46294165" id="0">
+      <data key="d18">[443943232, 174300945, 174300939]</data>
+      <data key="d20">True</data>
+      <data key="d26">S112</data>
+      <data key="d27">Wibautstraat</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">154.257</data>
+      <data key="d33">yes</data>
+      <data key="d25">2</data>
+      <data key="d30">LINESTRING (4.9137372 52.3515662, 4.91381 52.35152, 4.9148682 52.3509217, 4.9152029 52.3507348, 4.9152392 52.3507143, 4.9154015 52.3506224)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">11</data>
+    </edge>
+    <edge source="46298455" target="46293814" id="0">
+      <data key="d18">[7369064, 793890097]</data>
+      <data key="d27">Schollenbrugpad</data>
+      <data key="d19">residential</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">122.882</data>
+      <data key="d30">LINESTRING (4.9137372 52.3515662, 4.9136207 52.3515504, 4.9135526 52.3514956, 4.9135401 52.3514578, 4.9135469 52.3514145, 4.9138585 52.3508935, 4.9140422 52.3505867)</data>
+      <data key="d23">31.3</data>
+      <data key="d24">14</data>
+    </edge>
+    <edge source="295681883" target="295661860" id="0">
+      <data key="d18">27344179</data>
+      <data key="d20">True</data>
+      <data key="d25">1</data>
+      <data key="d27">Vrijheidslaan</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">105.394</data>
+      <data key="d30">LINESTRING (4.9116069 52.3472385, 4.9113937 52.3472158, 4.9113091 52.3472025, 4.9105023 52.3470936, 4.9102131 52.3470027, 4.9101282 52.3469749)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">7</data>
+    </edge>
+    <edge source="295681883" target="6654041449" id="0">
+      <data key="d18">321487065</data>
+      <data key="d20">True</data>
+      <data key="d25">4</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">6.223000000000001</data>
+      <data key="d30">LINESTRING (4.9116069 52.3472385, 4.9116223 52.3471982, 4.9116277 52.347184)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">0</data>
+    </edge>
+    <edge source="6654041439" target="46281091" id="0">
+      <data key="d18">7047685</data>
+      <data key="d20">True</data>
+      <data key="d25">4</data>
+      <data key="d27">Meester Treublaan</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">10.02</data>
+      <data key="d30">LINESTRING (4.9135442 52.3474576, 4.9136075 52.3474491, 4.9136899 52.3474447)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">0</data>
+    </edge>
+    <edge source="6654041439" target="6654041448" id="0">
+      <data key="d18">[708139832, 708139834, 708139830]</data>
+      <data key="d25">4</data>
+      <data key="d27">['Vrijheidslaan', 'Meester Treublaan', 'Berlagebrug']</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">120.54899999999999</data>
+      <data key="d31">yes</data>
+      <data key="d30">LINESTRING (4.9135442 52.3474576, 4.9134567 52.3474454, 4.9133551 52.3474304, 4.9132405 52.3474134, 4.912161 52.3472604, 4.9120323 52.3472422, 4.9119837 52.347236, 4.911935 52.3472283, 4.9118164 52.3472101)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">8</data>
+    </edge>
+    <edge source="46311266" target="46313091" id="0">
+      <data key="d18">7370197</data>
+      <data key="d20">True</data>
+      <data key="d27">Sint Willibrordusdwarsstraat</data>
+      <data key="d19">unclassified</data>
+      <data key="d28">30</data>
+      <data key="d21">False</data>
+      <data key="d22">52.697</data>
+      <data key="d23">30.0</data>
+      <data key="d24">6</data>
+    </edge>
+    <edge source="295681891" target="46285636" id="0">
+      <data key="d18">26977203</data>
+      <data key="d25">2</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">124.03</data>
+      <data key="d30">LINESTRING (4.9098565 52.3496295, 4.9101866 52.3487667, 4.9102591 52.3486674, 4.9103491 52.34856)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">8</data>
+    </edge>
+    <edge source="295681891" target="46291719" id="0">
+      <data key="d18">[26977202, 26977203, 26977199]</data>
+      <data key="d25">2</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">[False, True]</data>
+      <data key="d22">53.214</data>
+      <data key="d31">yes</data>
+      <data key="d30">LINESTRING (4.9098565 52.3496295, 4.909818 52.3497286, 4.9097213 52.3499653, 4.9096667 52.3500938)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">3</data>
+    </edge>
+    <edge source="6654041448" target="295681883" id="0">
+      <data key="d18">708139835</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d27">Vrijheidslaan</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">14.577</data>
+      <data key="d23">50.0</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="6654041448" target="6654041449" id="0">
+      <data key="d18">708139836</data>
+      <data key="d25">2</data>
+      <data key="d27">Vrijheidslaan</data>
+      <data key="d19">busway</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">13.142</data>
+      <data key="d23">50.0</data>
+      <data key="d24">0</data>
+    </edge>
+    <edge source="6654041448" target="295681899" id="0">
+      <data key="d18">[321487064, 321487062]</data>
+      <data key="d20">True</data>
+      <data key="d25">['1', '2']</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">162.013</data>
+      <data key="d30">LINESTRING (4.9118164 52.3472101, 4.9118111 52.3472232, 4.9117999 52.3472576, 4.9117668 52.3473323, 4.9117386 52.3473674, 4.9115431 52.3476324, 4.9113913 52.3477768, 4.9110062 52.348127, 4.9105395 52.3484186)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">11</data>
+    </edge>
+    <edge source="6654041448" target="6654041439" id="0">
+      <data key="d18">[708139832, 708139834, 708139830]</data>
+      <data key="d25">4</data>
+      <data key="d27">['Vrijheidslaan', 'Meester Treublaan', 'Berlagebrug']</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">120.54899999999999</data>
+      <data key="d31">yes</data>
+      <data key="d30">LINESTRING (4.9118164 52.3472101, 4.911935 52.3472283, 4.9119837 52.347236, 4.9120323 52.3472422, 4.912161 52.3472604, 4.9132405 52.3474134, 4.9133551 52.3474304, 4.9134567 52.3474454, 4.9135442 52.3474576)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">8</data>
+    </edge>
+    <edge source="6654041449" target="6654041448" id="0">
+      <data key="d18">708139836</data>
+      <data key="d25">2</data>
+      <data key="d27">Vrijheidslaan</data>
+      <data key="d19">busway</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">13.142</data>
+      <data key="d23">50.0</data>
+      <data key="d24">0</data>
+    </edge>
+    <edge source="6654041449" target="46279939" id="0">
+      <data key="d18">321487065</data>
+      <data key="d20">True</data>
+      <data key="d25">4</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">6.537</data>
+      <data key="d30">LINESTRING (4.9116277 52.347184, 4.911632 52.3471718, 4.911642 52.3471259)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">0</data>
+    </edge>
+    <edge source="6654041449" target="295661860" id="0">
+      <data key="d18">708139836</data>
+      <data key="d25">2</data>
+      <data key="d27">Vrijheidslaan</data>
+      <data key="d19">busway</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">104.47900000000001</data>
+      <data key="d30">LINESTRING (4.9116277 52.347184, 4.9114151 52.3471564, 4.9113279 52.3471444, 4.9111503 52.3471195, 4.9110032 52.3470988, 4.9105423 52.3470329, 4.9105118 52.3470285, 4.9101282 52.3469749)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">7</data>
+    </edge>
+    <edge source="295681899" target="46285636" id="0">
+      <data key="d18">26977203</data>
+      <data key="d25">2</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">20.392</data>
+      <data key="d30">LINESTRING (4.9105395 52.3484186, 4.910451 52.3484761, 4.9103491 52.34856)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="295681899" target="1548411362" id="0">
+      <data key="d18">139155945</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">67.905</data>
+      <data key="d30">LINESTRING (4.9105395 52.3484186, 4.9106745 52.3482684, 4.9111233 52.3479251)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">4</data>
+    </edge>
+    <edge source="6927485803" target="46281920" id="0">
+      <data key="d18">[1071842469, 1070236431, 31192655, 1073996793, 7369307]</data>
+      <data key="d25">2</data>
+      <data key="d27">['Ringdijk', 'Rocketstraat']</data>
+      <data key="d19">unclassified</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">190.00100000000003</data>
+      <data key="d30">LINESTRING (4.9132991 52.3482102, 4.9133727 52.348277, 4.9141831 52.3486291, 4.9142117 52.3485467, 4.9144521 52.3480718, 4.9145714 52.3479532, 4.9146358 52.347816, 4.9146704 52.3477655, 4.9148006 52.3477005)</data>
+      <data key="d23">34.8</data>
+      <data key="d24">19</data>
+    </edge>
+    <edge source="6927485803" target="46281430" id="0">
+      <data key="d18">31282468</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d27">Weesperzijde</data>
+      <data key="d19">unclassified</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">81.81500000000001</data>
+      <data key="d30">LINESTRING (4.9132991 52.3482102, 4.913352 52.3481169, 4.9135655 52.3476982, 4.9135773 52.3476726, 4.9136051 52.3476164, 4.913659 52.3475081)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">5</data>
+    </edge>
+    <edge source="1831046514" target="46306636" id="0">
+      <data key="d18">443943232</data>
+      <data key="d20">True</data>
+      <data key="d26">S112</data>
+      <data key="d27">Wibautstraat</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">114.953</data>
+      <data key="d30">LINESTRING (4.9118681 52.3545252, 4.9121244 52.3540905, 4.9123429 52.3537534, 4.9123646 52.3537157, 4.9123913 52.3536741, 4.9124693 52.353559)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">8</data>
+    </edge>
+    <edge source="46282615" target="1525016077" id="0">
+      <data key="d18">139156091</data>
+      <data key="d20">True</data>
+      <data key="d25">5</data>
+      <data key="d27">Prins Bernhardplein</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">21.087</data>
+      <data key="d30">LINESTRING (4.9180156 52.3478727, 4.9181312 52.3478683, 4.9183256 52.3478626)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="46282616" target="1525016288" id="0">
+      <data key="d18">673083734</data>
+      <data key="d20">True</data>
+      <data key="d25">4</data>
+      <data key="d27">Prins Bernhardplein</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">12.078</data>
+      <data key="d23">50.0</data>
+      <data key="d24">0</data>
+    </edge>
+    <edge source="46322042" target="46324209" id="0">
+      <data key="d18">7370295</data>
+      <data key="d20">False</data>
+      <data key="d27">Swammerdamstraat</data>
+      <data key="d19">unclassified</data>
+      <data key="d28">30</data>
+      <data key="d21">False</data>
+      <data key="d22">65.618</data>
+      <data key="d23">30.0</data>
+      <data key="d24">7</data>
+    </edge>
+    <edge source="46322042" target="46320611" id="0">
+      <data key="d18">7370307</data>
+      <data key="d20">True</data>
+      <data key="d27">Ruyschstraat</data>
+      <data key="d19">tertiary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">88.437</data>
+      <data key="d30">LINESTRING (4.9081521 52.3570077, 4.9073381 52.3568014, 4.9071152 52.3567307, 4.9070445 52.3567075, 4.9069699 52.3566773)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">6</data>
+    </edge>
+    <edge source="46298490" target="46298852" id="0">
+      <data key="d18">7047393</data>
+      <data key="d20">True</data>
+      <data key="d19">residential</data>
+      <data key="d21">False</data>
+      <data key="d22">47.204</data>
+      <data key="d23">31.3</data>
+      <data key="d24">5</data>
+    </edge>
+    <edge source="46298490" target="46297841" id="0">
+      <data key="d18">7047419</data>
+      <data key="d27">Hofmeyrstraat</data>
+      <data key="d19">residential</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">61.828</data>
+      <data key="d30">LINESTRING (4.9154539 52.3516111, 4.9161698 52.3515206, 4.9162372 52.3515046, 4.9163277 52.3514698)</data>
+      <data key="d23">31.3</data>
+      <data key="d24">7</data>
+    </edge>
+    <edge source="3132809601" target="46290349" id="0">
+      <data key="d18">308003142</data>
+      <data key="d27">Ringdijk</data>
+      <data key="d19">residential</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">10.968</data>
+      <data key="d23">31.3</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="3132809601" target="46287311" id="0">
+      <data key="d18">7047723</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d26">S112</data>
+      <data key="d27">Wibautstraat</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">84.827</data>
+      <data key="d30">LINESTRING (4.9168184 52.3497335, 4.9169609 52.3496348, 4.9171551 52.349496, 4.9176114 52.3491444)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">6</data>
+    </edge>
+    <edge source="46281091" target="46281351" id="0">
+      <data key="d18">7047685</data>
+      <data key="d20">True</data>
+      <data key="d25">4</data>
+      <data key="d27">Meester Treublaan</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">27.481</data>
+      <data key="d30">LINESTRING (4.9136899 52.3474447, 4.9138057 52.3474386, 4.9139232 52.3474492, 4.9140885 52.3474723)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">2</data>
+    </edge>
+    <edge source="46281091" target="46275359" id="0">
+      <data key="d18">7369243</data>
+      <data key="d27">Weesperzijde</data>
+      <data key="d19">unclassified</data>
+      <data key="d28">30</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">158.23999999999998</data>
+      <data key="d30">LINESTRING (4.9136899 52.3474447, 4.9137454 52.3473326, 4.9137733 52.3472762, 4.9137845 52.3472536, 4.9143899 52.3460874)</data>
+      <data key="d23">30.0</data>
+      <data key="d24">19</data>
+    </edge>
+    <edge source="46281091" target="46281430" id="0">
+      <data key="d18">846015908</data>
+      <data key="d27">Meester Treublaan</data>
+      <data key="d19">unclassified</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">7.356</data>
+      <data key="d30">LINESTRING (4.9136899 52.3474447, 4.9136831 52.3474586, 4.9136692 52.3474868, 4.913659 52.3475081)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">0</data>
+    </edge>
+    <edge source="46303627" target="46303039" id="0">
+      <data key="d18">8653132</data>
+      <data key="d27">Krugerstraat</data>
+      <data key="d19">tertiary</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">14.760000000000002</data>
+      <data key="d30">LINESTRING (4.9184729 52.3528251, 4.9184123 52.3527687, 4.9183415 52.3527198)</data>
+      <data key="d23">47.6</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="7014189965" target="6933063414" id="0">
+      <data key="d18">[750105563, 740504788, 750105565, 740521254]</data>
+      <data key="d25">2</data>
+      <data key="d27">['Nieuwe Amstelbrug', 'Weesperzijde', 'Ceintuurbaan']</data>
+      <data key="d19">busway</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">[False, True]</data>
+      <data key="d22">155.16400000000002</data>
+      <data key="d31">yes</data>
+      <data key="d32">no</data>
+      <data key="d30">LINESTRING (4.9069832 52.3566225, 4.9069431 52.3565387, 4.9069247 52.3564483, 4.9069144 52.3564086, 4.9069068 52.3563921, 4.9068962 52.3563759, 4.9068759 52.3563543, 4.9068627 52.3563403, 4.9068292 52.3563133, 4.9067728 52.3562861, 4.9067181 52.3562696, 4.9055928 52.3560813, 4.9053931 52.3560477, 4.9052702 52.3560285, 4.905161 52.3560087)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">11</data>
+    </edge>
+    <edge source="7014189965" target="7014189976" id="0">
+      <data key="d18">750105569</data>
+      <data key="d25">2</data>
+      <data key="d27">Ruyschstraat</data>
+      <data key="d19">busway</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">233.056</data>
+      <data key="d30">LINESTRING (4.9069832 52.3566225, 4.9070308 52.356662, 4.9070996 52.3566972, 4.9071966 52.3567241, 4.9080643 52.3569408, 4.9081734 52.3569688, 4.9090325 52.357188, 4.9095412 52.3573173, 4.9099808 52.357428, 4.9101124 52.3574603)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">16</data>
+    </edge>
+    <edge source="46327182" target="46324209" id="0">
+      <data key="d18">7370321</data>
+      <data key="d20">False</data>
+      <data key="d27">Swammerdamstraat</data>
+      <data key="d19">unclassified</data>
+      <data key="d21">True</data>
+      <data key="d22">72.667</data>
+      <data key="d23">34.8</data>
+      <data key="d24">7</data>
+    </edge>
+    <edge source="1584122766" target="295661860" id="0">
+      <data key="d18">708664380</data>
+      <data key="d25">4</data>
+      <data key="d27">Vrijheidslaan</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">229.839</data>
+      <data key="d30">LINESTRING (4.9068306 52.3465118, 4.9082263 52.3467072, 4.9101282 52.3469749)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">16</data>
+    </edge>
+    <edge source="46296981" target="46301759" id="0">
+      <data key="d18">26977199</data>
+      <data key="d25">2</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">139.72</data>
+      <data key="d30">LINESTRING (4.9090809 52.3512494, 4.9086526 52.3518994, 4.9083394 52.3524213)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">10</data>
+    </edge>
+    <edge source="46296981" target="46291719" id="0">
+      <data key="d18">26977199</data>
+      <data key="d25">2</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">134.51999999999998</data>
+      <data key="d30">LINESTRING (4.9090809 52.3512494, 4.9093753 52.3506529, 4.9096667 52.3500938)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">9</data>
+    </edge>
+    <edge source="46296981" target="461133583" id="0">
+      <data key="d18">38839847</data>
+      <data key="d27">Smaragdstraat</data>
+      <data key="d19">living_street</data>
+      <data key="d28">15</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">41.947</data>
+      <data key="d30">LINESTRING (4.9090809 52.3512494, 4.908963 52.3512309, 4.9084825 52.3511561)</data>
+      <data key="d23">15.0</data>
+      <data key="d24">10</data>
+    </edge>
+    <edge source="46302615" target="46299721" id="0">
+      <data key="d18">443943232</data>
+      <data key="d20">True</data>
+      <data key="d26">S112</data>
+      <data key="d27">Wibautstraat</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">78.87</data>
+      <data key="d23">50.0</data>
+      <data key="d24">5</data>
+    </edge>
+    <edge source="7014189976" target="7014189977" id="0">
+      <data key="d18">750105566</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d27">Ruyschstraat</data>
+      <data key="d19">unclassified</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">16.087</data>
+      <data key="d23">50.0</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="7014189976" target="46321773" id="0">
+      <data key="d18">443943232</data>
+      <data key="d20">True</data>
+      <data key="d26">S112</data>
+      <data key="d27">Wibautstraat</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">69.295</data>
+      <data key="d30">LINESTRING (4.9101124 52.3574603, 4.9101186 52.3574491, 4.9101451 52.3574064, 4.9101798 52.3573466, 4.9104631 52.3568751)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">5</data>
+    </edge>
+    <edge source="7014189976" target="7014189965" id="0">
+      <data key="d18">750105569</data>
+      <data key="d25">2</data>
+      <data key="d27">Ruyschstraat</data>
+      <data key="d19">busway</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">233.056</data>
+      <data key="d30">LINESTRING (4.9101124 52.3574603, 4.9099808 52.357428, 4.9095412 52.3573173, 4.9090325 52.357188, 4.9081734 52.3569688, 4.9080643 52.3569408, 4.9071966 52.3567241, 4.9070996 52.3566972, 4.9070308 52.356662, 4.9069832 52.3566225)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">16</data>
+    </edge>
+    <edge source="7014189977" target="46324210" id="0">
+      <data key="d18">612237839</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d26">S112</data>
+      <data key="d27">Wibautstraat</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">6.413</data>
+      <data key="d30">LINESTRING (4.9103297 52.3575179, 4.9103201 52.3575292, 4.9102889 52.3575699)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">0</data>
+    </edge>
+    <edge source="7014189977" target="7014218792" id="0">
+      <data key="d18">[750105568, 750108612]</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d27">Ruyschstraat</data>
+      <data key="d19">unclassified</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">216.844</data>
+      <data key="d30">LINESTRING (4.9103297 52.3575179, 4.9104551 52.3575485, 4.9105476 52.3575725, 4.9107553 52.357622, 4.9132798 52.358264)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">15</data>
+    </edge>
+    <edge source="6653983646" target="5924478039" id="0">
+      <data key="d18">708138757</data>
+      <data key="d20">True</data>
+      <data key="d25">3</data>
+      <data key="d27">Meester Treublaan</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">26.482</data>
+      <data key="d23">50.0</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="6653983649" target="46281920" id="0">
+      <data key="d18">708138748</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d27">Meester Treublaan</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">77.697</data>
+      <data key="d30">LINESTRING (4.9159198 52.3478428, 4.9158369 52.3478364, 4.9155713 52.3478092, 4.9154864 52.3477967, 4.9148006 52.3477005)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">5</data>
+    </edge>
+    <edge source="6653983649" target="6653983646" id="0">
+      <data key="d18">708138752</data>
+      <data key="d20">True</data>
+      <data key="d25">1</data>
+      <data key="d27">Meester Treublaan</data>
+      <data key="d19">busway</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">37.366</data>
+      <data key="d30">LINESTRING (4.9159198 52.3478428, 4.9156948 52.3477704, 4.9155671 52.3477246, 4.9154552 52.3476657)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">2</data>
+    </edge>
+    <edge source="7216455075" target="6278909943" id="0">
+      <data key="d18">772912966</data>
+      <data key="d20">True</data>
+      <data key="d25">1</data>
+      <data key="d27">Julianaplein</data>
+      <data key="d19">busway</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">20.389</data>
+      <data key="d23">50.0</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="7216455075" target="6654004841" id="0">
+      <data key="d18">[1178740732, 31191229]</data>
+      <data key="d20">True</data>
+      <data key="d25">['1', '2']</data>
+      <data key="d26">S111</data>
+      <data key="d27">Julianaplein</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">157.986</data>
+      <data key="d30">LINESTRING (4.9190139 52.3471953, 4.9190315 52.3471646, 4.9191427 52.3469821, 4.9191717 52.3469319, 4.9192001 52.3468811, 4.9193713 52.3465778, 4.9198024 52.3458587)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">11</data>
+    </edge>
+    <edge source="6653983653" target="46282615" id="0">
+      <data key="d18">708135640</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d27">Meester Treublaan</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">76.245</data>
+      <data key="d30">LINESTRING (4.9168989 52.3478642, 4.9170514 52.3478852, 4.917309 52.3478843, 4.9174098 52.3478865, 4.9174819 52.3478878, 4.9175879 52.3478882, 4.9176244 52.3478878, 4.9177415 52.3478878, 4.9178429 52.3478881, 4.9180156 52.3478727)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">5</data>
+    </edge>
+    <edge source="6653983653" target="6654004836" id="0">
+      <data key="d18">708135644</data>
+      <data key="d20">True</data>
+      <data key="d25">1</data>
+      <data key="d27">Meester Treublaan</data>
+      <data key="d19">busway</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">26.075000000000003</data>
+      <data key="d30">LINESTRING (4.9168989 52.3478642, 4.9170481 52.3479256, 4.9172299 52.3479821)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="46319528" target="46319439" id="0">
+      <data key="d18">7370595</data>
+      <data key="d27">Eerste Oosterparkstraat</data>
+      <data key="d19">tertiary</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">15.458</data>
+      <data key="d23">47.6</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="46319528" target="46321971" id="0">
+      <data key="d18">612237839</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d26">S112</data>
+      <data key="d27">Wibautstraat</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">63.161</data>
+      <data key="d30">LINESTRING (4.910972 52.3564166, 4.9109326 52.3564897, 4.9109106 52.3565301, 4.9106647 52.3569527)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">4</data>
+    </edge>
+    <edge source="46290349" target="3132809601" id="0">
+      <data key="d18">308003142</data>
+      <data key="d27">Ringdijk</data>
+      <data key="d19">residential</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">10.968</data>
+      <data key="d23">31.3</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="46290349" target="46294360" id="0">
+      <data key="d18">[139145315, 308003140, 308003141]</data>
+      <data key="d20">True</data>
+      <data key="d26">S112</data>
+      <data key="d27">Wibautstraat</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">140.226</data>
+      <data key="d31">yes</data>
+      <data key="d25">2</data>
+      <data key="d30">LINESTRING (4.9169472 52.349793, 4.9167827 52.349918, 4.9167005 52.3499701, 4.916611 52.3500303, 4.9165243 52.3500826, 4.916357 52.3501895, 4.9157212 52.3505629, 4.9156706 52.3505929, 4.9156255 52.3506196, 4.915501 52.3506913)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">10</data>
+    </edge>
+    <edge source="46290349" target="46290263" id="0">
+      <data key="d18">[307990237, 308003142]</data>
+      <data key="d27">['Ringdijk', 'Eerste Ringdijkstraat']</data>
+      <data key="d19">residential</data>
+      <data key="d20">False</data>
+      <data key="d21">[False, True]</data>
+      <data key="d22">197.91600000000003</data>
+      <data key="d30">LINESTRING (4.9169472 52.349793, 4.9170152 52.349825, 4.9170912 52.3498595, 4.9171363 52.3498804, 4.9175354 52.3500594, 4.9181015 52.3503413, 4.9181441 52.3503549, 4.9181928 52.350362, 4.918236 52.3503639, 4.9182748 52.35036, 4.9183081 52.3503516, 4.918335 52.350339, 4.9191717 52.3498131)</data>
+      <data key="d23">31.3</data>
+      <data key="d24">22</data>
+    </edge>
+    <edge source="46305209" target="46309621" id="0">
+      <data key="d18">26977199</data>
+      <data key="d25">2</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">137.324</data>
+      <data key="d30">LINESTRING (4.9076794 52.3531796, 4.9075995 52.3532533, 4.9074402 52.3534009, 4.9067224 52.354038, 4.9065636 52.3542088)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">9</data>
+    </edge>
+    <edge source="46305209" target="46301759" id="0">
+      <data key="d18">26977199</data>
+      <data key="d25">2</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">95.52199999999999</data>
+      <data key="d30">LINESTRING (4.9076794 52.3531796, 4.9077999 52.3530555, 4.9079505 52.3528878, 4.9083394 52.3524213)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">6</data>
+    </edge>
+    <edge source="46327743" target="46324210" id="0">
+      <data key="d18">[7370344, 749251059]</data>
+      <data key="d20">True</data>
+      <data key="d25">1</data>
+      <data key="d27">Ruyschstraat</data>
+      <data key="d19">tertiary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">217.12299999999996</data>
+      <data key="d30">LINESTRING (4.913254 52.3583, 4.9107032 52.3576684, 4.9105303 52.3576296, 4.9104195 52.3576046, 4.9102889 52.3575699)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">15</data>
+    </edge>
+    <edge source="46285251" target="46283971" id="0">
+      <data key="d18">139156074</data>
+      <data key="d20">True</data>
+      <data key="d25">4</data>
+      <data key="d27">Prins Bernhardplein</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">15.059</data>
+      <data key="d23">50.0</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="46314956" target="6933063433" id="0">
+      <data key="d18">26977199</data>
+      <data key="d25">2</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">32.075</data>
+      <data key="d23">50.0</data>
+      <data key="d24">2</data>
+    </edge>
+    <edge source="46314956" target="9204235876" id="0">
+      <data key="d18">26977199</data>
+      <data key="d25">2</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">49.565</data>
+      <data key="d30">LINESTRING (4.9055267 52.3554095, 4.9056481 52.3552559, 4.9058254 52.3550437, 4.9058364 52.3550307, 4.9058536 52.355011)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">3</data>
+    </edge>
+    <edge source="46287311" target="46285251" id="0">
+      <data key="d18">141138879</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d27">Wibautstraat</data>
+      <data key="d19">secondary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">85.296</data>
+      <data key="d30">LINESTRING (4.9176114 52.3491444, 4.9177995 52.348908, 4.9178591 52.3488472, 4.917994 52.3486347, 4.918013 52.3485952, 4.918029 52.3485422, 4.9180397 52.348432)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">6</data>
+    </edge>
+    <edge source="46287311" target="943819560" id="0">
+      <data key="d18">922976252</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d26">S112</data>
+      <data key="d27">Wibautstraat</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">47.507999999999996</data>
+      <data key="d30">LINESTRING (4.9176114 52.3491444, 4.9177379 52.3490733, 4.9178426 52.3490047, 4.9180586 52.3488182)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">3</data>
+    </edge>
+    <edge source="46315476" target="46318367" id="0">
+      <data key="d18">7370241</data>
+      <data key="d27">Oetgensdwarsstraat</data>
+      <data key="d19">unclassified</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">79.025</data>
+      <data key="d30">LINESTRING (4.9102636 52.3554728, 4.9099685 52.356001, 4.9099084 52.3560976, 4.9098655 52.3561393)</data>
+      <data key="d23">34.8</data>
+      <data key="d24">8</data>
+    </edge>
+    <edge source="46315476" target="46315508" id="0">
+      <data key="d18">[7370241, 1071731018, 22099354]</data>
+      <data key="d27">Oetgensdwarsstraat</data>
+      <data key="d19">unclassified</data>
+      <data key="d20">False</data>
+      <data key="d21">[False, True]</data>
+      <data key="d22">97.419</data>
+      <data key="d30">LINESTRING (4.9102636 52.3554728, 4.9103033 52.3553996, 4.9103118 52.3553477, 4.9103929 52.3552159, 4.9111946 52.3553959, 4.911325 52.3554237)</data>
+      <data key="d23">34.8</data>
+      <data key="d24">10</data>
+    </edge>
+    <edge source="46326231" target="46323267" id="0">
+      <data key="d18">7370511</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">71.268</data>
+      <data key="d23">50.0</data>
+      <data key="d24">5</data>
+    </edge>
+    <edge source="46306779" target="46306636" id="0">
+      <data key="d18">7370586</data>
+      <data key="d19">unclassified</data>
+      <data key="d20">False</data>
+      <data key="d21">True</data>
+      <data key="d22">14.678</data>
+      <data key="d23">34.8</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="46306779" target="46312620" id="0">
+      <data key="d18">[7370266, 844795453, 7370246]</data>
+      <data key="d27">Platanenweg</data>
+      <data key="d19">unclassified</data>
+      <data key="d20">False</data>
+      <data key="d21">False</data>
+      <data key="d22">214.668</data>
+      <data key="d28">30</data>
+      <data key="d30">LINESTRING (4.9126703 52.3536075, 4.9127959 52.3536403, 4.9128518 52.3536551, 4.9129047 52.3536502, 4.9129456 52.3536396, 4.9130716 52.3536069, 4.9132031 52.3535699, 4.9133176 52.3535774, 4.9134273 52.3536755, 4.9135938 52.3538454, 4.91417 52.3545326, 4.914597 52.3548603)</data>
+      <data key="d23">30.0</data>
+      <data key="d24">25</data>
+    </edge>
+    <edge source="46306779" target="46316356" id="0">
+      <data key="d18">612237839</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d26">S112</data>
+      <data key="d27">Wibautstraat</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">241.38199999999998</data>
+      <data key="d30">LINESTRING (4.9126703 52.3536075, 4.9125852 52.3537484, 4.9125598 52.3537903, 4.9118732 52.3549269, 4.9116596 52.3552805, 4.91144 52.3556441)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">17</data>
+    </edge>
+    <edge source="1548411362" target="295681883" id="0">
+      <data key="d18">[139155945, 321487067]</data>
+      <data key="d20">True</data>
+      <data key="d25">['4', '2']</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">83.42599999999999</data>
+      <data key="d30">LINESTRING (4.9111233 52.3479251, 4.9112507 52.3477885, 4.9113325 52.3476816, 4.9114627 52.347507, 4.9115313 52.3473938, 4.9115607 52.3473479, 4.9115798 52.3473155, 4.9116069 52.3472385)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">6</data>
+    </edge>
+    <edge source="46320611" target="6933063429" id="0">
+      <data key="d18">[7370272, 7370284, 38531183, 455764090, 455764091]</data>
+      <data key="d20">True</data>
+      <data key="d27">['Nieuwe Amstelbrug', 'Weesperzijde', 'Ceintuurbaan']</data>
+      <data key="d19">tertiary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">157.105</data>
+      <data key="d31">yes</data>
+      <data key="d25">1</data>
+      <data key="d30">LINESTRING (4.9069699 52.3566773, 4.9068916 52.3566085, 4.9068607 52.3565596, 4.9068446 52.3564848, 4.9068372 52.3564242, 4.9068225 52.3563965, 4.9068069 52.3563793, 4.9067846 52.3563552, 4.9067491 52.3563331, 4.906701 52.3563126, 4.9065954 52.3562878, 4.9055153 52.3561089, 4.9053707 52.3560942, 4.9053369 52.356089, 4.9052495 52.3560732, 4.905126 52.3560528)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">11</data>
+    </edge>
+    <edge source="46320611" target="7014189965" id="0">
+      <data key="d18">106056202</data>
+      <data key="d20">True</data>
+      <data key="d25">1</data>
+      <data key="d27">Weesperzijde</data>
+      <data key="d19">unclassified</data>
+      <data key="d21">False</data>
+      <data key="d22">6.161</data>
+      <data key="d30">LINESTRING (4.9069699 52.3566773, 4.9069782 52.3566469, 4.9069832 52.3566225)</data>
+      <data key="d23">34.8</data>
+      <data key="d24">0</data>
+    </edge>
+    <edge source="46324209" target="46322042" id="0">
+      <data key="d18">7370295</data>
+      <data key="d20">False</data>
+      <data key="d27">Swammerdamstraat</data>
+      <data key="d19">unclassified</data>
+      <data key="d28">30</data>
+      <data key="d21">True</data>
+      <data key="d22">65.618</data>
+      <data key="d23">30.0</data>
+      <data key="d24">7</data>
+    </edge>
+    <edge source="46324209" target="46327182" id="0">
+      <data key="d18">7370321</data>
+      <data key="d20">False</data>
+      <data key="d27">Swammerdamstraat</data>
+      <data key="d19">unclassified</data>
+      <data key="d21">False</data>
+      <data key="d22">72.667</data>
+      <data key="d23">34.8</data>
+      <data key="d24">7</data>
+    </edge>
+    <edge source="46324210" target="46324030" id="0">
+      <data key="d18">749251059</data>
+      <data key="d20">True</data>
+      <data key="d27">Ruyschstraat</data>
+      <data key="d19">tertiary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">15.317</data>
+      <data key="d23">50.0</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="46324210" target="46326847" id="0">
+      <data key="d18">612237839</data>
+      <data key="d20">True</data>
+      <data key="d25">2</data>
+      <data key="d26">S112</data>
+      <data key="d27">Wibautstraat</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">62.971000000000004</data>
+      <data key="d30">LINESTRING (4.9102889 52.3575699, 4.9102446 52.3576345, 4.9102226 52.3576694, 4.9099572 52.3580987)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">4</data>
+    </edge>
+    <edge source="46315508" target="1831046514" id="0">
+      <data key="d18">443943232</data>
+      <data key="d20">True</data>
+      <data key="d26">S112</data>
+      <data key="d27">Wibautstraat</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">106.5</data>
+      <data key="d23">50.0</data>
+      <data key="d24">7</data>
+    </edge>
+    <edge source="46315508" target="46315476" id="0">
+      <data key="d18">[7370241, 22099354, 1071731018]</data>
+      <data key="d27">Oetgensdwarsstraat</data>
+      <data key="d19">unclassified</data>
+      <data key="d20">False</data>
+      <data key="d21">[False, True]</data>
+      <data key="d22">97.419</data>
+      <data key="d30">LINESTRING (4.911325 52.3554237, 4.9111946 52.3553959, 4.9103929 52.3552159, 4.9103118 52.3553477, 4.9103033 52.3553996, 4.9102636 52.3554728)</data>
+      <data key="d23">34.8</data>
+      <data key="d24">10</data>
+    </edge>
+    <edge source="818848247" target="1326358685" id="0">
+      <data key="d18">67821953</data>
+      <data key="d20">True</data>
+      <data key="d19">unclassified</data>
+      <data key="d21">False</data>
+      <data key="d22">10.911</data>
+      <data key="d23">34.8</data>
+      <data key="d24">1</data>
+    </edge>
+    <edge source="818848247" target="6654041448" id="0">
+      <data key="d18">321487068</data>
+      <data key="d20">True</data>
+      <data key="d25">3</data>
+      <data key="d26">S110</data>
+      <data key="d27">Amsteldijk</data>
+      <data key="d19">primary</data>
+      <data key="d28">50</data>
+      <data key="d21">False</data>
+      <data key="d22">84.96700000000001</data>
+      <data key="d30">LINESTRING (4.9121176 52.3464685, 4.9119221 52.3469497, 4.9118921 52.347022, 4.9118715 52.3470747, 4.9118315 52.3471714, 4.9118221 52.3471987, 4.9118164 52.3472101)</data>
+      <data key="d23">50.0</data>
+      <data key="d24">6</data>
+    </edge>
+    <data key="d0">2023-06-19 13:40:06</data>
+    <data key="d1">OSMnx 1.3.1.post0</data>
+    <data key="d2">epsg:4326</data>
+    <data key="d3">True</data>
+    <data key="d4">Amsterdam</data>
+    <data key="d5">Netherlands</data>
+    <data key="d6">NL</data>
+    <data key="d7">NLD</data>
+    <data key="d8">1</data>
+    <data key="d9">1.5</data>
+    <data key="d10">60</data>
+    <data key="d11">120</data>
+    <data key="d12">46306636</data>
+    <data key="d13">295681891</data>
+  </graph>
+</graphml>

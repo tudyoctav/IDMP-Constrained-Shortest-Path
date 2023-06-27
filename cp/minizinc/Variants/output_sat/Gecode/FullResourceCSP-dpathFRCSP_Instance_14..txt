@@ -1,0 +1,5 @@
+=====UNKNOWN=====
+% time elapsed: 60.24 s
+=====UNKNOWN=====
+% time elapsed: 60.25 s
+Average time: 60.245000000000005

@@ -1,0 +1,27 @@
+Length: 42
+Start : 1
+End   : 64
+
+1..M in shortest path:
+15 -> 34
+17 -> 15
+1 -> 17
+34 -> 64
+% time elapsed: 0.33 s
+----------
+==========
+% time elapsed: 0.33 s
+Length: 42
+Start : 1
+End   : 64
+
+1..M in shortest path:
+15 -> 34
+17 -> 15
+1 -> 17
+34 -> 64
+% time elapsed: 0.36 s
+----------
+==========
+% time elapsed: 0.36 s
+Average time: 0.345

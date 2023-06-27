@@ -1,0 +1,37 @@
+Length: 224
+Start : 2
+End   : 63
+
+1..M in shortest path:
+56 -> 22
+22 -> 26
+26 -> 63
+58 -> 35
+35 -> 29
+29 -> 56
+27 -> 58
+2 -> 31
+31 -> 27
+% time elapsed: 42.87 s
+----------
+==========
+% time elapsed: 42.87 s
+Length: 224
+Start : 2
+End   : 63
+
+1..M in shortest path:
+56 -> 22
+22 -> 26
+26 -> 63
+58 -> 35
+35 -> 29
+29 -> 56
+27 -> 58
+2 -> 31
+31 -> 27
+% time elapsed: 45.95 s
+----------
+==========
+% time elapsed: 45.95 s
+Average time: 44.41
